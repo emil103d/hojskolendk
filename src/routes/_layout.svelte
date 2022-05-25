@@ -1,7 +1,8 @@
 <script>
   import "../app.css";
+  import MyFooter from "./MyFooter.svelte";
 </script>
 
 <body>
-  <slot />
+  <MyFooter />
 </body>
