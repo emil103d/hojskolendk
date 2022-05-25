@@ -6,7 +6,7 @@
   :root {
     /* Typografi */
     --text: "montserrat", sans-serif;
-    --h1_text: "bungee", sans-serif;
+    --h1_text: "Prociono", serif;
 
     /* Farver */
     --primary: #20ba83;
@@ -58,12 +58,6 @@
     max-width: 1200px;
     margin: auto;
     background-color: blue;
-  }
-
-  #logo {
-  }
-
-  #footer {
   }
 
   body {
