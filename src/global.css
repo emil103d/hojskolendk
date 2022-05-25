@@ -1,22 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer components {
-  :root {
+:root {
     /* Typografi */
     --text: "montserrat", sans-serif;
     --h1_text: "bungee", sans-serif;
 
     /* Farver */
-    --primary: #20ba83;
-    --secondary: #fbf27f;
-    --bgcolor: #fcfcdc;
-    --grey: #272727;
+    --primary: #FF5E04;
+    --sandstone: #FAF9F7;
+    --sandbeach: #FAF0DC;
     --sort: #000000;
     --hvid: #ffffff;
-    --txtcolor: #292828;
-    --yellow: #fbf27f;
+    --txtcolor: #545454;
 
     /* Sizes */
     --font_h1: clamp(3rem, 1.6591rem + 1.4545vw, 2.75rem);
