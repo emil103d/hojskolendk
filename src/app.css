@@ -26,7 +26,7 @@
     --font_preh2: clamp(2rem, 1.6591rem + 1.4545vw, 2.75rem);
     --font_p: clamp(1rem, 0.8125rem + 0.75vw, 1.375rem);
     /*tabeller og cards */
-    --font_h4: clamp(1.25rem, 1.09375rem + 0.625vw, 1.5625rem);
+    --font_h4: clamp(1rem, 1.09375rem + 0.625vw, 1.4625rem);
     --font_p_tabel: clamp(0.75rem, 0.65625rem + 0.375vw, 0.9375rem);
 
     --font_nav: 2.3rem;
@@ -58,17 +58,14 @@
   }
 
   main {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
-  }
-
-  body {
+    background-color: var(--sandstone);
   }
 
   section {
-    margin: 0 auto;
-    margin-top: 5rem;
-    margin-bottom: 1rem;
+    margin-top: 2.8125rem;
+    margin-bottom: 2.8125rem;
   }
 
   /* Skrift */
@@ -94,6 +91,10 @@
 
   p {
     font-size: var(--font_p);
+  }
+
+  .tabeltxt {
+    font-size: var(--font_p_tabel);
   }
 
   /* Header start */
