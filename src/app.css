@@ -54,13 +54,13 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--text);
-    color: var(--txtcolor);
   }
 
   main {
     max-width: 1000px;
     margin: auto;
     background-color: var(--sandstone);
+    color: var(--txtcolor);
   }
 
   section {
@@ -96,6 +96,41 @@
   .tabeltxt {
     font-size: var(--font_p_tabel);
   }
+
+  /* Footer start  */
+  .footer_kontakt {
+    background-color: var(--sandbeach);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+  }
+
+  .cirkel {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 100px;
+    margin: auto;
+  }
+
+  footer svg,
+  footer img {
+    margin: 0 auto;
+  }
+  .footer {
+    background-color: var(--primary);
+    opacity: 80%;
+    color: var(--hvid);
+    display: grid;
+    grid-gap: 2rem;
+    padding: 2rem 0;
+  }
+
+  footer hr {
+    margin: 0 2rem;
+  }
+  /* Footer slut */
 
   /* Header start */
 
