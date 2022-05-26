@@ -1,18 +1,13 @@
-<!DOCTYPE html />
-<html lang="da">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="app.css" />
-    <link rel="stylesheet" href="tailwind.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Prociono&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="https://use.typekit.net/hjn8wpi.css" />
-    %sveltekit.head%
-  </head>
-</html>
+<script>
+  console.log("Hello World");
+</script>
+
+<svelte:head><title>Forside</title></svelte:head>
+
+<h1 class="underline">HEJ JEG ER INDEX.html</h1>
+
+<style>
+  h1 {
+    color: pink;
+  }
+</style>
