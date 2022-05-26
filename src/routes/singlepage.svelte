@@ -15,7 +15,7 @@
 
 <main>
   <section class="grid grid-cols-2">
-    <sidebar class="block">
+    <sidebar id="navbar" class="block">
       <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
       <button class="" on:click={() => (activetab = Tab1)}
         >OPHOLDSOVERSIGT</button
@@ -42,6 +42,40 @@
         <TabC />
       {/if} -->
   </section>
+
+  <section class="grid grid-cols-2 overflow-hidden">
+    <sidebar class="block">
+      <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
+      <div class="flex overflow-x-scroll pb-10 flex-nowrap overflow-hidden">
+        <div class="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
+          <button class="" on:click={() => (activetab = Tab1)}
+            >OPHOLDSOVERSIGT</button
+          >
+          <button on:click={() => (activetab = Tab2)}>HVAD ER INKLUDERET</button
+          >
+          <button on:click={() => (activetab = Tab3)}>PROGRAM</button>
+          <button on:click={() => (activetab = Tab4)}>UNDERVISNINGEN</button>
+          <button on:click={() => (activetab = Tab5)}>AFREJSEDATOER</button>
+          <button on:click={() => (activetab = Tab6)}>DOGT AT VIDE</button>
+          <button on:click={() => (activetab = Tab7)}>FRIUGER</button>
+
+          <button on:click={() => (activetab = Tab8)}>ADVENTURE</button>
+          <button on:click={() => (activetab = Tab9)}>REJSEBREVE</button>
+          <button on:click={() => (activetab = Tab10)}>DIN REJSELEDER</button>
+        </div>
+      </div>
+    </sidebar>
+    <svelte:component this={activetab} />
+    <!-- {#if activetab === "TabA"}
+        <TabA />
+      {/if}
+      {#if activetab === "TabB"}
+        <TabB />
+      {/if}
+      {#if activetab === "TabC"}
+        <TabC />
+      {/if} -->
+  </section>
 </main>
 
 <style>
@@ -50,6 +84,11 @@
     min-width: 12rem;
     text-align: left;
     margin: 1rem;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  #navbar button {
     display: block;
   }
 
