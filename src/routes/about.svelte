@@ -1,3 +1,7 @@
+<script>
+  import Navside from "../components/navsidebar.svelte";
+</script>
+
 <svelte:head><title>Forside</title></svelte:head>
 
 <div class="about">
@@ -12,6 +16,7 @@
     cum minus.
   </p>
 </div>
+<Navside />
 
 <style>
   .about {
