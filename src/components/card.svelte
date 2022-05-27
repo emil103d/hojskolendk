@@ -1,8 +1,26 @@
 <script>
   export let title;
+  export let image;
 </script>
 
-<div class="drop-shadow-md d-flex justify-center mt-4 mb-4">
-  <img class="w-48" src="src/_images/1.jpg z-1" alt="" />
-  <h3 class="bg-white p-3 z-3">{title}</h3>
+<div class="rounded overflow-hidden shadow-lg mx-auto my-8 relative z-0">
+  <img
+    class=" object-cover w-full z-1 transition hover:scale-125"
+    src={image}
+    alt="billede af vand"
+  />
+  <h3 class="bg-white pl-3 pt-3 pb-3 pr-0 z-3 absolute top-4 text-xs">
+    {title}
+  </h3>
 </div>
+
+<style>
+  div {
+    min-height: 24rem;
+  }
+
+  img {
+    height: 24rem;
+    width: 14rem;
+  }
+</style>
