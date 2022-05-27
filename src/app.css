@@ -150,7 +150,7 @@
   /* !!!!!MOBILE ABOWE - WEB BELOW !!!!!!!!!!MOBILE ABOWE - WEB BELOW !!!!!!!!!!MOBILE ABOWE - WEB BELOW !!!!! */
 
   @media screen and (min-width: 700px) {
-    main {
+    section {
       max-width: 1000px;
     }
 
