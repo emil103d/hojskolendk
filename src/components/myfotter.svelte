@@ -1,6 +1,9 @@
 <script>
   import SecondaryButton from "../components/secondarybutton.svelte";
+  import Header from "../components/header.svelte";
 </script>
+
+<Header headerclass="src/_images/1.jpg" />
 
 <div class="bgfooter">
   <div class="maxwidthwrapper">
