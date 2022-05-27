@@ -45,7 +45,7 @@
       style="display: flex; justify-content: flex-start;"
     >
       <article class="max-w-sm">
-        <h4>HVEM ER VI</h4>
+        <h4 class="preh2">HVEM ER VI</h4>
         <h2>HÖJSKOLENDK LEVERER ONLY GOOD VIBES OG ET FÆLLESKAB FOR LIVET</h2>
         <p>
           Det bobler af spansk temperament, følelser og salsa rytmer i Puerto
