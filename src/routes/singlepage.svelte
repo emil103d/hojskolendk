@@ -14,7 +14,7 @@
 </script>
 
 <main>
-  <section class="grid grid-cols-2">
+  <section class=" grid-cols-2 sm:hidden md:grid">
     <sidebar id="navbar" class="block">
       <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
       <button class="" on:click={() => (activetab = Tab1)}
@@ -43,9 +43,11 @@
       {/if} -->
   </section>
 
-  <section class="grid grid-cols-2 overflow-hidden">
+  <section class="sticky overflow-hidden md:hidden sm:display">
     <sidebar class="block">
-      <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
+      <h2 class="text:sm m:1 mb:6 ml-auto text-center">
+        Alt du skal vide om opholdet
+      </h2>
       <div class="flex overflow-x-scroll pb-10 flex-nowrap overflow-hidden">
         <div class="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
           <button class="" on:click={() => (activetab = Tab1)}
