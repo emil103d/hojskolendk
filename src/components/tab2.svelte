@@ -1,1 +1,1 @@
-<h1>Tab B Content</h1>
+<h2>Hvad er inkluderet</h2>
