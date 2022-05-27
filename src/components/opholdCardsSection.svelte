@@ -2,7 +2,7 @@
   import Card from "./card.svelte";
 </script>
 
-<section>
+<!-- <section>
   <div class="flex gap-5">
     <div class="relative">
       <div class="z-10 absolute top-40 -left-3">
@@ -136,4 +136,71 @@
     </div>
   </div>
   <button class=" mx-auto"><a href="/#">SE ALLE OPHOLD</a></button>
-</section>
+</section> -->
+
+<div
+  id="scrollContainer"
+  class="ml-40 mr-40 flex flex-no-wrap overflow-x-scroll scrolling-touch items-start mb-8"
+>
+  <div class="flex-none mr-5">
+    <a href="/#" class="space-y-4">
+      <div class="aspect-w-16 aspect-h-9">
+        <Card
+          title="MALDIVERNE, SRI LANKA, BALI & GILI ISLANDS"
+          image="../src/_images/2.jpg"
+        />
+      </div>
+    </a>
+  </div>
+  <div class="flex-none mr-5">
+    <a href="/#" class="space-y-4">
+      <div class="aspect-w-16 aspect-h-9">
+        <Card
+          title="MALDIVERNE, SRI LANKA, BALI & GILI ISLANDS"
+          image="../src/_images/2.jpg"
+        />
+      </div>
+    </a>
+  </div>
+  <div class="flex-none mr-5">
+    <a href="/#" class="space-y-4">
+      <div class="aspect-w-16 aspect-h-9">
+        <Card
+          title="MALDIVERNE, SRI LANKA, BALI & GILI ISLANDS"
+          image="../src/_images/2.jpg"
+        />
+      </div>
+    </a>
+  </div>
+  <div class="flex-none mr-5">
+    <a href="/#" class="space-y-4">
+      <div class="aspect-w-16 aspect-h-9">
+        <Card
+          title="MALDIVERNE, SRI LANKA, BALI & GILI ISLANDS"
+          image="../src/_images/2.jpg"
+        />
+      </div>
+    </a>
+  </div>
+  <div class="flex-none mr-5">
+    <a href="/#" class="space-y-4">
+      <div class="aspect-w-16 aspect-h-9">
+        <Card
+          title="MALDIVERNE, SRI LANKA, BALI & GILI ISLANDS"
+          image="../src/_images/2.jpg"
+        />
+      </div>
+    </a>
+  </div>
+  <div class="flex-none mr-5">
+    <a href="/#" class="space-y-4">
+      <div class="aspect-w-16 aspect-h-9">
+        <Card
+          title="MALDIVERNE, SRI LANKA, BALI & GILI ISLANDS"
+          image="../src/_images/2.jpg"
+        />
+      </div>
+    </a>
+  </div>
+</div>
+<!---->
