@@ -25,7 +25,7 @@
     --sort: #000000;
     --txtcolor: #545454;
     --txtcolor-800: hlsa(0, 0%, 33%, 0.8);
-    --txtcolor-600: hlsa(0, 0%, 33%, 0.6);
+    --txtcolor-600: rgba(84, 84, 84, 0.6);
 
     /* FONT SIZES */
     --font_h1: clamp(1.9375rem, 0.8125rem + 4.5vw, 3.1875rem);
@@ -55,13 +55,18 @@
     /* cookieboks */
     --border-radius-l: 20px;
 
-    /* SPACING */
-    --spacing-10: 0.625rem;
-    --spacing-15: 0.9375rem;
-    --spacing-20: 1.25rem;
-    --spacing-30: 1.875rem;
-    --spacing-40: 2.5rem;
-    --spacing-80: 5rem;
+    /* SPACING for fonts */
+    --spacing-10: 0.625rem 0;
+    --spacing-15: 0.9375rem 0;
+    --spacing-20: 1.25rem 0;
+    --spacing-30: 1.875rem 0;
+    --spacing-40: 2.5rem 0;
+    --spacing-80: 0 5rem 0;
+
+    /*LINE HIGHT */
+    --line-s: 0.8;
+    --line-m: 1.2;
+    --line-l: 1.5;
   }
 
   _______________________________________________
@@ -76,7 +81,6 @@
 
   main {
     margin: auto;
-    background-color: var(--sandstone);
     color: var(--txtcolor);
   }
 
@@ -102,6 +106,8 @@
     font-family: var(--h2_text);
     font-size: var(--font_h2);
     color: var(--sort);
+    line-height: var(--line-m);
+    padding: var(--spacing-10);
   }
 
   h3 {
@@ -120,6 +126,8 @@
   .preh2 {
     color: var(--txtcolor-600);
     font-size: var(--font_preh2);
+    padding: var(--spacing-10);
+    line-height: var(--line-s);
   }
 
   .tabeltxt {
@@ -129,6 +137,15 @@
   .navtxt {
     font-size: ;
   }
+
+  /* ---------------Buttons start  -----------------*/
+
+  .primarybuttonmedium {
+    font-size: var(--buttin);
+  }
+
+  /* ---------------Buttons slut  -----------------*/
+
   /* ---------------Footer start  -----------------*/
 
   .footer_kontakt {
