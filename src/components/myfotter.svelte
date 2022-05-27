@@ -60,7 +60,9 @@
   <div class="footer text-center text-white">
     <img src="./src/_logo/logohvid.png" alt="logo" class="w-14 h-14" />
     <div class="footer_infomode">
-      <h2>VIL DU VIDE MERE OM VORES HØJSKOLEOPHOLD I UDLANDET?</h2>
+      <h2 class="preh2">
+        VIL DU VIDE MERE OM VORES HØJSKOLEOPHOLD I UDLANDET?
+      </h2>
       <p>Tilmeld dig vores infomøder og mød nogen tidligere elever</p>
 
       <button>Tilmeld dig infomøde</button>

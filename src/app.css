@@ -4,16 +4,19 @@
 
 @layer components {
   :root {
-    /* Typografi */
+    /* TYPOGRAFIER */
     --h1_text: "Prociono", serif;
     --h2_text: "Prociono", serif;
     --text: "montserrat", sans-serif;
 
-    /* Farver */
+    /* FARVER */
     --orange: #ff5e04;
     --orange-800: #ff5405;
     --cta-background-color: #ff5405;
-    --button-cta-background-color: #ff5405;
+    --primary-button-cta-background-color: var(--orange800);
+    --secondary-button-cta-background-color: var(--hvid);
+    --secondary-button-cta-border-color: var(--orange);
+    --button-cta-background-color-hover: #ff5e04;
 
     --sandstone: #faf9f7;
     --sandbeach: #faf0dc;
@@ -24,45 +27,42 @@
     --txtcolor-800: hlsa(0, 0%, 33%, 0.8);
     --txtcolor-600: hlsa(0, 0%, 33%, 0.6);
 
-    /* Sizes */
+    /* FONT SIZES */
     --font_h1: clamp(1.9375rem, 0.8125rem + 4.5vw, 3.1875rem);
     --font_h2: clamp(1rem, 0.21875rem + 3.125vw, 2.5625rem);
     /* intro brødtekst til hver side */
     --font_h3: clamp(1.25rem, 0.9375rem + 1.25vw, 1.875rem);
     /*afsnit startfornular*/
-    --font_preh2: clamp(2rem, 1.6591rem + 1.4545vw, 2.75rem);
+    --font_preh2: clamp(0.52rem, 1.6591rem + 1.4545vw, 0.8rem);
     --font_p: clamp(1rem, 0.8125rem + 0.75vw, 1.175rem);
     /*tabeller og cards */
     --font_h4: clamp(1rem, 1.09375rem + 0.625vw, 1.4625rem);
     --font_p_tabel: clamp(0.75rem, 0.65625rem + 0.375vw, 0.9375rem);
+    /* buttons */
+    --font_knap_s: 15px;
+    --font_knap_m: clamp(
+      1rem,
+      0.9583333333333334rem + 0.16666666666666669vw,
+      1.0625rem
+    );
+    --font_knap_l: clamp(1rem, 0.625rem + 1.5000000000000002vw, 1.5625rem);
 
-    --font_nav: 2.3rem;
-    --font_knap: 1, 188rem;
-
-    /* border-radius */
+    /* BORDER RADIUS */
+    /* knapper */
     --border-radius-sm: 5px;
-    /* --border-radius-md: 20px; */
+    /* trustpilot cards*/
+    --border-radius-m: 10px;
+    /* cookieboks */
+    --border-radius-l: 20px;
 
-    /* Spacing */
+    /* SPACING */
     --spacing-10: 0.625rem;
     --spacing-15: 0.9375rem;
     --spacing-20: 1.25rem;
     --spacing-30: 1.875rem;
     --spacing-40: 2.5rem;
     --spacing-80: 5rem;
-
-    /* Aliases */
-    --heading-display: var(--heading-font-size-lg);
-    --heading-display: var(--heading-font-size-lg);
   }
-
-  /* Component tokens */
-  --button-background-color: var(--color-background-brand-light);
-  --button-background-color-hover: var(--color-background-brand);
-
-  /* // Contextual Tokens */
-
-  --color-text-default: var(--txtcolor-800);
 
   _______________________________________________
 
@@ -101,6 +101,7 @@
   h2 {
     font-family: var(--h2_text);
     font-size: var(--font_h2);
+    color: var(--sort);
   }
 
   h3 {
@@ -123,6 +124,10 @@
 
   .tabeltxt {
     font-size: var(--font_p_tabel);
+  }
+
+  .navtxt {
+    font-size: ;
   }
   /* ---------------Footer start  -----------------*/
 
