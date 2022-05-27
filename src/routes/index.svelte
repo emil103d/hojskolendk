@@ -1,5 +1,6 @@
 <script>
   import { Parallax, ParallaxLayer } from "svelte-parallax";
+  import OpholdCardsSection from "../components/opholdCardsSection.svelte";
 
   let parallax;
   let disabled = false;
@@ -94,15 +95,16 @@
       <section>
         <h4>HVEM ER VI</h4>
         <h2>HÖJSKOLENDK LEVERER ONLY GOOD VIBES OG ET FÆLLESKAB FOR LIVET</h2>
+        <OpholdCardsSection />
       </section>
     </ParallaxLayer>
-    <button
+    <!-- <button
       class="top-btn"
       on:click={() =>
         parallax.scrollTo(1, { selector: ".bottom-btn", duration: 1000 })}
     >
       Scroll to top
-    </button>
+    </button> -->
   </Parallax>
 </body>
 
