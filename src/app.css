@@ -25,7 +25,7 @@
     --txtcolor-600: hlsa(0, 0%, 33%, 0.6);
 
     /* Sizes */
-    --font_h1: clamp(1.9375rem, 0.8125rem + 4.5vw, 4.1875rem);
+    --font_h1: clamp(1.9375rem, 0.8125rem + 4.5vw, 3.1875rem);
     --font_h2: clamp(1rem, 0.21875rem + 3.125vw, 2.5625rem);
     /* intro brødtekst til hver side */
     --font_h3: clamp(1.25rem, 0.9375rem + 1.25vw, 1.875rem);
@@ -95,7 +95,7 @@
   h1 {
     font-family: var(--h1_text);
     font-size: var(--font_h1);
-    color: var(--sort);
+    color: var(--hvid);
   }
 
   h2 {
@@ -124,7 +124,7 @@
   .tabeltxt {
     font-size: var(--font_p_tabel);
   }
-  /* ---------------Footer start  */
+  /* ---------------Footer start  -----------------*/
 
   .footer_kontakt {
     display: grid;
@@ -202,6 +202,7 @@
       max-width: 1000px;
     } */
 
+    /* ----------- footer start -------------- */
     footer,
     footer p,
     footer a,
@@ -283,4 +284,5 @@
       padding-bottom: 1.5rem;
     }
   }
+  /* ----------- footer slut -------------- */
 }
