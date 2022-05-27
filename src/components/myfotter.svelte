@@ -1,43 +1,62 @@
 <script></script>
 
-<footer>
-  <div class="footer_kontakt">
-    <div>
-      <!-- hvid cirkel -->
-      <div class="cirkel">
-        <img src="src/_icons/call.png" alt="telefon ikon" />
-      </div>
-      <p>Ring til os</p>
-    </div>
-    <div>
-      <!-- hvid cirkel -->
+<div class="bgfooter">
+  <div class="maxwidthwrapper">
+    <div class="footer_kontakt">
       <div>
+        <!-- hvid cirkel -->
         <div class="cirkel">
-          <img src="src/_icons/brev.png" alt="brev ikon" />
+          <img src="src/_icons/call.png" alt="telefon ikon" />
         </div>
-        <p>Skriv til os</p>
+        <p>Ring til os</p>
       </div>
-    </div>
-    <div>
-      <!-- hvid cirkel -->
       <div>
-        <div class="cirkel">
-          <img src="src/_icons/messenger.png" alt="chat ikon" />
+        <!-- hvid cirkel -->
+        <div>
+          <div class="cirkel">
+            <img src="src/_icons/brev.png" alt="brev ikon" />
+          </div>
+          <p>Skriv til os</p>
         </div>
-        <p>Chat med os</p>
       </div>
-    </div>
-    <div>
-      <!-- hvid cirkel -->
       <div>
-        <div class="cirkel">
-          <img src="src/_icons/people.png" alt="brev ikon" />
+        <!-- hvid cirkel -->
+        <div>
+          <div class="cirkel">
+            <img src="src/_icons/messenger.png" alt="chat ikon" />
+          </div>
+          <p>Chat med os</p>
         </div>
-        <p>Mød os til <br />infomøder</p>
+      </div>
+      <div>
+        <!-- hvid cirkel -->
+        <div>
+          <div class="cirkel">
+            <img src="src/_icons/people.png" alt="brev ikon" />
+          </div>
+          <p>Mød os til <br />infomøder</p>
+        </div>
       </div>
     </div>
   </div>
+</div>
 
+<div class="footerpalme">
+  <svg
+    width="1728"
+    height="113"
+    viewBox="0 0 1728 113"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M427.501 59.854C422.303 67.5672 412.501 78.354 412.501 78.354C380.001 79.354 312.652 80.414 303.5 81.3539C268 84.9999 224.5 87.1951 207 88.3539C193.687 89.2354 147.5 88.3539 112.5 93.8539C104.202 95.1579 71.5 100.319 53 103.854L0 112.354H1727.5C1727.5 112.354 1670 106.5 1665 106C1660 105.5 1622 100 1593.5 98.5C1565 97 1487 100.5 1487 100.5L1423.5 105C1423.5 105 1401.06 105.794 1380.5 106.854C1321.29 109.906 1288.27 98.3364 1229 96.8539C1145.41 94.7633 1095 105 1015 103.854C935 102.708 863 96.8539 863 96.8539L664 88.3539L558.5 82.3539L490.5 78.354C473.5 77.5206 437.001 74.3539 437.001 74.3539C437.001 74.3539 439.5 61.8881 442.5 50.8541C445.5 39.8202 447 33.3539 447 33.3539C448.333 33.3539 451.138 34.2986 453.5 35.8539C456 37.4999 459.167 39.8331 461.5 45.4999L465.5 67.3539C467.5 63.354 472.966 54.8404 474 50.8541C475 46.9999 475.5 38.9999 469.5 33.3539L456 23.8541C459.167 23.8541 464.7 22.2543 469.5 23.8541C475.5 25.8539 477 31.354 479.5 31.354C482 31.354 480.153 22.308 476.5 18.3202C473 14.4999 468.5 13.8544 463 13.3539L451.5 16.3544C452.833 14.6879 452.5 7.68074 457 4.99986C459.618 3.44007 466.98 2.06576 465.5 1.81924C459.5 0.819732 451.5 -1.71879 448 1.81805C444.5 5.35489 442.5 16.3544 442.5 16.3544C438.167 14.0211 428.1 9.15442 422.501 8.35442C415.502 7.35442 413.5 11.3539 411 13.3539C409 14.9539 409.167 27.0208 410.001 31.354C411.501 28.854 416.1 23.1542 422.501 20.3547C430.501 16.8553 437.001 25.3541 434 23.8541C431.6 22.6541 424.667 25.8188 421 28.8188C417.333 31.8187 412.001 34.8541 410.001 40.8541C408.001 46.8541 410.834 53.0208 412.501 55.3541L416.501 63.8541L422.501 50.8541C425.501 44.3541 430.501 37.354 437.001 31.354C442.201 26.554 438.502 38.8878 437.001 43.354C435.5 47.8202 431.656 53.688 427.501 59.854Z"
+      fill="#FF5E04"
+    />
+  </svg>
+</div>
+
+<footer>
   <div class="footer text-center text-white">
     <img src="./src/_logo/logohvid.png" alt="logo" class="w-14 h-14" />
     <div class="footer_infomode">
