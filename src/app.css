@@ -53,6 +53,7 @@
 
     /* Aliases */
     --heading-display: var(--heading-font-size-lg);
+    --heading-display: var(--heading-font-size-lg);
   }
 
   /* Component tokens */
