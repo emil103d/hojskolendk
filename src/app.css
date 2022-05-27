@@ -192,7 +192,12 @@
   /* !!!!!MOBILE ABOWE - WEB BELOW !!!!!!!!!!MOBILE ABOWE - WEB BELOW !!!!!!!!!!MOBILE ABOWE - WEB BELOW !!!!! */
 
   @media screen and (min-width: 700px) {
+<<<<<<< HEAD
     main {
+=======
+    section {
+      max-width: 1000px;
+>>>>>>> 7d91590713b592ef32e1ec060e0f6e464f17d705
     }
 
     footer,
