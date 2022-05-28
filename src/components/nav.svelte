@@ -23,9 +23,9 @@
   });
 </script>
 
-<nav class="grid grid-cols-2 md:grid-cols-3">
-  <img class="cols-1" src="../src/_logo/logohvid.png" alt="logo hvid" />
-  <div class="inner cols-2">
+<nav class="w-screen grid grid-cols-10 md:grid-cols-3">
+  <img class="cols-span-4" src="../src/_logo/logohvid.png" alt="logo hvid" />
+  <div class="inner cols-span-6 justify-center ">
     <div
       on:click={handleMobileIconClick}
       class={`mobile-icon${showMobileMenu ? " active" : ""}`}
@@ -33,6 +33,139 @@
       <div class="middle-line" />
     </div>
     <ul class={`navbar-list${showMobileMenu ? " mobile" : ""}`}>
+      <li id="" class="bg-black">
+        <div
+          class="accordion justify-center flex-col flex overflow-y-scroll pb-10 flex-nowrap"
+        >
+          <!--  Panel 1  -->
+          <div class="">
+            <input type="checkbox" name="panel" id="panel-1" class="hidden" />
+            <p
+              for="panel-1"
+              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+            >
+              Se alle ophold
+            </p>
+          </div>
+          <!--  Panel 2  -->
+          <div class="">
+            <input type="checkbox" name="panel" id="panel-2" class="hidden" />
+            <label
+              for="panel-2"
+              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+              >Højskoleophold 5 Uger</label
+            >
+            <div class="accordion__content overflow-hidden bg-grey-lighter">
+              <ul class="accordion__body p-4" id="panel1">
+                <li class="text-white">
+                  <a href="/singlepage">BALI, LOMBOK & GILI ISLANDS</a>
+                </li>
+                <li class="text-white">
+                  <a href="/singlepage">NEW YORK CITY & CARIBIEN</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- Panel 3 -->
+          <div class="">
+            <input type="checkbox" name="panel" id="panel-3" class="hidden" />
+            <label
+              for="panel-3"
+              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+              >2 Måneder</label
+            >
+            <div class="accordion__content overflow-hidden bg-grey-lighter">
+              <ul class="accordion__body p-4" id="panel1">
+                <li class="text-white"><a href="/singlepage">xxxx</a></li>
+                <li class="text-white"><a href="/singlepage">xxxx</a></li>
+              </ul>
+            </div>
+          </div>
+          <!--  Panel 4  -->
+          <div class="">
+            <input type="checkbox" name="panel" id="panel-4" class="hidden" />
+            <label
+              for="panel-4"
+              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+              >3 Måneder</label
+            >
+            <div class="accordion__content overflow-hidden bg-grey-lighter">
+              <ul class="accordion__body p-4" id="panel1">
+                <li class="text-white">
+                  <a href="/singlepage">CARIBIEN, HAWAII & MEXICO</a>
+                </li>
+                <li class="text-white">
+                  <a href="/singlepage">AUSTRALIEN, NZ, BALI & GILI ISLANDS</a>
+                </li>
+                <li class="text-white">
+                  <a href="/singlepage">COSTA RICA, MEXICO & GUATEMALA</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!--  Panel 5  -->
+          <div class="">
+            <input type="checkbox" name="panel" id="panel-5" class="hidden" />
+            <p
+              for="panel-5"
+              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+            >
+              Infomøder
+            </p>
+          </div>
+
+          <!--  Panel 6  -->
+          <div class="">
+            <input type="checkbox" name="panel" id="panel-6" class="hidden" />
+            <label
+              for="panel-6"
+              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+              >Om os</label
+            >
+            <div class="accordion__content overflow-hidden bg-grey-lighter">
+              <ul class="accordion__body p-4" id="panel1">
+                <li class="text-white">
+                  <a href="/#">Mød teamet</a>
+                </li>
+                <li class="text-white">
+                  <a href="/#">Vores Værdier</a>
+                </li>
+                <li class="text-white">
+                  <a href="/#">Bæredygtighed</a>
+                </li>
+                <li class="text-white">
+                  <a href="/#">FAQ</a>
+                </li>
+                <li class="text-white">
+                  <a href="/#">Blog</a>
+                </li>
+
+                <li class="text-white">
+                  <a href="/#">Det siger vores elever</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--  Panel 7  -->
+          <div class="">
+            <input type="checkbox" name="panel" id="panel-7" class="hidden" />
+            <label
+              for="panel-7"
+              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+              >Elevforening</label
+            >
+            <div class="accordion__content overflow-hidden bg-grey-lighter">
+              <ul class="accordion__body p-4" id="panel1">
+                <li class="text-white"><a href="/#">Kommende Events</a></li>
+                <li class="text-white"><a href="/#">Elev Ambasadører</a></li>
+                <li class="text-white"><a href="/#">REUNION</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </li>
+
       <li class="hidden md:block">
         <div class="group relative h-full">
           <a
@@ -223,13 +356,14 @@
     top: 0;
     left: 0;
     z-index: 2000;
-    width: 100%;
   }
 
+  #mobile_position {
+    position: fixed;
+  }
   img {
     width: 4rem;
     margin: 1rem;
-    grid-column: 2;
     z-index: 30;
     align-self: center;
   }
@@ -242,7 +376,6 @@
     display: flex;
     align-items: center;
     height: 100%;
-    grid-column: 3;
     width: 40rem;
   }
 
@@ -321,9 +454,10 @@
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     display: block;
-    height: calc(100% - 45px);
+    height: calc(100% - 100px);
     bottom: 0;
     left: 0;
+    width: 100vw;
   }
 
   .navbar-list li {
@@ -349,6 +483,27 @@
     align-items: center;
     padding: 0 10px;
     font-size: 13px;
+  }
+
+  label:after {
+    content: "+";
+    position: absolute;
+    right: 1em;
+    color: #fff;
+  }
+
+  input:checked + label:after {
+    content: "-";
+    line-height: 0.8em;
+  }
+
+  .accordion__content {
+    max-height: 0em;
+    transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+  }
+  input[name="panel"]:checked ~ .accordion__content {
+    /* Get this as close to what height you expect */
+    max-height: 50em;
   }
 
   @media only screen and (min-width: 767px) {

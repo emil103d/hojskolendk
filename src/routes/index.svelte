@@ -38,6 +38,9 @@
 
 <!-- section #1 start -->
 <style>
+  section {
+    overflow: hidden;
+  }
   h1 {
     color: #545454;
   }

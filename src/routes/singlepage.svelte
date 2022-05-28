@@ -1,14 +1,14 @@
 <script>
-  import Tab1 from "../card_trustpilot.svelte/tab1.svelte";
-  import Tab2 from "../card_trustpilot.svelte/tab2.svelte";
-  import Tab3 from "../card_trustpilot.svelte/tab3.svelte";
-  import Tab4 from "../card_trustpilot.svelte/tab4.svelte";
-  import Tab5 from "../card_trustpilot.svelte/tab5.svelte";
-  import Tab6 from "../card_trustpilot.svelte/tab6.svelte";
-  import Tab7 from "../card_trustpilot.svelte/tab7.svelte";
-  import Tab8 from "../card_trustpilot.svelte/tab8.svelte";
-  import Tab9 from "../card_trustpilot.svelte/tab9.svelte";
-  import Tab10 from "../card_trustpilot.svelte/tab10.svelte";
+  import Tab1 from "../components/tab1.svelte";
+  import Tab2 from "../components/tab2.svelte";
+  import Tab3 from "../components/tab3.svelte";
+  import Tab4 from "../components/tab4.svelte";
+  import Tab5 from "../components/tab5.svelte";
+  import Tab6 from "../components/tab6.svelte";
+  import Tab7 from "../components/tab7.svelte";
+  import Tab8 from "../components/tab8.svelte";
+  import Tab9 from "../components/tab9.svelte";
+  import Tab10 from "../components/tab10.svelte";
 
   let activetab = Tab1;
 </script>
