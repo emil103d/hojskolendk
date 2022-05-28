@@ -1,9 +1,6 @@
 <script>
   import SecondaryButton from "../components/secondarybutton.svelte";
-  import Header from "../components/header.svelte";
 </script>
-
-<Header headerclass="src/_images/1.jpg" />
 
 <div class="bgfooter">
   <div class="maxwidthwrapper">
@@ -48,7 +45,7 @@
 
 <div class="footerpalme">
   <svg
-    width="1728"
+    width="100%"
     height="113"
     viewBox="0 0 1728 113"
     fill="none"
@@ -210,4 +207,7 @@
 </footer>
 
 <style>
+  .footerpalme {
+    max-width: 60%;
+  }
 </style>
