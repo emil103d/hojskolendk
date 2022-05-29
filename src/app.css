@@ -89,6 +89,7 @@
   .maxwidthwrapper {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 1rem;
   }
 
   /* Skrift */
@@ -149,8 +150,7 @@
   .hero-image {
     height: 80%;
     width: 100%;
-    top: 0%;
-    left: 0%;
+    top: 80%;
     filter: brightness(80%);
   }
 

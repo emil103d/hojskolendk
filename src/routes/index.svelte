@@ -18,8 +18,10 @@
 </header>
 
 <!-- section #1 start -->
-<section class="flex justify-center items-center gap-8 mt-40">
-  <article class="max-w-md ml-10 md:ml-32">
+<section
+  class="maxwidthwrapper pt-20 md:pt-0 md:flex md:justify-center md:gap-8"
+>
+  <article class="">
     <p class="preh2">VI ER</p>
     <h2>REJSEEVENTYR, SOMMER VIBES & ET FÆLLESSKAB I VERDENSKLASSE</h2>
     <p>
@@ -33,24 +35,24 @@
     <button>JOIN OS TIL INFOMØDE</button>
   </article>
   <img
-    class=""
+    class="md:w-96 "
     src="../src/_images/2.jpg"
     alt="Unge glade mennesker der er med på et højskoleophold"
   />
 </section>
-
 <!-- section #1 slut -->
+
 <!-- section #2 Start -->
-<section class="maxwidthwrappper">
+<section class="maxwidthwrapper mx-auto m-4">
   <p class="preh2">VI ELSKER VORES ELEVER OG VORES ELEVER ELSKER OS</p>
   <h2>VORES ELEVER PÅ TRUSTPILOT</h2>
   <img src="../src/_logo/trustpilot_logo.png" alt="" />
-  <div class="flex gap-5 mt-10 m-5 mx-auto justify-center">
+  <div class="md:flex grid gap-16 md:gap-5 mt-10 m-5 mx-auto justify-center">
     <CardTrustpilot
       title="Venskaber for livet"
       text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK"
       image="../src/_images/2.jpg"
-      name=" Camilla Jensen"
+      name=" Jackie Salomonsen"
     />
     <CardTrustpilot
       image="../src/_images/2.jpg"
@@ -62,7 +64,7 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     <CardTrustpilot
       image="../src/_images/2.jpg"
       title="Fantastisk rejse"
-      name=" Camilla Jensen"
+      name=" Søren Reves"
       text="
 
 Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber med mig for livet. Og så var det en stor udviklingsrejse både gennem undervisningen men lige så meget ved friheden til at rejse på egen hånd og stå på egne ben."
