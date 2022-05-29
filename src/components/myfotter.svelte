@@ -50,7 +50,7 @@
 
 <div class="footerpalme">
   <svg
-    width="1728"
+    width="100%"
     height="113"
     viewBox="0 0 1728 113"
     fill="none"
@@ -212,4 +212,7 @@
 </footer>
 
 <style>
+  .footerpalme {
+    max-width: 60%;
+  }
 </style>
