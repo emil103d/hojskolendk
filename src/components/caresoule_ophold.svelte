@@ -27,20 +27,19 @@
       id: 6,
     },
   ];
-  let returned = "";
 
   const rotateleft = (e) => {
     const transitioningArray = array[array.length - 1];
     document.getElementById(transitioningArray.id).style.opacity = 0;
     array = [array[array.length - 1], ...array.slice(0, array.length - 1)];
-    setTimeout(
-      () => document.getElementById(transitioningArray.id).style.opacity - 1,
-      speed
-    );
+    setTimeout[
+      (() => document.getElementById(transitioningArray.id).style.opacity - 1,
+      speed)
+    ];
   };
 
   const rotateright = (e) => {
-    const transitioningArray = array[array.length - 1];
+    const transitioningArray = array[0];
     document.getElementById(transitioningArray.id).style.opacity = 0;
     array = [...array.slice(1, array.length), array[0]];
     setTimeout(
@@ -55,6 +54,7 @@
   <div class="flex gap-5 justify-center items-center flex-nowrap ">
     {#each array as item (item.id)}
       <div
+        id={item.id}
         animate:flip={{ duration: speed }}
         out:scale={{ duration: 250 }}
         in:scale={{ duration: 250 }}
