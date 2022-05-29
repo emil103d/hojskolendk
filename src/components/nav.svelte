@@ -512,8 +512,7 @@
 <style>
   nav {
     background: #000000;
-    opacity: 0.7;
-    backdrop-filter: blur(58px);
+    opacity: 0.9;
     height: 100px;
     position: fixed;
     top: 0;
@@ -614,7 +613,6 @@
     width: 100%;
     justify-content: space-between;
     margin: 0;
-    padding: 0 40px;
   }
 
   .navbar-list.mobile {

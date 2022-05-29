@@ -1,5 +1,6 @@
 <script>
   import OpholdCardsSection from "../components/opholdCardsSection.svelte";
+  import Caresoule_ophold from "../components/caresoule_ophold.svelte";
 </script>
 
 <header id="video" class="relative grid grid-cols-5 mb-8">
@@ -48,6 +49,18 @@
     <p class="mt-10 preh2 text-center">MANGE SPÆNDENDE DESTINATIONER</p>
     <h2 class="text-center">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
     <OpholdCardsSection />
+    <button class="mx-auto">SE ALLE OPHOLD</button>
+  </div>
+</section>
+
+<!-- section #1 slut -->
+<!-- section #2 Start -->
+
+<section id="section_2" class=" ">
+  <div class="maxwidthwrappper  justify-center">
+    <p class="mt-10 preh2 text-center">MANGE SPÆNDENDE DESTINATIONER</p>
+    <h2 class="text-center">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
+    <Caresoule_ophold />
     <button class="mx-auto">SE ALLE OPHOLD</button>
   </div>
 </section>
