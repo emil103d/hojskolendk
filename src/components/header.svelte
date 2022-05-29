@@ -9,21 +9,6 @@
 </div>
 
 <style>
-  .hero-image {
-    height: 80%;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-  }
-  .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 55%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-
   .hero-text h2 {
     color: var(--hvid);
   }
