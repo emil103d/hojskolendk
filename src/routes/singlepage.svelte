@@ -9,9 +9,12 @@
   import Tab8 from "../components/tab8.svelte";
   import Tab9 from "../components/tab9.svelte";
   import Tab10 from "../components/tab10.svelte";
+  import Header from "../components/header.svelte";
 
   let activetab = Tab1;
 </script>
+
+<Header imgtitle="src/_images/1.jpg" />
 
 <main class="max_width_single relative">
   <section class="custom_grid hidden md:grid md:gap-10 lg:gap-20">
