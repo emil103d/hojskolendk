@@ -1,17 +1,17 @@
 <script>
-  export let languages;
-  export let selectedLang;
-  // $:console.log(languages)
+  export let varighed;
+  export let selectedvar;
+  $: console.log(varighed);
 </script>
 
 <!-- svelte-ignore a11y-no-onchange -->
 
 <ul class="menu-cont mt-10">
-  <select class="menu" name="menu" id="menu" bind:value={selectedLang}>
+  <select class="menu" name="menu" id="menu" bind:value={selectedvar}>
     <option disabled selected value="">Varighed</option>
-    <option value="all">Varighed</option>
+    <option value="all">Alle varigheder</option>
     {#each varighed as varig}
-      <option value={varighed}>{varighed}</option>
+      <option value={varig}>{varig}</option>
     {/each}
   </select>
 </ul>
@@ -22,15 +22,12 @@
     display: flex;
     margin: 0 10px 0 0;
   }
-
   select {
     margin: 0;
     font-size: 1.18rem;
-    border: 1px solid gray;
-    border-radius: 5px;
+    border-bottom: 1px solid gray;
   }
-
   .menu {
-    width: 100%;
+    width: 60%;
   }
 </style>
