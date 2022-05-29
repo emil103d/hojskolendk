@@ -32,10 +32,10 @@
           <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/messenger.png" alt="chat ikon" />
           </div>
-<<<<<<< HEAD
+
           <p>Chat med os</p>
           
->>>>>>> dfba80aa8705e4c6c713e9dda5a8a57658c85248
+
         </div>
         <!-- hvid cirkel -->
         <div>
@@ -45,8 +45,10 @@
           <p>Infomøder</p>
         
         </div>
+      </div>
   </div>
-<div class="footerpalme">
+</div>
+  <svg class="footerpalme">
     height="113"
     viewBox="0 0 1728 113"
     fill="none"
