@@ -13,8 +13,8 @@
   let activetab = Tab1;
 </script>
 
-<main>
-  <section class="grid-cols-7 hidden md:grid lg:gap-20">
+<main class="max_width_single">
+  <section class="custom_grid hidden md:grid lg:gap-20">
     <sidebar id="navbar" class="block cols-start-1">
       <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
       <button class="" on:click={() => (activetab = Tab1)}
@@ -99,4 +99,13 @@
     border-bottom: 2px solid #545454;
     font-weight: 800;
   }
+
+  .custom_grid {
+    grid-template-columns: 200px 1fr;
+  }
+
+  .max_width_single {
+    max-width: 1400px;
+  }
+
 </style>

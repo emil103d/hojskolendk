@@ -1,4 +1,4 @@
-  <main class="col-start-2 col-span-6">
+  <main class="col-start-2">
     <!-- SECTION 1 -->
     <section>
         <h2>SURFING, SOL OG BEACH VIBES</h2>
