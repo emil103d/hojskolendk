@@ -28,7 +28,7 @@
     --txtcolor-600: rgba(84, 84, 84, 0.6);
 
     /* FONT SIZES */
-    --font_h1: clamp(1.9375rem, 0.8125rem + 4.5vw, 3.1875rem);
+    --font_h1: clamp(1rem, 0.8125rem + 4.5vw, 3.1875rem);
     --font_h2: clamp(1rem, 0.21875rem + 3.125vw, 2rem);
     /* intro brødtekst til hver side */
     --font_h3: clamp(1.25rem, 0.9375rem + 1.25vw, 1.875rem);
@@ -203,6 +203,23 @@ sidebar button:hover {
   color: inherit;
   border: none;
   outline: inherit;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-image {
+  height: 80%;
+  width: 100%;
+  top: 0%;
+  left: 0%;
+  filter: brightness(80%);
 }
 
 /* ---------------Buttons slut  -----------------*/

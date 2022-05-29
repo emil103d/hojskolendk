@@ -3,17 +3,15 @@
   import Caresoule_ophold from "../components/caresoule_ophold.svelte";
 </script>
 
-<header id="video" class="relative grid grid-cols-5 mb-8">
+<header id="video">
   <video
-    class="z-0 col-span-full row-span-full"
+    class="z-0 hero-image"
     loop
     muted
     autoplay
     src="../src/_video/herofrontpage.mp4"
   />
-  <div
-    class="mx-auto text-center max-w-60 z-20 col-start-2 col-end-5 row-start-1 pt-40"
-  >
+  <div class="hero-text">
     <p>Rejs med HÖJSKOLENDK</p>
     <h1 class="">OG BLIV EN DEL AF FÆLLESKABET OG KOM PÅ DIT LIVS EVENTYR</h1>
   </div>
@@ -36,14 +34,13 @@
   </article>
   <img
     class=""
-    src="../src/_images/forside_sektion1.png"
+    src="../src/_images/2.jpg"
     alt="Unge glade mennesker der er med på et højskoleophold"
   />
 </section>
 
 <!-- section #1 slut -->
 <!-- section #2 Start -->
-
 <section id="section_2" class=" ">
   <div class="maxwidthwrappper  justify-center">
     <p class="mt-10 preh2 text-center">MANGE SPÆNDENDE DESTINATIONER</p>
