@@ -2,23 +2,42 @@
   import PrimaryButton from "./primarybutton.svelte";
 </script>
 
-<section class="flex flex-row">
-  <div><p>SRI LANKA, MALDIVERNE & THAILAND</p></div>
-  <div>
+<section class="flex flex-row gap-40">
+  <div><p class="">SRI LANKA, MALDIVERNE & THAILAND</p></div>
+  <div class="flex flex-row gap-10">
+    <div class="linediv" />
+    <div class="w-10 h-10">
+      <img src="src/_icons/calender.png" alt="flyafgang ikon" />
+    </div>
     <div class="grid-col-1">
       <p><strong>Varighed</strong></p>
       <p>3 måneder</p>
     </div>
-    <div><img src="src/_icons/calender.png" alt="flyafgang ikon" /></div>
-    <div class="linediv" />
+    <div class="flex flex-row gap-10">
+      <div class="linediv" />
+      <div class="w-10 h-10">
+        <img src="src/_icons/calender.png" alt="flyafgang ikon" />
+      </div>
+      <div class="grid-col-1">
+        <p><strong>Undervisning</strong></p>
+        <p>
+          Selvudvikling <br />
+          Kommunikation
+        </p>
+      </div>
+    </div>
+    <div><PrimaryButton>TILMELD OPHOLD</PrimaryButton></div>
   </div>
-  <div><PrimaryButton>TILMELD OPHOLD</PrimaryButton></div>
 </section>
 
 <style>
   .linediv {
-    height: 10px;
+    height: 60px;
     width: 1px;
-    background-color: var(--txtcolor);
+    background-color: var(--txtcolor-600);
+  }
+
+  p {
+    font-weight: 100;
   }
 </style>
