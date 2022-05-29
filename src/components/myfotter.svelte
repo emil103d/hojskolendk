@@ -1,42 +1,45 @@
 <script>
   import SecondaryButton from "../components/secondarybutton.svelte";
+  // import BuyCard from "../components/buycard.svelte";
 </script>
+
+<!-- <BuyCard /> -->
 
 <div class="bgfooter">
   <div class="maxwidthwrapper">
     <div class="footer_kontakt">
       <div>
         <!-- hvid cirkel -->
-        <div class="cirkel">
+        <div class="cirkel m-auto grid justify-center">
           <img src="src/_icons/call.png" alt="telefon ikon" />
+          <p>Ring til os</p>
         </div>
-        <p>Ring til os</p>
       </div>
       <div>
         <!-- hvid cirkel -->
         <div>
-          <div class="cirkel">
+          <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/brev.png" alt="brev ikon" />
+            <p>Skriv til os</p>
           </div>
-          <p>Skriv til os</p>
         </div>
       </div>
       <div>
         <!-- hvid cirkel -->
         <div>
-          <div class="cirkel">
+          <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/messenger.png" alt="chat ikon" />
+            <p>Chat med os</p>
           </div>
-          <p>Chat med os</p>
         </div>
       </div>
       <div>
         <!-- hvid cirkel -->
         <div>
-          <div class="cirkel">
+          <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/people.png" alt="brev ikon" />
+            <p>Infomøder</p>
           </div>
-          <p>Mød os til <br />infomøder</p>
         </div>
       </div>
     </div>
