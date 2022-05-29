@@ -37,7 +37,7 @@
 </script>
 
 <div id="carosoule_container">
-  <div class="flex gap-5 justify-center items-center flex-nowrap w-96">
+  <div class="flex gap-5 justify-center items-center flex-nowrap z-2 w-96">
     {#each array as item (item.id)}
       <div
         id={item.id}
@@ -50,8 +50,8 @@
     {/each}
   </div>
 
-  <button on:click={rotateleft}><img src="../src/" alt="" /></button>
-  <button on:click={rotateright}>Right</button>
+  <button id="left" on:click={rotateleft}>Left</button>
+  <button id="right" on:click={rotateright}>Right</button>
 </div>
 
 <style>
@@ -60,5 +60,20 @@
     overflow-x: hidden;
     margin-left: 5rem;
     margin-right: 5rem;
+    position: relative;
+    z-index: 2;
+  }
+
+  #left {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    z-index: 10;
+  }
+
+  #right {
+    position: absolute;
+    top: 50%;
+    right: 10%;
   }
 </style>
