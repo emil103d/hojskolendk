@@ -83,6 +83,7 @@
   main {
     margin: auto;
     color: var(--txtcolor);
+    position: relative;
   }
 
   section {
