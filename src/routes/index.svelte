@@ -43,7 +43,7 @@
 <!-- section #1 slut -->
 
 <!-- section #2 Start -->
-<section class="maxwidthwrapper mx-auto m-4">
+<section class="maxwidthwrapper mx-auto m-4 pb-0">
   <p class="preh2">VI ELSKER VORES ELEVER OG VORES ELEVER ELSKER OS</p>
   <h2>VORES ELEVER PÅ TRUSTPILOT</h2>
   <img src="../src/_logo/trustpilot_logo.png" alt="" />
@@ -63,7 +63,7 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     />
     <CardTrustpilot
       image="../src/_images/2.jpg"
-      title="Fantastisk rejse"
+      title="Uforglemmeligt"
       name=" Søren Reves"
       text="
 
@@ -73,21 +73,27 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
 </section>
 
 <!-- Statistik sektion start -->
-<section id="statistik_sektion" class="maxwidthwrappper text-center w-full">
+<section
+  id="statistik_sektion"
+  class="maxwidthwrappper text-center w-full p-20 md:p-64"
+>
   <h2 class="mb-5">ELSKET AF 2.500+ ELEVER</h2>
-  <div class="flex gap-10 mx-auto justify-center">
-    <div class="max-w-xs">
-      <h3>4,8</h3>
-      <p>PÅ TRUSTPILOT</p>
-      <img class="w-40" src="../src/_icons/5star.png" alt="" />
-    </div>
-    <div class="max-w-xs">
-      <h3>16</h3>
+  <div class="grid gap-6 md:flex md:gap-10 md:mx-auto md:justify-center">
+    <div class="md:max-w-xs">
+      <h3 cl>16</h3>
       <p>ADVENTUREFYLDTE DESTINATIONER</p>
     </div>
-    <div class="max-w-xs">
+    <div class="md:max-w-xs">
+      <h3>4,8</h3>
+      <p>PÅ TRUSTPILOT</p>
+      <img class="md:max-w-xs" src="../src/_icons/5star.png" alt="" />
+    </div>
+
+    <div class="md:max-w-xs">
       <h3>106.785</h3>
-      <p>KVADRATMETER FREDET REGNSKOV TIL BEVARELSE AF VERDENS SKOVE</p>
+      <p class="max-w-xs m-auto">
+        KVADRATMETER FREDET REGNSKOV TIL BEVARELSE AF VERDENS SKOVE
+      </p>
     </div>
   </div>
 </section>
@@ -117,14 +123,17 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
   #statistik_sektion {
     background-image: url(../src/_icons/airplane_earth.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
-    padding-bottom: 10rem;
+    background-position: 50%;
+    background-size: 100%;
   }
 
   #statistik_sektion h3 {
     color: #122554;
     font-family: var(--h1_text);
-    font-size: 8rem;
+    font-size: var(--font_talsek);
+  }
+  #statistik_sektion img {
+    width: 200px;
+    margin: 0 auto;
   }
 </style>
