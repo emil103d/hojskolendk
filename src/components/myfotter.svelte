@@ -1,10 +1,8 @@
 <script>
   import SecondaryButton from "../components/secondarybutton.svelte";
-  // import Header from "../components/header.svelte";
   import BuyCard from "../components/buycard.svelte";
 </script>
 
-<!-- <Header headerclass="src/_images/1.jpg" /> -->
 <BuyCard />
 
 <div class="bgfooter">
