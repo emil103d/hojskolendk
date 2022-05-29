@@ -1,15 +1,15 @@
 <script>
-  import PrimaryButton from "./primarybutton copy.svelte";
+  import PrimaryButton from "./primarybutton.svelte";
 </script>
 
 <section class="flex flex-row">
-  <div><h2>SRI LANKA, MALDIVERNE & THAILAND</h2></div>
+  <div><p>SRI LANKA, MALDIVERNE & THAILAND</p></div>
   <div>
-    <div><img src="src/_icons/calender.png" alt="flyafgang ikon" /></div>
     <div class="grid-col-1">
       <p><strong>Varighed</strong></p>
       <p>3 måneder</p>
     </div>
+    <div><img src="src/_icons/calender.png" alt="flyafgang ikon" /></div>
     <div class="linediv" />
   </div>
   <div><PrimaryButton>TILMELD OPHOLD</PrimaryButton></div>
