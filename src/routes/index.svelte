@@ -1,5 +1,5 @@
 <script>
-  import OpholdCardsSection from "../components/opholdCardsSection.svelte";
+  import CardTrustpilot from "../components/card_trustpilot.svelte";
   import Caresoule_ophold from "../components/caresoule_ophold.svelte";
 </script>
 
@@ -41,16 +41,57 @@
 
 <!-- section #1 slut -->
 <!-- section #2 Start -->
-<section id="section_2" class=" ">
-  <div class="maxwidthwrappper  justify-center">
-    <p class="mt-10 preh2 text-center">MANGE SPÆNDENDE DESTINATIONER</p>
-    <h2 class="text-center">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
-    <OpholdCardsSection />
-    <button class="mx-auto">SE ALLE OPHOLD</button>
+<section class="maxwidthwrappper">
+  <p class="preh2">VI ELSKER VORES ELEVER OG VORES ELEVER ELSKER OS</p>
+  <h2>VORES ELEVER PÅ TRUSTPILOT</h2>
+  <img src="../src/_logo/trustpilot_logo.png" alt="" />
+  <div class="flex gap-5 mt-10 m-5 mx-auto justify-center">
+    <CardTrustpilot
+      title="Venskaber for livet"
+      text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK"
+      image="../src/_images/2.jpg"
+      name=" Camilla Jensen"
+    />
+    <CardTrustpilot
+      image="../src/_images/2.jpg"
+      title="Fantastisk rejse"
+      name=" Camilla Jensen"
+      text="
+Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv i mit liv. Jeg oplevede stor professionalisme og ansvarlighed fra organisationens side, og mine rejseledere var enormt kompetente, jordnære og skabte stor tryghed i gruppen."
+    />
+    <CardTrustpilot
+      image="../src/_images/2.jpg"
+      title="Fantastisk rejse"
+      name=" Camilla Jensen"
+      text="
+
+Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber med mig for livet. Og så var det en stor udviklingsrejse både gennem undervisningen men lige så meget ved friheden til at rejse på egen hånd og stå på egne ben."
+    />
   </div>
 </section>
 
-<!-- section #1 slut -->
+<!-- Statistik sektion start -->
+<section id="statistik_sektion" class="maxwidthwrappper text-center w-full">
+  <h2 class="mb-5">ELSKET AF 2.500+ ELEVER</h2>
+  <div class="flex gap-10 mx-auto justify-center">
+    <div class="max-w-xs">
+      <h3>4,8</h3>
+      <p>PÅ TRUSTPILOT</p>
+      <img class="w-40" src="../src/_icons/5star.png" alt="" />
+    </div>
+    <div class="max-w-xs">
+      <h3>16</h3>
+      <p>ADVENTUREFYLDTE DESTINATIONER</p>
+    </div>
+    <div class="max-w-xs">
+      <h3>106.785</h3>
+      <p>KVADRATMETER FREDET REGNSKOV TIL BEVARELSE AF VERDENS SKOVE</p>
+    </div>
+  </div>
+</section>
+
+<!-- Statistik section  slut -->
+
 <!-- section #2 Start -->
 
 <section id="section_2" class=" ">
