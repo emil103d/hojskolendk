@@ -22,6 +22,6 @@
 
   img {
     height: 24rem;
-    width: 14rem;
+    width: 15rem;
   }
 </style>
