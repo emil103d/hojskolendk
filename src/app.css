@@ -147,8 +147,9 @@
   }
 
   .hero-image {
-    height: 80vh;
-    top: 300px;
+    height: 80%;
+    width: 100%;
+    top: 0%;
     left: 0%;
     filter: brightness(80%);
   }
