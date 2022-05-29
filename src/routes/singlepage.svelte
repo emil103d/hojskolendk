@@ -1,7 +1,7 @@
 <script>
   import Tab1 from "../components/tab1.svelte";
   import Tab2 from "../components/tab2.svelte";
-  import Tab3 from "../components/tab2.svelte";
+  import Tab3 from "../components/tab3.svelte";
   import Tab4 from "../components/tab4.svelte";
   import Tab5 from "../components/tab5.svelte";
   import Tab6 from "../components/tab6.svelte";
