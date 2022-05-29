@@ -40,11 +40,7 @@
     --font_p_tabel: clamp(0.75rem, 0.65625rem + 0.375vw, 0.9375rem);
     /* buttons */
     --font_knap_s: 15px;
-    --font_knap_m: clamp(
-      1rem,
-      0.9583333333333334rem + 0.16666666666666669vw,
-      1rem
-    );
+    --font_knap_m: clamp(0.75rem, 0.65625rem + 0.375vw, 0.9375rem);
     --font_knap_l: clamp(1rem, 0.625rem + 1.5000000000000002vw, 1.5625rem);
 
     /* BORDER RADIUS */
@@ -83,7 +79,6 @@
   main {
     margin: auto;
     color: var(--txtcolor);
-    position: relative;
   }
 
   section {
@@ -159,12 +154,13 @@ button,
 
 button:hover,
 .primarybutton:hover {
+  white-space: nowrap;
   border: var(--button-cta-background-color-hover);
   background-color: var(--button-cta-background-color-hover);
 }
 
 .secondarybutton {
-  display: inline-block;
+  white-space: nowrap;
   background-color: var(--secondary-button-cta-background-color);
   border: solid 1px white;
   font-size: var(--font_knap_m);
