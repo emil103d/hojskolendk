@@ -1,123 +1,85 @@
 <main class="col-start-2">
-
     <!-- SECTION 1 -->
     <section>
-        <h2>SURFING, SOL OG BEACH VIBES</h2>
-        <p>
-        Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på Rumrunners
-        eller snorkler efter havskildpadder. Derudover har vi haft en masse fede
-        ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck Island og
-        turtlewatch på programmet.
-        </p>
-    </section>
+     <h2>Det får du med på rejsen</h2>
+     <p>
+     Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på Rumrunners
+     eller snorkler efter havskildpadder. Derudover har vi haft en masse fede
+     ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck Island og
+     turtlewatch på programmet.
+     </p>
 
-    <!-- SECTION 2 -->
+     <hr>
+ </section>
+ 
+  <!-- SECTION 2 -->
   <section class="lg:grid md:grid-cols-2">
-    <div class="lg:col-start-1">
-        <p>UGE 1:</p>
-        <h4>Introuge</h4>
-        <p>Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. 
-            Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt. Heminade abel oaktat prest. 
-        </p>
+   <div class="lg:col-start-1">
+       <p>Det får du med</p>
+       <h4>INKLUDERET</h4>
+       <div>
+       <p><b>OVERORDNET</b></p>
+       <ul>
+           <li>Fly tur/retur: DK > New York > Caribien > Mexico > Hawaii > DK</li>
+           <li>Indkvartering i New York, Caribien, Mexico og Hawaii </li>
+           <li>Undervisning i ‘Projektstyring & Teambuilding’</li>   
+           <li>Undervisning i ‘Frivilligt Arbejde & Kulturforståelse’</li>
+           <li>Undervisning i ‘Selvudvikling & Kommunikation’</li>
+           <li>Transfers fra lufthavne tur/retur</li>
+           <li>15% rabat på vaccinationer hos ‘Danske Lægers Vaccinations Service’</li>
+       </ul>
     </div>
-    <div class="lg:col-start-2">
-        <img class="w-full h-auto"src="src/_images/program_1.png" alt="">
-    </div>
-  </section>
 
-  <!-- SECTION 3 -->
-  <section class="">
     <div>
-        <p>UGE 2 + 3 + 4:</p>
-        <h4>projektstyring & Teambuilding</h4>
-        <p>Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. 
-            Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt. Heminade abel oaktat prest. 
-        </p>
+        <p><b>ADVENTURE, AKTIVITETER & OPLEVELSER</b></p>
+        <ul>
+           <li>Fly tur/retur: DK > New York > Caribien > Mexico > Hawaii > DK</li>
+           <li>Indkvartering i New York, Caribien, Mexico og Hawaii </li>
+           <li>Undervisning i ‘Projektstyring & Teambuilding’</li>   
+           <li>Undervisning i ‘Frivilligt Arbejde & Kulturforståelse’</li>
+           <li>Undervisning i ‘Selvudvikling & Kommunikation’</li>
+           <li>Transfers fra lufthavne tur/retur</li>
+           <li>15% rabat på vaccinationer hos ‘Danske Lægers Vaccinations Service’</li>
+        </ul>
     </div>
+
     <div>
-        <div class="flex overflow-x-scroll pb-10 flex-nowrap overflow-hidden overflow-x-hidden">
-            <div class="flex flex-nowrap gap-2 lg:grid lg:grid-cols-3">
-                <img class="max-w-[90vw] h-full md:w-full md:col-start-1" src="src/_images/program_2.png" alt="">
-                <img class="max-w-[90vw] h-full md:w-full md:col-start-2" src="src/_images/program_3.png" alt="">
-                <img class="max-w-[90vw] h-full md:w-full md:col-start-3" src="src/_images/program_4.png" alt="">
-            </div>
-          </div>
+        <p><b>PRAKTISK</b></p>
+        <ul>
+           <li>Infobreve om opholdet inden afrejse (med bl.a. pakkeliste, rejsetips, praktisk, etc.)</li>
+           <li>Afrejsemøde ca. 5 uger inden afrejse (du møder dine rejsevenner og rejseleder) </li>
+           <li>Dansk rejseleder på hele opholdet</li>   
+           <li>Undervisning af engagerede, dygtige og danske undervisere</li>
+           <li>Højskolebevis (kan bruges til kvote 2)</li>
+        </ul>
     </div>
-  </section>
+   </div>
 
-   <!-- SECTION 4 -->
-   <section class="lg:grid md:grid-cols-2 lg:grid-rows-1">
-    <div class="lg:col-start-2 md:row-start-1">
-        <p>UGE 5</p>
-        <h4>FRIUGE - MALDIVERNE</h4>
-        <p>Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. 
-            Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt. Heminade abel oaktat prest. 
-        </p>
-    </div>
-    <div class="lg:col-start-1">
-        <img src="src/_images/program_1.png" alt="">
-    </div>
-  </section>
-
-  <!-- SECTION 5 -->
-  <section class="">
+   <div class="lg:col-start-1">
+    <p>Det er der</p>
+    <h4>IKKE INKLUDERET</h4>
     <div>
-        <p>UGE 6 + 7 + 8:</p>
-        <h4>Selvudvikling & Kommunikation</h4>
-        <p>Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. 
-            Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt. Heminade abel oaktat prest. 
-        </p>
-    </div>
-    <div>
-        <div class="flex overflow-x-scroll pb-10 flex-nowrap overflow-hidden overflow-x-hidden">
-            <div class="flex flex-nowrap gap-2">
-                <img class="max-w-[90vw]" src="src/_images/program_5.png" alt="">
-                <img class="max-w-[90vw]" src="src/_images/program_6.png" alt="">
-                <img class="max-w-[90vw]" src="src/_images/program_7.png" alt="">
-            </div>
-          </div>
-    </div>
-  </section>
+    <p><b>OVERORDNET</b></p>
+    <ul>
+        <li>Lommepenge</li>
+        <li>Indkvartering i New York, Caribien, Mexico og Hawaii </li>
+        <li>Mad & Drikke</li>   
+        <li>Rejseforsikring (+ evt. afbestillingsforsikring)</li>
+        <li>Visum</li>
+        <li>Vaccinationer</li>
+        <li>Friuger</li>
+    </ul>
+ </div>
 
-    <!-- SECTION 6 -->
-    <section class="lg:grid lg:grid-cols-2 lg:grid-rows-1">
-        <div class="lg:col-start-1 lg:row-start-1">
-            <p>UGE 9</p>
-            <h4>FRIUGE - SRI LANKA</h4>
-            <p>Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. 
-                Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt. Heminade abel oaktat prest. 
-            </p>
-        </div>
-        <div class="lg:col-start-2 lg:row-start-1">
-            <img src="src/_images/program_9.png" alt="">
-        </div>
-    </section>
+ <div>
+     <p><b>SAMLET ESTIMAT</b></p>
+     <ul>
+        <li>Tidligere elever har samlet brugt ca. 30.000 DKK til 40.000 DKK undervejs på opholdet på ovenst</li>
+     </ul>
+ </div>
 
-    <!-- SECTION 7 -->
-    <section class="lg:grid lg:grid-cols-2 lg:grid-rows-1">
-        <div class="lg:col-start-2 lg:row-start-1">
-            <p>UGE 10</p>
-            <h4>OUTRODAGE</h4>
-            <p>Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. 
-                Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt. Heminade abel oaktat prest. 
-            </p>
-        </div>
-        <div class="lg:col-start-1 lg:row-start-1">
-            <img src="src/_images/program_8.png" alt="">
-        </div>
-    </section>
-  
-</main>
+ </div>
 
-
-
-<style>
-
-
-
-
-</style>
-
-
-
-
+ </main>
+ 
+ 
