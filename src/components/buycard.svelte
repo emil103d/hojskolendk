@@ -2,7 +2,7 @@
   import PrimaryButton from "./primarybutton.svelte";
 </script>
 
-<section class="flex flex-row gap-40">
+<section class="buynow flex flex-wrap flex-row gap-40">
   <div><p class="">SRI LANKA, MALDIVERNE & THAILAND</p></div>
   <div class="flex flex-row gap-10">
     <div class="linediv" />
@@ -39,5 +39,11 @@
 
   p {
     font-weight: 100;
+  }
+
+  @media screen and (max-width: 500px) {
+    .buynow {
+      background-color: aquamarine;
+    }
   }
 </style>
