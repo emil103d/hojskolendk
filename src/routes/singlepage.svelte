@@ -14,7 +14,7 @@
 </script>
 
 <main>
-  <section class="grid-cols-5 hidden md:grid lg:gap-20">
+  <section class="grid-cols-7 hidden md:grid lg:gap-20">
     <sidebar id="navbar" class="block cols-start-1">
       <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
       <button class="" on:click={() => (activetab = Tab1)}
