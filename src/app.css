@@ -193,6 +193,7 @@ sidebar button {
   color: inherit;
   border: none;
   outline: inherit;
+  border-radius: 0;
 }
 
 sidebar button:hover {
