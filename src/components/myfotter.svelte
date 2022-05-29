@@ -1,9 +1,9 @@
 <script>
   import SecondaryButton from "../components/secondarybutton.svelte";
-  import BuyCard from "../components/buycard.svelte";
+  // import BuyCard from "../components/buycard.svelte";
 </script>
 
-<BuyCard />
+<!-- <BuyCard /> -->
 
 <div class="bgfooter">
   <div class="maxwidthwrapper">
@@ -13,8 +13,11 @@
         <div class="cirkel m-auto grid justify-center">
           <img src="src/_icons/call.png" alt="telefon ikon" />
         </div>
+<<<<<<< HEAD
         <p>Ring til os</p>
         
+=======
+>>>>>>> dfba80aa8705e4c6c713e9dda5a8a57658c85248
       </div>
       <div>
         <!-- hvid cirkel -->
@@ -22,8 +25,11 @@
           <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/brev.png" alt="brev ikon" />
           </div>
+<<<<<<< HEAD
           <p>Skriv til os</p>
           
+=======
+>>>>>>> dfba80aa8705e4c6c713e9dda5a8a57658c85248
         </div>
       </div>
       <div>
@@ -32,8 +38,11 @@
           <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/messenger.png" alt="chat ikon" />
           </div>
+<<<<<<< HEAD
           <p>Chat med os</p>
           
+=======
+>>>>>>> dfba80aa8705e4c6c713e9dda5a8a57658c85248
         </div>
       </div>
       <div>
@@ -42,8 +51,11 @@
           <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/people.png" alt="brev ikon" />
           </div>
+<<<<<<< HEAD
           <p>Infomøder</p>
         
+=======
+>>>>>>> dfba80aa8705e4c6c713e9dda5a8a57658c85248
         </div>
       </div>
     </div>

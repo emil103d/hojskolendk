@@ -17,6 +17,7 @@
 <style>
   div {
     min-height: 24rem;
+    min-width: 15rem;
   }
 
   img {
