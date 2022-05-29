@@ -208,7 +208,7 @@ sidebar {
 }
 
 sidebar h2 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 sidebar button {
@@ -219,6 +219,9 @@ sidebar button {
   border: none;
   outline: inherit;
   border-radius: 0;
+  padding: 0;
+  padding-bottom: 0.3rem;
+  font-size: 0.75rem;
 }
 
 sidebar button:hover {
