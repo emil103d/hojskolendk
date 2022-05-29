@@ -17,7 +17,7 @@
 <Header imgtitle="src/_images/1.jpg" />
 
 <main class="max_width_single relative">
-  <section class="custom_grid hidden md:grid md:gap-10 lg:gap-20">
+  <section class="md:custom_grid hidden md:grid md:gap-10 lg:gap-20">
     <sidebar id="navbar" class="block cols-start-1 top-0 sticky mt-10 mb-10">
       <div class="sticky top-28">
       <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
@@ -103,10 +103,6 @@
   button:hover {
     border-bottom: 2px solid #545454;
     font-weight: 800;
-  }
-
-  .custom_grid {
-    grid-template-columns: 200px 1fr;
   }
 
   .max_width_single {
