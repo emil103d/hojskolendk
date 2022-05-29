@@ -52,6 +52,11 @@
 </script>
 
 <Header imgtitle="src/_images/1.jpg" />
+<div class="m-9 preh2">
+  <a href="indec">FORSIDE /</a>
+  <a href="alleophold" class="underline preh2">ALLE OPHOLD</a>
+</div>
+
 <section class="maxwidthwrapper text-center justify-center">
   <h2>Hvor drømmer du om at rejse hen?</h2>
   <p>
