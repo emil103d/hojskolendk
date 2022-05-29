@@ -21,16 +21,13 @@
     <sidebar id="navbar" class="block cols-start-1 top-0 sticky mt-10 mb-10">
       <div class="sticky top-28">
       <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
-      <button class="" on:click={() => (activetab = Tab1)}
-        >OPHOLDSOVERSIGT</button
-      >
+      <button class="" on:click={() => (activetab = Tab1)}>OPHOLDSOVERSIGT</button>
       <button on:click={() => (activetab = Tab2)}>HVAD ER INKLUDERET</button>
       <button on:click={() => (activetab = Tab3)}>PROGRAM</button>
       <button on:click={() => (activetab = Tab4)}>UNDERVISNINGEN</button>
       <button on:click={() => (activetab = Tab5)}>AFREJSEDATOER</button>
       <button on:click={() => (activetab = Tab6)}>DOGT AT VIDE</button>
       <button on:click={() => (activetab = Tab7)}>FRIUGER</button>
-
       <button on:click={() => (activetab = Tab8)}>ADVENTURE</button>
       <button on:click={() => (activetab = Tab9)}>REJSEBREVE</button>
       <button on:click={() => (activetab = Tab10)}>DIN REJSELEDER</button>

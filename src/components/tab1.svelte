@@ -11,49 +11,49 @@
     </section>
 
     <!-- SECTION 2 -->
-  <section>
+  <section class="">
     <div class="container grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center">
       <div class="col-start-1 row-start-1 infobokse">
           <img class="h-8 w-auto m-auto" src="src/_icons/destination.png" alt="">
-          <h3>Destinationer</h3>
-          <p>Sri Lanka, Maldiverne & Thailand</p>
+          <h4>Destinationer</h4>
+          <p class="table">Sri Lanka, Maldiverne & Thailand</p>
       </div>
       <div class="col-start-2 row-start-1 infobokse"> 
         <img class="h-8 w-auto m-auto" src="src/_icons/calender.png" alt="">
-        <h3>Varighed</h3>
+        <h4>Varighed</h4>
         <p>3 måneder</p>
       </div>
       <div class="col-start-1 row-start-2 lg:col-start-3 lg:row-start-1 infobokse">
         <img class="h-8 w-auto m-auto" src="src/_icons/faelleskab.png" alt="">
-        <h3>Undervisning </h3> 
+        <h4>Undervisning </h4> 
         <p>Selvudvikling & Kommunikation</p> 
       </div>
       <div class="col-start-2 row-start-2 lg:row-start-1 lg:col-start-4 infobokse "> 
         <img class="h-8 w-auto m-auto" src="src/_icons/price.png" alt="">
-        <h3>Pris </h3> 
+        <h4>Pris </h4> 
         <p>59.700 DKK</p> 
       </div>
     </div>
   </section>
 
+  <!-- SECTION 3 -->
   <section class="baggrund-klode relative py-4 h-full items-center justify-center">
-    <div class="grid">
-    <div class="">
-      <p>Hvad vi har planlagt</p>
-      <h2>Overblik</h2>
-    </div>
-    <div class="grid custom_grid">
-      <div> 
-        
+    <div class="grid align-middle">
+      <div class="">
+        <p>Hvad vi har planlagt</p>
+        <h2>Overblik</h2>
       </div>
 
+    <div class="grid custom_grid">
+      <div> 
+      </div>
       <div class="overflow-scroll max-h-[30vh] max-w-[500px] relative bg-gray-300  p-4 grid gap-4">
         <div>
             <div class="flex gap-2 items-center">
               <img class="h-8" src="src/_icons/destination.png" alt="">
               <div>
                 <p> <b>Uge 1</b> </p>
-                <p>Rejsen starter i København lufthavn.</p> 
+                <p>Introdage i Dubai</p> 
               </div>
             </div>
         </div>
@@ -63,97 +63,95 @@
             <img class="h-8" src="src/_icons/destination.png" alt="">
             <div>
               <p> <b>Uge 2</b> </p>
-              <p>Rejsen starter i København lufthavn.</p> 
+              <p>Projektstyring & Teambuilding</p> 
             </div>
           </div>
-      </div>
+        </div>
 
-      <div>
-        <div class="flex gap-2 items-center">
-          <img class="h-8" src="src/_icons/destination.png" alt="">
-          <div>
-            <p> <b>Uge 3</b> </p>
-            <p>Rejsen starter i København lufthavn.</p> 
+        <div>
+          <div class="flex gap-2 items-center">
+            <img class="h-8" src="src/_icons/destination.png" alt="">
+            <div>
+              <p> <b>Uge 3</b> </p>
+              <p>Projektstyring & Teambuilding</p> 
+            </div>
           </div>
         </div>
-    </div>
 
-    <div>
-      <div class="flex gap-2 items-center">
-        <img class="h-8" src="src/_icons/destination.png" alt="">
         <div>
-          <p> <b>Uge 4</b> </p>
-          <p>Rejsen starter i København lufthavn.</p> 
+          <div class="flex gap-2 items-center">
+            <img class="h-8" src="src/_icons/destination.png" alt="">
+            <div>
+              <p> <b>Uge 4</b> </p>
+              <p>Projektstyring & Teambuilding</p> 
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex gap-2 items-center">
+            <img class="h-8" src="src/_icons/destination.png" alt="">
+            <div>
+              <p> <b>Uge 5</b> </p>
+              <p>Friuge på egen hånd</p> 
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex gap-2 items-center">
+            <img class="h-8" src="src/_icons/destination.png" alt="">
+            <div>
+              <p> <b>Uge 6</b> </p>
+              <p>Selvudvikling & Kommunikation</p> 
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex gap-2 items-center">
+            <img class="h-8" src="src/_icons/destination.png" alt="">
+            <div>
+              <p> <b>Uge 7</b> </p>
+              <p>Selvudvikling & Kommunikation</p> 
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex gap-2 items-center">
+            <img class="h-8" src="src/_icons/destination.png" alt="">
+            <div>
+              <p> <b>Uge 8</b> </p>
+              <p>Selvudvikling & Kommunikation</p> 
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex gap-2 items-center">
+            <img class="h-8" src="src/_icons/destination.png" alt="">
+            <div>
+              <p> <b>Uge 9</b> </p>
+              <p>Friuge på egen hånd</p> 
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="flex gap-2 items-center">
+            <img class="h-8" src="src/_icons/destination.png" alt="">
+            <div>
+              <p> <b>Uge 10</b> </p>
+              <p>Outrotur</p> 
+            </div>
+          </div>
         </div>
       </div>
-  </div>
-
-  <div>
-    <div class="flex gap-2 items-center">
-      <img class="h-8" src="src/_icons/destination.png" alt="">
-      <div>
-        <p> <b>Uge 5</b> </p>
-        <p>Rejsen starter i København lufthavn.</p> 
-      </div>
     </div>
-</div>
-
-<div>
-  <div class="flex gap-2 items-center">
-    <img class="h-8" src="src/_icons/destination.png" alt="">
-    <div>
-      <p> <b>Uge 6</b> </p>
-      <p>Rejsen starter i København lufthavn.</p> 
-    </div>
-  </div>
-</div>
-
-<div>
-  <div class="flex gap-2 items-center">
-    <img class="h-8" src="src/_icons/destination.png" alt="">
-    <div>
-      <p> <b>Uge 7</b> </p>
-      <p>Rejsen starter i København lufthavn.</p> 
-    </div>
-  </div>
-</div>
-
-<div>
-  <div class="flex gap-2 items-center">
-    <img class="h-8" src="src/_icons/destination.png" alt="">
-    <div>
-      <p> <b>Uge 8</b> </p>
-      <p>Rejsen starter i København lufthavn.</p> 
-    </div>
-  </div>
-</div>
-
-<div>
-  <div class="flex gap-2 items-center">
-    <img class="h-8" src="src/_icons/destination.png" alt="">
-    <div>
-      <p> <b>Uge 9</b> </p>
-      <p>Rejsen starter i København lufthavn.</p> 
-    </div>
-  </div>
-</div>
-
-<div>
-  <div class="flex gap-2 items-center">
-    <img class="h-8" src="src/_icons/destination.png" alt="">
-    <div>
-      <p> <b>Uge 10</b> </p>
-      <p>Rejsen starter i København lufthavn.</p> 
-    </div>
-  </div>
-</div>
-      </div>
-    </div>
-
-
-
   </section>
 
+  <!-- SECTION 4 -->
   <section>
     <p>Følg opholdet</p>
     <h2>Instafeed #hojskolendk</h2>
@@ -184,11 +182,16 @@
 
  .baggrund-klode {
   background-image: url(src/_images/verdenskort_m_destinationer.png);
+  background-position: 50%;
   height: 50vh;
  }
 
  .custom_grid {
     grid-template-columns: auto 400px;
+  }
+
+  .table {
+    font-size: var(--font_p_table);
   }
 
 
