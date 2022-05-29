@@ -2,7 +2,7 @@
   import PrimaryButton from "./primarybutton.svelte";
 </script>
 
-<section class="pr-8 pl-8 fixed bottom-0 left-0 bg-white w-">
+<section class="pr-8 pl-8 fixed bottom-0 left-0 bg-white/95">
   <div class="flex flex-row gap-8">
     <div><p><strong>REJS TIL SRI LANKA, MALDIVERNE & THAILAND</strong></p></div>
     <div class="hidden lg:flex lg:flex-row lg:gap-10">

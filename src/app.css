@@ -177,6 +177,33 @@ button:hover,
   border: solid 1px white;
 }
 
+sidebar {
+  background-color: var(--hvid);
+  max-width: 220px;
+}
+
+sidebar h2 {
+  font-size: 1.7rem;
+}
+
+sidebar button {
+  color: black;
+  box-shadow: none;
+  background: none;
+  color: inherit;
+  border: none;
+  outline: inherit;
+}
+
+sidebar button:hover {
+  color: black;
+  box-shadow: none;
+  background: none;
+  color: inherit;
+  border: none;
+  outline: inherit;
+}
+
 /* ---------------Buttons slut  -----------------*/
 
 /* ---------------Footer start  -----------------*/
