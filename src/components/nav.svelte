@@ -17,14 +17,17 @@
 
   // Attach media query listener on mount hook
   onMount(() => {
-    const mediaListener = window.matchMedia("(max-width: 1000px)");
+    const mediaListener = window.matchMedia("(max-width: 800px)");
 
     mediaListener.addListener(mediaQueryHandler);
   });
 </script>
 
 <nav class="w-screen flex md:grid md:grid-cols-3">
-  <img class="" src="../src/_logo/logohvid.png" alt="logo hvid" />
+  <a href="/index">
+    <img class="" src="../src/_logo/logohvid.png" alt="logo hvid" /></a
+  >
+
   <div class="inner  justify-end ">
     <div
       on:click={handleMobileIconClick}
@@ -33,9 +36,9 @@
       <div class="middle-line" />
     </div>
     <ul class={`navbar-list${showMobileMenu ? " mobile" : ""}`}>
-      <li id="" class="bg-black md:hidden">
+      <li id="" class="bg-black lg:hidden">
         <div
-          class="accordion justify-center flex-col flex overflow-y-scroll pb-10 flex-nowrap"
+          class="accordion flex-col flex overflow-scroll max-h-[90vh] pb-10 flex-nowra"
         >
           <!--  Panel 1  -->
           <div class="">
@@ -155,7 +158,7 @@
               class="relative block bg-black text-white p-4 shadow border-b border-grey"
               >Elevforening</label
             >
-            <div class="accordion__content overflow-hidden bg-grey-lighter">
+            <div class="accordion__content overflow-hidden ">
               <ul class="accordion__body p-4" id="panel1">
                 <li class="text-white"><a href="/#">Kommende Events</a></li>
                 <li class="text-white"><a href="/#">Elev Ambasadører</a></li>
@@ -187,14 +190,15 @@
           </a>
           <div
             id="hover_underkategori"
-            class="hidden p-4 pb-6 group-hover:grid absolute pin-r top-full grid-cols-3 grid-rows-2 bg-black -left-2/3"
+            class="hidden p-4 pb-6 group-hover:grid absolute pin-r top-full grid-cols-3 grid-rows-2 bg-black -left-full"
           >
             <div id="hover_underkategori" class="col-span-3 flex items-center">
               <img class="ikoner" src="../src/_icons/flyafgang.png" alt="" />
 
               <a
                 href="/alleophold"
-                class="block text-left py-3 px-3 text-white text-lg "
+                id="topnav_titel"
+                class="block text-left py-3 px-3 text-white"
               >
                 Se alle ophold
               </a>
@@ -204,7 +208,7 @@
               <div class="flex items-center">
                 <img class="ikoner" src="../src/_icons/flyafgang.png" alt="" />
 
-                <h4 class="text-white">5 uger</h4>
+                <p class="text-white">5 uger</p>
               </div>
               <ul class="block">
                 <li class="text-white flex items-center">
@@ -239,7 +243,7 @@
               <div class="flex items-center">
                 <img class="ikoner" src="../src/_icons/flyafgang.png" alt="" />
 
-                <h4 class="text-white">2 måneder ophold</h4>
+                <p class="text-white">2 måneders ophold</p>
               </div>
               <ul class="block">
                 <li class="text-white flex items-center">
@@ -274,7 +278,7 @@
               <div class="flex items-center">
                 <img class="ikoner" src="../src/_icons/flyafgang.png" alt="" />
 
-                <h4 class="text-white">3 måneders ophold</h4>
+                <p class="text-white">3 måneders ophold</p>
               </div>
               <ul class="block">
                 <li class="text-white flex items-center">
@@ -308,7 +312,7 @@
           </div>
         </div>
       </li>
-      <li class="hidden md:block">
+      <li class="hidden lg:block">
         <div class="group relative h-full">
           <a
             href="/infomode"
@@ -318,7 +322,7 @@
           </a>
         </div>
       </li>
-      <li class="hidden md:block">
+      <li class="hidden lg:block">
         <div class="group relative h-full">
           <a
             href="/#"
@@ -391,9 +395,8 @@
               </li>
             </ul>
             <div class="footer_some mr-3 mb-6">
-              <div class="h-1 w-full bg-slate-500 pr-12" />
-              <p class="text-center">#hojskolen dk</p>
-              <div>
+              <div class="h-0.5 mt-2 w-48 bg-gray-800 pr-12" />
+              <div class="mt-5">
                 <svg
                   width="202"
                   height="30"
@@ -447,7 +450,7 @@
           </div>
         </div>
       </li>
-      <li class="hidden md:block">
+      <li class="hidden lg:block">
         <div class="group relative h-full">
           <a
             href="/#"
@@ -469,29 +472,37 @@
           <div
             class="hidden group-hover:block absolute pin-r top-full w-48 bg-black"
           >
-            <a
-              href="/#"
-              class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
-            >
-              My Account
-            </a>
-            <a
-              href="/#"
-              class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
-            >
-              Edit Account
-            </a>
-            <a
-              href="/#"
-              class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
-            >
-              Logout
-            </a>
+            <ul>
+              <li>
+                <a
+                  href="/#"
+                  class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
+                >
+                  Kommende Events
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/#"
+                  class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
+                >
+                  Elev Ambassadøre
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/#"
+                  class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
+                >
+                  REUIONEN 2022
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </li>
     </ul>
-    <button class="hidden md:block">TILMELD INFOMØDE</button>
+    <button class="hidden lg:block">TILMELD INFOMØDE</button>
   </div>
 </nav>
 
@@ -525,14 +536,14 @@
     margin: 1rem;
   }
   .inner {
-    max-width: 980px;
+    max-width: 900px;
     padding-left: 20px;
     margin: auto;
     box-sizing: border-box;
     display: flex;
     align-items: center;
     height: 100%;
-    width: 40rem;
+    width: 65vw;
   }
 
   button {
@@ -613,7 +624,7 @@
     height: calc(100% - 100px);
     bottom: 0;
     left: 0;
-    width: 100vw;
+    /* width: 100vw; */
   }
 
   .navbar-list li {
@@ -664,6 +675,10 @@
 
   #hover_underkategori {
     width: 56rem;
+  }
+
+  #topnav_titel {
+    font-size: var(--font_h4);
   }
 
   @media only screen and (min-width: 1000px) {
