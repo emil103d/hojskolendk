@@ -111,4 +111,18 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
   #section_2 {
     background-color: var(--sandbeach);
   }
+
+  #statistik_sektion {
+    background-image: url(../src/_icons/airplane_earth.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    padding-bottom: 10rem;
+  }
+
+  #statistik_sektion h3 {
+    color: #122554;
+    font-family: var(--h1_text);
+    font-size: 8rem;
+  }
 </style>
