@@ -12,16 +12,24 @@
         <!-- hvid cirkel -->
         <div class="cirkel m-auto grid justify-center">
           <img src="src/_icons/call.png" alt="telefon ikon" />
-          <p>Ring til os</p>
         </div>
+<<<<<<< HEAD
+        <p>Ring til os</p>
+        
+=======
+>>>>>>> dfba80aa8705e4c6c713e9dda5a8a57658c85248
       </div>
       <div>
         <!-- hvid cirkel -->
         <div>
           <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/brev.png" alt="brev ikon" />
-            <p>Skriv til os</p>
           </div>
+<<<<<<< HEAD
+          <p>Skriv til os</p>
+          
+=======
+>>>>>>> dfba80aa8705e4c6c713e9dda5a8a57658c85248
         </div>
       </div>
       <div>
@@ -29,8 +37,12 @@
         <div>
           <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/messenger.png" alt="chat ikon" />
-            <p>Chat med os</p>
           </div>
+<<<<<<< HEAD
+          <p>Chat med os</p>
+          
+=======
+>>>>>>> dfba80aa8705e4c6c713e9dda5a8a57658c85248
         </div>
       </div>
       <div>
@@ -38,8 +50,12 @@
         <div>
           <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/people.png" alt="brev ikon" />
-            <p>Infomøder</p>
           </div>
+<<<<<<< HEAD
+          <p>Infomøder</p>
+        
+=======
+>>>>>>> dfba80aa8705e4c6c713e9dda5a8a57658c85248
         </div>
       </div>
     </div>
