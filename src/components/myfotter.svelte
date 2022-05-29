@@ -12,8 +12,8 @@
         <!-- hvid cirkel -->
         <div class="cirkel m-auto grid justify-center">
           <img src="src/_icons/call.png" alt="telefon ikon" />
-          <p>Ring til os</p>
         </div>
+        <p>Ring til os</p>
         
       </div>
       <div>
@@ -21,8 +21,8 @@
         <div>
           <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/brev.png" alt="brev ikon" />
-            <p>Skriv til os</p>
           </div>
+          <p>Skriv til os</p>
           
         </div>
       </div>
@@ -31,8 +31,8 @@
         <div>
           <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/messenger.png" alt="chat ikon" />
-            <p>Chat med os</p>
           </div>
+          <p>Chat med os</p>
           
         </div>
       </div>
@@ -41,8 +41,8 @@
         <div>
           <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/people.png" alt="brev ikon" />
-            <p>Infomøder</p>
           </div>
+          <p>Infomøder</p>
         
         </div>
       </div>

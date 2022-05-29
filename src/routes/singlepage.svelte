@@ -13,9 +13,10 @@
   let activetab = Tab1;
 </script>
 
-<main class="max_width_single">
+<main class="max_width_single relative">
   <section class="custom_grid hidden md:grid md:gap-10 lg:gap-20">
-    <sidebar id="navbar" class="block cols-start-1 fixed top-[100px] block">
+    <sidebar id="navbar" class="block cols-start-1 top-0 sticky">
+      <div class="sticky top-28">
       <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
       <button class="" on:click={() => (activetab = Tab1)}
         >OPHOLDSOVERSIGT</button
@@ -30,6 +31,7 @@
       <button on:click={() => (activetab = Tab8)}>ADVENTURE</button>
       <button on:click={() => (activetab = Tab9)}>REJSEBREVE</button>
       <button on:click={() => (activetab = Tab10)}>DIN REJSELEDER</button>
+    </div>
     </sidebar>
     <svelte:component this={activetab} />
     <!-- {#if activetab === "TabA"}
@@ -107,5 +109,10 @@
   .max_width_single {
     max-width: 1400px;
   }
+
+  #navbar {
+  top: 0;
+  }
+
 
 </style>
