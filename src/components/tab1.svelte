@@ -40,40 +40,44 @@
     <p>Hvad vi har planlagt</p>
     <h2>Overblik</h2>
 
-    <div class="overflow-scroll max-h-[30vh] relative bg-gray-300 mx-3 p-4">
-      <p> <b>Uge 1</b> </p>
-      <p>Rejsen starter i København lufthavn.</p>
-
-      <p> <b>Uge 2</b> </p>
-      <p>Rejsen starter i København lufthavn.</p>
-
-      <p> <b>Uge 3</b> </p>
-      <p>Rejsen starter i København lufthavn.</p>
-
-      <p> <b>Uge 4</b> </p>
-      <p>Rejsen starter i København lufthavn.</p>
-
-      <p> <b>Uge 5</b> </p>
-      <p>Rejsen starter i København lufthavn.</p>
-
-      <p> <b>Uge 6</b> </p>
-      <p>Rejsen starter i København lufthavn.</p>
-    
-      <p> <b>Uge 7</b> </p>
-      <p>Rejsen starter i København lufthavn.</p>
-
-      <p> <b>Uge 7</b> </p>
-      <p>Rejsen starter i København lufthavn.</p>
-
-      <p> <b>Uge 7</b> </p>
-      <p>Rejsen starter i København lufthavn.</p>
-
-      <p> <b>Uge 7</b> </p>
-      <p>Rejsen starter i København lufthavn.</p>
-
-      <p> <b>Uge 7</b> </p>
-      <p>Rejsen starter i København lufthavn.</p>
+    <div class="grid custom_grid">
+      <div></div>
+      <div class="overflow-scroll max-h-[30vh] max-w-[500px] relative bg-gray-300 mx-3 p-4">
+        <p> <b>Uge 1</b> </p>
+        <p>Rejsen starter i København lufthavn.</p>
+  
+        <p> <b>Uge 2</b> </p>
+        <p>Rejsen starter i København lufthavn.</p>
+  
+        <p> <b>Uge 3</b> </p>
+        <p>Rejsen starter i København lufthavn.</p>
+  
+        <p> <b>Uge 4</b> </p>
+        <p>Rejsen starter i København lufthavn.</p>
+  
+        <p> <b>Uge 5</b> </p>
+        <p>Rejsen starter i København lufthavn.</p>
+  
+        <p> <b>Uge 6</b> </p>
+        <p>Rejsen starter i København lufthavn.</p>
+      
+        <p> <b>Uge 7</b> </p>
+        <p>Rejsen starter i København lufthavn.</p>
+  
+        <p> <b>Uge 7</b> </p>
+        <p>Rejsen starter i København lufthavn.</p>
+  
+        <p> <b>Uge 7</b> </p>
+        <p>Rejsen starter i København lufthavn.</p>
+  
+        <p> <b>Uge 7</b> </p>
+        <p>Rejsen starter i København lufthavn.</p>
+  
+        <p> <b>Uge 7</b> </p>
+        <p>Rejsen starter i København lufthavn.</p>
+      </div>
     </div>
+
   </section>
 
   <section>
@@ -105,8 +109,12 @@
   }
 
  .baggrund-klode {
-  background-color: red;
+  background-image: url(src/);
  }
+
+ .custom_grid {
+    grid-template-columns: auto 400px;
+  }
 
 
 </style>
