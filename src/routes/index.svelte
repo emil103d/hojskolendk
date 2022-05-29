@@ -18,8 +18,10 @@
 </header>
 
 <!-- section #1 start -->
-<section class="flex justify-center items-center gap-8 mt-40">
-  <article class="max-w-md ml-10 md:ml-32">
+<section
+  class="maxwidthwrapper pt-20 md:pt-0 md:flex md:justify-center md:gap-8"
+>
+  <article class="">
     <p class="preh2">VI ER</p>
     <h2>REJSEEVENTYR, SOMMER VIBES & ET FÆLLESSKAB I VERDENSKLASSE</h2>
     <p>
@@ -33,24 +35,24 @@
     <button>JOIN OS TIL INFOMØDE</button>
   </article>
   <img
-    class=""
+    class="md:w-96 "
     src="../src/_images/2.jpg"
     alt="Unge glade mennesker der er med på et højskoleophold"
   />
 </section>
-
 <!-- section #1 slut -->
+
 <!-- section #2 Start -->
-<section class="maxwidthwrappper">
+<section class="maxwidthwrapper mx-auto m-4 pb-0">
   <p class="preh2">VI ELSKER VORES ELEVER OG VORES ELEVER ELSKER OS</p>
   <h2>VORES ELEVER PÅ TRUSTPILOT</h2>
   <img src="../src/_logo/trustpilot_logo.png" alt="" />
-  <div class="flex gap-5 mt-10 m-5 mx-auto justify-center">
+  <div class="md:flex grid gap-16 md:gap-5 mt-10 m-5 mx-auto justify-center">
     <CardTrustpilot
       title="Venskaber for livet"
       text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK"
       image="../src/_images/2.jpg"
-      name=" Camilla Jensen"
+      name=" Jackie Salomonsen"
     />
     <CardTrustpilot
       image="../src/_images/2.jpg"
@@ -61,8 +63,8 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     />
     <CardTrustpilot
       image="../src/_images/2.jpg"
-      title="Fantastisk rejse"
-      name=" Camilla Jensen"
+      title="Uforglemmeligt"
+      name=" Søren Reves"
       text="
 
 Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber med mig for livet. Og så var det en stor udviklingsrejse både gennem undervisningen men lige så meget ved friheden til at rejse på egen hånd og stå på egne ben."
@@ -71,21 +73,27 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
 </section>
 
 <!-- Statistik sektion start -->
-<section id="statistik_sektion" class="maxwidthwrappper text-center w-full">
+<section
+  id="statistik_sektion"
+  class="maxwidthwrappper text-center w-full p-20 md:p-64"
+>
   <h2 class="mb-5">ELSKET AF 2.500+ ELEVER</h2>
-  <div class="flex gap-10 mx-auto justify-center">
-    <div class="max-w-xs">
-      <h3>4,8</h3>
-      <p>PÅ TRUSTPILOT</p>
-      <img class="w-40" src="../src/_icons/5star.png" alt="" />
-    </div>
-    <div class="max-w-xs">
-      <h3>16</h3>
+  <div class="grid gap-6 md:flex md:gap-10 md:mx-auto md:justify-center">
+    <div class="md:max-w-xs">
+      <h3 cl>16</h3>
       <p>ADVENTUREFYLDTE DESTINATIONER</p>
     </div>
-    <div class="max-w-xs">
+    <div class="md:max-w-xs">
+      <h3>4,8</h3>
+      <p>PÅ TRUSTPILOT</p>
+      <img class="md:max-w-xs" src="../src/_icons/5star.png" alt="" />
+    </div>
+
+    <div class="md:max-w-xs">
       <h3>106.785</h3>
-      <p>KVADRATMETER FREDET REGNSKOV TIL BEVARELSE AF VERDENS SKOVE</p>
+      <p class="max-w-xs m-auto">
+        KVADRATMETER FREDET REGNSKOV TIL BEVARELSE AF VERDENS SKOVE
+      </p>
     </div>
   </div>
 </section>
@@ -115,14 +123,17 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
   #statistik_sektion {
     background-image: url(../src/_icons/airplane_earth.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: 80%;
-    padding-bottom: 10rem;
+    background-position: 50%;
+    background-size: 100%;
   }
 
   #statistik_sektion h3 {
     color: #122554;
     font-family: var(--h1_text);
-    font-size: 8rem;
+    font-size: var(--font_talsek);
+  }
+  #statistik_sektion img {
+    width: 200px;
+    margin: 0 auto;
   }
 </style>

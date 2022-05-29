@@ -42,6 +42,7 @@
     --font_knap_s: 15px;
     --font_knap_m: clamp(0.75rem, 0.65625rem + 0.375vw, 0.9375rem);
     --font_knap_l: clamp(1rem, 0.625rem + 1.5000000000000002vw, 1.5625rem);
+    --font_talsek: clamp(3rem, 0.21875rem + 0.125vw, 5rem);
 
     /* BORDER RADIUS */
     /* knapper */
@@ -81,14 +82,17 @@
     color: var(--txtcolor);
   }
 
-  section {
-    margin-top: 2.8125rem;
-    margin-bottom: 2.8125rem;
-  }
+  /* section {
+    padding-top: 8rem;
+    margin-bottom: 2rem;
+  } */
 
   .maxwidthwrapper {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 1rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
   }
 
   /* Skrift */
@@ -149,8 +153,7 @@
   .hero-image {
     height: 80%;
     width: 100%;
-    top: 0%;
-    left: 0%;
+    top: 80%;
     filter: brightness(80%);
   }
 
@@ -208,7 +211,7 @@ sidebar {
 }
 
 sidebar h2 {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
 }
 
 sidebar button {
@@ -219,6 +222,9 @@ sidebar button {
   border: none;
   outline: inherit;
   border-radius: 0;
+  padding: 0;
+  padding-bottom: 0.3rem;
+  font-size: 0.75rem;
 }
 
 sidebar button:hover {
@@ -329,6 +335,10 @@ footer hr {
 /* !!!!!MOBILE ABOWE - WEB BELOW !!!!!!!!!!MOBILE ABOWE - WEB BELOW !!!!!!!!!!MOBILE ABOWE - WEB BELOW !!!!! */
 
 @media screen and (min-width: 700px) {
+  .maxwidthwrapper {
+    padding-top: 8rem;
+    padding-bottom: 0;
+  }
   /* ----------- header start -------------- */
 
   .hero-text {
