@@ -34,11 +34,13 @@
     </p>
     <button>JOIN OS TIL INFOMØDE</button>
   </article>
-  <img
-    class="md:w-96 "
-    src="../src/_images/2.jpg"
-    alt="Unge glade mennesker der er med på et højskoleophold"
-  />
+  <div>
+    <img
+      class=""
+      src="../src/_images/2.jpg"
+      alt="Unge glade mennesker der er med på et højskoleophold"
+    />
+  </div>
 </section>
 <!-- section #1 slut -->
 
@@ -114,6 +116,11 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
 <style>
   section {
     overflow: hidden;
+  }
+
+  img .firstsection {
+    width: 30vw;
+    height: 300px;
   }
 
   #section_2 {
