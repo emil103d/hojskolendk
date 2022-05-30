@@ -114,7 +114,8 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 <!-- Statistik sektion start -->
 <section
   id="statistik_sektion"
-  class="maxwidthwrapper text-center w-full md:p-64">
+  class="maxwidthwrapper text-center w-full md:p-64 min-h-[35vh] grid items-center justify-center">
+  <div class="">
   <h2 class="mb-5 hidden">ELSKET AF 2.500+ ELEVER</h2>
   
   <div class="grid gap-6 md:flex md:gap-10 md:mx-auto md:justify-center">
@@ -138,6 +139,23 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
       </p>
     </div>
   </div>
+</div>
+</section>
+
+<section class="maxwidthwrapper">
+  <p class="preh2">WE'RE SOCIAL</p>
+  <h2>FØLG VORES REJSEEVENTYR PÅ INSTAGRAM - #HOJSKOLENDK </h2>
+  <div class="grid grid-rows-3 md:grid-cols-2 lg:grid-cols-3">
+    <img class="md:row-start-1 md:col-start-1" src="src/_images/dykke.webp" alt="">
+    <img class="md:row-start-1 md:col-start-2" src="src/_images/dykke.webp" alt="">
+    <img class="md:row-start-1 md:col-start-3" src="src/_images/dykke.webp" alt="">
+    <img class="md:row-start-2 md:col-start-1 hidden md:grid" src="src/_images/dykke.webp" alt="">
+    <img class="md:row-start-2 md:col-start-2 hidden md:grid" src="src/_images/dykke.webp" alt="">
+    <img class="md:row-start-2 md:col-start-3 hidden md:grid" src="src/_images/dykke.webp" alt="">
+    <img class="md:row-start-3 md:col-start-1 hidden lg:grid" src="src/_images/dykke.webp" alt="">
+    <img class="md:row-start-3 md:col-start-2 hidden lg:grid" src="src/_images/dykke.webp" alt="">
+    <img class="md:row-start-3 md:col-start-3 hidden lg:grid" src="src/_images/dykke.webp" alt="">
+  </div>
 </section>
 
 <!-- Statistik section  slut -->
@@ -160,9 +178,10 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 
   #statistik_sektion {
     background-image: url(../src/_icons/airplane_earth.png);
-    background-repeat: no-repeat;
+    background-size: cover;
     background-position: 50%;
-    background-size: 110%;
+    background-repeat: no-repeat;
+    ;
   }
 
   #statistik_sektion h3 {
