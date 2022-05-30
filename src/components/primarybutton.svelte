@@ -1,14 +1,13 @@
 <script></script>
 
-<button id="primarybutton"> <slot /> </button>
+<button class="primarybutton"> <slot /> </button>
 
 <style>
   .primarybutton {
-    border: 1px solid blue;
+    border: 1px solid transparent;
     -webkit-transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
     transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
   }
-
   .primarybutton::before {
     content: "";
     position: absolute;
@@ -24,11 +23,11 @@
     transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
   }
 
-  .btn6:hover::before {
+  .primarybutton:hover::before {
     width: 100%;
   }
 
-  .btn6::after {
+  .primarybutton::after {
     content: "";
     position: absolute;
     right: 0px;
@@ -40,10 +39,10 @@
     -webkit-transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
     transition: all 0.4s cubic-bezier(0.5, 0.24, 0, 1);
   }
-  .btn6:hover::after {
+  .primarybutton:hover::after {
     width: 100%;
   }
-  .btn6:hover {
+  .primarybutton:hover {
     border-left: 1px solid #6098ff;
     border-right: 1px solid #6098ff;
   }
