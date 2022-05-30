@@ -11,7 +11,7 @@
     autoplay
     src="../src/_video/herofrontpage.mp4"
   />
-  <div class="hero-text">
+  <div class="hero-text m-auto">
     <p>Rejs med HÖJSKOLENDK</p>
     <h1 class="">OG BLIV EN DEL AF FÆLLESKABET OG KOM PÅ DIT LIVS EVENTYR</h1>
   </div>
