@@ -173,7 +173,7 @@ button,
   line-height: var(--line-l);
   padding: var(--spacing-button);
   font-size: var(--font_knap_m);
-  font-weight: 200;
+  font-weight: 300;
   color: var(--hvid);
   box-shadow: 2px 2px 5px rgba(61, 60, 60, 0.3);
   margin: var(--spacing-20);
@@ -190,10 +190,7 @@ button:hover,
   white-space: nowrap;
   background-color: var(--secondary-button-cta-background-color);
   border: solid 1px white;
-  font-size: var(--font_knap_m);
-  line-height: var(--line-s);
   padding: var(--spacing-button);
-  font-size: var(--font_knap_m);
   color: var(--txtcolor);
   font-weight: 300;
 }

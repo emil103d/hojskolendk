@@ -14,7 +14,7 @@
   let activetab = Tab1;
 </script>
 
-<Header imgtitle="src/_images/1.jpg" />
+<Header imgtitle="src/_images/webp/1.webp" />
 <div class="m-9 preh2">
   <a href="indec">FORSIDE /</a>
   <a href="alleophold" class=" preh2">ALLE OPHOLD</a>
@@ -25,18 +25,20 @@
   <section class="md:custom_grid hidden md:grid md:gap-10 lg:gap-20">
     <sidebar id="navbar" class="block cols-start-1 top-0 sticky mt-10 mb-10">
       <div class="sticky top-28">
-      <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
-      <button class="" on:click={() => (activetab = Tab1)}>OPHOLDSOVERSIGT</button>
-      <button on:click={() => (activetab = Tab2)}>HVAD ER INKLUDERET</button>
-      <button on:click={() => (activetab = Tab3)}>PROGRAM</button>
-      <button on:click={() => (activetab = Tab4)}>UNDERVISNINGEN</button>
-      <button on:click={() => (activetab = Tab5)}>AFREJSEDATOER</button>
-      <button on:click={() => (activetab = Tab6)}>DOGT AT VIDE</button>
-      <button on:click={() => (activetab = Tab7)}>FRIUGER</button>
-      <button on:click={() => (activetab = Tab8)}>ADVENTURE</button>
-      <button on:click={() => (activetab = Tab9)}>REJSEBREVE</button>
-      <button on:click={() => (activetab = Tab10)}>DIN REJSELEDER</button>
-    </div>
+        <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
+        <button class="" on:click={() => (activetab = Tab1)}
+          >OPHOLDSOVERSIGT</button
+        >
+        <button on:click={() => (activetab = Tab2)}>HVAD ER INKLUDERET</button>
+        <button on:click={() => (activetab = Tab3)}>PROGRAM</button>
+        <button on:click={() => (activetab = Tab4)}>UNDERVISNINGEN</button>
+        <button on:click={() => (activetab = Tab5)}>AFREJSEDATOER</button>
+        <button on:click={() => (activetab = Tab6)}>GODT AT VIDE</button>
+        <button on:click={() => (activetab = Tab7)}>FRIUGER</button>
+        <button on:click={() => (activetab = Tab8)}>ADVENTURE</button>
+        <button on:click={() => (activetab = Tab9)}>REJSEBREVE</button>
+        <button on:click={() => (activetab = Tab10)}>DIN REJSELEDER</button>
+      </div>
     </sidebar>
     <svelte:component this={activetab} />
     <!-- {#if activetab === "TabA"}
@@ -65,7 +67,7 @@
           <button on:click={() => (activetab = Tab3)}>PROGRAM</button>
           <button on:click={() => (activetab = Tab4)}>UNDERVISNINGEN</button>
           <button on:click={() => (activetab = Tab5)}>AFREJSEDATOER</button>
-          <button on:click={() => (activetab = Tab6)}>DOGT AT VIDE</button>
+          <button on:click={() => (activetab = Tab6)}>GODT AT VIDE</button>
           <button on:click={() => (activetab = Tab7)}>FRIUGER</button>
 
           <button on:click={() => (activetab = Tab8)}>ADVENTURE</button>
