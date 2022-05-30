@@ -37,7 +37,7 @@
   <div>
     <img
       class=""
-      src="../src/_images/2.jpg"
+      src="../src/_images/webp/forside.webp"
       alt="Unge glade mennesker der er med på et højskoleophold"
     />
   </div>
@@ -142,5 +142,9 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
   #statistik_sektion img {
     width: 200px;
     margin: 0 auto;
+  }
+
+  article {
+    width: 700px;
   }
 </style>
