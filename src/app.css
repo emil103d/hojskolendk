@@ -37,7 +37,7 @@
     --font_p: clamp(1rem, 0.8125rem + 0.75vw, 1rem);
     /*tabeller og cards */
     --font_h4: clamp(1rem, 1.09375rem + 0.625vw, 1.4625rem);
-    --font_p_tabel: clamp(0.75rem, 0.65625rem + 0.375vw, 0.9375rem);
+    --font_p_tabel: clamp(0.75rem, 0.65625rem + 0.375vw, 0.8375rem);
     /* buttons */
     --font_knap_s: 15px;
     --font_knap_m: clamp(0.75rem, 0.65625rem + 0.375vw, 0.9375rem);

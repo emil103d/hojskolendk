@@ -1,10 +1,13 @@
 <script>
-  export let imgtitle;
   import MyButton from "./primarybutton.svelte";
 </script>
 
 <section>
-  <img src={imgtitle} alt="herobillede" class="hero-image" />
+  <img
+    src="src/_icons/airplane_earth.png"
+    alt="herobillede"
+    class="hero-image"
+  />
   <div class="hero-text">
     <h2>UNDSKYLD VI RODER</h2>
     <p>Siden er ved at blive bygget men</p>
