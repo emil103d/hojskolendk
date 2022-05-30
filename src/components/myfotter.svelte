@@ -11,7 +11,7 @@
       <div>
         <!-- hvid cirkel -->
         <div class="cirkel m-auto grid justify-center">
-          <img src="src/_icons/call.png" alt="telefon ikon" />
+          <img class="m-auto" src="src/_icons/call.png" alt="telefon ikon" />
         </div>
         <p>Ring til os</p>
       </div>
@@ -19,7 +19,7 @@
         <!-- hvid cirkel -->
         <div>
           <div class="cirkel m-auto grid justify-center">
-            <img src="src/_icons/brev.png" alt="brev ikon" />
+            <img class="m-auto" src="src/_icons/brev.png" alt="brev ikon" />
           </div>
           <p>Skriv til os</p>
         </div>
@@ -28,7 +28,7 @@
         <!-- hvid cirkel -->
         <div>
           <div class="cirkel m-auto grid justify-center">
-            <img src="src/_icons/messenger.png" alt="chat ikon" />
+            <img class="m-auto" src="src/_icons/messenger.png" alt="chat ikon" />
           </div>
           <p>Chat med os</p>
         </div>
@@ -37,7 +37,7 @@
         <!-- hvid cirkel -->
         <div>
           <div class="cirkel m-auto grid justify-center">
-            <img src="src/_icons/people.png" alt="brev ikon" />
+            <img class="m-auto" src="src/_icons/people.png" alt="brev ikon" />
           </div>
           <p>Infomøder</p>
         </div>
@@ -61,7 +61,7 @@
 </div>
 
 <footer>
-  <div class="footer text-center text-white">
+  <div class="footer text-center text-white py-4">
     <img src="./src/_logo/logohvid.png" alt="logo" class="w-14 h-14" />
     <div class="footer_infomode">
       <h2 class="text-white">
@@ -238,6 +238,7 @@
 
   .bgfooter {
     background-color: var(--sandbeach);
+    padding-top: 5rem;  
   }
 
   .cirkel {

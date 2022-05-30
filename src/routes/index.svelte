@@ -1,6 +1,7 @@
 <script>
   import CardTrustpilot from "../components/card_trustpilot.svelte";
   import Card from "../components/card.svelte";
+  import PrimaryButton from "../components/primarybutton.svelte"
 </script>
 
 <header class="h-full w-full"id="video">
@@ -48,7 +49,7 @@
   <div class="maxwidthwrapper">
     <p class="preh2">MANGE SPÆNDENDE DESTINATIONER</p>
     <h2 class="">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
-    <div class="flex justify-center gap-5 hover:overflow-x-scroll">
+    <div class="flex gap-5 overflow-hidden hover:overflow-x-scroll">
       <Card
         image="../src/_images/webp/ophold1.webp"
         title="Maldiverne, Sri Lanka, Bali & Gili"
@@ -66,16 +67,18 @@
         title="Costa Rica, Mexico & Guatemala"
       />
     </div>
-    <button class="primarybutton grid m-auto">UDFORSK ALLE VORES OPHOLD</button>
+    <PrimaryButton class="primarybutton">UDFORSK ALLE VORES OPHOLD</PrimaryButton>
+
   </div>
 </section>
 
 <!-- section #2 Start -->
-<section class="maxwidthwrapper mx-auto mx-4 pb-0">
+<section class="maxwidthwrapper mx-auto pb-0">
+  <div class="">
   <p class="preh2">VI ELSKER VORES ELEVER OG VORES ELEVER ELSKER OS</p>
   <h2>VORES ELEVER PÅ TRUSTPILOT</h2>
   <img src="../src/_logo/trustpilot_logo.png" alt="" />
-  <div class="md:flex grid gap-16 md:gap-5 mt-10 m-5 mx-auto justify-center">
+  <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-5 mx-auto justify-center">
     <CardTrustpilot
       title="Venskaber for livet"
       text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK"
@@ -98,13 +101,13 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber med mig for livet. Og så var det en stor udviklingsrejse både gennem undervisningen men lige så meget ved friheden til at rejse på egen hånd og stå på egne ben."
     />
   </div>
+</div>
 </section>
 
 <!-- Statistik sektion start -->
 <section
   id="statistik_sektion"
-  class="maxwidthwrappper text-center w-full p-20 md:p-64"
->
+  class="maxwidthwrapper text-center w-full md:p-64">
   <h2 class="mb-5">ELSKET AF 2.500+ ELEVER</h2>
   <div class="grid gap-6 md:flex md:gap-10 md:mx-auto md:justify-center">
     <div class="md:max-w-xs">
