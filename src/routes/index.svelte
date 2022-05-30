@@ -71,7 +71,7 @@
 </section>
 
 <!-- section #2 Start -->
-<section class="maxwidthwrapper mx-auto m-4 pb-0">
+<section class="maxwidthwrapper mx-auto mx-4 pb-0">
   <p class="preh2">VI ELSKER VORES ELEVER OG VORES ELEVER ELSKER OS</p>
   <h2>VORES ELEVER PÅ TRUSTPILOT</h2>
   <img src="../src/_logo/trustpilot_logo.png" alt="" />
