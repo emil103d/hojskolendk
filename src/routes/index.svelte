@@ -3,7 +3,7 @@
   import Card from "../components/card.svelte";
 </script>
 
-<header id="video">
+<header class="h-full w-full"id="video">
   <video
     class="z-0 hero-image"
     loop
