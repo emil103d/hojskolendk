@@ -53,18 +53,18 @@
     <CardTrustpilot
       title="Venskaber for livet"
       text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK"
-      image="../src/_images/2.jpg"
+      image="../src/_images/webp/social3.webp"
       name=" Jackie Salomonsen"
     />
     <CardTrustpilot
-      image="../src/_images/2.jpg"
+      image="../src/_images/webp/social4.webp"
       title="Fantastisk rejse"
       name=" Camilla Jensen"
       text="
 Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv i mit liv. Jeg oplevede stor professionalisme og ansvarlighed fra organisationens side, og mine rejseledere var enormt kompetente, jordnære og skabte stor tryghed i gruppen."
     />
     <CardTrustpilot
-      image="../src/_images/2.jpg"
+      image="../src/_images/webp/social6.webp"
       title="Uforglemmeligt"
       name=" Søren Reves"
       text="
@@ -106,22 +106,39 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
 
 <section id="section_2">
   <div class="maxwidthwrappper m-5 justify-center">
-    <p class="mt-10 preh2 text-center">MANGE SPÆNDENDE DESTINATIONER</p>
-    <h2 class="text-center">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
-    <div class="flex justify-center gap-5 overflow-x-scroll">
+    <p class="mt-10 preh2">MANGE SPÆNDENDE DESTINATIONER</p>
+    <h2 class="">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
+    <div class="flex justify-center gap-5 overflow-x-scroll overfl">
+      <div class="w-14 h-14 bg-white rounded-full hover:scale-110">
+        <svg
+          width="18"
+          height="27"
+          viewBox="0 0 18 27"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M16.5 26L2 13L16.5 1" stroke="black" stroke-width="2" />
+        </svg>
+      </div>
       <Card
-        image="../src/_images/2.jpg"
-        title="Maldiverne, Sri Lanka, Bali & Gili Islands"
+        image="../src/_images/webp/ophold1.webp"
+        title="Maldiverne, Sri Lanka, Bali & Gili"
       />
-      <Card image="../src/_images/2.jpg" title="Bali, Lombok & Gili Islands" />
-      <Card image="../src/_images/2.jpg" title="Caribien, Hawaii & Mexico" />
       <Card
-        image="../src/_images/2.jpg"
+        image="../src/_images/webp/ophold2.webp"
+        title="Bali, Lombok & Gili Islands"
+      />
+      <Card
+        image="../src/_images/webp/ophold3.webp"
+        title="Caribien, Hawaii & Mexico"
+      />
+      <Card
+        image="../src/_images/webp/ophold4.webp"
         title="Costa Rica, Mexico & Guatemala"
       />
     </div>
-    <button class="mx-auto">SE ALLE OPHOLD</button>
   </div>
+  <button class="primarybutton m-auto">UDFORSK ALLE VORES OPHOLD</button>
 </section>
 
 <style>
@@ -129,13 +146,12 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
     overflow: hidden;
   }
 
-  img .firstsection {
-    width: 30vw;
-    height: 300px;
-  }
-
   #section_2 {
     background-color: var(--sandbeach);
+  }
+
+  #section_2 svg {
+    margin: auto;
   }
 
   #statistik_sektion {
