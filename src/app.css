@@ -92,7 +92,8 @@
   .maxwidthwrapper {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
   }
 
   /* Skrift */
@@ -127,7 +128,7 @@
   .preh2 {
     color: var(--txtcolor-600);
     font-size: var(--font_preh2);
-    padding: var(--spacing-10);
+    padding-bottom: var(--spacing-10);
     line-height: var(--line-s);
   }
 
