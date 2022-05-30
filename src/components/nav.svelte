@@ -24,7 +24,7 @@
 </script>
 
 <nav class="w-screen flex md:grid md:grid-cols-3">
-  <a href="/index">
+  <a sveltekit:prefetch href="/">
     <img class="" src="../src/_logo/logohvid.png" alt="logo hvid" /></a
   >
 

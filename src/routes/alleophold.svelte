@@ -7,7 +7,7 @@
   import Ophold from "../components/ophold.svelte";
 
   let varighed = []; // menu built from opholdData
-  let afrejse = []; // afrejse built from opholdData
+  let afrejser = []; // afrejse built from opholdData
   let selectedvar = ""; //  menu selection
   let selectedAf = ""; //  menu selection
 
@@ -23,11 +23,11 @@
 
   const getAfrejser = () => {
     for (let opholdObj of opholdData) {
-      if (!afrejse.includes(opholdObj.af)) {
-        afrejse = [...afrejse, opholdObj.af];
+      if (!afrejser.includes(opholdObj.afrejse)) {
+        afrejser = [...afrejser, opholdObj.afrejse];
       }
     }
-    afrejse = afrejse.sort();
+    afrejser = afrejser.sort();
   };
   onMount(() => getAfrejser());
 
@@ -42,11 +42,11 @@
   $: console.log(filteredOphold, selectedAf);
 
   const getOpholdByVar = () => {
-    if (selectedvar === "all") {
+    if (selectedAf === "all" || selectedvar === "alle") {
       return (filteredOphold = []);
     }
     return (filteredOphold = opholdData.filter(
-      (ophold) => ophold.varig === selectedvar || ophold.af === selectedvar
+      (ophold) => ophold.afrejse === selectedAf || ophold.varig === selectedvar
     ));
   };
 </script>
@@ -66,11 +66,11 @@
   </p>
   <div class="flex mt-10 mb-10 justify-center ml-auto mr-auto">
     <Menu {varighed} bind:selectedvar />
-    <Afrejseselekt {afrejse} bind:selectedAf />
+    <Afrejseselekt {afrejser} bind:selectedAf />
   </div>
 </section>
 
-<main id="alleophold">
+<main id="alleophold" class="">
   {#if filteredOphold.length > 0}
     {#each filteredOphold as { title, image, subtitle, dato, afrejse, pris, undervisning, varig }}
       <Ophold
@@ -107,7 +107,12 @@
 
   /* General Structure */
   main#alleophold {
-    width: 90%;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: center;
   }
 </style>

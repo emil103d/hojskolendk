@@ -34,14 +34,14 @@
          </p>
      </div>
      <div>
-         <div class="flex overflow-x-scroll pb-10 flex-nowrap overflow-hidden">
-             <div class="flex flex-nowrap gap-2 lg:grid lg:grid-cols-3">
-                 <img class="max-w-[90vw] h-full md:w-full md:col-start-1" src="src/_images/program_2.png" alt="">
-                 <img class="max-w-[90vw] h-full md:w-full md:col-start-2" src="src/_images/program_3.png" alt="">
-                 <img class="max-w-[90vw] h-full md:w-full md:col-start-3" src="src/_images/program_4.png" alt="">
-             </div>
-           </div>
-     </div>
+        <div class="flex overflow-x-scroll pb-10 flex-nowrap overflow-hidden lg:overflow-auto">
+            <div class="flex flex-nowrap gap-2 lg:grid lg:grid-cols-3">
+                <img class="h-full" src="src/_images/program_2.png" alt="">
+                <img class="h-full" src="src/_images/program_3.png" alt="">
+                <img class="h-full" src="src/_images/program_4.png" alt="">
+            </div>
+          </div>
+    </div>
    </section>
  
  
@@ -69,11 +69,11 @@
          </p>
      </div>
      <div>
-         <div class="flex overflow-x-scroll pb-10 flex-nowrap overflow-hidden">
-             <div class="flex flex-nowrap gap-2">
-                 <img class="" src="src/_images/program_5.png" alt="">
-                 <img class="" src="src/_images/program_6.png" alt="">
-                 <img class="" src="src/_images/program_7.png" alt="">
+         <div class="flex overflow-x-scroll pb-10 flex-nowrap overflow-hidden lg:overflow-auto">
+             <div class="flex flex-nowrap gap-2 lg:grid lg:grid-cols-3">
+                 <img class="h-full" src="src/_images/program_5.png" alt="">
+                 <img class="h-full" src="src/_images/program_6.png" alt="">
+                 <img class="h-full" src="src/_images/program_7.png" alt="">
              </div>
            </div>
      </div>

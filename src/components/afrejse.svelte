@@ -1,7 +1,7 @@
 <script>
-  export let afrejse;
+  export let afrejser;
   export let selectedAf;
-  $: console.log(afrejse);
+  $: console.log(afrejser);
 </script>
 
 <!-- svelte-ignore a11y-no-onchange -->
@@ -10,8 +10,8 @@
   <select class="menu" name="menu" id="afrejseselektor" bind:value={selectedAf}>
     <option disabled selected value="">Afrejse</option>
     <option value="all">All afrejser</option>
-    {#each afrejse as af}
-      <option value={af}>{af}</option>
+    {#each afrejser as afrejse}
+      <option value={afrejse}>{afrejse}</option>
     {/each}
   </select>
 </ul>
