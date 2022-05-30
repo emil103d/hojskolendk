@@ -1,5 +1,7 @@
 <script>
   import MyButton from "./primarybutton.svelte";
+  import NextButton from "./nextbutton.svelte";
+  import GhostButton from "./ghostbutton.svelte";
 </script>
 
 <section>
@@ -14,6 +16,8 @@
     <p>tag en rundrejse på vores andre sider imens</p>
     <MyButton><a href="__layout.svelte">TAG MIG TILBAGE</a></MyButton>
   </div>
+  <NextButton>SE NÆSTE</NextButton>
+  <GhostButton>UDSOLGT</GhostButton>
 </section>
 
 <style>
