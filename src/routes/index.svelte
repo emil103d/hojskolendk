@@ -118,11 +118,11 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
   <div class="">
   <h2 class="mb-5 hidden">ELSKET AF 2.500+ ELEVER</h2>
   
-  <div class="grid gap-6 md:flex md:gap-10 md:mx-auto md:justify-center">
+  <div class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center">
     
     <div class="md:max-w-xs">
       <h3 cl>16</h3>
-      <p>ADVENTUREFYLDTE DESTINATIONER</p>
+      <p>ADVENTUREFYLDTE <br> DESTINATIONER</p>
     </div>
 
 
