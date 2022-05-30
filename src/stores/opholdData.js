@@ -25,17 +25,10 @@ export const opholdData = [
     image: "../src/_images/1.jpg",
     title: "Caribien, Hawaii & Mexico",
     subtitle: "For dig der elsker sol, sommer og højt humør",
-<<<<<<< HEAD
-    countrues: "Sri Lanka Maldiverne & Thailand",
-    dato: "14/22/2022",
-    afrejse: "Til månen",
-    pris: "fra 59.700 kr.",
-=======
     countrues: "Caribien, Hawaii & Mexico",
     dato: "01/12/2022",
     afrejse: "Efterår",
     pris: "fra 59.500 kr.",
->>>>>>> dabe26205c6215ab0a45bccc311c03fb1bd9fda8
     undervisning: "Selvudvikling og kommunikation",
     varig: "3 Måneder",
   },
