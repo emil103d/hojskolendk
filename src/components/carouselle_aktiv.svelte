@@ -30,7 +30,7 @@
       />
       <Cardfri
         image="../src/_images/webp/ophold1.webp"
-        title="Boldspil på stranden"
+        title="Yoga på stranden"
         addon="INKLUDED"
         text="Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  

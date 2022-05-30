@@ -15,18 +15,42 @@
   </section>
 
   <!-- SECTION 2 -->
-  <section class="lg:grid md:grid-cols-2">
-    <div class="lg:col-start-1">
-      <p class="preh2">ADVENTURE I FRIUGEN</p>
-      <h4>FRIUGE 1- Maldiverne</h4>
-      <p>Uendelige oplevelser og muligheder</p>
+  <section class="">
+    <div class="">
+      <p class="preh2 text-center">MALDIVERNE</p>
+      <h3 class="display text-center">FRIUGE 1</h3>
+      <p class="text-center">Eventyr, frihed og massere af oplevelser</p>
       <Carouselle_fri />
     </div>
-    <div class="lg:col-start-2">
-      <img class="w-full h-auto" src="src/_images/program_1.png" alt="" />
+  </section>
+
+  <!-- SECTION 3 -->
+  <section class="">
+    <div class="">
+      <p class="preh2 text-center">SKRI LANKA</p>
+      <h3 class="display text-center">FRIUGE 2</h3>
+      <p class="text-center">Adventure & aktion</p>
+      <Carouselle_fri />
+    </div>
+  </section>
+
+  <!-- SECTION 4 -->
+  <section class="">
+    <div class="">
+      <p class="preh2 text-center">HAWAII</p>
+      <h3 class="display text-center">FRIUGE 3</h3>
+      <p class="text-center">Afslapning, shopping og surfing</p>
+      <Carouselle_fri />
     </div>
   </section>
 </main>
 
 <style>
+  .display {
+    font-family: var(--h2_text);
+    font-size: var(--font_h2);
+    color: var(--sort);
+    line-height: var(--line-m);
+    padding: var(--spacing-10);
+  }
 </style>
