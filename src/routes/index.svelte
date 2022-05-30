@@ -1,6 +1,6 @@
 <script>
   import CardTrustpilot from "../components/card_trustpilot.svelte";
-  import Caresoule_ophold from "../components/caresoule_ophold.svelte";
+  import Card from "../components/card.svelte";
 </script>
 
 <header id="video">
@@ -104,11 +104,22 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
 
 <!-- section #2 Start -->
 
-<section id="section_2" class=" ">
-  <div class="maxwidthwrappper  justify-center">
+<section id="section_2">
+  <div class="maxwidthwrappper m-5 justify-center">
     <p class="mt-10 preh2 text-center">MANGE SPÆNDENDE DESTINATIONER</p>
     <h2 class="text-center">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
-    <Caresoule_ophold />
+    <div class="flex justify-center gap-5 overflow-x-scroll">
+      <Card
+        image="../src/_images/2.jpg"
+        title="Maldiverne, Sri Lanka, Bali & Gili Islands"
+      />
+      <Card image="../src/_images/2.jpg" title="Bali, Lombok & Gili Islands" />
+      <Card image="../src/_images/2.jpg" title="Caribien, Hawaii & Mexico" />
+      <Card
+        image="../src/_images/2.jpg"
+        title="Costa Rica, Mexico & Guatemala"
+      />
+    </div>
     <button class="mx-auto">SE ALLE OPHOLD</button>
   </div>
 </section>
