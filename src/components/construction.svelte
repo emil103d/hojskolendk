@@ -23,7 +23,6 @@
   }
 
   .hero-text {
-    background-color: rgba(255, 255, 255, 0.672);
     padding: 1rem;
     border-radius: var(--border-radius-sm);
   }

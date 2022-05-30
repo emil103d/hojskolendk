@@ -3,7 +3,7 @@
     <section >
      <h2>Mød din rejseleder</h2>
     <div class="baggrundsfarve">
-        <div class="lg:grid custom_grid">
+        <div class="xl:grid custom_grid">
             <div class="lg:col-start-1">
                 <img class="w-full " src="src/_images/anton.png" alt="">
             </div>
