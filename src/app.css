@@ -19,8 +19,9 @@
     --button-cta-background-color-hover: var(--orange);
     --button-ghost-background-color: var(--txtcolor);
 
-    --sandstone: #e7e7e7;
-    --sandbeach: #faf0dc;
+    --sandstone: #faf9f7;
+    --sandbeach: rgba(250, 240, 219, 0.5);
+    --sandbeach-500: rgba(250, 240, 219, 0.5);
     --hvid: #ffffff;
 
     --sort: #000000;
@@ -60,7 +61,7 @@
     --spacing-30: 1.875rem 0;
     --spacing-40: 2.5rem 0;
     --spacing-80: 5rem 0;
-    --spacing-button: 0.3rem 0.6rem;
+    --spacing-button: 0.6rem 0.9rem;
 
     /*LINE HIGHT */
     --line-s: 0.8;
@@ -92,8 +93,6 @@
     max-width: 1400px;
     margin: 0 auto;
     padding: 1rem;
-    padding-top: 3rem;
-    padding-bottom: 2rem;
   }
 
   /* Skrift */
@@ -164,26 +163,24 @@
 
   /* ---------------Buttons start  -----------------*/
 }
-button,
+/* button,
 .primarybutton {
   min-width: 00px;
-  background-color: var(--primary-button-cta-background-color);
-  border-radius: var(--border-radius-sm);
+  background-color: var(--orange);
   font-size: var(--font_knap_m);
   line-height: var(--line-l);
   padding: var(--spacing-button);
   font-size: var(--font_knap_m);
-  font-weight: 300;
+  font-weight: 400;
   color: var(--hvid);
-  box-shadow: 2px 2px 5px rgba(61, 60, 60, 0.3);
   border: 1px solid var(----primary-button-cta-background-color);
-}
+} */
 
-button:hover,
+/* button:hover,
 .primarybutton:hover {
   border: var(--button-cta-background-color-hover);
   background-color: var(--button-cta-background-color-hover);
-}
+} */
 
 .secondarybutton {
   white-space: nowrap;
@@ -199,6 +196,9 @@ button:hover,
   color: var(--hvid);
   border: solid 1px white;
 }
+
+/* button7 */
+
 /* ---------------Buttons slut  -----------------*/
 
 /* ---------------sidebar singlepage start -----------------*/
