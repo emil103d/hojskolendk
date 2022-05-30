@@ -70,7 +70,7 @@
   </div>
 </section>
 
-<main id="alleophold">
+<main id="alleophold" class="">
   {#if filteredOphold.length > 0}
     {#each filteredOphold as { title, image, subtitle, dato, afrejse, pris, undervisning, varig }}
       <Ophold
@@ -107,7 +107,12 @@
 
   /* General Structure */
   main#alleophold {
-    width: 90%;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
     justify-content: center;
   }
 </style>
