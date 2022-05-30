@@ -1,96 +1,326 @@
-<main class="col-start-2">
-    <!-- SECTION 1 -->
-    <section>
-     <h2>Godt at vide</h2>
-     <p>
-     Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på Rumrunners
-     eller snorkler efter havskildpadder. Derudover har vi haft en masse fede
-     ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck Island og
-     turtlewatch på programmet.
-     </p>
-  
-   
-    </section>
-  
-    <!-- SECTION 2 -->
-    <section>
-        <div class="max-w-2xl mx-auto bg-white p-16 rounded">
+<main class="col-start-2 mr-5">
+  <!-- SECTION 1 -->
+  <section>
+    <h2>Godt at vide</h2>
+    <p>
+      Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
+      Rumrunners eller snorkler efter havskildpadder. Derudover har vi haft en
+      masse fede ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck
+      Island og turtlewatch på programmet.
+    </p>
+  </section>
 
-            <div id="accordion-collapse" data-accordion="collapse">
-                <h2 id="accordion-collapse-heading-1">
-                    <button type="button" class="flex items-center focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 justify-between p-5 w-full font-medium text-left border border-gray-200 dark:border-gray-700 border-b-0 text-gray-900 dark:text-white bg-gray-100 dark:bg-gray-800 hover:bg-gray-100 dark:hover:bg-gray-800 rounded-t-xl" data-accordion-target="#accordion-collapse-body-1" aria-expanded="true" aria-controls="accordion-collapse-body-1">
-              <span>What is Flowbite?</span>
-              <svg data-accordion-icon class="w-6 h-6 shrink-0 rotate-180" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </button>
-                </h2>
-                <div id="accordion-collapse-body-1" aria-labelledby="accordion-collapse-heading-1">
-                    <div class="p-5 border border-gray-200 dark:border-gray-700 dark:bg-gray-900 border-b-0">
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is an open-source library of interactive
-                            components built on top of Tailwind CSS including buttons, dropdowns, modals, navbars, and more.</p>
-                        <p class="text-gray-500 dark:text-gray-400">Check out this guide to learn how to <a
-                                href="https://flowbite.com/docs/getting-started/introduction/" target="_blank"
-                                class="text-blue-600 dark:text-blue-500 hover:underline">get started</a> and start developing
-                            websites even faster with components on top of Tailwind CSS.</p>
-                    </div>
-                </div>
-                <h2 id="accordion-collapse-heading-2">
-                    <button type="button" class="flex items-center focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 justify-between p-5 w-full font-medium border border-gray-200 dark:border-gray-700 border-b-0 text-left text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-2" aria-expanded="false" aria-controls="accordion-collapse-body-2">
-              <span>Is there a Figma file available?</span>
-              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </button>
-                </h2>
-                <div id="accordion-collapse-body-2" class="hidden" aria-labelledby="accordion-collapse-heading-2">
-                    <div class="p-5 border border-gray-200 dark:border-gray-700 border-b-0">
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">Flowbite is first conceptualized and designed using the
-                            Figma software so everything you see in the library has a design equivalent in our Figma file.</p>
-                        <p class="text-gray-500 dark:text-gray-400">Check out the <a href="https://flowbite.com/figma/"
-                                target="_blank" class="text-blue-600 dark:text-blue-500 hover:underline">Figma design system</a>
-                            based on the utility classes from Tailwind CSS and components from Flowbite.</p>
-                    </div>
-                </div>
-                <h2 id="accordion-collapse-heading-3">
-                    <button type="button" class="flex items-center border focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-800 border-gray-200 dark:border-gray-700 justify-between p-5 w-full font-medium text-left text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-800" data-accordion-target="#accordion-collapse-body-3" aria-expanded="false" aria-controls="accordion-collapse-body-3">
-              <span>What are the differences between Flowbite and Tailwind UI?</span>
-              <svg data-accordion-icon class="w-6 h-6 shrink-0" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-            </button>
-                </h2>
-                <div id="accordion-collapse-body-3" class="hidden" aria-labelledby="accordion-collapse-heading-3">
-                    <div class="p-5 border border-gray-200 dark:border-gray-700 border-t-0">
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">The main difference is that the core components from
-                            Flowbite are open source under the MIT license, whereas Tailwind UI is a paid product. Another
-                            difference is that Flowbite relies on smaller and standalone components, whereas Tailwind UI offers
-                            sections of pages.</p>
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">However, we actually recommend using both Flowbite,
-                            Flowbite Pro, and even Tailwind UI as there is no technical reason stopping you from using the best
-                            of two worlds.</p>
-                        <p class="mb-2 text-gray-500 dark:text-gray-400">Learn more about these technologies:</p>
-                        <ul class="list-disc pl-5 dark:text-gray-400 text-gray-500">
-                            <li><a href="https://flowbite.com/pro/" target="_blank"
-                                    class="text-blue-600 dark:text-blue-500 hover:underline">Flowbite Pro</a></li>
-                            <li><a href="https://tailwindui.com/" rel="nofollow" target="_blank"
-                                    class="text-blue-600 dark:text-blue-500 hover:underline">Tailwind UI</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        
-            <p class="mt-5">This accordion component is part of a larger, open-source library of Tailwind CSS components. Learn
-                more
-                by going to the official <a class="text-blue-600 hover:underline"
-                    href="https://flowbite.com/docs/getting-started/introduction/" target="_blank">Flowbite Documentation</a>.
-            </p>
-            
+  <!-- SECTION 2 -->
+
+  <section class="mt-10">
+    <p class="preh2">Før Opholdet</p>
+    <div class="faq-drawer">
+      <input
+        class="faq-drawer__trigger"
+        id="faq-drawer"
+        type="checkbox"
+      /><label class="faq-drawer__title" for="faq-drawer"
+        >Hvornår bør jeg senest tilmelde mig?</label
+      >
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Vi anbefaler dig stærkt at tilmelde dig, lige så snart du er
+            afklaret og har besluttet dig for, at du vil med os på eventyr. Der
+            er meget stor interesse for vores højskoleophold i udlandet og på
+            mange af vores rejser har vi ofte udsolgt 5-6 måneder før afrejse –
+            og nogle gange et helt år før afrejse. Vi afholder desuden
+            afrejsemøde, for hele holdet der skal afsted, ca. 5 uger før
+            afrejse. Her møder man alle de andre elever, rejseleder og
+            undervisere og det er en rigtig hyggelig og spændende dag, som er
+            vigtig at være med på. Så er du afklaret og vil med på
+            højskoleeventyr, skal du ikke vente for længe med din tilmelding.
+          </p>
         </div>
-    </section>
-  
-  
+      </div>
+    </div>
+
+    <div class="faq-drawer">
+      <input
+        class="faq-drawer__trigger"
+        id="faq-drawer-2"
+        type="checkbox"
+      /><label class="faq-drawer__title" for="faq-drawer-2"
+        >Møder jeg de andre elever, rejselederen og underviserne inden afrejse?</label
+      >
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Ja det gør du på afrejsemødet ca. 5 uger før afrejse. Her møder du
+            også rejselederen og undervisere på dit ophold, og du kan spørge om
+            alt, du er i tvivl om, før du skal afsted på rejseeventyret. På
+            afrejsemødet fortæller vi detaljeret om højskoleopholdet,
+            destinationerne, undervisning og fag, fritidsaktiviteter, sikkerhed,
+            giver dig rejsetips og eksempel på pakkeliste, og der er rig
+            mulighed for at lære alle de andre deltagere bedre at kende. Vi
+            slutter infomødet af med lidt lækker mad og hygge.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-drawer">
+      <input
+        class="faq-drawer__trigger"
+        id="faq-drawer-3"
+        type="checkbox"
+      /><label class="faq-drawer__title" for="faq-drawer-3"
+        >Skal jeg vaccineres?</label
+      >
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Vaccinationer bør altid drøftes med egen læge først og fremmest.
+            Hvilke du skal/bør have, kommer derudover an på destination, årstid,
+            dit helbred, etc. Vi har et fint samarbejde med ‘Danske Lægers
+            Vaccinationsservice’ og her får du 15% rabat når du rejser med
+            HÖJSKOLENDK. Tjek evt. sikkerrejse.dk.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-drawer">
+      <input
+        class="faq-drawer__trigger"
+        id="faq-drawer-3"
+        type="checkbox"
+      /><label class="faq-drawer__title" for="faq-drawer-3"
+        >Hvad med rejseforsikring?</label
+      >
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Vi samarbejder med Gouda Rejseforsikring – en af DKs største og mest
+            kompetente udbydere af rejseforsikringer. Medmindre man har en
+            specialtegnet rejseforsikring, der dækker hele højskoleopholdets
+            rejseperiode, tegner man sin rejseforsikring gennem HÖJSKOLENDK. Vi
+            anbefaler Goudas ungdomsrejseforsikring ”Super” inkl. “Udvidet
+            ulykke” og vi sørger selvfølgelig for al papirarbejdet. Hvis du har
+            yderligere spørgsmål til rejseforsikring, så skriv endelig en mail
+            til os på info@hojskolendk.dk eller ring på 7027 9007.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3 -->
+
+  <section class="mt-10">
+    <p class="preh2">Under Opholdet</p>
+    <div class="faq-drawer">
+      <input
+        class="faq-drawer__trigger"
+        id="faq-drawer"
+        type="checkbox"
+      /><label class="faq-drawer__title" for="faq-drawer"
+        >Hvad sker der hvis jeg bliver syg undervejs??</label
+      >
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Så sørger vores rejseleder for at du straks kommer til lægen, hvis
+            det skulle være nødvendigt. Er det alvorligt, er du rejseforsikret
+            hos ”Gouda Rejseforsikring”, og så kontakter vi selvfølgelig dem,
+            for evt. videre forløb.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-drawer">
+      <input
+        class="faq-drawer__trigger"
+        id="faq-drawer-2"
+        type="checkbox"
+      /><label class="faq-drawer__title" for="faq-drawer-2"
+        >Møder jeg de andre elever, rejselederen og underviserne inden afrejse?</label
+      >
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Ja det gør du på afrejsemødet ca. 5 uger før afrejse. Her møder du
+            også rejselederen og undervisere på dit ophold, og du kan spørge om
+            alt, du er i tvivl om, før du skal afsted på rejseeventyret. På
+            afrejsemødet fortæller vi detaljeret om højskoleopholdet,
+            destinationerne, undervisning og fag, fritidsaktiviteter, sikkerhed,
+            giver dig rejsetips og eksempel på pakkeliste, og der er rig
+            mulighed for at lære alle de andre deltagere bedre at kende. Vi
+            slutter infomødet af med lidt lækker mad og hygge.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-drawer">
+      <input
+        class="faq-drawer__trigger"
+        id="faq-drawer-3"
+        type="checkbox"
+      /><label class="faq-drawer__title" for="faq-drawer-3"
+        >Er der krav til eleverne?</label
+      >
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Nej, du kan komme fuldstændig som du er og har lyst, blot du
+            engagerer dig i undervisningen og fællesskabet. For at få dit
+            højskolebevis, skal du desuden deltage aktivt i undervisningen.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 3 -->
+
+  <section class="mt-10">
+    <p class="preh2">Efter dit opholdet</p>
+    <div class="faq-drawer">
+      <input
+        class="faq-drawer__trigger"
+        id="faq-drawer"
+        type="checkbox"
+      /><label class="faq-drawer__title" for="faq-drawer"
+        >Kan jeg rejse videre efter mit ophold?</label
+      >
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Du kan altid fortsætte dit rejseeventyr efter dit højskoleophold.
+            Ønsker du at rejse videre efter opholdet er det dog vigtigt, at du
+            informerer os allerede ved din tilmelding, så vi kan informere vores
+            fly-samarbejdspartner Jysk Rejsebureau. NB: Ændringer i flybilletter
+            kan være dyre, hvis det gøres undervejs på dit højskoleophold.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-drawer">
+      <input
+        class="faq-drawer__trigger"
+        id="faq-drawer-2"
+        type="checkbox"
+      /><label class="faq-drawer__title" for="faq-drawer-2"
+        >Sker der noget efter mit højskoleophold?</label
+      >
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            De stærke bånd der knyttes undervejs på rejseeventyret, skal
+            selvfølgelig holdes vedlige. Derfor har vi en elevforening der bl.a.
+            arrangerer vores store reunion weekend i august, (tema)fester,
+            skitur, bifture, julefrokost, BBQ på stranden, hyggeaftener og
+            masser andet sjovt og spændende for vores tidligere elever. Det er
+            gratis at være medlem af vores elevforening og du kan glæde dig til
+            at blive en del af et stærkt, sjovt, aktivt og mangfoldigt
+            fællesskab.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="faq-drawer">
+      <input
+        class="faq-drawer__trigger"
+        id="faq-drawer-3"
+        type="checkbox"
+      /><label class="faq-drawer__title" for="faq-drawer-3"
+        >Kan jeg bruge det i min videreuddannelse eller min fremtidige kariere?</label
+      >
+      <div class="faq-drawer__content-wrapper">
+        <div class="faq-drawer__content">
+          <p>
+            Dit højskoleophold er fantastisk at have med i ”rygsækken”, og mange
+            arbejdsgivere sætter stor pris på den ballast du får med fra et
+            højskoleophold med HÖJSKOLENDK. Universiteterne vægter udlandsophold
+            og frivilligt arbejde højt og i Kvote 2 ansøgninger, er det et stort
+            plus at have været afsted med HÖJSKOLENDK. Den erfaring du får i
+            bl.a. Projektstyring & Teambuilding, Frivilligt Arbejde &
+            Kulturforståelse og Selvudvikling & Kommunikation, kan bruges
+            fagligt i mange henseender og de fleste ledere sætter stor pris på
+            at du fx ved en masse om teamdynamik, teamroller, projektledelse og
+            projektstyring, kommunikation, feedback og at du har fundet ind til
+            netop dine styrker og udviklingspunkter.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 </main>
-<script src="https://unpkg.com/flowbite@1.3.3/dist/flowbite.js"></script>
-  
+
 <style>
-    
+  .container {
+    padding: 200px;
+  }
+
+  .faq-drawer {
+    margin-bottom: 30px;
+  }
+
+  .faq-drawer__content-wrapper {
+    line-height: 1.4em;
+    max-height: 0px;
+    overflow: hidden;
+    transition: 0.25s ease-in-out;
+  }
+
+  .faq-drawer__title {
+    border-top: #000 1px solid;
+    cursor: pointer;
+    display: block;
+    padding: 30px 0 0 0;
+    position: relative;
+    margin-bottom: 0;
+    transition: all 0.25s ease-out;
+  }
+
+  .faq-drawer__title::after {
+    border-style: solid;
+    border-width: 1px 1px 0 0;
+    content: " ";
+    float: right;
+    height: 10px;
+    left: 2px;
+    position: relative;
+    right: 20px;
+    top: 2px;
+    transform: rotate(135deg);
+    transition: 0.35s ease-in-out;
+    vertical-align: top;
+    width: 10px;
+  }
+
+  /* OPTIONAL HOVER STATE */
+  .faq-drawer__title:hover {
+    color: #4e4b52;
+  }
+
+  .faq-drawer__trigger:checked
+    + .faq-drawer__title
+    + .faq-drawer__content-wrapper {
+    max-height: 350px;
+  }
+
+  .faq-drawer__trigger:checked + .faq-drawer__title::after {
+    transform: rotate(-45deg);
+    transition: 0.25s ease-in-out;
+  }
+
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding: 80px;
+    }
+  }
 </style>
-  
-  
-  
-  
