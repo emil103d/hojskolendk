@@ -166,6 +166,7 @@
 }
 button,
 .primarybutton {
+  min-width: 00px;
   background-color: var(--primary-button-cta-background-color);
   border-radius: var(--border-radius-sm);
   font-size: var(--font_knap_m);
@@ -202,7 +203,6 @@ button:hover,
   color: var(--hvid);
   border: solid 1px white;
 }
-
 /* ---------------Buttons slut  -----------------*/
 
 /* ---------------sidebar singlepage start -----------------*/
