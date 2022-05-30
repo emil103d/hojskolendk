@@ -45,6 +45,45 @@
 <!-- section #1 slut -->
 
 <!-- section #2 Start -->
+
+<section id="section_2">
+  <div class="maxwidthwrappper m-5 justify-center">
+    <p class="mt-10 preh2">MANGE SPÆNDENDE DESTINATIONER</p>
+    <h2 class="">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
+    <div class="flex justify-center gap-5 hover:overflow-x-scroll">
+      <div class="w-14 h-14 bg-white rounded-full hover:scale-110">
+        <svg
+          width="18"
+          height="27"
+          viewBox="0 0 18 27"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M16.5 26L2 13L16.5 1" stroke="black" stroke-width="2" />
+        </svg>
+      </div>
+      <Card
+        image="../src/_images/webp/ophold1.webp"
+        title="Maldiverne, Sri Lanka, Bali & Gili"
+      />
+      <Card
+        image="../src/_images/webp/ophold2.webp"
+        title="Bali, Lombok & Gili Islands"
+      />
+      <Card
+        image="../src/_images/webp/ophold3.webp"
+        title="Caribien, Hawaii & Mexico"
+      />
+      <Card
+        image="../src/_images/webp/ophold4.webp"
+        title="Costa Rica, Mexico & Guatemala"
+      />
+    </div>
+  </div>
+  <button class="primarybutton m-auto">UDFORSK ALLE VORES OPHOLD</button>
+</section>
+
+<!-- section #2 Start -->
 <section class="maxwidthwrapper mx-auto m-4 pb-0">
   <p class="preh2">VI ELSKER VORES ELEVER OG VORES ELEVER ELSKER OS</p>
   <h2>VORES ELEVER PÅ TRUSTPILOT</h2>
@@ -101,46 +140,6 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
 </section>
 
 <!-- Statistik section  slut -->
-
-<!-- section #2 Start -->
-
-<section id="section_2">
-  <div class="maxwidthwrappper m-5 justify-center">
-    <p class="mt-10 preh2">MANGE SPÆNDENDE DESTINATIONER</p>
-    <h2 class="">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
-    <div class="flex justify-center gap-5 overflow-x-scroll overfl">
-      <div class="w-14 h-14 bg-white rounded-full hover:scale-110">
-        <svg
-          width="18"
-          height="27"
-          viewBox="0 0 18 27"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path d="M16.5 26L2 13L16.5 1" stroke="black" stroke-width="2" />
-        </svg>
-      </div>
-      <Card
-        image="../src/_images/webp/ophold1.webp"
-        title="Maldiverne, Sri Lanka, Bali & Gili"
-      />
-      <Card
-        image="../src/_images/webp/ophold2.webp"
-        title="Bali, Lombok & Gili Islands"
-      />
-      <Card
-        image="../src/_images/webp/ophold3.webp"
-        title="Caribien, Hawaii & Mexico"
-      />
-      <Card
-        image="../src/_images/webp/ophold4.webp"
-        title="Costa Rica, Mexico & Guatemala"
-      />
-    </div>
-  </div>
-  <button class="primarybutton m-auto">UDFORSK ALLE VORES OPHOLD</button>
-</section>
-
 <style>
   section {
     overflow: hidden;
