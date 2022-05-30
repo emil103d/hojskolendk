@@ -56,9 +56,7 @@
         </svg>
       </button>
       <div id="carosoule_container">
-        <div
-          class="flex gap-5 justify-center items-center flex-nowrap z-2 w-96"
-        >
+        <div class="flex gap-5 items-center flex-nowrap z-2 w-96">
           {#each array as item (item.id)}
             <div
               id={item.id}
