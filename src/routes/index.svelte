@@ -37,7 +37,7 @@
   <div>
     <img
       class=""
-      src="../src/_images/webp/dykke.webp"
+      src="../src/_images/webp/sektion1.webp"
       alt="Unge glade mennesker der er med på et højskoleophold"
     />
   </div>
