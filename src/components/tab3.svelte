@@ -1,7 +1,7 @@
 <main class="col-start-2">
     <!-- SECTION 1 -->
     <section>
-     <h2>SURFING, SOL OG BEACH VIBES</h2>
+     <h2>PROGRAM</h2>
      <p>
      Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på Rumrunners
      eller snorkler efter havskildpadder. Derudover har vi haft en masse fede
