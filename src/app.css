@@ -249,10 +249,7 @@ sidebar button:hover {
 /* !!!!!MOBILE ABOWE - WEB BELOW !!!!!!!!!!MOBILE ABOWE - WEB BELOW !!!!!!!!!!MOBILE ABOWE - WEB BELOW !!!!! */
 
 @media screen and (min-width: 700px) {
-  .maxwidthwrapper {
-    padding-top: 8rem;
-    padding-bottom: 0;
-  }
+
   /* ----------- header start -------------- */
 
   .hero-text {

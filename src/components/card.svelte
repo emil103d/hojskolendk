@@ -3,7 +3,7 @@
   export let image;
 </script>
 
-<div class="overgang mx-auto my-8 relative z-0 overflow-hidden">
+<div class="overgang relative z-0 overflow-hidden">
   <img class="hover:scale-105" src={image} alt={title} />
   <h3 class="bg-white pl-3 pt-3 pb-3 pr-3 z-3 absolute top-4 text-xs">
     {title}

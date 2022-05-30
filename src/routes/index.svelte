@@ -20,9 +20,10 @@
 
 <!-- section #1 start -->
 <section
-  class="maxwidthwrapper md:pt-0 md:flex md:justify-center md:gap-8"
+  class="maxwidthwrapper md:pt-0 md:grid grid-cols-2 md:justify-center md:gap-8"
 >
-  <article class="">
+  <article class="cols-start-1 grid items-center">
+    <div>
     <p class="preh2">VI ER</p>
     <h2>REJSEEVENTYR, SOMMER VIBES & ET FÆLLESSKAB I VERDENSKLASSE</h2>
     <p>
@@ -34,8 +35,9 @@
       rejseoplevelse da vi er medlem af Rejsegarantifonden.
     </p>
     <button>JOIN OS TIL INFOMØDE</button>
+  </div>
   </article>
-  <div>
+  <div class="cols-start-2">
     <img
       class=""
       src="../src/_images/webp/sektion1.webp"
@@ -49,7 +51,7 @@
   <div class="maxwidthwrapper">
     <p class="preh2">MANGE SPÆNDENDE DESTINATIONER</p>
     <h2 class="">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
-    <div class="flex gap-5 overflow-hidden hover:overflow-x-scroll">
+    <div class="flex justify-between gap-5 overflow-hidden hover:overflow-x-scroll">
       <Card
         image="../src/_images/webp/ophold1.webp"
         title="Maldiverne, Sri Lanka, Bali & Gili"
@@ -67,18 +69,19 @@
         title="Costa Rica, Mexico & Guatemala"
       />
     </div>
+    <div class="md:justify-center md:grid">
     <PrimaryButton class="primarybutton">UDFORSK ALLE VORES OPHOLD</PrimaryButton>
-
+  </div>
   </div>
 </section>
 
 <!-- section #2 Start -->
 <section class="maxwidthwrapper mx-auto pb-0">
   <div class="">
-  <p class="preh2">VI ELSKER VORES ELEVER OG VORES ELEVER ELSKER OS</p>
-  <h2>VORES ELEVER PÅ TRUSTPILOT</h2>
+  <p class="preh2">ELSKET AF 2500+ ELEVER</p>
+  <h2>SE VORES ANMELDELSER </h2>
   <img src="../src/_logo/trustpilot_logo.png" alt="" />
-  <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-5 mx-auto justify-center">
+  <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-auto justify-around">
     <CardTrustpilot
       title="Venskaber for livet"
       text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK"
@@ -92,14 +95,18 @@
       text="
 Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv i mit liv. Jeg oplevede stor professionalisme og ansvarlighed fra organisationens side, og mine rejseledere var enormt kompetente, jordnære og skabte stor tryghed i gruppen."
     />
+    
+    <div class="hidden lg:grid">
     <CardTrustpilot
       image="../src/_images/webp/social6.webp"
       title="Uforglemmeligt"
       name=" Søren Reves"
       text="
 
-Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber med mig for livet. Og så var det en stor udviklingsrejse både gennem undervisningen men lige så meget ved friheden til at rejse på egen hånd og stå på egne ben."
+    Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber med mig for livet. Og så var det en stor udviklingsrejse både gennem undervisningen men lige så meget ved friheden til at rejse på egen hånd og stå på egne ben."   
     />
+  </div>
+
   </div>
 </div>
 </section>
@@ -108,12 +115,16 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
 <section
   id="statistik_sektion"
   class="maxwidthwrapper text-center w-full md:p-64">
-  <h2 class="mb-5">ELSKET AF 2.500+ ELEVER</h2>
+  <h2 class="mb-5 hidden">ELSKET AF 2.500+ ELEVER</h2>
+  
   <div class="grid gap-6 md:flex md:gap-10 md:mx-auto md:justify-center">
+    
     <div class="md:max-w-xs">
       <h3 cl>16</h3>
       <p>ADVENTUREFYLDTE DESTINATIONER</p>
     </div>
+
+
     <div class="md:max-w-xs">
       <h3>4,8</h3>
       <p>PÅ TRUSTPILOT</p>
@@ -123,7 +134,7 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
     <div class="md:max-w-xs">
       <h3>106.785</h3>
       <p class="max-w-xs m-auto">
-        KVADRATMETER FREDET REGNSKOV TIL BEVARELSE AF VERDENS SKOVE
+        M2 FREDET REGNSKOV
       </p>
     </div>
   </div>
@@ -151,7 +162,7 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
     background-image: url(../src/_icons/airplane_earth.png);
     background-repeat: no-repeat;
     background-position: 50%;
-    background-size: 100%;
+    background-size: 110%;
   }
 
   #statistik_sektion h3 {
