@@ -1,6 +1,7 @@
 <script>
   import CardTrustpilot from "../components/card_trustpilot.svelte";
   import Card from "../components/card.svelte";
+  import PrimaryButton from "../components/primarybutton.svelte"
 </script>
 
 <header class="h-full w-full"id="video">
@@ -66,7 +67,8 @@
         title="Costa Rica, Mexico & Guatemala"
       />
     </div>
-    <button class="primarybutton grid m-auto">UDFORSK ALLE VORES OPHOLD</button>
+    <PrimaryButton>UDFORSK ALLE VORES OPHOLD</PrimaryButton>
+
   </div>
 </section>
 
