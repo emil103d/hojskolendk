@@ -27,7 +27,7 @@ export const opholdData = [
     subtitle: "For dig der elsker sol, sommer og højt humør",
     countrues: "Sri Lanka Maldiverne & Thailand",
     dato: "14/22/2022",
-    afrejse: "Efterår",
+    afrejse: "Til månen",
     pris: "fra 59.700 kr.",
     undervisning: "Selvudvikling og kommunikation",
     varig: "1 Måneder",

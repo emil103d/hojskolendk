@@ -1,4 +1,5 @@
 <script>
+  import { opholdData } from "../stores/opholdData.js";
   import Card from "../components/card.svelte";
   import { fade, scale } from "svelte/transition";
   import { flip } from "svelte/animate";
