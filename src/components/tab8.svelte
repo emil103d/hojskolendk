@@ -1,4 +1,4 @@
-<main class="col-start-2 background_image   ">
+<main class="col-start-2 background_image">
     <!-- SECTION 1 -->
     <section>
         <h2>ADVENTURE, OPLEVELSER & AKTIVITETER</h2>
