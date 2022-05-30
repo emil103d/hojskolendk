@@ -3,7 +3,7 @@
   import Card from "../components/card.svelte";
 </script>
 
-<header id="video">
+<header class="h-full w-full"id="video">
   <video
     class="z-0 hero-image"
     loop
@@ -19,7 +19,7 @@
 
 <!-- section #1 start -->
 <section
-  class="maxwidthwrapper pt-20 md:pt-0 md:flex md:justify-center md:gap-8"
+  class="maxwidthwrapper md:pt-0 md:flex md:justify-center md:gap-8"
 >
   <article class="">
     <p class="preh2">VI ER</p>
@@ -44,9 +44,9 @@
 </section>
 <!-- section #1 slut -->
 
-<section id="section_2">
+<section id="section_2" >
   <div class="maxwidthwrapper">
-    <p class="mt-10 preh2">MANGE SPÆNDENDE DESTINATIONER</p>
+    <p class="preh2">MANGE SPÆNDENDE DESTINATIONER</p>
     <h2 class="">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
     <div class="flex justify-center gap-5 hover:overflow-x-scroll">
       <Card
@@ -71,7 +71,7 @@
 </section>
 
 <!-- section #2 Start -->
-<section class="maxwidthwrapper mx-auto m-4 pb-0">
+<section class="maxwidthwrapper mx-auto mx-4 pb-0">
   <p class="preh2">VI ELSKER VORES ELEVER OG VORES ELEVER ELSKER OS</p>
   <h2>VORES ELEVER PÅ TRUSTPILOT</h2>
   <img src="../src/_logo/trustpilot_logo.png" alt="" />
@@ -132,6 +132,8 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
 <style>
   section {
     overflow: hidden;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   #section_2 {
