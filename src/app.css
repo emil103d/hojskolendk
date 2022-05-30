@@ -207,7 +207,7 @@ button:hover,
 
 sidebar {
   background-color: var(--hvid);
-  max-width: 220px;
+  /* max-width: 220px; */
 }
 
 sidebar h2 {

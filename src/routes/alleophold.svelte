@@ -1,56 +1,78 @@
 <script>
   import { onMount } from "svelte";
-
+  import Header from "../components/header.svelte";
   import { opholdData } from "../stores/opholdData.js";
   import Menu from "../components/menu.svelte";
+  import Afrejseselekt from "../components/afrejse.svelte";
   import Ophold from "../components/ophold.svelte";
 
-  let languages = []; // menu built from opholdData
-  let selectedLang = ""; //  menu selection
+  let varighed = []; // menu built from opholdData
+  let afrejse = []; // afrejse built from opholdData
+  let selectedvar = ""; //  menu selection
+  let selectedAf = ""; //  menu selection
 
-  const getLanguages = () => {
-    for (let bookObj of opholdData) {
-      if (!languages.includes(bookObj.language)) {
-        languages = [...languages, bookObj.language];
+  const getVarigheder = () => {
+    for (let opholdObj of opholdData) {
+      if (!varighed.includes(opholdObj.varig)) {
+        varighed = [...varighed, opholdObj.varig];
       }
     }
-    languages = languages.sort();
+    varighed = varighed.sort();
   };
-  onMount(() => getLanguages());
+  onMount(() => getVarigheder());
+
+  const getAfrejser = () => {
+    for (let opholdObj of opholdData) {
+      if (!afrejse.includes(opholdObj.af)) {
+        afrejse = [...afrejse, opholdObj.af];
+      }
+    }
+    afrejse = afrejse.sort();
+  };
+  onMount(() => getAfrejser());
 
   // Query results
-  let filteredBooks = [];
+  let filteredOphold = [];
 
   // For Select Menu
-  $: if (selectedLang) getBooksByLang();
-  $: console.log(filteredBooks, selectedLang);
+  $: if (selectedvar) getOpholdByVar();
+  $: console.log(filteredOphold, selectedvar);
 
-  const getBooksByLang = () => {
-    if (selectedLang === "all") {
-      return (filteredBooks = []);
+  $: if (selectedAf) getOpholdByVar();
+  $: console.log(filteredOphold, selectedAf);
+
+  const getOpholdByVar = () => {
+    if (selectedvar === "all") {
+      return (filteredOphold = []);
     }
-    return (filteredBooks = opholdData.filter(
-      (ophold) => ophold.language === selectedLang
+    return (filteredOphold = opholdData.filter(
+      (ophold) => ophold.varig === selectedvar || ophold.af === selectedvar
     ));
   };
 </script>
 
-<section>
+<Header imgtitle="src/_images/1.jpg" />
+<div class="m-9 preh2">
+  <a href="indec">FORSIDE /</a>
+  <a href="alleophold" class="underline preh2">ALLE OPHOLD</a>
+</div>
+
+<section class="maxwidthwrapper text-center justify-center">
   <h2>Hvor drømmer du om at rejse hen?</h2>
   <p>
     Drømmer du om et friår fra studierne, en pause fra udannelsesræsset eller
     bare har lyst til et opleve verdenen? Så dyk ned og læs mere om vores
     spændende højskoleophold og tag med os ud og udfroske verdenen!
   </p>
-</section>
-
-<section id="query-section">
-  <Menu {languages} bind:selectedLang />
+  <div class="flex mt-10 mb-10 justify-center ml-auto mr-auto">
+    <Menu {varighed} bind:selectedvar />
+    <Afrejseselekt {afrejse} bind:selectedAf />
+  </div>
 </section>
 
 <main id="alleophold">
-  {#if filteredBooks.length > 0}
-    {#each filteredBooks as { title, image, subtitle, dato, afrejse, pris, undervisning, varighed }}
+  {#if filteredOphold.length > 0}
+    {#each filteredOphold as { title, image, subtitle, dato, afrejse, pris, undervisning, varig }}
       <Ophold
         {image}
         {title}
@@ -59,11 +81,11 @@
         {afrejse}
         {pris}
         {undervisning}
-        {varighed}
+        {varig}
       />
     {/each}
   {:else}
-    {#each opholdData as { title, image, subtitle, dato, afrejse, pris, undervisning, varighed }}
+    {#each opholdData as { title, image, subtitle, dato, afrejse, pris, undervisning, varig }}
       <Ophold
         {image}
         {title}
@@ -72,7 +94,7 @@
         {afrejse}
         {pris}
         {undervisning}
-        {varighed}
+        {varig}
       />
     {/each}
   {/if}
@@ -83,18 +105,9 @@
     box-sizing: border-box;
   }
 
-  #query-section {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2% 0;
-  }
-
   /* General Structure */
   main#alleophold {
-    width: 100%;
-    margin: 10px;
+    width: 90%;
     justify-content: center;
   }
 </style>
