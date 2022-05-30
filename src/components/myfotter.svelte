@@ -14,7 +14,6 @@
           <img src="src/_icons/call.png" alt="telefon ikon" />
         </div>
         <p>Ring til os</p>
-        
       </div>
       <div>
         <!-- hvid cirkel -->
@@ -23,7 +22,6 @@
             <img src="src/_icons/brev.png" alt="brev ikon" />
           </div>
           <p>Skriv til os</p>
-          
         </div>
       </div>
       <div>
@@ -32,30 +30,30 @@
           <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/messenger.png" alt="chat ikon" />
           </div>
-
           <p>Chat med os</p>
-          
-
         </div>
+      </div>
+      <div>
         <!-- hvid cirkel -->
         <div>
           <div class="cirkel m-auto grid justify-center">
             <img src="src/_icons/people.png" alt="brev ikon" />
           </div>
           <p>Infomøder</p>
-        
         </div>
       </div>
+    </div>
   </div>
-</div>
-  <svg class="footerpalme">
-    height="113"
-    viewBox="0 0 1728 113"
+  <svg
+    width="1728"
+    height="115"
+    viewBox="0 0 1728 115"
     fill="none"
     xmlns="http://www.w3.org/2000/svg"
+    class="palme"
   >
     <path
-      d="M427.501 59.854C422.303 67.5672 412.501 78.354 412.501 78.354C380.001 79.354 312.652 80.414 303.5 81.3539C268 84.9999 224.5 87.1951 207 88.3539C193.687 89.2354 147.5 88.3539 112.5 93.8539C104.202 95.1579 71.5 100.319 53 103.854L0 112.354H1727.5C1727.5 112.354 1670 106.5 1665 106C1660 105.5 1622 100 1593.5 98.5C1565 97 1487 100.5 1487 100.5L1423.5 105C1423.5 105 1401.06 105.794 1380.5 106.854C1321.29 109.906 1288.27 98.3364 1229 96.8539C1145.41 94.7633 1095 105 1015 103.854C935 102.708 863 96.8539 863 96.8539L664 88.3539L558.5 82.3539L490.5 78.354C473.5 77.5206 437.001 74.3539 437.001 74.3539C437.001 74.3539 439.5 61.8881 442.5 50.8541C445.5 39.8202 447 33.3539 447 33.3539C448.333 33.3539 451.138 34.2986 453.5 35.8539C456 37.4999 459.167 39.8331 461.5 45.4999L465.5 67.3539C467.5 63.354 472.966 54.8404 474 50.8541C475 46.9999 475.5 38.9999 469.5 33.3539L456 23.8541C459.167 23.8541 464.7 22.2543 469.5 23.8541C475.5 25.8539 477 31.354 479.5 31.354C482 31.354 480.153 22.308 476.5 18.3202C473 14.4999 468.5 13.8544 463 13.3539L451.5 16.3544C452.833 14.6879 452.5 7.68074 457 4.99986C459.618 3.44007 466.98 2.06576 465.5 1.81924C459.5 0.819732 451.5 -1.71879 448 1.81805C444.5 5.35489 442.5 16.3544 442.5 16.3544C438.167 14.0211 428.1 9.15442 422.501 8.35442C415.502 7.35442 413.5 11.3539 411 13.3539C409 14.9539 409.167 27.0208 410.001 31.354C411.501 28.854 416.1 23.1542 422.501 20.3547C430.501 16.8553 437.001 25.3541 434 23.8541C431.6 22.6541 424.667 25.8188 421 28.8188C417.333 31.8187 412.001 34.8541 410.001 40.8541C408.001 46.8541 410.834 53.0208 412.501 55.3541L416.501 63.8541L422.501 50.8541C425.501 44.3541 430.501 37.354 437.001 31.354C442.201 26.554 438.502 38.8878 437.001 43.354C435.5 47.8202 431.656 53.688 427.501 59.854Z"
+      d="M427.501 61.8544C422.303 69.5676 412.501 80.3544 412.501 80.3544C380.001 81.3543 312.652 82.4144 303.5 83.3543C268 87.0002 224.5 89.1955 207 90.3543C193.687 91.2358 147.5 90.3543 112.5 95.8543C104.202 97.1583 71.5 102.319 53 105.854L0 114.354H905C902 112.07 860.5 103.834 837.5 100C814.5 96.167 664 90.3543 664 90.3543L558.5 84.3543L490.5 80.3544C473.5 79.521 437.001 76.3543 437.001 76.3543C437.001 76.3543 439.5 63.8885 442.5 52.8545C445.5 41.8205 447 35.3543 447 35.3543C448.333 35.3543 451.138 36.2989 453.5 37.8543C456 39.5002 459.167 41.8335 461.5 47.5002C463.833 53.167 465.5 69.3543 465.5 69.3543C467.5 65.3544 472.966 56.8408 474 52.8545C475 49.0002 474 40.7091 469.5 35.3543C465 29.9995 456.5 26.0187 456 25.8545C455.5 25.6903 464.7 24.2547 469.5 25.8545C475.5 27.8543 479.5 33.3544 479.5 33.3544C479.5 33.3544 480.153 24.3083 476.5 20.3205C473 16.5002 468.5 15.8548 463 15.3543C457.5 14.8538 451.5 18.3548 451.5 18.3548C450.5 15.4995 452.5 9.68111 457 7.00024C459.618 5.44044 466.784 4.59468 465.5 3.81962C460 0.500908 454.5 -1 448 3.81843C441.5 8.63686 442.5 18.3548 442.5 18.3548C438.167 16.0215 428.1 11.1548 422.501 10.3548C415.502 9.3548 414.5 9.70856 411 15.3543C407.5 21 409.167 29.0212 410.001 33.3544C411.501 30.8544 416.1 25.1546 422.501 22.3551C430.501 18.8556 437.001 27.3545 434 25.8545C431.6 24.6545 424.667 27.8192 421 30.8191C417.333 33.8191 412.001 36.8545 410.001 42.8545C408.001 48.8545 410.834 55.0212 412.501 57.3545L416.501 65.8545L422.501 52.8545C425.501 46.3545 430.501 39.3544 437.001 33.3544C442.201 28.5544 438.502 40.8882 437.001 45.3544C435.5 49.8205 431.656 55.6884 427.501 61.8544Z"
       fill="#FF5E04"
     />
   </svg>
@@ -65,12 +63,12 @@
   <div class="footer text-center text-white">
     <img src="./src/_logo/logohvid.png" alt="logo" class="w-14 h-14" />
     <div class="footer_infomode">
-      <h2 class="">VIL DU VIDE MERE OM VORES HØJSKOLEOPHOLD I UDLANDET?</h2>
+      <h2 class="text-white">
+        VIL DU VIDE MERE OM VORES HØJSKOLEOPHOLD I UDLANDET?
+      </h2>
       <p>Tilmeld dig vores infomøder og mød nogen tidligere elever</p>
 
       <SecondaryButton>TILMELD INFOMØDE</SecondaryButton>
-
-      <hr class="hidden adressline2" />
     </div>
     <div />
     <div class="footer_adress">
@@ -79,10 +77,10 @@
           <div>
             <ul>
               <li><strong> Adresse</strong></li>
-              <li><a href="">Höjskolen DK</a></li>
-              <li><a href="">Rosenørns Allé 29</a></li>
-              <li><a href="">1970 Frederiksberg</a></li>
-              <li><a href="">CVR: 12345678</a></li>
+              <li>HÔJSKOLENDK</li>
+              <li>Rosenørns Allé 29</li>
+              <li>1970 Frederiksberg</li>
+              <li>CVR: 12345678</li>
             </ul>
             <br />
           </div>
@@ -210,7 +208,175 @@
 </footer>
 
 <style>
-  .footerpalme {
-    max-width: 60%;
+  /* ---------------Footer start  -----------------*/
+
+  footer p,
+  footer a,
+  footer li {
+    font-size: 0.8rem;
+    font-weight: 200;
+    text-decoration: none;
   }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .footer_kontakt {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+    text-align: center;
+    padding-bottom: 4rem;
+  }
+
+  .footer_links {
+    display: grid;
+    gap: 1.5rem;
+  }
+
+  .bgfooter {
+    background-color: var(--sandbeach);
+  }
+
+  .cirkel {
+    width: 130px;
+    height: 130px;
+    background-color: white;
+    border-radius: 100px;
+    margin: auto;
+  }
+
+  footer img {
+    margin: auto;
+  }
+
+  .footer_kontakt img {
+    width: 60px;
+    height: 60px;
+  }
+
+  footer {
+    background-color: var(--orange);
+    opacity: 80%;
+    display: block;
+    overflow: hidden;
+  }
+
+  .footer {
+    color: var(--hvid);
+    display: grid;
+    grid-gap: 2rem;
+    padding: 2rem 0;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  footer hr {
+    margin: 0 2rem;
+  }
+
+  .footerslut {
+    height: 25px;
+    background-color: var(--hvid);
+    color: var(--textcolor);
+    text-align: center;
+    padding: 5px;
+    font-size: 0.5rem;
+  }
+
+  .wave svg {
+    max-width: 100%;
+    margin-bottom: -10px;
+  }
+
+  .palme {
+    margin-bottom: -1px;
+    opacity: 0.8;
+    overflow: inherit;
+  }
+  /* ---------------Footer slut */
+
+  /* ----------- footer start -------------- */
+  @media screen and (min-width: 700px) {
+    footer,
+    footer p,
+    footer a,
+    footer li {
+      font-size: 0.7rem;
+      font-weight: 400;
+    }
+    footer h2 {
+      font-size: 0.9rem;
+      padding-top: 3.5rem;
+      padding-bottom: 1rem;
+    }
+
+    footer img {
+      width: 100px;
+      height: 100px;
+      margin: 0;
+      margin-bottom: -16px;
+      margin-top: 15px;
+    }
+
+    .footerline {
+      width: 1px;
+      background-color: var(--hvid);
+      opacity: 50%;
+    }
+
+    .footer_kontakt {
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      padding: 7rem 0;
+    }
+    .footer_kontakt img {
+      margin: auto;
+    }
+
+    .footerline1 {
+      display: block;
+    }
+
+    .footer {
+      display: grid;
+      grid-template-columns: 1fr 3fr 1fr;
+      grid-template-rows: auto auto auto;
+      font-size: 0.8rem;
+      padding: 0 2rem;
+    }
+
+    .footer_adress {
+      grid-column: 1/2;
+      grid-row: 2/4;
+      text-align: left;
+    }
+
+    .footer_links {
+      display: flex;
+      justify-content: space-between;
+      text-align: left;
+      line-height: 1.9;
+      grid-row: 2/4;
+    }
+
+    .footer_infomode {
+      grid-column: 3/4;
+      grid-row: 1/3;
+    }
+
+    .footer_some {
+      grid-column: 3/4;
+      grid-row: 3/4;
+    }
+
+    .footer_some svg {
+      margin: auto 0;
+    }
+
+    .footer_some p {
+      padding-bottom: 1.5rem;
+    }
+  }
+  /* ----------- footer slut -------------- */
 </style>
