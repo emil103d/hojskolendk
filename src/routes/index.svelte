@@ -37,12 +37,38 @@
   <div>
     <img
       class=""
-      src="../src/_images/webp/forside.webp"
+      src="../src/_images/webp/dykke.webp"
       alt="Unge glade mennesker der er med på et højskoleophold"
     />
   </div>
 </section>
 <!-- section #1 slut -->
+
+<section id="section_2">
+  <div class="maxwidthwrapper">
+    <p class="mt-10 preh2">MANGE SPÆNDENDE DESTINATIONER</p>
+    <h2 class="">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
+    <div class="flex justify-center gap-5 hover:overflow-x-scroll">
+      <Card
+        image="../src/_images/webp/ophold1.webp"
+        title="Maldiverne, Sri Lanka, Bali & Gili"
+      />
+      <Card
+        image="../src/_images/webp/ophold2.webp"
+        title="Bali, Lombok & Gili Islands"
+      />
+      <Card
+        image="../src/_images/webp/ophold3.webp"
+        title="Caribien, Hawaii & Mexico"
+      />
+      <Card
+        image="../src/_images/webp/ophold4.webp"
+        title="Costa Rica, Mexico & Guatemala"
+      />
+    </div>
+    <button class="primarybutton grid m-auto">UDFORSK ALLE VORES OPHOLD</button>
+  </div>
+</section>
 
 <!-- section #2 Start -->
 <section class="maxwidthwrapper mx-auto m-4 pb-0">
@@ -53,18 +79,18 @@
     <CardTrustpilot
       title="Venskaber for livet"
       text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK"
-      image="../src/_images/2.jpg"
+      image="../src/_images/webp/social3.webp"
       name=" Jackie Salomonsen"
     />
     <CardTrustpilot
-      image="../src/_images/2.jpg"
+      image="../src/_images/webp/social4.webp"
       title="Fantastisk rejse"
       name=" Camilla Jensen"
       text="
 Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv i mit liv. Jeg oplevede stor professionalisme og ansvarlighed fra organisationens side, og mine rejseledere var enormt kompetente, jordnære og skabte stor tryghed i gruppen."
     />
     <CardTrustpilot
-      image="../src/_images/2.jpg"
+      image="../src/_images/webp/social6.webp"
       title="Uforglemmeligt"
       name=" Søren Reves"
       text="
@@ -103,39 +129,17 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
 <!-- Statistik section  slut -->
 
 <!-- section #2 Start -->
-
-<section id="section_2">
-  <div class="maxwidthwrappper m-5 justify-center">
-    <p class="mt-10 preh2 text-center">MANGE SPÆNDENDE DESTINATIONER</p>
-    <h2 class="text-center">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
-    <div class="flex justify-center gap-5 overflow-x-scroll">
-      <Card
-        image="../src/_images/2.jpg"
-        title="Maldiverne, Sri Lanka, Bali & Gili Islands"
-      />
-      <Card image="../src/_images/2.jpg" title="Bali, Lombok & Gili Islands" />
-      <Card image="../src/_images/2.jpg" title="Caribien, Hawaii & Mexico" />
-      <Card
-        image="../src/_images/2.jpg"
-        title="Costa Rica, Mexico & Guatemala"
-      />
-    </div>
-    <button class="mx-auto">SE ALLE OPHOLD</button>
-  </div>
-</section>
-
 <style>
   section {
     overflow: hidden;
   }
 
-  img .firstsection {
-    width: 30vw;
-    height: 300px;
-  }
-
   #section_2 {
     background-color: var(--sandbeach);
+  }
+
+  #section_2 svg {
+    margin: auto;
   }
 
   #statistik_sektion {
@@ -156,6 +160,6 @@ Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber
   }
 
   article {
-    width: 700px;
+    max-width: 700px;
   }
 </style>

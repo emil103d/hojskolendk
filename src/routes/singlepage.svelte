@@ -14,7 +14,7 @@
   let activetab = Tab1;
 </script>
 
-<Header imgtitle="src/_images/1.jpg" />
+<Header imgtitle="src/_images/webp/1.webp" />
 <div class="m-9 preh2">
   <a href="indec">FORSIDE /</a>
   <a href="alleophold" class=" preh2">ALLE OPHOLD</a>
@@ -67,7 +67,7 @@
           <button on:click={() => (activetab = Tab3)}>PROGRAM</button>
           <button on:click={() => (activetab = Tab4)}>UNDERVISNINGEN</button>
           <button on:click={() => (activetab = Tab5)}>AFREJSEDATOER</button>
-          <button on:click={() => (activetab = Tab6)}>DOGT AT VIDE</button>
+          <button on:click={() => (activetab = Tab6)}>GODT AT VIDE</button>
           <button on:click={() => (activetab = Tab7)}>FRIUGER</button>
 
           <button on:click={() => (activetab = Tab8)}>ADVENTURE</button>

@@ -6,6 +6,64 @@
   import SecondaryButton from "./secondarybutton.svelte";
 </script>
 
+
+<section class="background_color_boks m-4 md:m-0 lg:flex lg:justify-center lg:items-center md:p-0">
+  
+  <div class="lg:flex lg:items-center lg:p-4">
+    <div class="hidden lg:grid lg:text-center lg:justify-items-center">
+      <img class="w-12 h-12 md:block" src="../src/_icons/calender.png" alt="" />
+      <h3>Afrejse</h3>
+      <p class="tabeltxt">{dato}</p>
+    </div>
+
+
+    <div class="grid justify-center pt-4 lg:p-0">
+      <h3>Sri Lanka, Maldiverne & Thailand</h3>
+      
+      <div class="flex gap-6 pt-4">
+        
+        <div class="flex items-center gap-2">
+          <img class="w-8 h-8" src="../src/_icons/calender.png" alt="" />
+          <div>
+            <p class="font-bold">Varighed </p>
+            <p class="tabeltxt">{dato}</p>
+          </div>
+        </div>
+
+        <div class="hidden">
+          <img class="w-8 h-8 " src="../src/_icons/calender.png" alt="" />
+          <p class="font-bold">Afrejse </p>
+          <p class="tabeltxt">{varig}</p>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <img class="w-8 h-8" src="../src/_icons/calender.png" alt="" />
+          <div>
+            <p class="font-bold">Pris </p>
+            <p class="tabeltxt">{pris}</p>
+          </div>
+        </div>
+      
+      </div>
+    </div>
+    <div class="flex lg:grid justify-center gap-8 lg:gap-0">
+      <PrimaryButton>TILMELD</PrimaryButton>
+      <SecondaryButton>RESERVER</SecondaryButton>
+    </div>
+</div>
+</section>
+
+<style>
+  .background_color_boks {
+    background-color: var(--sandstone);
+  }
+</style>
+
+
+
+
+<!-- 
+
 <section class="ophold text-center p-6 md:flex">
   <div class="md:flex hidden">
     <div>
@@ -103,4 +161,4 @@
     background-color: var(--sandbeach);
     margin-bottom: 2rem;
   }
-</style>
+</style> -->

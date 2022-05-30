@@ -2,6 +2,7 @@
   import MyButton from "./primarybutton.svelte";
   import NextButton from "./nextbutton.svelte";
   import GhostButton from "./ghostbutton.svelte";
+  import SecondaryButton from "./secondarybutton.svelte";
 </script>
 
 <section>
@@ -18,6 +19,8 @@
   </div>
   <NextButton>SE NÆSTE</NextButton>
   <GhostButton>UDSOLGT</GhostButton>
+  <MyButton>HEJ MED DIG KAJ</MyButton>
+  <SecondaryButton>HEJ MED DIG KAJ</SecondaryButton>
 </section>
 
 <style>

@@ -241,8 +241,8 @@
   }
 
   .cirkel {
-    width: 130px;
-    height: 130px;
+    width: 120px;
+    height: 120px;
     background-color: white;
     border-radius: 100px;
     margin: auto;
@@ -314,6 +314,14 @@
       padding-bottom: 1rem;
     }
 
+    .cirkel {
+      width: 180px;
+      height: 180px;
+      background-color: white;
+      border-radius: 100px;
+      margin: auto;
+    }
+
     footer img {
       width: 100px;
       height: 100px;
@@ -330,7 +338,6 @@
 
     .footer_kontakt {
       grid-template-columns: 1fr 1fr 1fr 1fr;
-      padding: 7rem 0;
     }
     .footer_kontakt img {
       margin: auto;
