@@ -163,6 +163,39 @@
 
   /* ---------------Buttons start  -----------------*/
 }
+/* button,
+.primarybutton {
+  min-width: 00px;
+  background-color: var(--orange);
+  font-size: var(--font_knap_m);
+  line-height: var(--line-l);
+  padding: var(--spacing-button);
+  font-size: var(--font_knap_m);
+  font-weight: 400;
+  color: var(--hvid);
+  border: 1px solid var(----primary-button-cta-background-color);
+} */
+
+/* button:hover,
+.primarybutton:hover {
+  border: var(--button-cta-background-color-hover);
+  background-color: var(--button-cta-background-color-hover);
+} */
+
+.secondarybutton {
+  white-space: nowrap;
+  background-color: var(--secondary-button-cta-background-color);
+  border: solid 1px white;
+  padding: var(--spacing-button);
+  color: var(--txtcolor);
+  font-weight: 300;
+}
+
+.secondarybutton:hover {
+  background-color: var(--button-cta-background-color-hover);
+  color: var(--hvid);
+  border: solid 1px white;
+}
 
 /* button7 */
 
