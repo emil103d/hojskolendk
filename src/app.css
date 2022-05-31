@@ -7,16 +7,18 @@
     /* TYPOGRAFIER */
     --h1_text: "Prociono", serif;
     --h2_text: "Prociono", serif;
-    --text: "montserrat", sans-serif;
+    --text: "lato", sans-serif;
 
     /* FARVER */
     --orange: #ff5e04;
-    --orange-800: rgba(255, 94, 4, 0.8);
-    --cta-background-color: #ff5405;
-    --primary-button-cta-background-color: var(--hvid);
-    --secondary-button-cta-background-color: var(--orange-800);
-    --primary-button-cta-border-color: var(--orange);
-    --button-cta-background-color-hover: var(--orange);
+    --orange-light: #ff853e;
+    --brandcolor: var(--orange);
+    --cta-background-color: var(--brandcolor);
+    --primary-button-cta-background-color: var(--brandcolor);
+    --primary-button-cta-background-color-hover: var(--orange-light);
+    --secondary-button-cta-background-color: var(--hvid);
+    --secondary-button-cta-border-color: var(--brandcolor);
+    --button-cta-background-color-hover: var(--brandcolor);
     --button-ghost-background-color: var(--txtcolor);
 
     --sandstone: #faf9f7;

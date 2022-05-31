@@ -11,11 +11,11 @@
   .primary {
     font-family: "Lato", sans-serif;
     font-weight: 500;
-    background-color: var(--primary-button-cta-border-color);
+    background-color: var(--primary-button-cta-background-color);
     color: var(--hvid);
     padding: 0.5rem 30px;
     display: inline-block;
-    box-shadow: inset 0 0 0 0 #ff5e04;
+    box-shadow: inset 0 0 0 0 var(--orange-800);
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
@@ -23,7 +23,7 @@
 
   button:hover,
   .primary:hover {
-    box-shadow: inset 400px 0 0 0 #ff833b;
+    box-shadow: inset 400px 0 0 0 #ff853e;
     color: var(--hvid);
   }
 
@@ -31,7 +31,7 @@
 
   .secondary {
     font-family: "montserrat";
-    font-weight: 500;
+    font-weight: 200;
     background-color: var(--hvid);
     color: var(--textcolor);
     border: 2px solid var(--primary-button-cta-border-color);
