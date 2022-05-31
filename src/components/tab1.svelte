@@ -201,49 +201,21 @@
 
   <!-- SECTION 4 -->
   <section class="maxwidthwrapper">
-    <p>Følg opholdet</p>
-    <h2>Instafeed #hojskolendk</h2>
-    <div class="grid grid-cols-2 grid-rows-3 md:grid-cols-4 md:grid-rows-2">
-      <img
-        class="col-start-1 row-start-1 md:col-start-1 md:row-start-1 max-h-96"
-        src="src/_images/webp/insta_1.webp"
-        alt=""
-      />
-      <img
-        class="col-start-2 row-start-1 md:col-start-2 md:row-start-1 max-h-96"
-        src="src/_images/webp/insta_2.webp"
-        alt=""
-      />
-      <img
-        class="col-start-1 row-start-2 md:col-start-3 md:row-start-1 max-h-96"
-        src="src/_images/webp/insta_3.webp"
-        alt=""
-      />
-      <img
-        class="col-start-2 row-start-2 md:col-start-4 md:row-start-1 max-h-96"
-        src="src/_images/webp/insta_4.webp"
-        alt=""
-      />
-      <img
-        class="col-start-1 row-start-3 md:col-start-1 md:row-start-2 max-h-96"
-        src="src/_images/webp/insta_5.webp"
-        alt=""
-      />
-      <img
-        class="col-start-2 row-start-3 md:col-start-2 md:row-start-2 max-h-96"
-        src="src/_images/webp/insta_6.webp"
-        alt=""
-      />
-      <img
-        class="md:col-start-3 md:row-start-2 max-h-96"
-        src="src/_images/webp/insta_7.webp"
-        alt=""
-      />
-      <img
-        class="md:col-start-4 md:row-start-2 max-h-96"
-        src="src/_images/webp/insta_8.webp"
-        alt=""
-      />
+    <p class="preh2">ER DU NYSGERRIG</p>
+    <h2>FØLG OPHOLDET DIREKTE @ MLSBG_HDK </h2>
+    <div class="grid grid-rows-3 md:grid-cols-3 lg:grid-cols-4">
+      <img class="md:row-start-1 md:col-start-1 lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/dykke.webp" alt="">
+      <img class="md:row-start-1 md:col-start-2 lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/riverraft.webp" alt="">
+      <img class="md:row-start-1 md:col-start-3 lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/social.webp" alt="">
+      <img class="md:row-start-1 md:col-start-1 hidden md:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/solnedgang.webp" alt="">
+      <img class="md:row-start-2 md:col-start-2 hidden md:grid lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/surf.webp" alt="">
+      <img class="md:row-start-2 md:col-start-3 hidden md:grid lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/social4.webp" alt="">
+      <img class="md:row-start-2 md:col-start-1 hidden md:grid lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/rapelvandfald.webp" alt="">
+      <img class="md:row-start-2 md:col-start-2 hidden md:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/social5.webp" alt="">
+      <img class="md:row-start-3 md:col-start-3 hidden md:grid lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/riverrafting4.webp" alt="">
+      <img class="md:row-start-3 md:col-start-1 hidden md:grid lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/social9.webp" alt="">
+      <img class="md:row-start-3 md:col-start-2 hidden md:grid lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/social13.webp" alt="">
+      <img class="md:row-start-3 md:col-start-3 hidden md:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/social12.webp" alt="">
     </div>
   </section>
 </main>
@@ -260,7 +232,8 @@
   .baggrund-klode {
     background-image: url(src/_images/verdenskort_m_destinationer.png);
     background-position: 50%;
-    height: 50vh;
+    background-position-y: 40%;
+    height: 60vh;
   }
 
   .custom_grid {
