@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="lg:col-start-2">
-      <img class="w-full h-auto" src="src/_images/webp/program_1.webp" alt="" />
+      <img class="object-cover w-full aspect-square" src="src/_images/webp/program_1.webp" alt="" />
     </div>
   </section>
 
@@ -48,7 +48,7 @@
     </div>
   </div>
     <div class="lg:col-start-1 lg:row-start-1">
-      <img class="w-full h-auto" src="src/_images/webp/program_1.webp" alt="" />
+      <img class="object-cover w-full aspect-square" src="src/_images/webp/program_1.webp" alt="" />
     </div>
   </section>
 
@@ -69,7 +69,7 @@
     </div>
     </div>
     <div class="lg:col-start-2">
-      <img class="w-full h-auto" src="src/_images/webp/program_1.webp" alt="" />
+      <img class="object-cover w-full aspect-square " src="src/_images/webp/program_1.webp" alt="" />
     </div>
   </section>
 </main>
