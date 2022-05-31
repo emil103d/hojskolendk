@@ -5,7 +5,7 @@
 <main class="col-start-2">
   <!-- SECTION 1 -->
   <section class="maxwidthwrapper" id="no-pad">
-    <h2 class="">Afrejsedatoer</h2>
+    <h2 class="">AFREJSEDATOER</h2>
     <p>
       Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
       Rumrunners eller snorkler efter havskildpadder. Derudover har vi haft en
