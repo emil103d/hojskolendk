@@ -82,7 +82,7 @@
 
   <!-- SECTION 3 -->
   <section
-    class="baggrund-klode relative py-4 h-full items-center justify-center maxwidthwrapper"
+    class=" relative py-4 h-full items-center justify-center maxwidthwrapper"
   >
     <div class="grid align-middle">
       <div class="">
@@ -90,10 +90,10 @@
         <h2>Overblik</h2>
       </div>
 
-      <div class="grid custom_grid">
+      <div class="grid custom_grid baggrund-klode">
         <div />
         <div
-          class="overflow-scroll max-h-[30vh] max-w-[500px] relative bg-gray-300  p-4 grid gap-4"
+          class="rejseplan overflow-scroll overflow-x-hidden max-h-[30vh] max-w-[500px] relative p-4 grid gap-4"
         >
           <div>
             <div class="flex gap-2 items-center">
@@ -233,7 +233,8 @@
     background-image: url(src/_images/verdenskort_m_destinationer.png);
     background-position: 50%;
     background-position-y: 40%;
-    height: 60vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .custom_grid {
@@ -247,5 +248,9 @@
   section {
     padding-top: var(--spacing-80);
     padding-bottom: var(--spacing-80);
+  }
+
+  .rejseplan {
+    background-color: var(--sandbeach);
   }
 </style>
