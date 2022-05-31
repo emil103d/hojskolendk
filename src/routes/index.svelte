@@ -27,45 +27,56 @@
 </header>
 
 <!-- section #1 start -->
-<section
-  class="maxwidthwrapper md:pt-0 md:grid grid-cols-2 md:justify-center md:gap-8"
->
-  <article class="cols-start-1 grid grid-ros items-center">
-    <div class="grid">
+<section class="maxwidthwrapper md:pt-0 md:grid md:justify-center md:gap-8">
+  <article class="cols-start-1 grid items-center place-items-center">
+    <div class="grid md:grid-cols-2 md:gap-10 lg:gap-20">
 
-      <div class="rows-start-1">
-        <p class="preh2"> PÅ HØJSKOLE I UDLANDET</p>
+      <div class="grid md:block md:m-auto">
+        <div class="rows-start-1">
+          <p class="preh2"> PÅ HØJSKOLE I UDLANDET</p>
 
-        <h2>REJSEEVENTYR, SOMMER VIBES & <br> ET FÆLLESSKAB I VERDENSKLASSE</h2>
-      </div>
+          <h2>REJSEEVENTYR, SOMMER VIBES & <br> ET FÆLLESSKAB I VERDENSKLASSE</h2>
+        </div>
 
-      <div class="row-start-3">
-        <p class="pb-6">
-          HÖJSKOLENDK er noget for dig, hvis du vil på højskole i udlandet og er
-          vild med højskolefællesskab, vil med på et fantastisk rejseeventyr,
-          glæder dig til at lære om fremmede kulturer, vil rejse med rygsæk,
-          drømmer om en fed grupperejse med andre skønne unge, vil opleve et
-          stærkt sammenhold og ønsker inspirerende og meningsfuld undervisning.
-          Du er sikker på en tryg rejseoplevelse da vi er medlem af
-          Rejsegarantifonden.
-        </p>
-      </div>
-      
-      <div class="row-start-4">
-        <MyButton type="primary">JOIN OS TIL INFOMØDE</MyButton>
-      </div>
+        <div class="row-start-3 md:row-auto">
+          <p class="pb-6">
+            HÖJSKOLENDK er noget for dig, hvis du vil på højskole i udlandet og er
+            vild med højskolefællesskab, vil med på et fantastisk rejseeventyr,
+            glæder dig til at lære om fremmede kulturer, vil rejse med rygsæk,
+            drømmer om en fed grupperejse med andre skønne unge, vil opleve et
+            stærkt sammenhold og ønsker inspirerende og meningsfuld undervisning.
+            Du er sikker på en tryg rejseoplevelse da vi er medlem af
+            Rejsegarantifonden.
+          </p>
+        </div>
+        
+        <div class="row-start-4 md:row-auto">
+          <MyButton type="primary">JOIN OS TIL INFOMØDE</MyButton>
+        </div>
 
-      <div class="cols-start-2 rows-start-2 pb-6">
-
-        <img
-          class=""
-          src="../src/_images/webp/sektion1.webp"
-          alt="Unge glade mennesker der er med på et højskoleophold"/>
-  
-      </div>
+        <div class="rows-start-2 pb-6 md:row-auto md:hidden">
+          <img class="" src="../src/_images/webp/sektion1.webp" alt="Unge glade mennesker der er med på et højskoleophold"/>
+        </div>
     </div>
+
+      <div class="hidden md:grid md:m-auto">
+        <img class="" src="../src/_images/webp/sektion1.webp" alt="Unge glade mennesker der er med på et højskoleophold"/>
+      </div>
+
+    
+    </div>
+
+
   </article>
+
+
+
 </section>
+
+
+
+
+
 <!-- section #1 slut -->
 
 <section id="section_2">
@@ -287,9 +298,9 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     margin: 0 auto;
   }
 
-  article {
+  /* article {
     max-width: 700px;
-  }
+  } */
 
   /* ANIMATIONER */
 

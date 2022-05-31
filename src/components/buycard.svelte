@@ -30,7 +30,7 @@
     </div>
     <div class="pl-4">
       <MyButton type="primary">TILMELD OPHOLD</MyButton>
-      <MyButton type="secondary">TILMELD OPHOLD</MyButton>
+      <MyButton type="secondary">TILMELD INFOMØDE</MyButton>
     </div>
   </div>
 </section>
