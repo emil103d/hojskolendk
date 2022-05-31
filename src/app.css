@@ -7,16 +7,18 @@
     /* TYPOGRAFIER */
     --h1_text: "Prociono", serif;
     --h2_text: "Prociono", serif;
-    --text: "montserrat", sans-serif;
+    --text: "lato", sans-serif;
 
     /* FARVER */
     --orange: #ff5e04;
-    --orange-800: rgba(255, 94, 4, 0.8);
-    --cta-background-color: #ff5405;
-    --primary-button-cta-background-color: var(--hvid);
-    --secondary-button-cta-background-color: var(--orange-800);
-    --primary-button-cta-border-color: var(--orange);
-    --button-cta-background-color-hover: var(--orange);
+    --orange-light: #ff853e;
+    --brandcolor: var(--orange);
+    --cta-background-color: var(--brandcolor);
+    --primary-button-cta-background-color: var(--brandcolor);
+    --primary-button-cta-background-color-hover: var(--orange-light);
+    --secondary-button-cta-background-color: var(--hvid);
+    --secondary-button-cta-border-color: var(--brandcolor);
+    --button-cta-background-color-hover: var(--brandcolor);
     --button-ghost-background-color: var(--txtcolor);
 
     --sandstone: #faf9f7;
@@ -27,21 +29,22 @@
     --sort: #000000;
     --txtcolor: #545454;
     --txtcolor-800: hlsa(0, 0%, 33%, 0.8);
+    --txtcolor-700: hlsa(0, 0%, 33%, 0.7);
     --txtcolor-600: rgba(84, 84, 84, 0.6);
 
     /* FONT SIZES */
-    --font_h1: clamp(0.8rem, 0.8125rem + 2.5vw, 3.1875rem);
-    --font_h2: clamp(1rem, 0.21875rem + 3.125vw, 2rem);
+    --font_h1: clamp(0.8rem, 0.8125rem + 2.5vw, 5.1875rem);
+    --font_h2: clamp(1.7rem, 0.21875rem + 3.125vw, 2rem);
     /* intro brødtekst til hver side */
     --font_h3: clamp(1.25rem, 0.9375rem + 1.25vw, 1.875rem);
     /*afsnit startfornular*/
-    --font_preh2: clamp(0.52rem, 1.6591rem + 1.4545vw, 0.8rem);
-    --font_p: clamp(1rem, 0.8125rem + 0.75vw, 1rem);
+    --font_preh2: clamp(0.8rem, -0.020000000000000018rem + 1.28vw, 1.1rem);
+    --font_p: clamp(0.8rem, 0.8125rem + 0.75vw, 1.145rem);
     /*tabeller og cards */
     --font_h4: clamp(1rem, 1.09375rem + 0.625vw, 1.4625rem);
     --font_p_tabel: clamp(0.75rem, 0.65625rem + 0.375vw, 0.8375rem);
     /* buttons */
-    --font_knap_s: 15px;
+    /* --font_knap_s: 15px; */
     --font_knap_m: clamp(0.75rem, 0.65625rem + 0.375vw, 0.9375rem);
     --font_knap_l: clamp(1rem, 0.625rem + 1.5000000000000002vw, 1.5625rem);
     --font_talsek: clamp(3rem, 0.21875rem + 0.125vw, 5rem);
@@ -66,7 +69,7 @@
     /*LINE HIGHT */
     --line-s: 0.8;
     --line-m: 1.2;
-    --line-l: 1.5;
+    --line-l: 1.4;
   }
 
   _______________________________________________
@@ -107,8 +110,9 @@
   h2 {
     font-family: var(--h2_text);
     font-size: var(--font_h2);
-    color: var(--sort);
-    line-height: var(--line-m);
+    color: var(--textcolor-700);
+    line-height: var(--line-l);
+    letter-spacing: 1px;
     padding-top: var(--spacing-10);
     padding-bottom: var(--spacing-10);
   }
@@ -122,15 +126,17 @@
   }
 
   p {
+    font-family: "Lato", sans-serif;
+    /* font-family: "montserrat"; */
     font-size: var(--font_p);
-    color: var(--txtcolor-800);
+    color: var(--txtcolor-600);
+    line-height: 1.6;
+    font-weight: 400;
   }
 
   .preh2 {
     color: var(--txtcolor-600);
     font-size: var(--font_preh2);
-    padding-bottom: var(--spacing-10);
-    line-height: var(--line-s);
   }
 
   .tabeltxt {
@@ -166,41 +172,7 @@
 
   /* ---------------Buttons start  -----------------*/
 } /*
-button,
-.primarybutton {
-  min-width: 00px;
-  background-color: var(--orange);
-  font-size: var(--font_knap_m);
-  line-height: var(--line-l);
-  padding: var(--spacing-button);
-  font-size: var(--font_knap_m);
-  font-weight: 400;
-  color: var(--hvid);
-  border: 1px solid var(----primary-button-cta-background-color);
-}
 
-button:hover,
-.primarybutton:hover {
-  border: var(--button-cta-background-color-hover);
-  background-color: var(--button-cta-background-color-hover);
-}
-
-.secondarybutton {
-  white-space: nowrap;
-  background-color: var(--secondary-button-cta-background-color);
-  border: solid 1px white;
-  padding: var(--spacing-button);
-  color: var(--txtcolor);
-  font-weight: 300;
-}
-
-.secondarybutton:hover {
-  background-color: var(--button-cta-background-color-hover);
-  color: var(--hvid);
-  border: solid 1px white;
-} */
-
-/* ---------------Buttons slut  -----------------*/
 
 /* ---------------sidebar singlepage start -----------------*/
 
@@ -256,14 +228,6 @@ sidebar button:hover {
     transform: translate(-50%, -50%);
     color: white;
   }
-
-  /* .hero-image {
-    height: 80%;
-    width: 100%;
-    top: 0%;
-    left: 0%;
-    filter: brightness(80%);
-  } */
 
   /* ----------- header slut-------------- */
 }

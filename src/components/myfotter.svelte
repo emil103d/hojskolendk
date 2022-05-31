@@ -5,10 +5,6 @@
 
 <!-- <BuyCard /> -->
 
-<section>
-  <MyButton type="primary">Tilmeld ophold</MyButton>
-</section>
-
 <div class="bgfooter">
   <div class="maxwidthwrapper">
     <div class="footer_kontakt">
