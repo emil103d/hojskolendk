@@ -1,6 +1,6 @@
 <main class="col-start-2">
   <!-- SECTION 1 -->
-  <section>
+  <section class="maxwidthwrapper" id="no-pad">
     <h2>UNDERVISNINGEN</h2>
     <p>
       Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
@@ -11,10 +11,11 @@
   </section>
 
   <!-- SECTION 2 -->
-  <section class="lg:grid md:grid-cols-2">
-    <div class="lg:col-start-1">
+  <section class="lg:grid md:grid-cols-2 maxwidthwrapper">
+    <div class="lg:col-start-1 lg:pr-8 grid place-content-center">
+      <div class="">
       <p>Fag 1:</p>
-      <h4>Introuge</h4>
+      <h4>SELVUDVIKLING & KOMMUNIKATION</h4>
       <p>
         Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
         bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -23,6 +24,7 @@
         Heminade abel oaktat prest.
       </p>
       <button>Læs mere</button>
+      </div>
     </div>
     <div class="lg:col-start-2">
       <img class="w-full h-auto" src="src/_images/webp/program_1.webp" alt="" />
@@ -30,10 +32,11 @@
   </section>
 
   <!-- SECTION 3 -->
-  <section class="lg:grid md:grid-cols-2 lg:grid-rows-1">
-    <div class="lg:col-start-2 md:row-start-1">
-      <p>Fag 2</p>
-      <h4>FRIUGE - MALDIVERNE</h4>
+  <section class="lg:grid md:grid-cols-2 md:grid-rows-1 maxwidthwrapper">
+    <div class="lg:col-start-2 lg:row-start-1 lg:pl-8 grid place-content-center">
+      <div>
+      <p>Fag 2:</p>
+      <h4>PROJEKTSTYRING & TEAMBUILDING</h4>
       <p>
         Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
         bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -43,16 +46,18 @@
       </p>
       <button>Læs mere</button>
     </div>
-    <div class="lg:col-start-1">
-      <img src="src/_images/webp/program_1.webp" alt="" />
+  </div>
+    <div class="lg:col-start-1 lg:row-start-1">
+      <img class="w-full h-auto" src="src/_images/webp/program_1.webp" alt="" />
     </div>
   </section>
 
   <!-- SECTION 4 -->
-  <section class="lg:grid lg:grid-cols-2 lg:grid-rows-1">
-    <div class="lg:col-start-1 lg:row-start-1">
-      <p>UGE 3</p>
-      <h4>FRIUGE - SRI LANKA</h4>
+  <section class="lg:grid md:grid-cols-2 maxwidthwrapper">
+    <div class="lg:col-start-1 lg:pr-8 grid place-content-center">
+      <div>
+      <p>Fag 3:</p>
+      <h4>SPORT & ADVENTURE</h4>
       <p>
         Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
         bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -62,11 +67,20 @@
       </p>
       <button>Læs mere</button>
     </div>
-    <div class="lg:col-start-2 lg:row-start-1">
-      <img src="src/_images/program_9.png" alt="" />
+    </div>
+    <div class="lg:col-start-2">
+      <img class="w-full h-auto" src="src/_images/webp/program_1.webp" alt="" />
     </div>
   </section>
 </main>
 
 <style>
+  section {
+       padding-top: var(--spacing-80);
+       padding-bottom: var(--spacing-80);
+   }
+
+   #no-pad {
+    padding-top: 0;
+    }
 </style>
