@@ -1,5 +1,5 @@
 <script>
-  import PrimaryButton from "./primarybutton.svelte";
+  import MyButton from "./button.svelte";
 </script>
 
 <section class="pr-8 pl-8 fixed bottom-0 left-0 bg-white z-50 w-[100vw]">
@@ -29,7 +29,8 @@
       </div>
     </div>
     <div class="pl-4">
-      <PrimaryButton>TILMELD OPHOLD</PrimaryButton>
+      <MyButton type="primary">TILMELD OPHOLD</MyButton>
+      <MyButton type="secondary">TILMELD OPHOLD</MyButton>
     </div>
   </div>
 </section>
