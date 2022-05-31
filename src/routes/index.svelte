@@ -167,8 +167,8 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 <style>
   section {
     overflow: hidden;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: var(--spacing-80);
+    padding-bottom: var(--spacing-80);
   }
 
   #section_2 {
