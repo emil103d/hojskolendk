@@ -4,12 +4,12 @@
   $: console.log(varighed);
 </script>
 
-<!-- svelte-ignore a11y-no-onchange -->
-
 <ul class="menu-cont mt-10">
   <select class="menu" name="menu" id="menu" bind:value={selectedvar}>
     <option disabled selected value="">Varighed</option>
+    <!-- Alle valgmuligheder option -->
     <option value="all">Alle varigheder</option>
+    <!-- Tilføjer alle varighed options -->
     {#each varighed as varig}
       <option value={varig}>{varig}</option>
     {/each}
