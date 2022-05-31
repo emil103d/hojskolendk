@@ -1,9 +1,13 @@
 <script>
-  import SecondaryButton from "../components/secondarybutton.svelte";
+  import MyButton from "../components/button.svelte";
   // import BuyCard from "../components/buycard.svelte";
 </script>
 
 <!-- <BuyCard /> -->
+
+<section>
+  <MyButton type="primary">Tilmeld ophold</MyButton>
+</section>
 
 <div class="bgfooter">
   <div class="maxwidthwrapper">
@@ -28,7 +32,11 @@
         <!-- hvid cirkel -->
         <div>
           <div class="cirkel m-auto grid justify-center">
-            <img class="m-auto" src="src/_icons/messenger.png" alt="chat ikon" />
+            <img
+              class="m-auto"
+              src="src/_icons/messenger.png"
+              alt="chat ikon"
+            />
           </div>
           <p>Chat med os</p>
         </div>
@@ -69,7 +77,7 @@
       </h2>
       <p>Tilmeld dig vores infomøder og mød nogen tidligere elever</p>
 
-      <SecondaryButton>TILMELD INFOMØDE</SecondaryButton>
+      <MyButton type="primary">TILMELD INFOMØDE</MyButton>
     </div>
     <div />
     <div class="footer_adress">
@@ -189,22 +197,24 @@
       </div>
     </div>
   </div>
-  <div class="wave flex place-content-end justify-end items-end place-items-end pt-12">
-      
+  <div
+    class="wave flex place-content-end justify-end items-end place-items-end pt-12"
+  >
     <div>
-    <svg class=""
-      width="1731"
-      height="full"
-      viewBox="0 0 1725 36"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <path
-        d="M583.324 17.0145C212.805 14.4919 52.017 25.9577 0 34.8392V36L89.1389 35.4756H334.146H1728V17.0145V0C1677.8 6.83199 1524.91 26.0328 1314.9 29.3122C1052.39 33.4114 1046.47 20.1677 583.324 17.0145Z"
-        fill="white"
-      />
-    </svg>
-  </div>
+      <svg
+        class=""
+        width="1731"
+        height="full"
+        viewBox="0 0 1725 36"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M583.324 17.0145C212.805 14.4919 52.017 25.9577 0 34.8392V36L89.1389 35.4756H334.146H1728V17.0145V0C1677.8 6.83199 1524.91 26.0328 1314.9 29.3122C1052.39 33.4114 1046.47 20.1677 583.324 17.0145Z"
+          fill="white"
+        />
+      </svg>
+    </div>
   </div>
   <div class="footerslut">
     <p>// HÔJSKOLENDK //</p>
@@ -241,7 +251,7 @@
 
   .bgfooter {
     background-color: var(--sandbeach);
-    padding-top: 5rem;  
+    padding-top: 5rem;
   }
 
   .cirkel {

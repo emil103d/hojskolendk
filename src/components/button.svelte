@@ -7,24 +7,20 @@
 <style>
   /* -----MODE=PRIMARY START --------- */
 
-  .primarybutton {
+  .primary {
     background-color: var(--hvid);
     color: var(--textcolor);
     border: 2px solid var(--primary-button-cta-border-color);
     border-radius: 0px;
-    padding: 18px 36px;
+    padding: 0.5rem 30px;
     display: inline-block;
-    font-family: "Lucida Console", Monaco, monospace;
-    font-size: 14px;
-    letter-spacing: 1px;
-    cursor: pointer;
     box-shadow: inset 0 0 0 0 #ff5e04;
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
   }
 
-  .primarybutton {
+  .primary:hover {
     box-shadow: inset 400px 0 0 0 #ff5e04;
     color: var(--hvid);
   }

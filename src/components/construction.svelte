@@ -1,5 +1,5 @@
 <script>
-  import MyButton from "./components/button.svelte";
+  import MyButton from "/components/button.svelte";
 </script>
 
 <section>
@@ -16,9 +16,7 @@
       ><a href="__layout.svelte">TAG MIG TILBAGE</a></MyButton
     >
   </div>
-  <MyButton mode="link">link button</MyButton>
-  <MyButton mode="ghost">ghost button</MyButton>
-  <MyButton mode="primary">primary button</MyButton>
+  <MyButton type="primary">TAG MIG TILBAGE</MyButton>
 </section>
 
 <style>
