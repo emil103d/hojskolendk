@@ -38,7 +38,7 @@
     <ul class={`navbar-list${showMobileMenu ? " mobile" : ""}`}>
       <li id="" class="bg-black lg:hidden">
         <div
-          class="accordion flex-col flex overflow-scroll max-h-[90vh] pb-10 flex-nowra"
+          class="accordion flex-col flex overflow-scroll max-h-[90vh] flex-nowrap"
         >
           <!--  Panel 1  -->
           <div class="">
@@ -47,7 +47,7 @@
               for="panel-1"
               class="relative block bg-black text-white p-4 shadow border-b border-grey"
             >
-              Se alle ophold
+              <a href="/alleophold">Se alle ophold</a>
             </p>
           </div>
           <!--  Panel 2  -->
@@ -79,8 +79,16 @@
             >
             <div class="accordion__content overflow-hidden bg-grey-lighter">
               <ul class="accordion__body p-4" id="panel1">
-                <li class="text-white"><a href="/singlepage">xxxx</a></li>
-                <li class="text-white"><a href="/singlepage">xxxx</a></li>
+                <li class="text-white">
+                  <a href="/singlepage"
+                    >Maldiverne, Sri Lanka, Bali & Gili Islands</a
+                  >
+                </li>
+                <li class="text-white">
+                  <a href="/singlepage"
+                    >Hawaii, Australien, Japan, Bali & Gili Islands</a
+                  >
+                </li>
               </ul>
             </div>
           </div>
@@ -98,7 +106,7 @@
                   <a href="/singlepage">CARIBIEN, HAWAII & MEXICO</a>
                 </li>
                 <li class="text-white">
-                  <a href="/singlepage">AUSTRALIEN, NZ, BALI & GILI ISLANDS</a>
+                  <a href="/singlepage">Indien, Nepal, Thailand & Sri Lanka</a>
                 </li>
                 <li class="text-white">
                   <a href="/singlepage">COSTA RICA, MEXICO & GUATEMALA</a>
@@ -114,7 +122,7 @@
               for="panel-5"
               class="relative block bg-black text-white p-4 shadow border-b border-grey"
             >
-              Infomøder
+              <a href="/infomode">Infomøder</a>
             </p>
           </div>
 
@@ -129,23 +137,23 @@
             <div class="accordion__content overflow-hidden bg-grey-lighter">
               <ul class="accordion__body p-4" id="panel1">
                 <li class="text-white">
-                  <a href="/#">Mød teamet</a>
+                  <a href="/underconstruction">Mød teamet</a>
                 </li>
                 <li class="text-white">
-                  <a href="/#">Vores Værdier</a>
+                  <a href="/underconstruction">Vores Værdier</a>
                 </li>
                 <li class="text-white">
-                  <a href="/#">Bæredygtighed</a>
+                  <a href="/underconstruction">Bæredygtighed</a>
                 </li>
                 <li class="text-white">
-                  <a href="/#">FAQ</a>
+                  <a href="/underconstruction">FAQ</a>
                 </li>
                 <li class="text-white">
-                  <a href="/#">Blog</a>
+                  <a href="/underconstruction">Blog</a>
                 </li>
 
                 <li class="text-white">
-                  <a href="/#">Det siger vores elever</a>
+                  <a href="/underconstruction">Det siger vores elever</a>
                 </li>
               </ul>
             </div>
@@ -160,9 +168,15 @@
             >
             <div class="accordion__content overflow-hidden ">
               <ul class="accordion__body p-4" id="panel1">
-                <li class="text-white"><a href="/#">Kommende Events</a></li>
-                <li class="text-white"><a href="/#">Elev Ambasadører</a></li>
-                <li class="text-white"><a href="/#">REUNION</a></li>
+                <li class="text-white">
+                  <a href="/underconstruction">Kommende Events</a>
+                </li>
+                <li class="text-white">
+                  <a href="/underconstruction">Elev Ambasadører</a>
+                </li>
+                <li class="text-white">
+                  <a href="/underconstruction">REUNION</a>
+                </li>
               </ul>
             </div>
           </div>
@@ -222,7 +236,7 @@
                   >
                     <circle cx="5" cy="5" r="5" fill="white" />
                   </svg>
-                  <a href="/singlepage">BALI, LOMBOK & GILI ISLANDS</a>
+                  <a href="/singlepage">Bali, Lombok & Gili Islands</a>
                 </li>
                 <li class="text-white flex items-center">
                   <svg
@@ -235,7 +249,7 @@
                   >
                     <circle cx="5" cy="5" r="5" fill="white" />
                   </svg>
-                  <a href="/singlepage">BALI, LOMBOK & GILI ISLANDS</a>
+                  <a href="/singlepage">Indien, Nepal, Thailand & Sri Lanka</a>
                 </li>
               </ul>
             </div>
@@ -257,7 +271,9 @@
                   >
                     <circle cx="5" cy="5" r="5" fill="white" />
                   </svg>
-                  <a href="/singlepage">BALI, LOMBOK & GILI ISLANDS</a>
+                  <a href="/singlepage"
+                    >Maldiverne, Sri Lanka, Bali & Gili Islands</a
+                  >
                 </li>
                 <li class="text-white flex items-center">
                   <svg
@@ -270,7 +286,7 @@
                   >
                     <circle cx="5" cy="5" r="5" fill="white" />
                   </svg>
-                  <a href="/singlepage">BALI, LOMBOK & GILI ISLANDS</a>
+                  <a href="/singlepage">xxx</a>
                 </li>
               </ul>
             </div>
@@ -292,7 +308,7 @@
                   >
                     <circle cx="5" cy="5" r="5" fill="white" />
                   </svg>
-                  <a href="/singlepage">BALI, LOMBOK & GILI ISLANDS</a>
+                  <a href="/singlepage">Costa Rica, Mexico & Guatemala</a>
                 </li>
                 <li class="text-white flex items-center">
                   <svg
@@ -305,7 +321,35 @@
                   >
                     <circle cx="5" cy="5" r="5" fill="white" />
                   </svg>
-                  <a href="/singlepage">BALI, LOMBOK & GILI ISLANDS</a>
+                  <a href="/singlepage">Indien, Nepal, Thailand & Sri Lanka</a>
+                </li>
+                <li class="text-white flex items-center">
+                  <svg
+                    class=" ml-4"
+                    width="10"
+                    height="10"
+                    viewBox="0 0 10 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="5" cy="5" r="5" fill="white" />
+                  </svg>
+                  <a href="/singlepage"
+                    >Hawaii, Australien, Japan, Bali & Gili Islands</a
+                  >
+                </li>
+                <li class="text-white flex items-center">
+                  <svg
+                    class=" ml-4"
+                    width="10"
+                    height="10"
+                    viewBox="0 0 10 10"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <circle cx="5" cy="5" r="5" fill="white" />
+                  </svg>
+                  <a href="/singlepage">Caribien, Hawaii & Mexico</a>
                 </li>
               </ul>
             </div>
@@ -325,7 +369,7 @@
       <li class="hidden lg:block">
         <div class="group relative h-full">
           <a
-            href="/#"
+            href="/underconstruction"
             class="text-white flex items-center h-full bg-grey-darkest px-4"
           >
             Om os
@@ -347,7 +391,7 @@
             <ul>
               <li>
                 <a
-                  href="/#"
+                  href="/underconstruction"
                   class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
                 >
                   Møde teamet
@@ -355,7 +399,7 @@
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/underconstruction"
                   class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
                 >
                   Vores værdier
@@ -363,7 +407,7 @@
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/underconstruction"
                   class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
                 >
                   Bæredygtighed
@@ -371,7 +415,7 @@
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/underconstruction"
                   class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
                 >
                   FAQ
@@ -379,7 +423,7 @@
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/underconstruction"
                   class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
                 >
                   Blog
@@ -387,7 +431,7 @@
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/underconstruction"
                   class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
                 >
                   Det siger vores elever
@@ -453,7 +497,7 @@
       <li class="hidden lg:block">
         <div class="group relative h-full">
           <a
-            href="/#"
+            href="/underconstruction"
             class="text-white flex items-center h-full bg-grey-darkest px-4"
           >
             Elevforening
@@ -475,7 +519,7 @@
             <ul>
               <li>
                 <a
-                  href="/#"
+                  href="/underconstruction"
                   class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
                 >
                   Kommende Events
@@ -483,7 +527,7 @@
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/underconstruction"
                   class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
                 >
                   Elev Ambassadøre
@@ -491,7 +535,7 @@
               </li>
               <li>
                 <a
-                  href="/#"
+                  href="/underconstruction"
                   class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
                 >
                   REUIONEN 2022
@@ -502,7 +546,9 @@
         </div>
       </li>
     </ul>
-    <button class="hidden lg:block">TILMELD INFOMØDE</button>
+    <button class="hidden lg:block"
+      ><a href="/infomode">TILMELD INFOMØDE</a></button
+    >
   </div>
 </nav>
 
