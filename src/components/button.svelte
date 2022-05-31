@@ -7,7 +7,10 @@
 <style>
   /* -----MODE=PRIMARY START --------- */
 
+  button,
   .primary {
+    font-family: "montserrat";
+    font-weight: 500;
     background-color: var(--hvid);
     color: var(--textcolor);
     border: 2px solid var(--primary-button-cta-border-color);
@@ -20,6 +23,7 @@
     transition: ease-out 0.4s;
   }
 
+  button:hover,
   .primary:hover {
     box-shadow: inset 400px 0 0 0 #ff5e04;
     color: var(--hvid);
@@ -27,16 +31,22 @@
 
   /* -----MODE=SECONDARY START --------- */
 
-  .secondarybutton {
-    white-space: nowrap;
-    background-color: var(--secondary-button-cta-background-color);
-    border: solid 1px white;
-    padding: var(--spacing-button);
-    color: var(--txtcolor);
+  .secondary {
+    font-family: "montserrat";
     font-weight: 500;
+    background-color: var(--hvid);
+    color: var(--textcolor);
+    border: 2px solid var(--primary-button-cta-border-color);
+    border-radius: 0px;
+    padding: 0.5rem 30px;
+    display: inline-block;
+    box-shadow: inset 0 0 0 0 #ff5e04;
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
   }
 
-  .secondarybutton:hover {
+  .secondary:hover {
     background-color: var(--button-cta-background-color-hover);
     color: var(--hvid);
     border: solid 1px white;
