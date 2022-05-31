@@ -7,7 +7,7 @@
 </script>
 
 
-<section class="background_color_boks p-4 m-4 md:m-0 lg:flex lg:justify-around lg:p-4 lg:items-center md:p-0">
+<section class="background_color_boks p-4 md:m-0 lg:flex lg:justify-around lg:p-4 lg:items-center md:p-0">
   
   
     <div class="hidden lg:grid lg:text-center lg:justify-items-center">

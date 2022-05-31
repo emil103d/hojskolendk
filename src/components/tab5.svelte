@@ -4,7 +4,7 @@
 
 <main class="col-start-2">
   <!-- SECTION 1 -->
-  <section>
+  <section class="maxwidthwrapper" id="no-pad">
     <h2 class="">Afrejsedatoer</h2>
     <p>
       Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
@@ -13,10 +13,62 @@
       Island og turtlewatch på programmet.
     </p>
 
-    <Ophold_afrejse
-      dato="Bali, Lombok & Gili Islands"
-      pris="1500kr."
-      varig="1500kr."
-    />
+    <section class="grid gap-8" id="no-inner-pad">
+      <h4>2022</h4>
+      <div class="grid gap-8">
+        <Ophold_afrejse
+          dato="Bali, Lombok & Gili Islands"
+          pris="1500kr."
+          varig="1500kr."
+        />
+        <Ophold_afrejse
+          dato="Bali, Lombok & Gili Islands"
+          pris="1500kr."
+          varig="1500kr."
+        />
+        <Ophold_afrejse
+          dato="Bali, Lombok & Gili Islands"
+          pris="1500kr."
+          varig="1500kr."
+        />
+    </div>
+
+    <h4>2023</h4>
+    <div class="grid gap-8">
+      
+      <Ophold_afrejse
+        dato="Bali, Lombok & Gili Islands"
+        pris="1500kr."
+        varig="1500kr."
+      />
+      <Ophold_afrejse
+        dato="Bali, Lombok & Gili Islands"
+        pris="1500kr."
+        varig="1500kr."
+      />
+      <Ophold_afrejse
+        dato="Bali, Lombok & Gili Islands"
+        pris="1500kr."
+        varig="1500kr."
+      />
+  </div>
+    </section>
+
   </section>
 </main>
+
+<style>
+  section {
+       padding-top: var(--spacing-80);
+       padding-bottom: var(--spacing-80);
+   }
+
+   #no-pad {
+    padding-top: 0;
+    }
+
+    #no-inner-pad {
+      padding-left: 0;
+      padding-right: 0;
+    }
+</style>
