@@ -21,7 +21,7 @@
     <div class="grid justify-center py-4 lg:p-0">
       <h3>Sri Lanka, Maldiverne & Thailand</h3>
       
-      <div class="flex gap-6 pt-4">
+      <div class="flex gap-8 lg:gap-12 pt-4 justify-center lg:justify-start">
         
         <div class="flex items-center gap-2">
           <img class="w-8 h-8" src="../src/_icons/calender.png" alt="" />
@@ -34,7 +34,7 @@
         <div class="hidden">
           <img class="w-8 h-8 " src="../src/_icons/calender.png" alt="" />
           <p class="font-bold">Afrejse </p>
-          <p class="tabeltxt">{varig}</p>
+          <p class="tabeltxt">{dato}</p>
         </div>
 
         <div class="h-full w-0.5 bg-black" />

@@ -17,19 +17,19 @@
       <h4>2022</h4>
       <div class="grid gap-8">
         <Ophold_afrejse
-          dato="06. juli 2022"
-          pris="1500kr."
+          dato="06. Jul 2022"
+          pris="29.000 DKK"
           varig="3 måneder"
         />
         <Ophold_afrejse
-          dato="06. september 2022"
-          pris="1500kr."
-          varig="1500kr."
+          dato="06. Sep 2022"
+          pris="29.700 DKK"
+          varig="3 måneder"
         />
         <Ophold_afrejse
-          dato="06. december 2022"
-          pris="1500kr."
-          varig="1500kr."
+          dato="06. Dec 2022"
+          pris="31.400 DKK"
+          varig="3 måneder"
         />
     </div>
 
@@ -37,19 +37,19 @@
     <div class="grid gap-8">
       
       <Ophold_afrejse
-        dato="Bali, Lombok & Gili Islands"
-        pris="1500kr."
-        varig="1500kr."
+        dato="02. Mar 2023"
+        pris="31.900 DKK"
+        varig="3 måneder"
       />
       <Ophold_afrejse
-        dato="Bali, Lombok & Gili Islands"
-        pris="1500kr."
-        varig="1500kr."
+        dato="04. Apr 2023"
+        pris="32.700"
+        varig="3 måneder"
       />
       <Ophold_afrejse
-        dato="Bali, Lombok & Gili Islands"
-        pris="1500kr."
-        varig="1500kr."
+        dato="05. Maj 2023"
+        pris="33.00"
+        varig="3 måneder"
       />
   </div>
     </section>
