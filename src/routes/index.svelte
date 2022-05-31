@@ -1,10 +1,13 @@
 <script>
   import CardTrustpilot from "../components/card_trustpilot.svelte";
   import Card from "../components/card.svelte";
-  import PrimaryButton from "../components/primarybutton.svelte"
+  import PrimaryButton from "../components/primarybutton.svelte";
+  import Cookie from "../components/cookie.svelte";
+  import Chat from "../components/chat.svelte";
+  let cookie;
 </script>
 
-<header class="h-full w-full"id="video">
+<header class="h-full w-full" id="video">
   <video
     class="z-0 hero-image"
     loop
@@ -24,18 +27,19 @@
 >
   <article class="cols-start-1 grid items-center">
     <div>
-    <p class="preh2">VI ER</p>
-    <h2>REJSEEVENTYR, SOMMER VIBES & ET FÆLLESSKAB I VERDENSKLASSE</h2>
-    <p>
-      HÖJSKOLENDK er noget for dig, hvis du vil på højskole i udlandet og er
-      vild med højskolefællesskab, vil med på et fantastisk rejseeventyr, glæder
-      dig til at lære om fremmede kulturer, vil rejse med rygsæk, drømmer om en
-      fed grupperejse med andre skønne unge, vil opleve et stærkt sammenhold og
-      ønsker inspirerende og meningsfuld undervisning. Du er sikker på en tryg
-      rejseoplevelse da vi er medlem af Rejsegarantifonden.
-    </p>
-    <button>JOIN OS TIL INFOMØDE</button>
-  </div>
+      <p class="preh2">VI ER</p>
+      <h2>REJSEEVENTYR, SOMMER VIBES & ET FÆLLESSKAB I VERDENSKLASSE</h2>
+      <p>
+        HÖJSKOLENDK er noget for dig, hvis du vil på højskole i udlandet og er
+        vild med højskolefællesskab, vil med på et fantastisk rejseeventyr,
+        glæder dig til at lære om fremmede kulturer, vil rejse med rygsæk,
+        drømmer om en fed grupperejse med andre skønne unge, vil opleve et
+        stærkt sammenhold og ønsker inspirerende og meningsfuld undervisning. Du
+        er sikker på en tryg rejseoplevelse da vi er medlem af
+        Rejsegarantifonden.
+      </p>
+      <button>JOIN OS TIL INFOMØDE</button>
+    </div>
   </article>
   <div class="cols-start-2">
     <img
@@ -47,11 +51,13 @@
 </section>
 <!-- section #1 slut -->
 
-<section id="section_2" >
+<section id="section_2">
   <div class="maxwidthwrapper">
     <p class="preh2">MANGE SPÆNDENDE DESTINATIONER</p>
     <h2 class="">SE VORES EVENTYRLIGE HØJSKOLEOPHOLD</h2>
-    <div class="flex justify-between gap-5 overflow-hidden hover:overflow-x-scroll">
+    <div
+      class="flex justify-between gap-5 overflow-hidden hover:overflow-x-scroll"
+    >
       <Card
         image="../src/_images/webp/ophold1.webp"
         title="Maldiverne, Sri Lanka, Bali & Gili"
@@ -70,100 +76,157 @@
       />
     </div>
     <div class="md:justify-center md:grid">
-    <PrimaryButton class="primarybutton">UDFORSK ALLE VORES OPHOLD</PrimaryButton>
-  </div>
+      <PrimaryButton class="primarybutton"
+        >UDFORSK ALLE VORES OPHOLD</PrimaryButton
+      >
+    </div>
   </div>
 </section>
 
 <!-- section #2 Start -->
 <section class="maxwidthwrapper mx-auto pb-0">
   <div class="">
-  <p class="preh2">ELSKET AF 2500+ ELEVER</p>
-  <h2>SE VORES ANMELDELSER </h2>
-  <img src="../src/_logo/trustpilot_logo.png" alt="" />
-  <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-auto justify-around">
-    <CardTrustpilot
-      title="Venskaber for livet"
-      text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK"
-      image="../src/_images/webp/social3.webp"
-      name=" Jackie Salomonsen"
-    />
-    <CardTrustpilot
-      image="../src/_images/webp/social4.webp"
-      title="Fantastisk rejse"
-      name=" Camilla Jensen"
-      text="
+    <p class="preh2">ELSKET AF 2500+ ELEVER</p>
+    <h2>SE VORES ANMELDELSER</h2>
+    <img src="../src/_logo/trustpilot_logo.png" alt="" />
+    <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-auto justify-around">
+      <CardTrustpilot
+        title="Venskaber for livet"
+        text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK"
+        image="../src/_images/webp/social3.webp"
+        name=" Jackie Salomonsen"
+      />
+      <CardTrustpilot
+        image="../src/_images/webp/social4.webp"
+        title="Fantastisk rejse"
+        name=" Camilla Jensen"
+        text="
 Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv i mit liv. Jeg oplevede stor professionalisme og ansvarlighed fra organisationens side, og mine rejseledere var enormt kompetente, jordnære og skabte stor tryghed i gruppen."
-    />
-    
-    <div class="hidden lg:grid">
-    <CardTrustpilot
-      image="../src/_images/webp/social6.webp"
-      title="Uforglemmeligt"
-      name=" Søren Reves"
-      text="
+      />
 
-    Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber med mig for livet. Og så var det en stor udviklingsrejse både gennem undervisningen men lige så meget ved friheden til at rejse på egen hånd og stå på egne ben."   
-    />
-  </div>
+      <div class="hidden lg:grid">
+        <CardTrustpilot
+          image="../src/_images/webp/social6.webp"
+          title="Uforglemmeligt"
+          name=" Søren Reves"
+          text="
 
+    Jeg oplevede et fællesskab, jeg ikke sidenhen har prøvet, og jeg fik venskaber med mig for livet. Og så var det en stor udviklingsrejse både gennem undervisningen men lige så meget ved friheden til at rejse på egen hånd og stå på egne ben."
+        />
+      </div>
+    </div>
   </div>
-</div>
 </section>
 
 <!-- Statistik sektion start -->
 <section
   id="statistik_sektion"
-  class="maxwidthwrapper text-center w-full md:p-64 min-h-[35vh] grid items-center justify-center">
+  class="maxwidthwrapper text-center w-full md:p-64 min-h-[35vh] grid items-center justify-center"
+>
   <div class="">
-  <h2 class="mb-5 hidden">ELSKET AF 2.500+ ELEVER</h2>
-  
-  <div class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center">
-    
-    <div class="md:max-w-xs">
-      <h3 cl>16</h3>
-      <p>ADVENTUREFYLDTE <br> DESTINATIONER</p>
-    </div>
+    <h2 class="mb-5 hidden">ELSKET AF 2.500+ ELEVER</h2>
 
+    <div class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center">
+      <div class="md:max-w-xs">
+        <h3 cl>16</h3>
+        <p>ADVENTUREFYLDTE <br /> DESTINATIONER</p>
+      </div>
 
-    <div class="md:max-w-xs">
-      <h3>4,8</h3>
-      <p>PÅ TRUSTPILOT</p>
-      <img class="md:max-w-xs" src="../src/_icons/5star.png" alt="" />
-    </div>
+      <div class="md:max-w-xs">
+        <h3>4,8</h3>
+        <p>PÅ TRUSTPILOT</p>
+        <img class="md:max-w-xs" src="../src/_icons/5star.png" alt="" />
+      </div>
 
-    <div class="md:max-w-xs">
-      <h3>106.785</h3>
-      <p class="max-w-xs m-auto">
-        M2 FREDET REGNSKOV
-      </p>
+      <div class="md:max-w-xs">
+        <h3>106.785</h3>
+        <p class="max-w-xs m-auto">M2 FREDET REGNSKOV</p>
+      </div>
     </div>
   </div>
-</div>
 </section>
 
 <section class="maxwidthwrapper">
   <p class="preh2">WE'RE SOCIAL</p>
-  <h2>FØLG VORES REJSEEVENTYR @ #HOJSKOLENDK </h2>
+  <h2>FØLG VORES REJSEEVENTYR @ #HOJSKOLENDK</h2>
   <div class="grid grid-rows-3 md:grid-cols-3 lg:grid-cols-4">
-    <img class="md:row-start-1 md:col-start-1 lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/dykke.webp" alt="">
-    <img class="md:row-start-1 md:col-start-2 lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/riverraft.webp" alt="">
-    <img class="md:row-start-1 md:col-start-3 lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/social.webp" alt="">
-    <img class="md:row-start-1 md:col-start-1 hidden md:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/solnedgang.webp" alt="">
-    <img class="md:row-start-2 md:col-start-2 hidden md:grid lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/surf.webp" alt="">
-    <img class="md:row-start-2 md:col-start-3 hidden md:grid lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/social4.webp" alt="">
-    <img class="md:row-start-2 md:col-start-1 hidden md:grid lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/rapelvandfald.webp" alt="">
-    <img class="md:row-start-2 md:col-start-2 hidden md:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/social5.webp" alt="">
-    <img class="md:row-start-3 md:col-start-3 hidden md:grid lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/riverrafting4.webp" alt="">
-    <img class="md:row-start-3 md:col-start-1 hidden md:grid lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/social9.webp" alt="">
-    <img class="md:row-start-3 md:col-start-2 hidden md:grid lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/social13.webp" alt="">
-    <img class="md:row-start-3 md:col-start-3 hidden md:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/social12.webp" alt="">
+    <img
+      class="md:row-start-1 md:col-start-1 lg:col-start-1 object-cover w-full aspect-square"
+      src="src/_images/webp/dykke.webp"
+      alt=""
+    />
+    <img
+      class="md:row-start-1 md:col-start-2 lg:col-start-2 object-cover w-full aspect-square"
+      src="src/_images/webp/riverraft.webp"
+      alt=""
+    />
+    <img
+      class="md:row-start-1 md:col-start-3 lg:col-start-3 object-cover w-full aspect-square"
+      src="src/_images/webp/social.webp"
+      alt=""
+    />
+    <img
+      class="md:row-start-1 md:col-start-1 hidden md:grid lg:col-start-4 object-cover w-full aspect-square"
+      src="src/_images/webp/solnedgang.webp"
+      alt=""
+    />
+    <img
+      class="md:row-start-2 md:col-start-2 hidden md:grid lg:col-start-1 object-cover w-full aspect-square"
+      src="src/_images/webp/surf.webp"
+      alt=""
+    />
+    <img
+      class="md:row-start-2 md:col-start-3 hidden md:grid lg:col-start-2 object-cover w-full aspect-square"
+      src="src/_images/webp/social4.webp"
+      alt=""
+    />
+    <img
+      class="md:row-start-2 md:col-start-1 hidden md:grid lg:col-start-3 object-cover w-full aspect-square"
+      src="src/_images/webp/rapelvandfald.webp"
+      alt=""
+    />
+    <img
+      class="md:row-start-2 md:col-start-2 hidden md:grid lg:col-start-4 object-cover w-full aspect-square"
+      src="src/_images/webp/social5.webp"
+      alt=""
+    />
+    <img
+      class="md:row-start-3 md:col-start-3 hidden md:grid lg:col-start-1 object-cover w-full aspect-square"
+      src="src/_images/webp/riverrafting4.webp"
+      alt=""
+    />
+    <img
+      class="md:row-start-3 md:col-start-1 hidden md:grid lg:col-start-2 object-cover w-full aspect-square"
+      src="src/_images/webp/social9.webp"
+      alt=""
+    />
+    <img
+      class="md:row-start-3 md:col-start-2 hidden md:grid lg:col-start-3 object-cover w-full aspect-square"
+      src="src/_images/webp/social13.webp"
+      alt=""
+    />
+    <img
+      class="md:row-start-3 md:col-start-3 hidden md:grid lg:col-start-4 object-cover w-full aspect-square"
+      src="src/_images/webp/social12.webp"
+      alt=""
+    />
   </div>
 </section>
 
 <!-- Statistik section  slut -->
 
-<!-- section #2 Start -->
+<!-- sectCookie og Chation  -->
+
+<Cookie bind:this={cookie}>
+  <button
+    on:click={() => {
+      cookie.closeModal();
+    }}>Close dialog</button
+  >
+</Cookie>
+
+<Chat />
+
 <style>
   section {
     overflow: hidden;
@@ -184,7 +247,6 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
-    ;
   }
 
   #statistik_sektion h3 {
