@@ -299,7 +299,7 @@
   }
 
   .palme {
-    margin-bottom: -1px;
+    margin-bottom: -0.9px;
     opacity: 0.8;
     overflow: hidden;
     width: 99vw;
