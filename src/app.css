@@ -13,9 +13,9 @@
     --orange: #ff5e04;
     --orange-800: rgba(255, 94, 4, 0.8);
     --cta-background-color: #ff5405;
-    --primary-button-cta-background-color: var(--orange-800);
-    --secondary-button-cta-background-color: var(--hvid);
-    --secondary-button-cta-border-color: var(--orange);
+    --primary-button-cta-background-color: var(--hvid);
+    --secondary-button-cta-background-color: var(--orange-800);
+    --primary-button-cta-border-color: var(--orange);
     --button-cta-background-color-hover: var(--orange);
     --button-ghost-background-color: var(--txtcolor);
 
@@ -162,13 +162,11 @@
     object-fit: cover;
   }
 
-
-
   /* ---------------Header slut  -----------------*/
 
   /* ---------------Buttons start  -----------------*/
 }
-/* button,
+button,
 .primarybutton {
   min-width: 00px;
   background-color: var(--orange);
@@ -179,13 +177,13 @@
   font-weight: 400;
   color: var(--hvid);
   border: 1px solid var(----primary-button-cta-background-color);
-} */
+}
 
-/* button:hover,
+button:hover,
 .primarybutton:hover {
   border: var(--button-cta-background-color-hover);
   background-color: var(--button-cta-background-color-hover);
-} */
+}
 
 .secondarybutton {
   white-space: nowrap;
@@ -201,8 +199,6 @@
   color: var(--hvid);
   border: solid 1px white;
 }
-
-/* button7 */
 
 /* ---------------Buttons slut  -----------------*/
 
@@ -250,7 +246,6 @@ sidebar button:hover {
 /* !!!!!MOBILE ABOWE - WEB BELOW !!!!!!!!!!MOBILE ABOWE - WEB BELOW !!!!!!!!!!MOBILE ABOWE - WEB BELOW !!!!! */
 
 @media screen and (min-width: 700px) {
-
   /* ----------- header start -------------- */
 
   .hero-text {
