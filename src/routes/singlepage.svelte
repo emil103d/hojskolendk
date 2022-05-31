@@ -88,6 +88,7 @@
         <TabC />
       {/if} -->
   </section>
+
   <BuyCard/>
 
 </main>
