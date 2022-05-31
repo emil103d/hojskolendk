@@ -6,6 +6,10 @@
   import Chat from "../components/chat.svelte";
   import Saos from "saos";
   let cookie;
+
+  function handleObserver(x) {
+    console.info(x.detail.observing);
+  }
 </script>
 
 <header class="h-full w-full" id="video">
@@ -26,11 +30,19 @@
 <section
   class="maxwidthwrapper md:pt-0 md:grid grid-cols-2 md:justify-center md:gap-8"
 >
-  <Saos animation={"from-left 2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
-    <article class="cols-start-1 grid items-center">
-      <div>
+  <article class="cols-start-1 grid items-center">
+    <div>
+      <Saos
+        animation={"from-left 1.2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
+      >
         <p class="preh2">VI ER</p>
+      </Saos>
+      <Saos
+        animation={"from-left 1.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
+      >
         <h2>REJSEEVENTYR, SOMMER VIBES & ET FÆLLESSKAB I VERDENSKLASSE</h2>
+      </Saos>
+      <Saos animation={"from-left 2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
         <p>
           HÖJSKOLENDK er noget for dig, hvis du vil på højskole i udlandet og er
           vild med højskolefællesskab, vil med på et fantastisk rejseeventyr,
@@ -41,15 +53,12 @@
           Rejsegarantifonden.
         </p>
         <button>JOIN OS TIL INFOMØDE</button>
-      </div>
-    </article>
-  </Saos>
+      </Saos>
+    </div>
+  </article>
   <div class="cols-start-2">
     <Saos
-      animation={"slide-in-fwd-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
-      animation_out={"scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both"}
-      top={250}
-      bottom={250}
+      animation={"slide-in-fwd-tr 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
     >
       <img
         class=""
@@ -106,6 +115,7 @@
         image="../src/_images/webp/social3.webp"
         name=" Jackie Salomonsen"
       />
+
       <CardTrustpilot
         image="../src/_images/webp/social4.webp"
         title="Fantastisk rejse"
@@ -133,27 +143,35 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
   id="statistik_sektion"
   class="maxwidthwrapper text-center w-full md:p-64 min-h-[35vh] grid items-center justify-center"
 >
-  <div class="">
-    <h2 class="mb-5 hidden">ELSKET AF 2.500+ ELEVER</h2>
+  <Saos
+    animation={"puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both"}
+    animation_out={"slide-out-elliptic-top-bck 0.7s ease-in both"}
+    top={250}
+    bottom={250}
+    on:update={handleObserver}
+  >
+    <div class="">
+      <h2 class="mb-5 hidden">ELSKET AF 2.500+ ELEVER</h2>
 
-    <div class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center">
-      <div class="md:max-w-xs">
-        <h3 cl>16</h3>
-        <p>ADVENTUREFYLDTE <br /> DESTINATIONER</p>
-      </div>
+      <div class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center">
+        <div class="md:max-w-xs">
+          <h3 class="rotate_animation">16</h3>
+          <p>ADVENTUREFYLDTE <br /> DESTINATIONER</p>
+        </div>
 
-      <div class="md:max-w-xs">
-        <h3>4,8</h3>
-        <p>PÅ TRUSTPILOT</p>
-        <img class="md:max-w-xs" src="../src/_icons/5star.png" alt="" />
-      </div>
+        <div class="md:max-w-xs">
+          <h3 class="rotate_animation">4,8</h3>
+          <p>PÅ TRUSTPILOT</p>
+          <img class="md:max-w-xs" src="../src/_icons/5star.png" alt="" />
+        </div>
 
-      <div class="md:max-w-xs">
-        <h3>106.785</h3>
-        <p class="max-w-xs m-auto">M2 FREDET REGNSKOV</p>
+        <div class="md:max-w-xs">
+          <h3 class="rotate_animation">106.785</h3>
+          <p class="max-w-xs m-auto">M2 FREDET REGNSKOV</p>
+        </div>
       </div>
     </div>
-  </div>
+  </Saos>
 </section>
 
 <section class="maxwidthwrapper">
@@ -271,5 +289,87 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 
   article {
     max-width: 700px;
+  }
+
+  /* ANIMATIONER */
+
+  /* Sektion 1 artikel animation */
+  @keyframes -global-from-left {
+    0% {
+      transform: rotateX(50deg) translateX(-200vw) skewX(-50deg);
+      opacity: 1;
+    }
+    100% {
+      transform: rotateX(0deg) translateX(0) skewX(0deg);
+      opacity: 1;
+    }
+  }
+
+  /* Billede animation */
+  @keyframes -global-slide-in-fwd-tr {
+    0% {
+      transform: translateY(1000px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  /* Tekst animation */
+
+  @keyframes -global-tracking-in-contract {
+    0% {
+      letter-spacing: 1em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      letter-spacing: normal;
+      opacity: 1;
+    }
+  }
+
+  /* Rotate */
+  @keyframes -global-rotate-in-center {
+    0% {
+      transform: rotate(-360deg);
+      opacity: 0;
+    }
+    100% {
+      transform: rotate(0);
+      opacity: 1;
+    }
+  }
+
+  .rotate_animation:hover {
+    animation: rotate-in-center 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  }
+
+  @keyframes -global-puff-in-center {
+    0% {
+      transform: scale(2);
+      filter: blur(4px);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  @keyframes tilt-in-top-1 {
+    0% {
+      transform: rotateY(30deg) translateY(-300px) skewY(-30deg);
+      opacity: 0;
+    }
+    100% {
+      transform: rotateY(0deg) translateY(0) skewY(0deg);
+      opacity: 1;
+    }
   }
 </style>
