@@ -1,11 +1,13 @@
 <script>
   export let imgtitle;
+  export let subtitle;
+  export let title;
 </script>
 
 <img src={imgtitle} alt="herobillede" class="hero-image" />
 <div class="hero-text">
-  <p>Rejs med HÔJSKOLENDK til</p>
-  <h2>SRI LANKE, MALDIVERNE & THAILAND</h2>
+  <p>{subtitle}</p>
+  <h2>{title}</h2>
 </div>
 
 <style>
