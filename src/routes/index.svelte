@@ -27,8 +27,9 @@
 <section
   class="maxwidthwrapper md:pt-0 md:grid grid-cols-2 md:justify-center md:gap-8"
 >
-  <Saos animation={"from-left 2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+
     <article class="cols-start-1 grid place-content-center">
+      <Saos animation={"from-left 2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
       <div>
         <p class="preh2">VI ER</p>
         <h2>REJSEEVENTYR, SOMMER VIBES & ET FÆLLESSKAB I VERDENSKLASSE</h2>
@@ -43,8 +44,8 @@
         </p>
         <button>JOIN OS TIL INFOMØDE</button>
       </div>
+    </Saos>
     </article>
-  </Saos>
   <div class="cols-start-2">
     <Saos
       animation={"slide-in-fwd-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
