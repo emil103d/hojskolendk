@@ -12,6 +12,7 @@
     font-family: "Lato", sans-serif;
     font-weight: 500;
     background-color: var(--primary-button-cta-background-color);
+    border: 1px solid var(--secondary-button-cta-border-color);
     color: var(--hvid);
     padding: 0.5rem 30px;
     display: inline-block;
@@ -24,6 +25,7 @@
 
   button:hover,
   .primary:hover {
+    border: 1px solid var(--orange-light);
     box-shadow: inset 400px 0 0 0 #ff853e;
     color: var(--hvid);
   }
@@ -35,8 +37,7 @@
     font-weight: 200;
     background-color: var(--hvid);
     color: var(--textcolor);
-    border: 2px solid var(--primary-button-cta-border-color);
-    border-radius: 0px;
+    border: 1px solid var(--secondary-button-cta-border-color);
     padding: 0.5rem 30px;
     display: inline-block;
     box-shadow: inset 0 0 0 0 #ff5e04;
