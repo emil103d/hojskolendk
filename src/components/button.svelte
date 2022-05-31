@@ -19,6 +19,7 @@
     -webkit-transition: ease-out 0.4s;
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
+    white-space: nowrap;
   }
 
   button:hover,
