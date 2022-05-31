@@ -10,6 +10,7 @@
   import Tab9 from "../components/tab9.svelte";
   import Tab10 from "../components/tab10.svelte";
   import Header from "../components/header.svelte";
+  import BuyCard from "../components/buycard.svelte"
 
   let activetab = Tab1;
 </script>
@@ -87,6 +88,8 @@
         <TabC />
       {/if} -->
   </section>
+  <BuyCard/>
+
 </main>
 
 <style>

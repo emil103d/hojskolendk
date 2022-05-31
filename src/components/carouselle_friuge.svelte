@@ -2,8 +2,8 @@
   import Cardfri from "../components/card_friuger.svelte";
 </script>
 
-<section id="section_2">
-  <div id="carowrapper">
+<section id="section_2 overflow-hidden w-full">
+  <div id="carowrapper overflow-hidden w-full">
     <button id="left" class="hover:scale-105 hidden"
       ><svg
         width="42"
@@ -20,7 +20,7 @@
       </svg>
     </button>
 
-    <div class="flex gap-5 overflow-x-scroll">
+    <div class="flex gap-5 overflow-hidden w-full">
       <Cardfri
         image="../src/_images/webp/ophold1.webp"
         title="Surf på bølgerne"
@@ -62,7 +62,7 @@
         "
       />
     </div>
-    <button id="right" class="hover:scale-105 hidden md:absolute"
+    <!-- <button id="right" class="hover:scale-105 hidden md:absolute"
       ><svg
         width="43"
         height="66"
@@ -76,7 +76,7 @@
           stroke-width="6"
         />
       </svg>
-    </button>
+    </button> -->
   </div>
 </section>
 
