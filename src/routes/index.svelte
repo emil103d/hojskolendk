@@ -1,7 +1,7 @@
 <script>
   import CardTrustpilot from "../components/card_trustpilot.svelte";
   import Card from "../components/card.svelte";
-  import PrimaryButton from "../components/primarybutton.svelte";
+  import MyButton from "../components/button.svelte";
   import Cookie from "../components/cookie.svelte";
   import Chat from "../components/chat.svelte";
   import Saos from "saos";
@@ -69,7 +69,7 @@
           Du er sikker på en tryg rejseoplevelse da vi er medlem af
           Rejsegarantifonden.
         </p>
-        <button>JOIN OS TIL INFOMØDE</button>
+        <MyButton type="primary">JOIN OS TIL INFOMØDE</Mybutton>
 <<<<<<< HEAD
       </div>
     </Saos>
