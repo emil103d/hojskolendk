@@ -10,7 +10,6 @@
   button,
   .primary {
     font-family: "Lato", sans-serif;
-    font-weight: 500;
     background-color: var(--primary-button-cta-background-color);
     border: 1px solid var(--secondary-button-cta-border-color);
     color: var(--hvid);
@@ -33,8 +32,7 @@
   /* -----MODE=SECONDARY START --------- */
 
   .secondary {
-    font-family: "montserrat";
-    font-weight: 200;
+    font-family: "lato";
     background-color: var(--hvid);
     color: var(--textcolor);
     border: 1px solid var(--secondary-button-cta-border-color);

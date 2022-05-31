@@ -44,7 +44,7 @@
     --font_h4: clamp(1rem, 1.09375rem + 0.625vw, 1.4625rem);
     --font_p_tabel: clamp(0.75rem, 0.65625rem + 0.375vw, 0.8375rem);
     /* buttons */
-    --font_knap_s: 15px;
+    /* --font_knap_s: 15px; */
     --font_knap_m: clamp(0.75rem, 0.65625rem + 0.375vw, 0.9375rem);
     --font_knap_l: clamp(1rem, 0.625rem + 1.5000000000000002vw, 1.5625rem);
     --font_talsek: clamp(3rem, 0.21875rem + 0.125vw, 5rem);
