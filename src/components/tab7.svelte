@@ -1,11 +1,12 @@
 <script>
   import Carouselle_fri from "../components/carouselle_friuge.svelte";
+  
 </script>
 
-<main class="col-start-2">
+<main class="col-start-2 ">
   <!-- SECTION 1 -->
-  <section>
-    <h2>Friuger</h2>
+  <section class="" id="">
+    <h2>FRIUGER</h2>
     <p>
       Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
       Rumrunners eller snorkler efter havskildpadder. Derudover har vi haft en
@@ -23,6 +24,7 @@
       <Carouselle_fri />
     </div>
   </section>
+
 
   <!-- SECTION 3 -->
   <section class="">
@@ -53,4 +55,14 @@
     line-height: var(--line-m);
     padding: var(--spacing-10);
   }
+
+  section {
+       padding-top: var(--spacing-80);
+       padding-bottom: var(--spacing-80);
+       max-width: 100%;
+   }
+
+   #no-pad {
+    padding-top: 0;
+    }
 </style>

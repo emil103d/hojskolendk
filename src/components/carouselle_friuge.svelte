@@ -4,7 +4,7 @@
 
 <section id="section_2">
   <div id="carowrapper">
-    <button id="left" class="hover:scale-105 hidden md:absolute"
+    <button id="left" class="hover:scale-105 hidden"
       ><svg
         width="42"
         height="66"
@@ -19,6 +19,7 @@
         />
       </svg>
     </button>
+
     <div class="flex gap-5 overflow-x-scroll">
       <Cardfri
         image="../src/_images/webp/ophold1.webp"
@@ -28,6 +29,14 @@
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
+      <Cardfri
+      image="../src/_images/webp/ophold1.webp"
+      title="Surf på bølgerne"
+      addon="ADD ON"
+      text="Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
+      Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
+      "
+    />
       <Cardfri
         image="../src/_images/webp/ophold1.webp"
         title="Boldspil på stranden"
@@ -73,8 +82,6 @@
 
 <style>
   #section_2 {
-    max-width: 48rem;
-    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;

@@ -8,7 +8,7 @@
 <div class="shadox mx-auto my-8 relative z-0 overflow-hidden ">
   <img class="hover:scale-105" src={image} alt={title} />
   <div class="bg-white pl-3 pr-3 pt-3 pb-3 z-3 absolute top-4 max-h-full">
-    <h3 class=" text-sm">
+    <h3 class="text-sm">
       {title}
     </h3>
     <p class="lilletekst">{addon}</p>
@@ -19,7 +19,7 @@
 <style>
   img {
     height: 24rem;
-    width: 15rem;
+    width: auto;
     transition: all 0.2s ease-in-out;
   }
 
