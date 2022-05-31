@@ -2,10 +2,10 @@
   import PrimaryButton from "./primarybutton.svelte";
 </script>
 
-<section class="pr-8 pl-8 fixed bottom-0 left-0 bg-white/95">
-  <div class="flex flex-row gap-8">
+<section class="pr-8 pl-8 fixed bottom-0 left-0 bg-white z-50 w-[100vw]">
+  <div class="flex flex-row gap-8 justify-center">
     <div><p><strong>REJS TIL SRI LANKA, MALDIVERNE & THAILAND</strong></p></div>
-    <div class="hidden lg:flex lg:flex-row lg:gap-10">
+    <div class="hidden lg:flex lg:flex-row  lg:gap-10">
       <div class="linediv" />
       <div class="w-10 h-10">
         <img src="src/_icons/calender.png" alt="flyafgang ikon" />
@@ -22,7 +22,7 @@
         <div class="grid-col-1">
           <p><strong>Undervisning</strong></p>
           <p>
-            Selvudvikling <br />
+            Selvudvikling & <br />
             Kommunikation
           </p>
         </div>

@@ -189,11 +189,13 @@
       </div>
     </div>
   </div>
-  <div class="wave">
-    <svg
-      width="1728"
-      height="36"
-      viewBox="0 0 1728 36"
+  <div class="wave flex place-content-end justify-end items-end place-items-end pt-12">
+      
+    <div>
+    <svg class=""
+      width="1731"
+      height="full"
+      viewBox="0 0 1725 36"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
@@ -202,6 +204,7 @@
         fill="white"
       />
     </svg>
+  </div>
   </div>
   <div class="footerslut">
     <p>// HÔJSKOLENDK //</p>
@@ -285,18 +288,21 @@
     text-align: center;
     padding: 5px;
     font-size: 0.5rem;
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
 
   .wave svg {
-    max-width: 100%;
-    margin-bottom: -14px;
+    margin-bottom: -10px;
+    overflow: hidden;
+    width: 95vw;
   }
 
   .palme {
     margin-bottom: -1px;
     opacity: 0.8;
     overflow: hidden;
-    width: 100vw;
+    width: 99vw;
   }
   /* ---------------Footer slut */
 

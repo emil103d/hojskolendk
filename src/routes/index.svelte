@@ -22,6 +22,7 @@
   </div>
 </header>
 
+
 <!-- section #1 start -->
 <section
   class="maxwidthwrapper md:pt-0 md:grid grid-cols-2 md:justify-center md:gap-8"
