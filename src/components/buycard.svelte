@@ -2,23 +2,21 @@
   import MyButton from "./button.svelte";
 </script>
 
-<section class="pr-8 pl-8 fixed bottom-0 left-0 bg-red z-50 w-[100vw]">
-  <div class="flex justify-between maxwidthwrapper">
-    <div>
+<section class="fixed bottom-0 left-0 bg-red-600 z-50 w-[100vw] pt-5 block my-auto">
+  <div class="flex justify-between maxwidthwrapper ">
+    <div class="block my-auto">
       <p><strong>REJS TIL SRI LANKA, MALDIVERNE & THAILAND</strong></p>
     </div>
   
-    <div class="pl-4">
+    <div class="">
       <MyButton type="primary">TILMELD OPHOLD</MyButton>
-      <MyButton type="secondary">TILMELD INFOMØDE</MyButton>
+      <MyButton type="secondary">TILMELD OPHOLD</MyButton>
     </div>
   </div>
 </section>
 
 <style>
-  * {
-    margin: auto;
-  }
+
   .linediv {
     height: 60px;
     width: 1px;
