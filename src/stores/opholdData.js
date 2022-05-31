@@ -19,7 +19,7 @@ export const opholdData = [
     afrejse: "Sommer",
     pris: "fra 28.400 kr.",
     undervisning: "Selvudvikling og kommunikation",
-    varig: "1 Måneder",
+    varig: "5 Uger",
   },
   {
     image: "../src/_images/1.jpg",
@@ -63,6 +63,6 @@ export const opholdData = [
     afrejse: "forår",
     pris: "fra 76.900 kr.",
     undervisning: "Selvudvikling og kommunikation",
-    varig: "1 Måneder",
+    varig: "3 Måneder",
   },
 ];
