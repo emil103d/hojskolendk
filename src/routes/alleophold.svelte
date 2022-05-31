@@ -1,23 +1,26 @@
 <script>
-  import { onMount } from "svelte";
+  import { onMount } from "svelte"; //Filtrering skal vise sig når siden loader (lifecycle) når siden loader vil den automatisk kalde f.eks. getVarigheder
   import Header from "../components/header.svelte";
-  import { opholdData } from "../stores/opholdData.js";
+  import { opholdData } from "../stores/opholdData.js"; // Henter dataen ned
   import Menu from "../components/menu.svelte";
   import Afrejseselekt from "../components/afrejse.svelte";
   import Ophold from "../components/ophold.svelte";
 
-  let varighed = []; // menu built from opholdData
-  let afrejser = []; // afrejse built from opholdData
+  let varighed = []; // Tomt array til varighederne
+  let afrejser = []; // Tomt array til afrejse
   let selectedvar = ""; //  menu selection
   let selectedAf = ""; //  menu selection
 
   const getVarigheder = () => {
+    //Funktion der henter de forskellige varigheder
     for (let opholdObj of opholdData) {
+      //Hvert ophold vil være opholdObj og opholdObj.varig henter værdien fra opholddata
       if (!varighed.includes(opholdObj.varig)) {
-        varighed = [...varighed, opholdObj.varig];
+        // Kigger arrayet igennem og hvis den ikke har den værdi skal den tilføje værdien i arrayet
+        varighed = [...varighed, opholdObj.varig]; //Tilføjer værdien hvis det ikke er der sammen med alle de andre værdier
       }
     }
-    varighed = varighed.sort();
+    varighed = varighed.sort(); // efter den har hentet alle unikke værdierne ind i arrayet skal de sorteres
   };
   onMount(() => getVarigheder());
 
@@ -35,18 +38,29 @@
   let filteredOphold = [];
 
   // For Select Menu
-  $: if (selectedvar) getOpholdByVar();
+  $: if (selectedvar) getOpholdByAfrejse(); //Svelte reaktiv condition -> if selected varighed er sand kald funktion
   $: console.log(filteredOphold, selectedvar);
 
   $: if (selectedAf) getOpholdByVar();
   $: console.log(filteredOphold, selectedAf);
 
   const getOpholdByVar = () => {
-    if (selectedAf === "all" || selectedvar === "alle") {
-      return (filteredOphold = []);
+    if (selectedvar === "alle") {
+      // Hvis der er blevet valgt se alle valgmuligheder knappen
+      return (filteredOphold = []); // Er det ligmed et tomt array da den så vil kalde else sektion med alle opholdende
     }
     return (filteredOphold = opholdData.filter(
-      (ophold) => ophold.afrejse === selectedAf || ophold.varig === selectedvar
+      (ophold) => ophold.varig === selectedvar // Filter ud de ophold der matcher den valgte varighed
+    ));
+  };
+
+  const getOpholdByAfrejse = () => {
+    if (selectedaf === "alle") {
+      // Hvis der er blevet valgt se alle valgmuligheder knappen
+      return (filteredOphold = []); // Er det ligmed et tomt array da den så vil kalde else sektion med alle opholdende
+    }
+    return (filteredOphold = opholdData.filter(
+      (ophold) => ophold.afrejse === selectedaf // Filter ud de ophold der matcher den valgte varighed
     ));
   };
 </script>
@@ -70,6 +84,7 @@
   </div>
 </section>
 
+<!-- Hvis filtreret ophold har ophold i sig hvis de filtreret ophold go ellers hvis alle ophold  -->
 <main id="alleophold" class="">
   {#if filteredOphold.length > 0}
     {#each filteredOphold as { title, image, subtitle, dato, afrejse, pris, undervisning, varig }}
