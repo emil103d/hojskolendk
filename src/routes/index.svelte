@@ -30,20 +30,17 @@
 <section
   class="maxwidthwrapper md:pt-0 md:grid grid-cols-2 md:justify-center md:gap-8"
 >
-  <article class="cols-start-1 grid items-center">
-    <div>
-      <Saos
-        animation={"from-left 1.2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
-      >
-        <p class="preh2">VI ER</p>
-      </Saos>
-      <Saos
-        animation={"from-left 1.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
-      >
-        <h2>REJSEEVENTYR, SOMMER VIBES & ET FÆLLESSKAB I VERDENSKLASSE</h2>
-      </Saos>
-      <Saos animation={"from-left 2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
-        <p>
+  <article class="cols-start-1 grid grid-ros items-center">
+    <div class="grid">
+
+      <div class="rows-start-1">
+        <p class="preh2"> PÅ HØJSKOLE I UDLANDET</p>
+
+        <h2>REJSEEVENTYR, SOMMER VIBES & <br> ET FÆLLESSKAB I VERDENSKLASSE</h2>
+      </div>
+
+      <div class="row-start-3">
+        <p class="pb-6">
           HÖJSKOLENDK er noget for dig, hvis du vil på højskole i udlandet og er
           vild med højskolefællesskab, vil med på et fantastisk rejseeventyr,
           glæder dig til at lære om fremmede kulturer, vil rejse med rygsæk,
@@ -52,21 +49,22 @@
           Du er sikker på en tryg rejseoplevelse da vi er medlem af
           Rejsegarantifonden.
         </p>
+      </div>
+      
+      <div class="row-start-4">
         <MyButton type="primary">JOIN OS TIL INFOMØDE</MyButton>
-      </Saos>
+      </div>
+
+      <div class="cols-start-2 rows-start-2 pb-6">
+
+        <img
+          class=""
+          src="../src/_images/webp/sektion1.webp"
+          alt="Unge glade mennesker der er med på et højskoleophold"/>
+  
+      </div>
     </div>
   </article>
-  <div class="cols-start-2">
-    <Saos
-      animation={"slide-in-fwd-tr 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
-    >
-      <img
-        class=""
-        src="../src/_images/webp/sektion1.webp"
-        alt="Unge glade mennesker der er med på et højskoleophold"
-      />
-    </Saos>
-  </div>
 </section>
 <!-- section #1 slut -->
 
@@ -98,7 +96,7 @@
         title="Costa Rica, Mexico & Guatemala"
       />
     </div>
-    <div class="md:justify-center md:grid">
+    <div class="md:justify-center md:grid pt-6">
       <MyButton type="primary">UDFORSK ALLE VORES OPHOLD</MyButton>
     </div>
   </div>
