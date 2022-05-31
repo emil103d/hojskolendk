@@ -1,9 +1,9 @@
 <main class="col-start-2">
   <!-- SECTION 1 -->
-  <section class="maxwidthwrapper grid gap-5">
+  <section class="maxwidthwrapper grid gap-5" id="no-pad">
     <div>
     <h2>SURFING, SOL OG BEACH VIBES</h2>
-    <p>
+    <p class="max-w-[65ch]">
       Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
       Rumrunners eller snorkler efter havskildpadder. Derudover har vi haft en
       masse fede ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck
@@ -11,7 +11,7 @@
     </p>
   </div>
     <div
-      class="container grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center"
+      class=" grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center"
     >
       <div class="col-start-1 row-start-1 infobokse">
         <img
@@ -82,7 +82,7 @@
 
   <!-- SECTION 3 -->
   <section
-    class="baggrund-klode relative py-4 h-full items-center justify-center maxwidthwrapper"
+    class=" relative py-4 h-full items-center justify-center maxwidthwrapper"
   >
     <div class="grid align-middle">
       <div class="">
@@ -90,10 +90,10 @@
         <h2>Overblik</h2>
       </div>
 
-      <div class="grid custom_grid">
+      <div class="grid custom_grid baggrund-klode">
         <div />
         <div
-          class="overflow-scroll max-h-[30vh] max-w-[500px] relative bg-gray-300  p-4 grid gap-4"
+          class="rejseplan overflow-scroll overflow-x-hidden max-h-[30vh] max-w-[500px] relative p-4 grid gap-4"
         >
           <div>
             <div class="flex gap-2 items-center">
@@ -203,19 +203,19 @@
   <section class="maxwidthwrapper">
     <p class="preh2">ER DU NYSGERRIG</p>
     <h2>FØLG OPHOLDET DIREKTE @ MLSBG_HDK </h2>
-    <div class="grid grid-rows-3 md:grid-cols-3 lg:grid-cols-4">
-      <img class="md:row-start-1 md:col-start-1 lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/dykke.webp" alt="">
-      <img class="md:row-start-1 md:col-start-2 lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/riverraft.webp" alt="">
-      <img class="md:row-start-1 md:col-start-3 lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/social.webp" alt="">
-      <img class="md:row-start-1 md:col-start-1 hidden md:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/solnedgang.webp" alt="">
-      <img class="md:row-start-2 md:col-start-2 hidden md:grid lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/surf.webp" alt="">
-      <img class="md:row-start-2 md:col-start-3 hidden md:grid lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/social4.webp" alt="">
-      <img class="md:row-start-2 md:col-start-1 hidden md:grid lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/rapelvandfald.webp" alt="">
-      <img class="md:row-start-2 md:col-start-2 hidden md:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/social5.webp" alt="">
-      <img class="md:row-start-3 md:col-start-3 hidden md:grid lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/riverrafting4.webp" alt="">
-      <img class="md:row-start-3 md:col-start-1 hidden md:grid lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/social9.webp" alt="">
-      <img class="md:row-start-3 md:col-start-2 hidden md:grid lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/social13.webp" alt="">
-      <img class="md:row-start-3 md:col-start-3 hidden md:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/social12.webp" alt="">
+    <div class="grid grid-rows-3 sm:grid-cols-3 lg:grid-cols-4">
+      <img class="sm:row-start-1 sm:col-start-1 lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/dykke.webp" alt="">
+      <img class="sm:row-start-1 sm:col-start-2 lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/riverraft.webp" alt="">
+      <img class="sm:row-start-1 sm:col-start-3 lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/social.webp" alt="">
+      <img class="sm:row-start-1 sm:col-start-1 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/solnedgang.webp" alt="">
+      <img class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/surf.webp" alt="">
+      <img class="sm:row-start-2 sm:col-start-3 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/social4.webp" alt="">
+      <img class="sm:row-start-2 sm:col-start-1 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/rapelvandfald.webp" alt="">
+      <img class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/social5.webp" alt="">
+      <img class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/riverrafting4.webp" alt="">
+      <img class="sm:row-start-3 sm:col-start-1 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/social9.webp" alt="">
+      <img class="sm:row-start-3 sm:col-start-2 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/social13.webp" alt="">
+      <img class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/social12.webp" alt="">
     </div>
   </section>
 </main>
@@ -233,7 +233,8 @@
     background-image: url(src/_images/verdenskort_m_destinationer.png);
     background-position: 50%;
     background-position-y: 40%;
-    height: 60vh;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
 
   .custom_grid {
@@ -247,5 +248,13 @@
   section {
     padding-top: var(--spacing-80);
     padding-bottom: var(--spacing-80);
+  }
+
+  .rejseplan {
+    background-color: var(--sandbeach);
+  }
+
+  #no-pad {
+    padding-top: 0;
   }
 </style>

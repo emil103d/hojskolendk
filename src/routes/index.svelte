@@ -148,68 +148,20 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 
 <section class="maxwidthwrapper">
   <p class="preh2">WE'RE SOCIAL</p>
-  <h2>FØLG VORES REJSEEVENTYR @ #HOJSKOLENDK</h2>
-  <div class="grid grid-rows-3 md:grid-cols-3 lg:grid-cols-4">
-    <img
-      class="md:row-start-1 md:col-start-1 lg:col-start-1 object-cover w-full aspect-square"
-      src="src/_images/webp/dykke.webp"
-      alt=""
-    />
-    <img
-      class="md:row-start-1 md:col-start-2 lg:col-start-2 object-cover w-full aspect-square"
-      src="src/_images/webp/riverraft.webp"
-      alt=""
-    />
-    <img
-      class="md:row-start-1 md:col-start-3 lg:col-start-3 object-cover w-full aspect-square"
-      src="src/_images/webp/social.webp"
-      alt=""
-    />
-    <img
-      class="md:row-start-1 md:col-start-1 hidden md:grid lg:col-start-4 object-cover w-full aspect-square"
-      src="src/_images/webp/solnedgang.webp"
-      alt=""
-    />
-    <img
-      class="md:row-start-2 md:col-start-2 hidden md:grid lg:col-start-1 object-cover w-full aspect-square"
-      src="src/_images/webp/surf.webp"
-      alt=""
-    />
-    <img
-      class="md:row-start-2 md:col-start-3 hidden md:grid lg:col-start-2 object-cover w-full aspect-square"
-      src="src/_images/webp/social4.webp"
-      alt=""
-    />
-    <img
-      class="md:row-start-2 md:col-start-1 hidden md:grid lg:col-start-3 object-cover w-full aspect-square"
-      src="src/_images/webp/rapelvandfald.webp"
-      alt=""
-    />
-    <img
-      class="md:row-start-2 md:col-start-2 hidden md:grid lg:col-start-4 object-cover w-full aspect-square"
-      src="src/_images/webp/social5.webp"
-      alt=""
-    />
-    <img
-      class="md:row-start-3 md:col-start-3 hidden md:grid lg:col-start-1 object-cover w-full aspect-square"
-      src="src/_images/webp/riverrafting4.webp"
-      alt=""
-    />
-    <img
-      class="md:row-start-3 md:col-start-1 hidden md:grid lg:col-start-2 object-cover w-full aspect-square"
-      src="src/_images/webp/social9.webp"
-      alt=""
-    />
-    <img
-      class="md:row-start-3 md:col-start-2 hidden md:grid lg:col-start-3 object-cover w-full aspect-square"
-      src="src/_images/webp/social13.webp"
-      alt=""
-    />
-    <img
-      class="md:row-start-3 md:col-start-3 hidden md:grid lg:col-start-4 object-cover w-full aspect-square"
-      src="src/_images/webp/social12.webp"
-      alt=""
-    />
+  <h2>FØLG VORES REJSEEVENTYR @ HÖJSKOLENDK </h2>
+  <div class="grid grid-rows-3 sm:grid-cols-3 lg:grid-cols-4">
+    <img class="sm:row-start-1 sm:col-start-1 lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/dykke.webp" alt="">
+    <img class="sm:row-start-1 sm:col-start-2 lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/riverraft.webp" alt="">
+    <img class="sm:row-start-1 sm:col-start-3 lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/social.webp" alt="">
+    <img class="sm:row-start-1 sm:col-start-1 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/solnedgang.webp" alt="">
+    <img class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/surf.webp" alt="">
+    <img class="sm:row-start-2 sm:col-start-3 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/social4.webp" alt="">
+    <img class="sm:row-start-2 sm:col-start-1 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/rapelvandfald.webp" alt="">
+    <img class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/social5.webp" alt="">
+    <img class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/riverrafting4.webp" alt="">
+    <img class="sm:row-start-3 sm:col-start-1 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/social9.webp" alt="">
+    <img class="sm:row-start-3 sm:col-start-2 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/social13.webp" alt="">
+    <img class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/social12.webp" alt="">
   </div>
 </section>
 
