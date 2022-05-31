@@ -30,28 +30,11 @@
 <section
   class="maxwidthwrapper md:pt-0 md:grid grid-cols-2 md:justify-center md:gap-8"
 >
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-=======
-<<<<<<< HEAD
-=======
->>>>>>> c56f1b105b61769ff5329427fbe7b7875a39150e
   <article class="cols-start-1 grid items-center">
     <div>
       <Saos
         animation={"from-left 1.2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
       >
-<<<<<<< HEAD
-=======
-  <Saos animation={"from-left 2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
->>>>>>> 7b8dda100c742ec47c3fb077af38702d4a679694
-    <article class="cols-start-1 grid place-content-center">
-      <Saos animation={"from-left 2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
-      <div>
->>>>>>> d5d9b01a2313272704f6c11090cb8a29a2019b0f
-=======
->>>>>>> c56f1b105b61769ff5329427fbe7b7875a39150e
         <p class="preh2">VI ER</p>
       </Saos>
       <Saos
@@ -69,16 +52,10 @@
           Du er sikker på en tryg rejseoplevelse da vi er medlem af
           Rejsegarantifonden.
         </p>
-        <MyButton type="primary">JOIN OS TIL INFOMØDE</Mybutton>
-<<<<<<< HEAD
-      </div>
-    </Saos>
-    </article>
-=======
+        <MyButton type="primary">JOIN OS TIL INFOMØDE</MyButton>
       </Saos>
     </div>
   </article>
->>>>>>> 7b8dda100c742ec47c3fb077af38702d4a679694
   <div class="cols-start-2">
     <Saos
       animation={"slide-in-fwd-tr 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
@@ -122,9 +99,7 @@
       />
     </div>
     <div class="md:justify-center md:grid">
-      <PrimaryButton class="primarybutton"
-        >UDFORSK ALLE VORES OPHOLD</PrimaryButton
-      >
+      <MyButton type="primary">UDFORSK ALLE VORES OPHOLD</MyButton>
     </div>
   </div>
 </section>

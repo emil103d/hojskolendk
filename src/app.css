@@ -27,6 +27,7 @@
     --sort: #000000;
     --txtcolor: #545454;
     --txtcolor-800: hlsa(0, 0%, 33%, 0.8);
+    --txtcolor-700: hlsa(0, 0%, 33%, 0.7);
     --txtcolor-600: rgba(84, 84, 84, 0.6);
 
     /* FONT SIZES */
@@ -122,8 +123,10 @@
   }
 
   p {
+    font-family: "lato", san-serif;
     font-size: var(--font_p);
-    color: var(--txtcolor-800);
+    color: var(--txtcolor-600);
+    line-height: 1.6;
   }
 
   .preh2 {
