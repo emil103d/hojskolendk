@@ -21,7 +21,7 @@
         </p>
         <div class="m-auto">
           <div class="flex gap-2 my-6 ml-8">
-            <button on:click={closeModal} class="secondary">Accepter</button>
+            <button on:click={closeModal} class="primary">Accepter</button>
             <button class="secondary"
               ><a href="/underconstruction">Læs mere</a></button
             >
