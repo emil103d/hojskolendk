@@ -17,17 +17,17 @@
       <h4>2022</h4>
       <div class="grid gap-8">
         <Ophold_afrejse
-          dato="Bali, Lombok & Gili Islands"
+          dato="06. juli 2022"
+          pris="1500kr."
+          varig="3 måneder"
+        />
+        <Ophold_afrejse
+          dato="06. september 2022"
           pris="1500kr."
           varig="1500kr."
         />
         <Ophold_afrejse
-          dato="Bali, Lombok & Gili Islands"
-          pris="1500kr."
-          varig="1500kr."
-        />
-        <Ophold_afrejse
-          dato="Bali, Lombok & Gili Islands"
+          dato="06. december 2022"
           pris="1500kr."
           varig="1500kr."
         />

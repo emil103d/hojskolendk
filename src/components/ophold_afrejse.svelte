@@ -27,7 +27,7 @@
           <img class="w-8 h-8" src="../src/_icons/calender.png" alt="" />
           <div>
             <p class="font-bold">Varighed </p>
-            <p class="tabeltxt">{dato}</p>
+            <p class="tabeltxt">{varig}</p>
           </div>
         </div>
 
