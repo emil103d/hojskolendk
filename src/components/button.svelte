@@ -9,7 +9,7 @@
 
   button,
   .primary {
-    font-family: "montserrat";
+    font-family: "Lato", sans-serif;
     font-weight: 500;
     background-color: var(--primary-button-cta-border-color);
     color: var(--hvid);
