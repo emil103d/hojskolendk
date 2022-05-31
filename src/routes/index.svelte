@@ -4,6 +4,7 @@
   import PrimaryButton from "../components/primarybutton.svelte";
   import Cookie from "../components/cookie.svelte";
   import Chat from "../components/chat.svelte";
+  import Saos from "saos";
   let cookie;
 </script>
 
@@ -25,28 +26,37 @@
 <section
   class="maxwidthwrapper md:pt-0 md:grid grid-cols-2 md:justify-center md:gap-8"
 >
-  <article class="cols-start-1 grid items-center">
-    <div>
-      <p class="preh2">VI ER</p>
-      <h2>REJSEEVENTYR, SOMMER VIBES & ET FÆLLESSKAB I VERDENSKLASSE</h2>
-      <p>
-        HÖJSKOLENDK er noget for dig, hvis du vil på højskole i udlandet og er
-        vild med højskolefællesskab, vil med på et fantastisk rejseeventyr,
-        glæder dig til at lære om fremmede kulturer, vil rejse med rygsæk,
-        drømmer om en fed grupperejse med andre skønne unge, vil opleve et
-        stærkt sammenhold og ønsker inspirerende og meningsfuld undervisning. Du
-        er sikker på en tryg rejseoplevelse da vi er medlem af
-        Rejsegarantifonden.
-      </p>
-      <button>JOIN OS TIL INFOMØDE</button>
-    </div>
-  </article>
+  <Saos animation={"from-left 2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+    <article class="cols-start-1 grid items-center">
+      <div>
+        <p class="preh2">VI ER</p>
+        <h2>REJSEEVENTYR, SOMMER VIBES & ET FÆLLESSKAB I VERDENSKLASSE</h2>
+        <p>
+          HÖJSKOLENDK er noget for dig, hvis du vil på højskole i udlandet og er
+          vild med højskolefællesskab, vil med på et fantastisk rejseeventyr,
+          glæder dig til at lære om fremmede kulturer, vil rejse med rygsæk,
+          drømmer om en fed grupperejse med andre skønne unge, vil opleve et
+          stærkt sammenhold og ønsker inspirerende og meningsfuld undervisning.
+          Du er sikker på en tryg rejseoplevelse da vi er medlem af
+          Rejsegarantifonden.
+        </p>
+        <button>JOIN OS TIL INFOMØDE</button>
+      </div>
+    </article>
+  </Saos>
   <div class="cols-start-2">
-    <img
-      class=""
-      src="../src/_images/webp/sektion1.webp"
-      alt="Unge glade mennesker der er med på et højskoleophold"
-    />
+    <Saos
+      animation={"slide-in-fwd-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
+      animation_out={"scale-out-center 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both"}
+      top={250}
+      bottom={250}
+    >
+      <img
+        class=""
+        src="../src/_images/webp/sektion1.webp"
+        alt="Unge glade mennesker der er med på et højskoleophold"
+      />
+    </Saos>
   </div>
 </section>
 <!-- section #1 slut -->
@@ -148,20 +158,68 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 
 <section class="maxwidthwrapper">
   <p class="preh2">WE'RE SOCIAL</p>
-  <h2>FØLG VORES REJSEEVENTYR @ HÖJSKOLENDK </h2>
+  <h2>FØLG VORES REJSEEVENTYR @ HÖJSKOLENDK</h2>
   <div class="grid grid-rows-3 sm:grid-cols-3 lg:grid-cols-4">
-    <img class="sm:row-start-1 sm:col-start-1 lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/dykke.webp" alt="">
-    <img class="sm:row-start-1 sm:col-start-2 lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/riverraft.webp" alt="">
-    <img class="sm:row-start-1 sm:col-start-3 lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/social.webp" alt="">
-    <img class="sm:row-start-1 sm:col-start-1 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/solnedgang.webp" alt="">
-    <img class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/surf.webp" alt="">
-    <img class="sm:row-start-2 sm:col-start-3 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/social4.webp" alt="">
-    <img class="sm:row-start-2 sm:col-start-1 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/rapelvandfald.webp" alt="">
-    <img class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/social5.webp" alt="">
-    <img class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square" src="src/_images/webp/riverrafting4.webp" alt="">
-    <img class="sm:row-start-3 sm:col-start-1 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square" src="src/_images/webp/social9.webp" alt="">
-    <img class="sm:row-start-3 sm:col-start-2 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square" src="src/_images/webp/social13.webp" alt="">
-    <img class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square" src="src/_images/webp/social12.webp" alt="">
+    <img
+      class="sm:row-start-1 sm:col-start-1 lg:col-start-1 object-cover w-full aspect-square"
+      src="src/_images/webp/dykke.webp"
+      alt=""
+    />
+    <img
+      class="sm:row-start-1 sm:col-start-2 lg:col-start-2 object-cover w-full aspect-square"
+      src="src/_images/webp/riverraft.webp"
+      alt=""
+    />
+    <img
+      class="sm:row-start-1 sm:col-start-3 lg:col-start-3 object-cover w-full aspect-square"
+      src="src/_images/webp/social.webp"
+      alt=""
+    />
+    <img
+      class="sm:row-start-1 sm:col-start-1 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
+      src="src/_images/webp/solnedgang.webp"
+      alt=""
+    />
+    <img
+      class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square"
+      src="src/_images/webp/surf.webp"
+      alt=""
+    />
+    <img
+      class="sm:row-start-2 sm:col-start-3 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square"
+      src="src/_images/webp/social4.webp"
+      alt=""
+    />
+    <img
+      class="sm:row-start-2 sm:col-start-1 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square"
+      src="src/_images/webp/rapelvandfald.webp"
+      alt=""
+    />
+    <img
+      class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
+      src="src/_images/webp/social5.webp"
+      alt=""
+    />
+    <img
+      class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square"
+      src="src/_images/webp/riverrafting4.webp"
+      alt=""
+    />
+    <img
+      class="sm:row-start-3 sm:col-start-1 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square"
+      src="src/_images/webp/social9.webp"
+      alt=""
+    />
+    <img
+      class="sm:row-start-3 sm:col-start-2 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square"
+      src="src/_images/webp/social13.webp"
+      alt=""
+    />
+    <img
+      class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
+      src="src/_images/webp/social12.webp"
+      alt=""
+    />
   </div>
 </section>
 
