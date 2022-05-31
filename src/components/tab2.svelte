@@ -15,7 +15,7 @@
             <div>
                 <p>Det får du med</p>
                 <h3>INKLUDERET</h3>
-                <div class="grid gap-5">
+                <div class="grid inner_spacing">
                     <div>
                         <p><b>OVERORDNET</b></p>
                         <ul>
@@ -59,7 +59,7 @@
             <div class="lg:col-start-1">
                 <p>Det er der</p>
                 <h3>IKKE INKLUDERET</h3>
-                <div class="grid gap-5">
+                <div class="grid inner_spacing">
                     <div>
                         <p><b>OVERORDNET</b></p>
                         <ul>
@@ -101,5 +101,9 @@
     }
     #no-pad {
     padding-top: 0;
+    }
+
+    .inner_spacing {
+        gap: var(--spacing-20);
     }
 </style>
