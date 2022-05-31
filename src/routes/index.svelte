@@ -26,20 +26,23 @@
   </div>
 </header>
 
-
 <!-- section #1 start -->
 <section
   class="maxwidthwrapper md:pt-0 md:grid grid-cols-2 md:justify-center md:gap-8"
 >
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> c56f1b105b61769ff5329427fbe7b7875a39150e
   <article class="cols-start-1 grid items-center">
     <div>
       <Saos
         animation={"from-left 1.2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
       >
+<<<<<<< HEAD
 =======
   <Saos animation={"from-left 2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 >>>>>>> 7b8dda100c742ec47c3fb077af38702d4a679694
@@ -47,6 +50,8 @@
       <Saos animation={"from-left 2s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
       <div>
 >>>>>>> d5d9b01a2313272704f6c11090cb8a29a2019b0f
+=======
+>>>>>>> c56f1b105b61769ff5329427fbe7b7875a39150e
         <p class="preh2">VI ER</p>
       </Saos>
       <Saos
@@ -121,7 +126,6 @@
         >UDFORSK ALLE VORES OPHOLD</PrimaryButton
       >
     </div>
-
   </div>
 </section>
 
@@ -176,25 +180,11 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     <div class="">
       <h2 class="mb-5 hidden">ELSKET AF 2.500+ ELEVER</h2>
 
-<<<<<<< HEAD
       <div class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center">
         <div class="md:max-w-xs">
           <h3 class="rotate_animation">16</h3>
           <p>ADVENTUREFYLDTE <br /> DESTINATIONER</p>
         </div>
-=======
-    <div class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center">
-
-      <div class="md:max-w-xs">
-        <h3>2.500+</h3>
-        <p>ELEVER ELSKER OS</p>
-      </div>
-
-      <div class="md:max-w-xs">
-        <h3 cl>16</h3>
-        <p>ADVENTUREFYLDTE <br /> DESTINATIONER</p>
-      </div>
->>>>>>> d5d9b01a2313272704f6c11090cb8a29a2019b0f
 
         <div class="md:max-w-xs">
           <h3 class="rotate_animation">4,8</h3>
