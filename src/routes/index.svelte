@@ -84,12 +84,17 @@
         image="../src/_images/webp/ophold4.webp"
         title="Costa Rica, Mexico & Guatemala"
       />
+      <Card
+        image="../src/_images/webp/ophold4.webp"
+        title="Costa Rica, Mexico & Guatemala"
+      />
     </div>
     <div class="md:justify-center md:grid">
       <PrimaryButton class="primarybutton"
         >UDFORSK ALLE VORES OPHOLD</PrimaryButton
       >
     </div>
+
   </div>
 </section>
 
