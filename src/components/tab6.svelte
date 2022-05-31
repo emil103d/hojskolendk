@@ -1,7 +1,7 @@
-<main class="col-start-2 mr-5">
+<main class="col-start-2">
   <!-- SECTION 1 -->
-  <section>
-    <h2>Godt at vide</h2>
+  <section class="maxwidthwrapper" id="no-pad">
+    <h2>GODT AT VIDE</h2>
     <p>
       Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
       Rumrunners eller snorkler efter havskildpadder. Derudover har vi haft en
@@ -12,8 +12,8 @@
 
   <!-- SECTION 2 -->
 
-  <section class="mt-10">
-    <p class="preh2">Før Opholdet</p>
+  <section class="mt-10 maxwidthwrapper ">
+    <h4>FØR OPHOLDET</h4>
     <div class="faq-drawer">
       <input
         class="faq-drawer__trigger"
@@ -22,6 +22,8 @@
       /><label class="faq-drawer__title" for="faq-drawer"
         >Hvornår bør jeg senest tilmelde mig?</label
       >
+
+      
       <div class="faq-drawer__content-wrapper">
         <div class="faq-drawer__content">
           <p>
@@ -88,9 +90,9 @@
     <div class="faq-drawer">
       <input
         class="faq-drawer__trigger"
-        id="faq-drawer-3"
+        id="faq-drawer-4"
         type="checkbox"
-      /><label class="faq-drawer__title" for="faq-drawer-3"
+      /><label class="faq-drawer__title" for="faq-drawer-4"
         >Hvad med rejseforsikring?</label
       >
       <div class="faq-drawer__content-wrapper">
@@ -112,14 +114,14 @@
 
   <!-- SECTION 3 -->
 
-  <section class="mt-10">
+  <section class="mt-10 maxwidthwrapper">
     <p class="preh2">Under Opholdet</p>
     <div class="faq-drawer">
       <input
         class="faq-drawer__trigger"
-        id="faq-drawer"
+        id="faq-drawer-5"
         type="checkbox"
-      /><label class="faq-drawer__title" for="faq-drawer"
+      /><label class="faq-drawer__title" for="faq-drawer-5"
         >Hvad sker der hvis jeg bliver syg undervejs??</label
       >
       <div class="faq-drawer__content-wrapper">
@@ -137,9 +139,9 @@
     <div class="faq-drawer">
       <input
         class="faq-drawer__trigger"
-        id="faq-drawer-2"
+        id="faq-drawer-6"
         type="checkbox"
-      /><label class="faq-drawer__title" for="faq-drawer-2"
+      /><label class="faq-drawer__title" for="faq-drawer-6"
         >Møder jeg de andre elever, rejselederen og underviserne inden afrejse?</label
       >
       <div class="faq-drawer__content-wrapper">
@@ -161,9 +163,9 @@
     <div class="faq-drawer">
       <input
         class="faq-drawer__trigger"
-        id="faq-drawer-3"
+        id="faq-drawer-7"
         type="checkbox"
-      /><label class="faq-drawer__title" for="faq-drawer-3"
+      /><label class="faq-drawer__title" for="faq-drawer-7"
         >Er der krav til eleverne?</label
       >
       <div class="faq-drawer__content-wrapper">
@@ -180,14 +182,14 @@
 
   <!-- SECTION 3 -->
 
-  <section class="mt-10">
+  <section class="mt-10 maxwidthwrapper">
     <p class="preh2">Efter dit opholdet</p>
     <div class="faq-drawer">
       <input
         class="faq-drawer__trigger"
-        id="faq-drawer"
+        id="faq-drawer-8"
         type="checkbox"
-      /><label class="faq-drawer__title" for="faq-drawer"
+      /><label class="faq-drawer__title" for="faq-drawer-8"
         >Kan jeg rejse videre efter mit ophold?</label
       >
       <div class="faq-drawer__content-wrapper">
@@ -206,9 +208,9 @@
     <div class="faq-drawer">
       <input
         class="faq-drawer__trigger"
-        id="faq-drawer-2"
+        id="faq-drawer-10"
         type="checkbox"
-      /><label class="faq-drawer__title" for="faq-drawer-2"
+      /><label class="faq-drawer__title" for="faq-drawer-10"
         >Sker der noget efter mit højskoleophold?</label
       >
       <div class="faq-drawer__content-wrapper">
@@ -230,9 +232,9 @@
     <div class="faq-drawer">
       <input
         class="faq-drawer__trigger"
-        id="faq-drawer-3"
+        id="faq-drawer-11"
         type="checkbox"
-      /><label class="faq-drawer__title" for="faq-drawer-3"
+      /><label class="faq-drawer__title" for="faq-drawer-11"
         >Kan jeg bruge det i min videreuddannelse eller min fremtidige kariere?</label
       >
       <div class="faq-drawer__content-wrapper">
@@ -261,8 +263,17 @@
     padding: 200px;
   }
 
+  section {
+       padding-top: var(--spacing-80);
+       padding-bottom: var(--spacing-80);
+   }
+
+   #no-pad {
+    padding-top: 0;
+    }
+
   .faq-drawer {
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
 
   .faq-drawer__content-wrapper {
@@ -272,11 +283,18 @@
     transition: 0.25s ease-in-out;
   }
 
+  .faq-drawer__content {
+    padding: 10px;
+  } 
+
   .faq-drawer__title {
-    border-top: #000 1px solid;
+    background-color: #FAF9F7;
     cursor: pointer;
     display: block;
-    padding: 30px 0 0 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     position: relative;
     margin-bottom: 0;
     transition: all 0.25s ease-out;
@@ -285,12 +303,12 @@
   .faq-drawer__title::after {
     border-style: solid;
     border-width: 1px 1px 0 0;
+    border-color: var(--orange);;
     content: " ";
     float: right;
     height: 10px;
-    left: 2px;
     position: relative;
-    right: 20px;
+    right: 15px;
     top: 2px;
     transform: rotate(135deg);
     transition: 0.35s ease-in-out;
@@ -300,7 +318,7 @@
 
   /* OPTIONAL HOVER STATE */
   .faq-drawer__title:hover {
-    color: #4e4b52;
+    color: var(--orange);
   }
 
   .faq-drawer__trigger:checked

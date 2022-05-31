@@ -1,11 +1,12 @@
 <script>
   import Carouselle_fri from "../components/carouselle_friuge.svelte";
+  import Card from "../components/card.svelte";
 </script>
 
 <main class="col-start-2">
   <!-- SECTION 1 -->
-  <section>
-    <h2>Friuger</h2>
+  <section class="w-full" id="">
+    <h2>FRIUGER</h2>
     <p>
       Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
       Rumrunners eller snorkler efter havskildpadder. Derudover har vi haft en
@@ -14,9 +15,11 @@
     </p>
   </section>
 
+  
+
   <!-- SECTION 2 -->
   <section class="">
-    <div class="">
+    <div class="overflow-hidden">
       <p class="preh2 text-center">MALDIVERNE</p>
       <h3 class="display text-center">FRIUGE 1</h3>
       <p class="text-center">Eventyr, frihed og massere af oplevelser</p>
@@ -24,25 +27,6 @@
     </div>
   </section>
 
-  <!-- SECTION 3 -->
-  <section class="">
-    <div class="">
-      <p class="preh2 text-center">SKRI LANKA</p>
-      <h3 class="display text-center">FRIUGE 2</h3>
-      <p class="text-center">Adventure & aktion</p>
-      <Carouselle_fri />
-    </div>
-  </section>
-
-  <!-- SECTION 4 -->
-  <section class="">
-    <div class="">
-      <p class="preh2 text-center">HAWAII</p>
-      <h3 class="display text-center">FRIUGE 3</h3>
-      <p class="text-center">Afslapning, shopping og surfing</p>
-      <Carouselle_fri />
-    </div>
-  </section>
 </main>
 
 <style>

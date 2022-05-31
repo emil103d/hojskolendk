@@ -1,8 +1,5 @@
 <script>
-  import MyButton from "./primarybutton.svelte";
-  import NextButton from "./nextbutton.svelte";
-  import GhostButton from "./ghostbutton.svelte";
-  import SecondaryButton from "./secondarybutton.svelte";
+  import MyButton from "./components/button.svelte";
 </script>
 
 <section>
@@ -15,12 +12,13 @@
     <h2>UNDSKYLD VI RODER</h2>
     <p>Siden er ved at blive bygget men</p>
     <p>tag en rundrejse på vores andre sider imens</p>
-    <MyButton><a href="__layout.svelte">TAG MIG TILBAGE</a></MyButton>
+    <MyButton mode="primary"
+      ><a href="__layout.svelte">TAG MIG TILBAGE</a></MyButton
+    >
   </div>
-  <NextButton>SE NÆSTE</NextButton>
-  <GhostButton>UDSOLGT</GhostButton>
-  <MyButton>HEJ MED DIG KAJ</MyButton>
-  <SecondaryButton>HEJ MED DIG KAJ</SecondaryButton>
+  <MyButton mode="link">link button</MyButton>
+  <MyButton mode="ghost">ghost button</MyButton>
+  <MyButton mode="primary">primary button</MyButton>
 </section>
 
 <style>
@@ -33,7 +31,6 @@
     padding: 1rem;
     border-radius: var(--border-radius-sm);
   }
-
   p {
     color: black;
   }
