@@ -57,7 +57,7 @@
       <h2 class="text:sm m:1 mb:6 ml-auto text-center">
         Alt du skal vide om opholdet
       </h2>
-      <div class="flex overflow-x-scroll pb-10 flex-nowrap overflow-hidden">
+      <div class="flex overflow-x-scroll flex-nowrap overflow-hidden">
         <div class="flex flex-nowrap  ">
           <button class="" on:click={() => (activetab = Tab1)}
             >OPHOLDSOVERSIGT</button
