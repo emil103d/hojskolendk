@@ -2,17 +2,21 @@
   import MyButton from "./button.svelte";
 </script>
 
-<section class="fixed bottom-0 left-0 bg-red-600 z-50 w-[100vw] pt-5 block my-auto">
-  <div class="flex justify-between maxwidthwrapper ">
-    <div class="block my-auto">
-      <p><strong>REJS TIL SRI LANKA, MALDIVERNE & THAILAND</strong></p>
+<section class="fixed bottom-0 left-0 bg-white drop-shadow-2xl z-50 w-[100vw] h-20">
+
+  <div class="flex justify-evenly maxwidthwrapper my-5">
+    
+    <div class="w-full hidden md:block my-auto">
+      <h4><strong>REJS TIL SRI LANKA, MALDIVERNE & THAILAND</strong></h4>
     </div>
-  
-    <div class="">
-      <MyButton type="primary">TILMELD OPHOLD</MyButton>
-      <MyButton type="secondary">TILMELD OPHOLD</MyButton>
+
+    <div class="flex justify-center md:justify-end gap-6">
+        <MyButton type="primary">BOOK REJSE</MyButton>
+        <MyButton type="secondary">INFOMØDE</MyButton>
     </div>
+
   </div>
+
 </section>
 
 <style>
