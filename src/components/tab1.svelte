@@ -1,9 +1,9 @@
 <main class="col-start-2">
   <!-- SECTION 1 -->
-  <section class="maxwidthwrapper grid gap-5">
+  <section class="maxwidthwrapper grid gap-5" id="no-pad">
     <div>
     <h2>SURFING, SOL OG BEACH VIBES</h2>
-    <p>
+    <p class="max-w-[65ch]">
       Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
       Rumrunners eller snorkler efter havskildpadder. Derudover har vi haft en
       masse fede ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck
@@ -252,5 +252,9 @@
 
   .rejseplan {
     background-color: var(--sandbeach);
+  }
+
+  #no-pad {
+    padding-top: 0;
   }
 </style>

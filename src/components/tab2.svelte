@@ -83,3 +83,9 @@
  </main>
  
  
+<style>
+    /* section {
+        padding-top: var(--spacing-80);
+        padding-bottom: var(--spacing-80)
+    } */
+</style>

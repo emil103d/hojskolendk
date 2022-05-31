@@ -23,7 +23,7 @@
 
 <main class="max_width_single relative">
   <section class="md:custom_grid hidden md:grid md:gap-10 lg:gap-20">
-    <sidebar id="navbar" class="block cols-start-1 top-0 sticky mt-10 mb-10">
+    <sidebar id="navbar" class="block cols-start-1 top-0 sticky">
       <div class="sticky top-28">
         <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
         <button class="" on:click={() => (activetab = Tab1)}
@@ -53,7 +53,7 @@
   </section>
 
   <section class="sticky overflow-hidden md:hidden block">
-    <sidebar class="block">
+    <sidebar class="block pb-10">
       <h2 class="text:sm m:1 mb:6 ml-auto text-center">
         Alt du skal vide om opholdet
       </h2>
