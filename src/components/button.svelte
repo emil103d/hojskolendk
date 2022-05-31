@@ -11,10 +11,8 @@
   .primary {
     font-family: "montserrat";
     font-weight: 500;
-    background-color: var(--hvid);
-    color: var(--textcolor);
-    border: 2px solid var(--primary-button-cta-border-color);
-    border-radius: 0px;
+    background-color: var(--primary-button-cta-border-color);
+    color: var(--hvid);
     padding: 0.5rem 30px;
     display: inline-block;
     box-shadow: inset 0 0 0 0 #ff5e04;
@@ -25,7 +23,7 @@
 
   button:hover,
   .primary:hover {
-    box-shadow: inset 400px 0 0 0 #ff5e04;
+    box-shadow: inset 400px 0 0 0 #ff833b;
     color: var(--hvid);
   }
 
