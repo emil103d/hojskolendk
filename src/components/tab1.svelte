@@ -3,10 +3,15 @@
 
 <main class="col-start-2">
   <!-- SECTION 1 -->
-  <section class="maxwidthwrapper grid gap-5" id="no-pad">
+  <section
+    itemscope
+    itemtype="https://schema.org/Product"
+    class="maxwidthwrapper grid gap-5"
+    id="no-pad"
+  >
     <div>
-      <h2>SURF, SOL & BEACH VIBES</h2>
-      <p class="max-w-[65ch]">
+      <h2 itemprop="keywords">SURF, SOL & BEACH VIBES</h2>
+      <p itemprop="description" class="max-w-[65ch]">
         Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
         Rumrunners eller snorkler efter havskildpadder. Derudover har vi haft en
         masse fede ting som fx Jeepsafari i den dybe regnskov, snorkling ved
@@ -23,7 +28,7 @@
           alt="map ikon"
         />
         <h4>Destinationer</h4>
-        <p class="table">Sri Lanka, Maldiverne & Thailand</p>
+        <p itemprop="name" class="table">Sri Lanka, Maldiverne & Thailand</p>
       </div>
       <div class="col-start-2 row-start-1 infobokse">
         <img
@@ -46,6 +51,9 @@
         <p>Selvudvikling & Kommunikation</p>
       </div>
       <div
+        itemprop="offers"
+        itemscope
+        itemtype="https://schema.org/Offer"
         class="col-start-2 row-start-2 lg:row-start-1 lg:col-start-4 infobokse "
       >
         <img
@@ -54,7 +62,7 @@
           alt="pris ikon"
         />
         <h4>Pris</h4>
-        <p>59.700 DKK</p>
+        <p itemprop="price">59.700 DKK</p>
       </div>
     </div>
 
@@ -100,13 +108,11 @@
   </section> -->
 
   <!-- SECTION 3 -->
-  <section
-    class=" relative py-4 h-full items-center justify-center maxwidthwrapper"
-  >
+  <section itemscope="" itemtype="https://schema.org/Trip">
     <div class="grid align-middle">
       <div class="">
-        <p>HVAD HAR VI PLANLAGT?</p>
-        <h2>OVERBLIK</h2>
+        <p itemprop="name">Hvad vi har planlagt</p>
+        <h2 itemprop="description">Overblik</h2>
       </div>
 
       <div class="grid custom_grid baggrund-klode">
@@ -114,7 +120,7 @@
         <div
           class="rejseplan overflow-scroll overflow-x-hidden max-h-[30vh] max-w-[500px] relative p-4 grid gap-7"
         >
-          <div>
+          <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
@@ -126,8 +132,8 @@
             </div>
           </div>
 
-          <div>
-            <div class="flex gap-2 items-center">
+          <div itemprop="subTrip">
+            <div>
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
@@ -138,8 +144,8 @@
             </div>
           </div>
 
-          <div>
-            <div class="flex gap-2 items-center">
+          <div itemprop="subTrip">
+            <div>
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
@@ -150,8 +156,8 @@
             </div>
           </div>
 
-          <div>
-            <div class="flex gap-2 items-center">
+          <div itemprop="subTrip">
+            <div>
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
@@ -162,8 +168,8 @@
             </div>
           </div>
 
-          <div>
-            <div class="flex gap-2 items-center">
+          <div itemprop="subTrip">
+            <div>
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
@@ -173,8 +179,14 @@
               </div>
             </div>
           </div>
+<<<<<<< HEAD
+
+          <div itemprop="subTrip">
+            <div>
+=======
           <div>
             <div class="flex gap-2 items-center">
+>>>>>>> 069d31aabd559304eedccafc8ea003141d0323cb
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
@@ -184,8 +196,14 @@
               </div>
             </div>
           </div>
+<<<<<<< HEAD
+
+          <div itemprop="subTrip">
+            <div>
+=======
           <div>
             <div class="flex gap-2 items-center">
+>>>>>>> 069d31aabd559304eedccafc8ea003141d0323cb
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
@@ -196,8 +214,8 @@
             </div>
           </div>
 
-          <div>
-            <div class="flex gap-2 items-center">
+          <div itemprop="subTrip">
+            <div>
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
@@ -209,7 +227,7 @@
           </div>
 
           <div>
-            <div class="flex gap-2 items-center">
+            <div itemprop="subTrip">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
@@ -221,7 +239,7 @@
           </div>
 
           <div>
-            <div class="flex gap-2 items-center">
+            <div itemprop="subTrip">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">

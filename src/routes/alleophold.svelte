@@ -65,8 +65,13 @@
   };
 </script>
 
+<<<<<<< HEAD
+<Header imgtitle="src/_images/1.jpg" />
+<div aria-label="Breadcrumb" class="m-9 preh2">
+=======
 <Header imgtitle="src/_images/webp" />
 <div class="m-9 preh2">
+>>>>>>> 069d31aabd559304eedccafc8ea003141d0323cb
   <a href="indec">FORSIDE /</a>
   <a href="alleophold" class="underline preh2">ALLE OPHOLD</a>
 </div>
