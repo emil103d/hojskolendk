@@ -8,7 +8,7 @@
   /* -----MODE=PRIMARY START --------- */
 
   button,
-  .primary {
+  primary {
     font-size: var(--knapsize);
     font-weight: bold;
     font-family: "Lato", sans-serif;
@@ -60,14 +60,21 @@
     border-bottom: 1px solid rgb(163, 162, 162);
     border-radius: 0;
     padding: 0;
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 1rem;
+    border: 1px solid white;
   }
 
   .linkbutton:hover {
-    font-weight: 500;
     background-color: transparent;
+    border: 1px solid white;
     border-bottom: 1px solid var(--txtcolor-600);
+    box-shadow: none;
+    color: var(--txtcolor);
+    -webkit-transition: ease-out 0s;
+    -moz-transition: ease-out 0s;
+    transition: ease-out 0s;
   }
 
   /* -----MODE=GHOST START --------- */
