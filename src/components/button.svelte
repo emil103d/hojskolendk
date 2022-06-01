@@ -9,6 +9,8 @@
 
   button,
   .primary {
+    font-size: var(--knapsize);
+    font-weight: bold;
     font-family: "Lato", sans-serif;
     background-color: var(--primary-button-cta-background-color);
     border: 1px solid var(--secondary-button-cta-border-color);

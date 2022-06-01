@@ -49,6 +49,7 @@
     --font_knap_l: clamp(1rem, 0.625rem + 1.5000000000000002vw, 1.5625rem);
     --font_talsek: clamp(3rem, 0.21875rem + 0.125vw, 5rem);
     --font_figur: clamp(3rem, 0.21875rem + 0.125vw, 1rem);
+    --knapsize: 19px;
 
     /* BORDER RADIUS */
     /* knapper */
@@ -129,7 +130,6 @@
 
   p {
     font-family: "Lato", sans-serif;
-    /* font-family: "montserrat"; */
     font-size: var(--font_p);
     color: var(--txtcolor-600);
     line-height: 1.6;
