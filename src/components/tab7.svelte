@@ -1,5 +1,5 @@
 <script>
-  import Carouselle_aktiv from "../components/carouselle_aktiv.svelte";
+  import Carouselle_friuge from "./carouselle_friuge_gammel.svelte";
 </script>
 
 <main class="col-start-2">
@@ -25,7 +25,7 @@
       <p class="preh2 text-center">AKTIVITET I OMRÅDET</p>
       <h3 class="display text-center">SRI LANKA</h3>
       <p class="text-center">Uendelige oplevelser og muligheder</p>
-      <Carouselle_aktiv />
+      <Carouselle_friuge />
     </div>
   </section>
 
@@ -35,7 +35,7 @@
       <p class="preh2 text-center">SKRI LANKA</p>
       <h3 class="display text-center">FRIUGE 2</h3>
       <p class="text-center">Adventure & aktion</p>
-      <Carouselle_aktiv />
+      <Carouselle_friuge />
     </div>
   </section>
 
@@ -45,7 +45,7 @@
       <p class="preh2 text-center">HAWAII</p>
       <h3 class="display text-center">FRIUGE 3</h3>
       <p class="text-center">Afslapning, shopping og surfing</p>
-      <Carouselle_aktiv />
+      <Carouselle_friuge />
     </div>
   </section>
 </main>
