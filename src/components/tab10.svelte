@@ -14,9 +14,6 @@
             
             Jeg har rejst siden jeg var 15 år gammel, på både små-ture til Sverige i et par uger ad gangen og som 17-årig begav jeg mig alene ud i Europa, hvor jeg tomlede den til Sydspanien, og bagefter fløj til Island og drog hele vejen rundt på den smukke, rå og vilde vulkanø. Det var første gang jeg for alvor kom i kontakt med det, der fylder mig mest med glæde som menneske; at rejse og møde mennesker på tværs af landegrænser.
             
-            Jeg er i HÖJSKOLENDK fordi jeg brænder for åbne og nysgerrige fællesskaber, hvor alle kan være sig selv, med alt der er dem. Alle mennesker er unikke og det er essentielt for mig, at man, i et fællesskab, har forståelse for hinandens forskelligheder og hvilke egenskaber vi bærer med os. Jeg ønsker inderligt, at alle vores elever får en følelse af den betydning og indflydelse deres tilstedeværelse har i verden – både med hinanden og for andre.
-            
-            Jeg glæder mig til at lære jer at kende i Caribien, Mexico og Hawaii!
             <br>
             <br>
             Højskolesmil,
