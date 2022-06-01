@@ -1,32 +1,53 @@
 <script>
-  import Carouselle_fri from "../components/carouselle_friuge.svelte";
-  import Card from "../components/card.svelte";
+  import Carouselle_aktiv from "../components/carouselle_aktiv.svelte";
 </script>
 
 <main class="col-start-2">
   <!-- SECTION 1 -->
-  <section class="w-full" id="">
-    <h2>FRIUGER</h2>
+  <section class="maxwidthwrapper" id="no-pad">
+    <h2>ADVENTURE, OPLEVELSER & AKTIVITETER</h2>
     <p>
-      Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
-      Rumrunners eller snorkler efter havskildpadder. Derudover har vi haft en
-      masse fede ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck
-      Island og turtlewatch på programmet.
+      I løbet af dit ophold hos os, er det muligt at deltage i vores
+      spændingsfyldte udflugter og dagsture. Besøg vandfald, tag på
+      snorkeleventyr og tag på en ATV-køretur, hvor du kan udforske junglen og
+      de øde strande.
     </p>
+    <br>
+    <hr class="py-5">
   </section>
 
-  
+  <p class="preh2">TILFØJELSER & AKTIVITETER</p>
+  <h3 class="">Tilføj endnu mere god stemning</h3>
 
   <!-- SECTION 2 -->
   <section class="">
-    <div class="overflow-hidden">
-      <p class="preh2 text-center">MALDIVERNE</p>
-      <h3 class="display text-center">FRIUGE 1</h3>
-      <p class="text-center">Eventyr, frihed og massere af oplevelser</p>
-      <Carouselle_fri />
+    <div class="">
+      <p class="preh2 text-center">AKTIVITET I OMRÅDET</p>
+      <h3 class="display text-center">SRI LANKA</h3>
+      <p class="text-center">Uendelige oplevelser og muligheder</p>
+      <Carouselle_aktiv />
     </div>
   </section>
 
+  <!-- SECTION 3 -->
+  <section class="">
+    <div class="">
+      <p class="preh2 text-center">SKRI LANKA</p>
+      <h3 class="display text-center">FRIUGE 2</h3>
+      <p class="text-center">Adventure & aktion</p>
+      <Carouselle_aktiv />
+    </div>
+  </section>
+
+  <!-- SECTION 4 -->
+  <section class="">
+    <div class="">
+      <p class="preh2 text-center">HAWAII</p>
+      <h3 class="display text-center">FRIUGE 3</h3>
+      <p class="text-center">Afslapning, shopping og surfing</p>
+      <Carouselle_aktiv />
+    </div>
+  </section>
 </main>
 
 <style>
@@ -36,5 +57,9 @@
     color: var(--sort);
     line-height: var(--line-m);
     padding: var(--spacing-10);
+  }
+
+  #no-pad {
+    padding-top: 0;
   }
 </style>

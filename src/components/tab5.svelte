@@ -13,6 +13,9 @@
       Island og turtlewatch på programmet.
     </p>
 
+    <br>
+    <hr class="py-5">
+
     <section class="grid gap-8" id="no-inner-pad">
       <h4>2022</h4>
       <div class="grid gap-8">

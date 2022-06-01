@@ -8,6 +8,8 @@
       masse fede ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck
       Island og turtlewatch på programmet.
     </p>
+    <br>
+    <hr class="py-5">
   </section>
 
   <!-- SECTION 2 -->
