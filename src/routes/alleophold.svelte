@@ -65,7 +65,7 @@
   };
 </script>
 
-<Header imgtitle="src/_images/1.jpg" />
+<Header imgtitle="src/_images/webp" />
 <div class="m-9 preh2">
   <a href="indec">FORSIDE /</a>
   <a href="alleophold" class="underline preh2">ALLE OPHOLD</a>
