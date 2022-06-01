@@ -2,9 +2,9 @@
   import Cardfri from "../components/card_friuger.svelte";
 </script>
 
-<section id="section_2">
-  <div id="carowrapper">
-    <button id="left" class="hover:scale-105 hidden md:absolute"
+<section id="section_2 overflow-hidden w-full">
+  <div id="carowrapper overflow-hidden w-full">
+    <button id="left" class="hover:scale-105 hidden"
       ><svg
         width="42"
         height="66"
@@ -19,8 +19,8 @@
         />
       </svg>
     </button>
-    
-    <div class="flex gap-5 overflow-x-scroll">
+
+    <div class="flex gap-5 overflow-hidden w-full">
       <Cardfri
         image="../src/_images/webp/ophold1.webp"
         title="Surf på bølgerne"
@@ -30,8 +30,16 @@
         "
       />
       <Cardfri
+      image="../src/_images/webp/ophold1.webp"
+      title="Surf på bølgerne"
+      addon="ADD ON"
+      text="Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
+      Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
+      "
+    />
+      <Cardfri
         image="../src/_images/webp/ophold1.webp"
-        title="Yoga på stranden"
+        title="Boldspil på stranden"
         addon="INKLUDED"
         text="Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
@@ -45,35 +53,8 @@
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
-      <Cardfri
-        image="../src/_images/webp/ophold1.webp"
-        title="Maldiverne, Sri Lanka, Bali & Gili"
-        addon="ADD ON"
-        text="Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
-        Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
-        "
-      />
-
-      <Cardfri
-        image="../src/_images/webp/ophold1.webp"
-        title="Maldiverne, Sri Lanka, Bali & Gili"
-        addon="ADD ON"
-        text="Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
-        Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
-        "
-      />
-
-      <Cardfri
-        image="../src/_images/webp/ophold1.webp"
-        title="Maldiverne, Sri Lanka, Bali & Gili"
-        addon="ADD ON"
-        text="Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
-        Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
-        "
-      />
-      
     </div>
-    <button id="right" class="hover:scale-105 hidden md:absolute"
+    <!-- <button id="right" class="hover:scale-105 hidden md:absolute"
       ><svg
         width="43"
         height="66"
@@ -87,22 +68,19 @@
           stroke-width="6"
         />
       </svg>
-    </button>
+    </button> -->
   </div>
 </section>
 
 <style>
   #section_2 {
-    justify-content: center;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    max-width: 1016px;
   }
 
   #carowrapper {
     position: relative;
-    overflow: hidden;
   }
 
   button {

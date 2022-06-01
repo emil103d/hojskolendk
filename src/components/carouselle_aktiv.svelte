@@ -52,6 +52,7 @@
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
+      
     </div>
     <button id="right" class="hover:scale-105 hidden md:absolute"
       ><svg
