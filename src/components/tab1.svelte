@@ -317,6 +317,9 @@
     background-position-y: 40%;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .custom_grid {
