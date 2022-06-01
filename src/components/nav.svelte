@@ -24,7 +24,7 @@
   });
 </script>
 
-<nav class="w-screen flex">
+<nav class="w-screen flex drop-shadow-lg">
   <a sveltekit:prefetch href="/">
     <img class="" src="../src/_logo/logohvid.png" alt="logo hvid" /></a
   >
