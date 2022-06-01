@@ -14,7 +14,7 @@
 
   <!-- SECTION 2 -->
 
-  <section class="mt-10 maxwidthwrapper ">
+  <section class="maxwidthwrapper ">
     <h4>FØR OPHOLDET</h4>
     <div class="faq-drawer">
       <input
@@ -266,8 +266,8 @@
   }
 
   section {
-       padding-top: var(--spacing-80);
-       padding-bottom: var(--spacing-80);
+       padding-top: var(--padding-sections);
+       padding-bottom: var(--padding-sections);
    }
 
    #no-pad {

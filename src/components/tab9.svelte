@@ -1,6 +1,6 @@
 <main class="col-start-2">
     <!-- SECTION 1 -->
-    <section >
+    <section class="maxwidthwrapper" id="no-pad">
      <h2>Rejsebreve</h2>
     <div class="baggrundsfarve">
         <div class="xl:grid custom_grid">
@@ -57,7 +57,7 @@
    <div class="baggrundsfarve">
        <div class="xl:grid custom_grid">
            <div class="lg:col-start-1">
-               <img class="w-full " src="src/_images/anton.png" alt="">
+               <img class="w-full " src="src/_images/webp/anton.webp" alt="">
            </div>
        <div class="lg:col-start-2 lg:col-span-2 lg:p-6 max-w-[50ch]">
        <h4>Anton Skou Larsen</h4>
@@ -92,4 +92,14 @@
      .custom_grid {
          grid-template-columns: 1fr auto;
      }
+
+     section {
+       padding-top: var(--padding-sections);
+       padding-bottom: var(--padding-sections);
+   }
+
+   #no-pad {
+    padding-top: 0;
+    }
+
  </style>
