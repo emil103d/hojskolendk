@@ -179,14 +179,9 @@
               </div>
             </div>
           </div>
-<<<<<<< HEAD
 
           <div itemprop="subTrip">
             <div>
-=======
-          <div>
-            <div class="flex gap-2 items-center">
->>>>>>> 069d31aabd559304eedccafc8ea003141d0323cb
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
@@ -196,14 +191,9 @@
               </div>
             </div>
           </div>
-<<<<<<< HEAD
 
           <div itemprop="subTrip">
             <div>
-=======
-          <div>
-            <div class="flex gap-2 items-center">
->>>>>>> 069d31aabd559304eedccafc8ea003141d0323cb
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
