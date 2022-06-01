@@ -1,5 +1,7 @@
 <script>
-  import Carouselle_aktiv from "../components/carouselle_aktiv.svelte";
+  import Carouselle_aktiv_1 from "../components/carouselle_aktiv_1.svelte";
+  import Carouselle_aktiv_2 from "../components/carouselle_aktiv_2.svelte";
+  import Carouselle_aktiv_3 from "../components/carouselle_aktiv_3.svelte";
 </script>
 
 <main class="col-start-2 w-[99%]">
@@ -21,7 +23,7 @@
     <div class="">
       <p class="preh2">ADVENTURE & AKTIVITETER</p>
       <h3 class="display">MALDIVERNE</h3>
-      <Carouselle_aktiv />
+      <Carouselle_aktiv_1 />
     </div>
   </section>
 
@@ -30,7 +32,7 @@
     <div class="">
       <p class="preh2">ADVENTURE & AKTIVITETER</p>
       <h3 class="display">SRI LANKA</h3>
-      <Carouselle_aktiv />
+      <Carouselle_aktiv_2 />
     </div>
   </section>
 
@@ -39,7 +41,7 @@
     <div class="">
       <p class="preh2">ADVENTURE & AKTIVITETER</p>
       <h3 class="display">THAILAND</h3>
-      <Carouselle_aktiv />
+      <Carouselle_aktiv_3 />
     </div>
   </section>
 </main>
