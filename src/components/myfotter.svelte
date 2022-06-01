@@ -67,11 +67,13 @@
 <footer>
   <div class="footer text-center text-white py-4">
     <img src="./src/_logo/logohvid.png" alt="logo" class="w-14 h-14" />
-    <div class="footer_infomode">
+    <div class="footer_infomode ">
       <h2 class="text-white">
         VIL DU VIDE MERE OM VORES HØJSKOLEOPHOLD I UDLANDET?
       </h2>
-      <p>Tilmeld dig vores infomøder og mød nogen tidligere elever</p>
+      <p class="text-white">
+        Tilmeld dig vores infomøder og mød nogen tidligere elever
+      </p>
 
       <MyButton type="primary">TILMELD INFOMØDE</MyButton>
     </div>
@@ -140,80 +142,22 @@
     </div>
 
     <div class="footer_some">
-      <p>#hojskolen dk</p>
-      <div>
-        <svg
-          width="202"
-          height="30"
-          viewBox="0 0 202 47"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
+      <p class="text-white">#hojskolen dk</p>
+      <div class="footer_ikons">
+        <a href="https://www.facebook.com/hojskolendk/"
+          ><img src="./src/_icons/facebook.png" alt="Facebook Link" /></a
         >
-          <rect
-            x="71.5"
-            y="1.01514"
-            width="59"
-            height="44.6425"
-            rx="10.5"
-            stroke="white"
-          />
-          <path
-            d="M95 35.0005V11.6721L112 23.3363L95 35.0005Z"
-            stroke="white"
-          />
-          <path
-            d="M1 19.2793H11C12.0003 16.2364 15.9009 10.1508 23.5009 10.1508C31.1009 10.1508 34.6676 16.2364 35.5009 19.2793H45.0009C45.0009 16.0674 45.0018 9.23792 45.0009 5.58652C45 2.03655 40.619 0.515137 38 0.515137H6.5C3.5 0.515137 0.999095 3.05083 1 5.07938V19.2793Z"
-            stroke="white"
-          />
-          <path
-            d="M1 23.3363H10.1466C10.1466 31.4505 15.9002 36.5219 23.5 36.5219C31.0998 36.5219 36 29.422 36 23.3363H44.9996C44.9996 27.1558 45.0005 35.2774 44.9996 39.6196C44.9987 43.8411 40.6178 45.6504 37.9989 45.6504H6.49984C3.49993 45.6504 0.999095 42.635 1 40.2226V23.3363Z"
-            stroke="white"
-          />
-          <path
-            d="M32.5 23.3364C32.5 28.6686 28.24 32.9791 23 32.9791C17.76 32.9791 13.5 28.6686 13.5 23.3364C13.5 18.0041 17.76 13.6936 23 13.6936C28.24 13.6936 32.5 18.0041 32.5 23.3364Z"
-            stroke="white"
-          />
-          <rect
-            x="34.5"
-            y="4.56519"
-            width="7"
-            height="7.11421"
-            rx="0.5"
-            stroke="white"
-          />
-          <path
-            d="M200.543 23.3364C200.543 35.681 190.89 45.6576 179.021 45.6576C167.152 45.6576 157.5 35.681 157.5 23.3364C157.5 10.9917 167.152 1.01514 179.021 1.01514C190.89 1.01514 200.543 10.9917 200.543 23.3364Z"
-            stroke="white"
-          />
-          <path
-            d="M182.372 45.1865V29.6486H187.16L188.596 22.8508H182.372C182.372 21.3941 182.372 18.3837 182.372 17.9952C182.372 17.5097 182.851 16.053 184.287 15.5674C185.436 15.179 187.638 15.4056 188.596 15.5674V9.74072C186.521 9.74072 182.181 9.74072 181.415 9.74072C179.979 9.74072 178.356 10.4785 177.106 12.1685C175.67 14.1107 175.67 16.053 175.67 17.0241V22.8508H170.404V29.6486H175.67V45.1865"
-            stroke="white"
-          />
-        </svg>
+        <a href="https://www.instagram.com/hojskolendk/?hl=da"
+          ><img src="./src/_icons/instagram.png" alt="Instagram Link" /></a
+        >
+        <a href="https://www.youtube.com/c/HojskolendkDk"
+          ><img src="./src/_icons/youtube.png" alt="Youtube Link" /></a
+        >
       </div>
     </div>
-  </div>
-  <div
-    class="wave flex place-content-end justify-end items-end place-items-end pt-12"
-  >
-    <div>
-      <svg
-        class=""
-        width="1731"
-        height="full"
-        viewBox="0 0 1725 36"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          d="M583.324 17.0145C212.805 14.4919 52.017 25.9577 0 34.8392V36L89.1389 35.4756H334.146H1728V17.0145V0C1677.8 6.83199 1524.91 26.0328 1314.9 29.3122C1052.39 33.4114 1046.47 20.1677 583.324 17.0145Z"
-          fill="white"
-        />
-      </svg>
+    <div id="footerslut">
+      <p class="text-black">// HÔJSKOLENDK //</p>
     </div>
-  </div>
-  <div class="footerslut">
-    <p>// HÔJSKOLENDK //</p>
   </div>
 </footer>
 
@@ -267,6 +211,23 @@
     height: 60px;
   }
 
+  .footer_some img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .footer_some {
+    display: grid;
+    grid-template-rows: auto auto;
+    margin: auto;
+  }
+
+  .footer_ikons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+
   footer {
     background-color: var(--orange);
     opacity: 80%;
@@ -287,7 +248,7 @@
     margin: 0 2rem;
   }
 
-  .footerslut {
+  #footerslut {
     height: 25px;
     background-color: var(--hvid);
     color: var(--textcolor);
