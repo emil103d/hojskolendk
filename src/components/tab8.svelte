@@ -12,13 +12,8 @@
       snorkeleventyr og tag på en ATV-køretur, hvor du kan udforske junglen og
       de øde strande.
     </p>
-<<<<<<< HEAD
     <br />
-    <hr class="py-5" />
-=======
-    <br>
-    <hr>
->>>>>>> 20dd96638b8cfca2ac71296c218a5c1a74ceb0d6
+    <hr />
   </section>
 
   <!-- SECTION 2 -->
