@@ -115,6 +115,13 @@
 </main>
 
 <style>
+  main {
+    background-image: url(src/_icons/gurfers.png);
+    background-position: cover;
+    background-size: 280%;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+  }
   section {
     padding-top: var(--spacing-80);
     padding-bottom: var(--spacing-80);
