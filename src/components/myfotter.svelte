@@ -65,20 +65,20 @@
 </div>
 
 <footer>
-  <div class="footer text-center text-white py-4">
+  <div class="footer text-center py-4">
     <img src="./src/_logo/logohvid.png" alt="logo" class="w-14 h-14" />
     <div class="footer_infomode ">
       <h2 class="text-white">
         VIL DU VIDE MERE OM VORES HØJSKOLEOPHOLD I UDLANDET?
       </h2>
-      <p class="text-white">
+      <p class="text-white mb-4">
         Tilmeld dig vores infomøder og mød nogen tidligere elever
       </p>
 
-      <MyButton type="primary">TILMELD INFOMØDE</MyButton>
+      <MyButton type="secondary">TILMELD INFOMØDE</MyButton>
     </div>
     <div />
-    <div class="footer_adress">
+    <div class="footer_adress text-white">
       <div class="adressline">
         <div>
           <div>
@@ -103,7 +103,7 @@
       </div>
     </div>
 
-    <div class="footer_links">
+    <div class="footer_links text-white">
       <div>
         <ul>
           <li><strong> Samarbejdspartnere</strong></li>
@@ -236,7 +236,6 @@
   }
 
   .footer {
-    color: var(--hvid);
     display: grid;
     grid-gap: 2rem;
     padding: 2rem 0;
@@ -297,8 +296,8 @@
     }
 
     footer img {
-      width: 100px;
-      height: 100px;
+      width: 84px;
+      height: 84px;
       margin: 0;
       margin-bottom: -16px;
       margin-top: 15px;
@@ -355,10 +354,6 @@
 
     .footer_some svg {
       margin: auto 0;
-    }
-
-    .footer_some p {
-      padding-bottom: 1.5rem;
     }
   }
   /* ----------- footer slut -------------- */
