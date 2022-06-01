@@ -1,11 +1,15 @@
 <main class="col-start-2">
   <!-- SECTION 1 -->
   <section class="maxwidthwrapper" id="no-pad">
-    <h2>Mød din rejseleder</h2>
+    <h2>MØD DIN REJSELEDER</h2>
     <div class="baggrundsfarve">
       <div class="xl:grid custom_grid">
         <div class="lg:col-start-1">
-          <img class="w-full " src="src/_images/webp/anton.webp" alt="" />
+          <img
+            class="w-full h-full object-cover"
+            src="src/_images/webp/anton.webp"
+            alt=""
+          />
         </div>
         <div class="lg:col-start-2 lg:col-span-2 lg:p-6 max-w-[50ch]">
           <h4>Anton Skou Larsen</h4>
@@ -24,15 +28,8 @@
             bagefter fløj til Island og drog hele vejen rundt på den smukke, rå
             og vilde vulkanø. Det var første gang jeg for alvor kom i kontakt
             med det, der fylder mig mest med glæde som menneske; at rejse og
-            møde mennesker på tværs af landegrænser. Jeg er i HÖJSKOLENDK fordi
-            jeg brænder for åbne og nysgerrige fællesskaber, hvor alle kan være
-            sig selv, med alt der er dem. Alle mennesker er unikke og det er
-            essentielt for mig, at man, i et fællesskab, har forståelse for
-            hinandens forskelligheder og hvilke egenskaber vi bærer med os. Jeg
-            ønsker inderligt, at alle vores elever får en følelse af den
-            betydning og indflydelse deres tilstedeværelse har i verden – både
-            med hinanden og for andre. Jeg glæder mig til at lære jer at kende i
-            Caribien, Mexico og Hawaii!
+            møde mennesker på tværs af landegrænser.
+
             <br />
             <br />
             Højskolesmil, Anton
@@ -62,5 +59,9 @@
   section {
     padding-top: var(--padding-sections);
     padding-bottom: var(--padding-sections);
+  }
+
+  #no-pad {
+    padding-top: 0;
   }
 </style>

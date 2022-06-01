@@ -14,7 +14,7 @@
     </p>
 
     <br />
-    <hr class="py-5" />
+    <hr />
 
     <section class="grid gap-8" id="no-inner-pad">
       <h4>2022</h4>
