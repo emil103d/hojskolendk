@@ -1,4 +1,5 @@
 <script>
+  import MyButton from "../components/button.svelte";
 </script>
 
 <main class="col-start-2">
@@ -317,6 +318,10 @@
     </div>
 
     <div />
+  </section>
+
+  <section class="flex justify-end px-4">
+    <MyButton type="linkbutton"> HVAD ER INKLUDERET -> </MyButton> 
   </section>
 </main>
 
