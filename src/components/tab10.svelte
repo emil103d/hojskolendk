@@ -1,11 +1,11 @@
 <main class="col-start-2">
     <!-- SECTION 1 -->
     <section class="maxwidthwrapper" id="no-pad" >
-     <h2>Mød din rejseleder</h2>
+     <h2>MØD DIN REJSELEDER</h2>
     <div class="baggrundsfarve">
         <div class="xl:grid custom_grid">
             <div class="lg:col-start-1">
-                <img class="w-full " src="src/_images/webp/anton.webp" alt="">
+                <img class="w-full h-full object-cover" src="src/_images/webp/anton.webp" alt="">
             </div>
         <div class="lg:col-start-2 lg:col-span-2 lg:p-6 max-w-[50ch]">
         <h4>Anton Skou Larsen</h4>
@@ -41,4 +41,8 @@
        padding-top: var(--padding-sections);
        padding-bottom: var(--padding-sections);
    }
+
+   #no-pad {
+    padding-top: 0;
+    }
  </style>

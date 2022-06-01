@@ -13,7 +13,7 @@
       de øde strande.
     </p>
     <br>
-    <hr class="py-5">
+    <hr>
   </section>
 
   <!-- SECTION 2 -->
