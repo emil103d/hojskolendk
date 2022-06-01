@@ -592,6 +592,8 @@
   }
 
   button {
+    font-size: var(--knapsize);
+    font-weight: bold;
     font-family: "Lato", sans-serif;
     background-color: var(--primary-button-cta-background-color);
     border: 1px solid var(--secondary-button-cta-border-color);
@@ -603,10 +605,10 @@
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
     white-space: nowrap;
-    margin-left: 2rem;
+    margin-left: 3rem;
   }
 
-  button:hover {
+  button:hover:hover {
     border: 1px solid var(--orange-light);
     box-shadow: inset 400px 0 0 0 #ff853e;
     color: var(--hvid);

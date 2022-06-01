@@ -1,5 +1,4 @@
 <script>
-  import Mybutton from "./components/button.svelte";
 </script>
 
 <main class="col-start-2">
@@ -309,6 +308,13 @@
 </main>
 
 <style>
+  main {
+    background-image: url(src/_icons/gurfers.png);
+    background-position: cover;
+    background-size: 280%;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+  }
   .infobokse {
     background-color: var(--sandbeach);
     display: grid;
