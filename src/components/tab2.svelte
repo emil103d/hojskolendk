@@ -18,7 +18,7 @@
           <img src="src/_icons/swag.png" alt="" />
           <div>
             <h3>INKLUDERET</h3>
-            <p class="preh2">DET KLARER VI</p>
+            <p class="preh2">DET FÅR DU MED</p>
           </div>
         </div>
         <div class="grid inner_spacing mt-12">

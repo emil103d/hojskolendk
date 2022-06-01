@@ -10,12 +10,12 @@
   import Tab9 from "../components/tab9.svelte";
   import Tab10 from "../components/tab10.svelte";
   import Header from "../components/header.svelte";
-  import BuyCard from "../components/buycard.svelte"
+  import BuyCard from "../components/buycard.svelte";
 
   let activetab = Tab1;
 </script>
 
-<Header imgtitle="src/_images/webp/1.webp" />
+<Header imgtitle="src/_images/webp/singlepagehero.webp" />
 <div class="m-9 preh2">
   <a href="indec">FORSIDE /</a>
   <a href="alleophold" class=" preh2">ALLE OPHOLD</a>
@@ -89,8 +89,7 @@
       {/if} -->
   </section>
 
-  <BuyCard/>
-
+  <BuyCard />
 </main>
 
 <style>
