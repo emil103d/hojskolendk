@@ -5,7 +5,7 @@
 
 <!-- <BuyCard /> -->
 
-<div class="bgfooter">
+<div class="bgfooter overflow-hidden">
   <div class="maxwidthwrapper">
     <div class="footer_kontakt">
       <div>
@@ -48,7 +48,8 @@
       </div>
     </div>
   </div>
-  <div class="palme">
+
+  <div class="palme overflow-hidden">
     <svg
       width="1725"
       height="114"
@@ -64,8 +65,8 @@
   </div>
 </div>
 
-<footer>
-  <div class="footer text-center py-4">
+<footer class="">
+  <div class="footer text-center py-4 mb-30">
     <img src="./src/_logo/logohvid.png" alt="logo" class="w-14 h-14" />
     <div class="footer_infomode ">
       <h2 class="text-white">
@@ -155,13 +156,22 @@
         >
       </div>
     </div>
-    <div id="footerslut">
-      <p class="text-black">// HÔJSKOLENDK //</p>
-    </div>
+  </div>
+  
+  
+
+  <div class="wave">
+    <svg width="5568" height="363" viewBox="0 0 5568 363" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1879.6 171.563C685.705 146.127 167.61 261.74 0 351.296V363L287.225 357.712H1076.69H5568V171.563V0C5406.25 68.8892 4913.59 262.497 4236.89 295.564C3391.02 336.898 3371.96 203.358 1879.6 171.563Z" fill="white"/>
+      </svg>
+  </div>
+  <div id="footerslut">
+    
+    <p class="text-black">// HÔJSKOLENDK //</p>
   </div>
 </footer>
 
-<style>
+<style> 
   /* ---------------Footer start  -----------------*/
 
   footer p,
@@ -239,7 +249,7 @@
     display: grid;
     grid-gap: 2rem;
     padding: 2rem 0;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
   }
 
@@ -254,21 +264,29 @@
     text-align: center;
     padding: 5px;
     font-size: 0.5rem;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 60px;
+    padding-bottom: 60px;
   }
 
   .wave svg {
     margin-bottom: -10px;
     overflow: hidden;
-    width: 95vw;
+    width: 100vw;
+    height: auto;
+    margin-bottom: -8px;
+  }
+
+  .wave {
+    height: auto;
+    width: 100vw;
+    object-fit: contain;
   }
 
   .palme {
     margin-bottom: -0.9px;
     opacity: 0.8;
     overflow: hidden;
-    width: 99vw;
+    width: 100vw;
   }
   /* ---------------Footer slut */
 
@@ -294,6 +312,11 @@
       border-radius: 100px;
       margin: auto;
     }
+
+    .palme {
+    overflow: hidden;
+    width: 100vw;
+  }
 
     footer img {
       width: 84px;
@@ -326,6 +349,7 @@
       grid-template-rows: auto auto auto;
       font-size: 0.8rem;
       padding: 0 2rem;
+      margin-bottom: 5rem;
     }
 
     .footer_adress {
