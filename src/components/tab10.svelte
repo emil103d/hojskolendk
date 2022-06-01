@@ -1,3 +1,7 @@
+<script>
+  import MyButton from "../components/button.svelte";
+</script>
+
 <main class="col-start-2">
 
   <!-- SECTION 1 -->

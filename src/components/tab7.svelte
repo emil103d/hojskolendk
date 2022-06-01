@@ -2,6 +2,9 @@
   import Carouselle_friuge_1 from "../components/carouselle_friuge_1.svelte";
   import Carouselle_friuge_2 from "../components/carouselle_friuge_2.svelte";
   import Carouselle_friuge_3 from "../components/carouselle_friuge_3.svelte";
+  import MyButton from "../components/button.svelte";
+
+  
 </script>
 
 <main class="col-start-2 w-[99%]">
@@ -43,6 +46,10 @@
       <h3 class="display">THAILAND</h3>
       <Carouselle_friuge_3 />
     </div>
+  </section>
+
+  <section class="flex justify-end px-4">
+    <MyButton type="linkbutton"> ADVENTURE -> </MyButton> 
   </section>
 </main>
 

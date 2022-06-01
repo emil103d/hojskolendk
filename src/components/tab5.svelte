@@ -1,5 +1,6 @@
 <script>
   import Ophold_afrejse from "../components/ophold_afrejse.svelte";
+  import MyButton from "../components/button.svelte";
 </script>
 
 <main class="col-start-2">
@@ -47,6 +48,10 @@
         <Ophold_afrejse dato="05. Maj 2023" pris="33.00" varig="3 måneder" />
       </div>
     </section>
+  </section>
+
+  <section class="flex justify-end px-4">
+    <MyButton type="linkbutton"> GODT AT VIDE -> </MyButton> 
   </section>
 </main>
 

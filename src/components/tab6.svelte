@@ -1,3 +1,7 @@
+<script>
+  import MyButton from "../components/button.svelte";
+</script>
+
 <main class="col-start-2">
   <!-- SECTION 1 -->
   <section class="maxwidthwrapper" id="no-pad">
@@ -256,6 +260,9 @@
         </div>
       </div>
     </div>
+  </section>
+  <section class="flex justify-end px-4">
+    <MyButton type="linkbutton"> FRIUGER -> </MyButton> 
   </section>
 </main>
 

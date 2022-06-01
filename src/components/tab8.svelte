@@ -2,6 +2,7 @@
   import Carouselle_aktiv_1 from "../components/carouselle_aktiv_1.svelte";
   import Carouselle_aktiv_2 from "../components/carouselle_aktiv_2.svelte";
   import Carouselle_aktiv_3 from "../components/carouselle_aktiv_3.svelte";
+  import MyButton from "../components/button.svelte";
 </script>
 
 <main class="col-start-2 w-[99%]">
@@ -44,6 +45,11 @@
       <Carouselle_aktiv_3 />
     </div>
   </section>
+
+  <section class="flex justify-end px-4">
+    <MyButton type="linkbutton"> REJSEBREVE -> </MyButton> 
+  </section>
+
 </main>
 
 <style>
