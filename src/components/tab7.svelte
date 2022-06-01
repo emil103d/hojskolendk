@@ -2,7 +2,7 @@
   import Carouselle_friuge from "../components/carouselle_friuge.svelte";
 </script>
 
-<main class="col-start-2">
+<main class="col-start-2 w-[99%]">
   <!-- SECTION 1 -->
   <section class="maxwidthwrapper" id="no-pad">
     <h2>ADVENTURE, OPLEVELSER & AKTIVITETER</h2>
