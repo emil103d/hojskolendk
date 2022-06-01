@@ -4,7 +4,7 @@
 
 <main class="col-start-2">
   <!-- SECTION 1 -->
-  <section>
+  <section class="maxwidthwrapper" id="no-pad">
     <h2>ADVENTURE, OPLEVELSER & AKTIVITETER</h2>
     <p>
       I løbet af dit ophold hos os, er det muligt at deltage i vores
@@ -12,6 +12,8 @@
       snorkeleventyr og tag på en ATV-køretur, hvor du kan udforske junglen og
       de øde strande.
     </p>
+    <br>
+    <hr class="py-5">
   </section>
 
   <p class="preh2">TILFØJELSER & AKTIVITETER</p>
@@ -55,5 +57,9 @@
     color: var(--sort);
     line-height: var(--line-m);
     padding: var(--spacing-10);
+  }
+
+  #no-pad {
+    padding-top: 0;
   }
 </style>

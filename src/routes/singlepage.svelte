@@ -10,23 +10,23 @@
   import Tab9 from "../components/tab9.svelte";
   import Tab10 from "../components/tab10.svelte";
   import Header from "../components/header.svelte";
-  import BuyCard from "../components/buycard.svelte"
+  import BuyCard from "../components/buycard.svelte";
 
   let activetab = Tab1;
 </script>
 
-<Header imgtitle="src/_images/webp/1.webp" />
+<Header imgtitle="src/_images/webp/singlepagehero.webp" />
 <div class="m-9 preh2">
-  <a href="indec">FORSIDE /</a>
+  <a href="index">FORSIDE /</a>
   <a href="alleophold" class=" preh2">ALLE OPHOLD</a>
-  <a href="alleophold" class="underline preh2">SKRI LANKA & BAli</a>
+  <a href="alleophold" class="underline preh2">SRI LANKA & BAlI</a>
 </div>
 
 <main class="max_width_single relative">
   <section class="md:custom_grid hidden md:grid md:gap-10 lg:gap-20">
     <sidebar id="navbar" class="block cols-start-1 top-0 sticky">
-      <div class="sticky top-28">
-        <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
+      <div class="sticky top-28 pb-16">
+        <h2 class="text:sm m:1 mb:6 w-[237px]">ALT DU SKAL VIDE <br/> OM OPHOLDET</h2>
         <button class="" on:click={() => (activetab = Tab1)}
           >OPHOLDSOVERSIGT</button
         >
@@ -89,8 +89,7 @@
       {/if} -->
   </section>
 
-  <BuyCard/>
-
+  <BuyCard />
 </main>
 
 <style>

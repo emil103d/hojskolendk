@@ -22,14 +22,14 @@
     --button-ghost-background-color: var(--txtcolor);
 
     --sandstone: #faf9f7;
-    --sandbeach: rgba(250, 240, 219, 0.5);
+    --sandbeach: rgba(250, 240, 219, 0.8);
     --sandbeach-500: rgba(250, 240, 219, 0.5);
     --hvid: #ffffff;
 
     --sort: #000000;
     --txtcolor: #545454;
     --txtcolor-800: hlsa(0, 0%, 33%, 0.8);
-    --txtcolor-700: hlsa(0, 0%, 33%, 0.7);
+    --txtcolor-700: rgba(84, 84, 84, 0.7);
     --txtcolor-600: rgba(84, 84, 84, 0.6);
 
     /* FONT SIZES */
@@ -48,6 +48,8 @@
     --font_knap_m: clamp(0.75rem, 0.65625rem + 0.375vw, 0.9375rem);
     --font_knap_l: clamp(1rem, 0.625rem + 1.5000000000000002vw, 1.5625rem);
     --font_talsek: clamp(3rem, 0.21875rem + 0.125vw, 5rem);
+    --font_figur: clamp(3rem, 0.21875rem + 0.125vw, 1rem);
+    --knapsize: 19px;
 
     /* BORDER RADIUS */
     /* knapper */
@@ -70,6 +72,7 @@
     --line-s: 0.8;
     --line-m: 1.2;
     --line-l: 1.4;
+    --line-xl: 1.7;
   }
 
   _______________________________________________
@@ -97,6 +100,11 @@
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .maxwidthwrapper_card {
+    max-width: 1400px;
+    margin: 0 auto;
   }
 
   /* Skrift */
@@ -127,7 +135,6 @@
 
   p {
     font-family: "Lato", sans-serif;
-    /* font-family: "montserrat"; */
     font-size: var(--font_p);
     color: var(--txtcolor-600);
     line-height: 1.6;

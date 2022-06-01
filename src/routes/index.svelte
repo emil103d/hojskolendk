@@ -128,7 +128,7 @@
   <div class="">
     <p class="preh2">ELSKET AF 2500+ ELEVER</p>
     <h2>SE VORES ANMELDELSER</h2>
-    <img src="../src/_logo/trustpilot_logo.png" alt="" />
+    <img class="md:bg-contain" src="../src/_logo/trustpilot_logo.png" alt="" />
     <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-auto justify-around">
       <CardTrustpilot
         title="Venskaber for livet"
@@ -161,8 +161,8 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 
 <!-- Statistik sektion start -->
 <section
-  id="statistik_sektion"
-  class="maxwidthwrapper text-center w-full md:p-64 min-h-[35vh] grid items-center justify-center"
+  id=""
+  class="statistik_sektion maxwidthwrapper text-center w-full md:p-64 min-h-[35vh] grid items-center justify-center"
 >
   <Saos
     animation={"puff-in-center 0.7s cubic-bezier(0.470, 0.000, 0.745, 0.715) both"}
@@ -174,22 +174,23 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     <div class="">
       <h2 class="mb-5 hidden">ELSKET AF 2.500+ ELEVER</h2>
 
-    
-      <div class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center">
+      <div
+        class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center airplane"
+      >
         <div class="md:max-w-xs">
-          <h1 class="rotate_animation text-black ">2.500+</h1>
-          <h2>TIDLIGERE ELEVER ELSKER OS</h2>
+          <p class=" text-black ">2.500+</p>
+          <h5>TIDLIGERE ELEVER ELSKER OS</h5>
         </div>
 
         <div class="md:max-w-xs">
-          <h1 class="rotate_animation text-black">4,8</h1>
-          <h2>PÅ TRUSTPILOT</h2>
-          <img class="md:max-w-xs" src="../src/_icons/5star.png" alt="" />
+          <p class=" text-black">4,8</p>
+          <h5>PÅ TRUSTPILOT</h5>
+          <img class="w-80" src="../src/_icons/5star.png" alt="" />
         </div>
 
         <div class="md:max-w-xs">
-          <h1 class="rotate_animation text-black">106.785</h1>
-          <h2 class="max-w-xs m-auto">M2 FREDET REGNSKOV</h2>
+          <p class=" text-black">106.785</p>
+          <h5 class="max-w-xs m-auto">M2 FREDET REGNSKOV</h5>
         </div>
       </div>
     </div>
@@ -292,12 +293,12 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     margin: auto;
   }
 
-  #statistik_sektion {
+  .statistik_sektion {
     background-image: url(../src/_icons/airplane_earth.png);
-    background-size: cover;
+    background-size: contain;
     background-position: 50%;
     background-repeat: no-repeat;
-    height: 50vh;
+    height: 65vh;
   }
 
   #statistik_sektion h3 {
@@ -308,6 +309,10 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
   #statistik_sektion img {
     width: 200px;
     margin: 0 auto;
+  }
+  .airplane p {
+    font-family: "Prociono", serif;
+    font-size: var(--font_figur);
   }
 
   /* article {

@@ -4,7 +4,7 @@
 
 <section class="fixed bottom-0 left-0 bg-white drop-shadow-2xl z-50 w-[100vw] h-20">
 
-  <div class="flex justify-evenly maxwidthwrapper my-5">
+  <div class="flex justify-evenly maxwidthwrapper_card px-2 my-5">
     
     <div class="w-full hidden md:block my-auto">
       <h4><strong>REJS TIL SRI LANKA, MALDIVERNE & THAILAND</strong></h4>

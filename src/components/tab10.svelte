@@ -5,7 +5,7 @@
     <div class="baggrundsfarve">
         <div class="xl:grid custom_grid">
             <div class="lg:col-start-1">
-                <img class="w-full " src="src/_images/anton.png" alt="">
+                <img class="w-full " src="src/_images/webp/anton.webp" alt="">
             </div>
         <div class="lg:col-start-2 lg:col-span-2 lg:p-6 max-w-[50ch]">
         <h4>Anton Skou Larsen</h4>

@@ -8,14 +8,16 @@
      ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck Island og
      turtlewatch på programmet.
      </p>
+     <br>
+     <hr>
  </section>
  
   <!-- SECTION 2 -->
   <section class="lg:grid md:grid-cols-2 maxwidthwrapper">
    <div class="lg:col-start-1 grid place-content-center">
        <div class="lg:pr-8">
-        <p>Aktiviteter i friugen</p>
-        <h4>Uge 1 - Sri Lanka</h4>
+        <p>AKTIVITETER I FRIUGEN</p>
+        <h4>UGE 1 - SRI LANKA</h4>
         <p>Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. 
             Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt. Heminade abel oaktat prest. 
         </p>
@@ -30,7 +32,7 @@
    <section class="maxwidthwrapper">
      <div>
          <p>UGE 2 + 3 + 4:</p>
-         <h4>projektstyring & Teambuilding</h4>
+         <h4>PROJEKTSTYRING & TEAMBUILDING</h4>
          <p>Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. 
              Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt. Heminade abel oaktat prest. 
          </p>
@@ -67,7 +69,7 @@
    <section class="maxwidthwrapper">
      <div>
          <p>UGE 6 + 7 + 8:</p>
-         <h4>Selvudvikling & Kommunikation</h4>
+         <h4>SELVUDVIKLING & KOMMUNIKATION</h4>
          <p>Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. 
              Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt. Heminade abel oaktat prest. 
          </p>

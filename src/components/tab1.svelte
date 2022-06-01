@@ -1,3 +1,6 @@
+<script>
+</script>
+
 <main class="col-start-2">
   <!-- SECTION 1 -->
   <section
@@ -22,20 +25,28 @@
         <img
           class="h-8 w-auto m-auto"
           src="src/_icons/destination.png"
-          alt=""
+          alt="map ikon"
         />
         <h4>Destinationer</h4>
         <p itemprop="name" class="table">Sri Lanka, Maldiverne & Thailand</p>
       </div>
       <div class="col-start-2 row-start-1 infobokse">
-        <img class="h-8 w-auto m-auto" src="src/_icons/calender.png" alt="" />
+        <img
+          class="h-8 w-auto m-auto"
+          src="src/_icons/calender.png"
+          alt="kalender ikon"
+        />
         <h4>Varighed</h4>
         <p>3 måneder</p>
       </div>
       <div
         class="col-start-1 row-start-2 lg:col-start-3 lg:row-start-1 infobokse"
       >
-        <img class="h-8 w-auto m-auto" src="src/_icons/faelleskab.png" alt="" />
+        <img
+          class="h-8 w-auto m-auto"
+          src="src/_icons/faelleskab.png"
+          alt="fælleskab ikon"
+        />
         <h4>Undervisning</h4>
         <p>Selvudvikling & Kommunikation</p>
       </div>
@@ -45,11 +56,19 @@
         itemtype="https://schema.org/Offer"
         class="col-start-2 row-start-2 lg:row-start-1 lg:col-start-4 infobokse "
       >
-        <img class="h-8 w-auto m-auto" src="src/_icons/price.png" alt="" />
+        <img
+          class="h-8 w-auto m-auto"
+          src="src/_icons/price.png"
+          alt="pris ikon"
+        />
         <h4>Pris</h4>
         <p itemprop="price">59.700 DKK</p>
       </div>
     </div>
+
+    <br />
+
+    <hr />
   </section>
 
   <!-- SECTION 2 -->
@@ -99,14 +118,16 @@
       <div class="grid custom_grid baggrund-klode">
         <div />
         <div
-          class="rejseplan overflow-scroll overflow-x-hidden max-h-[30vh] max-w-[500px] relative p-4 grid gap-4"
+          class="rejseplan overflow-scroll overflow-x-hidden max-h-[30vh] max-w-[500px] relative p-4 grid gap-7"
         >
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
-              <div>
-                <p><b>Uge 1</b></p>
-                <p>Introdage i Dubai</p>
+              <div class="ml-2">
+                <p class="leading-tight">
+                  <b>Uge 1</b> <br />
+                  Introdage i Dubai
+                </p>
               </div>
             </div>
           </div>
@@ -114,9 +135,11 @@
           <div itemprop="subTrip">
             <div>
               <img class="h-8" src="src/_icons/destination.png" alt="" />
-              <div>
-                <p><b>Uge 2</b></p>
-                <p>Projektstyring & Teambuilding</p>
+              <div class="ml-2">
+                <p class="leading-tight">
+                  <b>Uge 2</b> <br /> Projektstyring & Teambuilding
+                </p>
+                <p />
               </div>
             </div>
           </div>
@@ -124,9 +147,11 @@
           <div itemprop="subTrip">
             <div>
               <img class="h-8" src="src/_icons/destination.png" alt="" />
-              <div>
-                <p><b>Uge 3</b></p>
-                <p>Projektstyring & Teambuilding</p>
+              <div class="ml-2">
+                <p class="leading-tight">
+                  <b>Uge 3</b> <br /> Projektstyring & Teambuilding
+                </p>
+                <p />
               </div>
             </div>
           </div>
@@ -134,9 +159,11 @@
           <div itemprop="subTrip">
             <div>
               <img class="h-8" src="src/_icons/destination.png" alt="" />
-              <div>
-                <p><b>Uge 4</b></p>
-                <p>Projektstyring & Teambuilding</p>
+              <div class="ml-2">
+                <p class="leading-tight">
+                  <b>Uge 4</b> <br /> Projektstyring & Teambuilding
+                </p>
+                <p />
               </div>
             </div>
           </div>
@@ -144,9 +171,45 @@
           <div itemprop="subTrip">
             <div>
               <img class="h-8" src="src/_icons/destination.png" alt="" />
-              <div>
-                <p><b>Uge 5</b></p>
-                <p>Friuge på egen hånd</p>
+              <div class="ml-2">
+                <p class="leading-tight">
+                  <b>Uge 5</b> <br /> Friuge på egen hånd
+                </p>
+                <p />
+              </div>
+            </div>
+          </div>
+<<<<<<< HEAD
+
+          <div itemprop="subTrip">
+            <div>
+=======
+          <div>
+            <div class="flex gap-2 items-center">
+>>>>>>> 069d31aabd559304eedccafc8ea003141d0323cb
+              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <div class="ml-2">
+                <p class="leading-tight">
+                  <b>Uge 6</b> <br /> Selvudvikling og kommunikation
+                </p>
+                <p />
+              </div>
+            </div>
+          </div>
+<<<<<<< HEAD
+
+          <div itemprop="subTrip">
+            <div>
+=======
+          <div>
+            <div class="flex gap-2 items-center">
+>>>>>>> 069d31aabd559304eedccafc8ea003141d0323cb
+              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <div class="ml-2">
+                <p class="leading-tight">
+                  <b>Uge 7</b> <br /> Selvudvikling og kommunikation
+                </p>
+                <p />
               </div>
             </div>
           </div>
@@ -154,29 +217,11 @@
           <div itemprop="subTrip">
             <div>
               <img class="h-8" src="src/_icons/destination.png" alt="" />
-              <div>
-                <p><b>Uge 6</b></p>
-                <p>Selvudvikling & Kommunikation</p>
-              </div>
-            </div>
-          </div>
-
-          <div itemprop="subTrip">
-            <div>
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
-              <div>
-                <p><b>Uge 7</b></p>
-                <p>Selvudvikling & Kommunikation</p>
-              </div>
-            </div>
-          </div>
-
-          <div itemprop="subTrip">
-            <div>
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
-              <div>
-                <p><b>Uge 8</b></p>
-                <p>Selvudvikling & Kommunikation</p>
+              <div class="ml-2">
+                <p class="leading-tight">
+                  <b>Uge 8</b> <br /> Selvudvikling og kommunikation
+                </p>
+                <p />
               </div>
             </div>
           </div>
@@ -184,9 +229,11 @@
           <div>
             <div itemprop="subTrip">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
-              <div>
-                <p><b>Uge 9</b></p>
-                <p>Friuge på egen hånd</p>
+              <div class="ml-2">
+                <p class="leading-tight">
+                  <b>Uge 9</b> <br /> Friuge på egen hånd
+                </p>
+                <p />
               </div>
             </div>
           </div>
@@ -194,9 +241,11 @@
           <div>
             <div itemprop="subTrip">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
-              <div>
-                <p><b>Uge 10</b></p>
-                <p>Outrotur</p>
+              <div class="ml-2">
+                <p class="leading-tight">
+                  <b>Uge 10</b> <br /> Outrotur
+                </p>
+                <p />
               </div>
             </div>
           </div>
@@ -271,10 +320,19 @@
         alt=""
       />
     </div>
+
+    <div />
   </section>
 </main>
 
 <style>
+  main {
+    background-image: url(src/_icons/gurfers.png);
+    background-position: cover;
+    background-size: 280%;
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+  }
   .infobokse {
     background-color: var(--sandbeach);
     display: grid;
@@ -289,6 +347,9 @@
     background-position-y: 40%;
     padding-top: 2rem;
     padding-bottom: 2rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   .custom_grid {

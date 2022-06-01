@@ -19,58 +19,40 @@
         />
       </svg>
     </button>
-
     <div class="flex gap-5 overflow-x-scroll">
       <Cardfri
-        image="../src/_images/friuge_1.jpg"
-        title="Uge på Mahfushi"
+        image="../src/_images/webp/ophold1.webp"
+        title="Surf på bølgerne"
         addon="ADD ON"
-        text="Tag på udflugt til Mahfushi et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
-        Hawaii er et af verdens bedste surfstede af, så i skal så i skal selføgelig lærer at “ride the waves”.  
+        text="Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
+        Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
       <Cardfri
-        image="../src/_images/webp/m_yoga.webp"
+        image="../src/_images/webp/ophold1.webp"
         title="Yoga på stranden"
         addon="INKLUDED"
-        text="Yoga på stranden er fantastisk afbræk så i skal selføgelig lærer at “ride the waves”.  
+        text="Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
       <Cardfri
-        image="../src/_images/webp/m_nightf.webp"
-        title="Night fishing trip"
+        image="../src/_images/webp/ophold1.webp"
+        title="Maldiverne, Sri Lanka, Bali & Gili"
         addon="ADD ON"
-        text="Tag ud om natten og fang fisk med line, , så i skal selføgelig lærer at “ride the waves”.  
+        text="Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
       <Cardfri
-        image="../src/_images/webp/m_hest.webp"
-        title="Ridetur på øen"
+        image="../src/_images/webp/ophold1.webp"
+        title="Maldiverne, Sri Lanka, Bali & Gili"
         addon="ADD ON"
-        text="En unik måde at se øen på fire ben så i skal selføgelig lærer at “ride the waves”.  
-        Hawaii er et af verdens bedste surfsteder er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
-        "
-      />
-
-      <Cardfri
-        image="../src/_images/webp/m_hotel.webp"
-        title="Dagstur til Hilton hotelø"
-        addon="ADD ON"
-        text="Trænger du til luksus?il Hilton hotel så i skal selføgelig lærer at “ride the waves”.  
+        text="Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
-
-      <Cardfri
-        image="../src/_images/webp/m_snorkel.webp"
-        title="Snorkling"
-        addon="ADD ON"
-        text="Et af verdens smukkeste steder at snorkle,  så i skal selføgelig lærer at “ride the waves”.  
-        Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
-        "
-      />
+      
     </div>
     <button id="right" class="hover:scale-105 hidden md:absolute"
       ><svg
@@ -92,16 +74,15 @@
 
 <style>
   #section_2 {
+    max-width: 48rem;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    max-width: 100%;
   }
 
   #carowrapper {
     position: relative;
-    overflow: hidden;
   }
 
   button {
