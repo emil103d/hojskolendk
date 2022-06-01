@@ -22,8 +22,8 @@
     
     <div class="flex gap-5 overflow-x-scroll">
       <Cardfri
-        image="../src/_images/webp/ophold1.webp"
-        title="Surf på bølgerne"
+        image="../src/_images/friuge_1.jpg"
+        title="Tag en slapper"
         addon="ADD ON"
         text="Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
