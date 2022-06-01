@@ -109,7 +109,7 @@
       <div class="grid custom_grid baggrund-klode">
         <div />
         <div
-          class="rejseplan overflow-scroll overflow-x-hidden max-h-[30vh] max-w-[500px] relative p-4 grid gap-4"
+          class="rejseplan overflow-scroll overflow-x-hidden max-h-[30vh] max-w-[500px] relative p-4 grid gap-7"
         >
           <div>
             <div class="flex gap-2 items-center">
