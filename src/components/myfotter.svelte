@@ -73,7 +73,7 @@
         VIL DU VIDE MERE OM VORES HØJSKOLEOPHOLD I UDLANDET?
       </h2>
       <p class="text-white mb-4">
-        Tilmeld dig vores infomøder og mød nogen tidligere elever
+        Tilmeld dig et infomøde og hør meget mere..
       </p>
 
       <MyButton type="secondary">TILMELD INFOMØDE</MyButton>
@@ -127,7 +127,7 @@
           <li><a href="">Fortrydelsesret</a></li>
           <li><a href="">Rejsegarantifonden</a></li>
           <li><a href="">Covid-19 informationer</a></li>
-          <li><a href="">Job hos Höjskolendk</a></li>
+          <li><a href="">Job hos HÔJSKOLENDK</a></li>
         </ul>
       </div>
 
@@ -135,15 +135,15 @@
         <li><strong>Læs mere her...</strong></li>
         <li><a href="">Sabbatår i udlandet</a></li>
         <li><a href="">Grupperejser for unge</a></li>
-        <li><a href="">frivilligt arbejde i udlandet</a></li>
-        <li><a href="">Bagpacking</a></li>
+        <li><a href="">Frivilligt arbejde i udlandet</a></li>
+        <li><a href="">Backpacking</a></li>
         <li><a href="">FAQ</a></li>
       </ul>
       <hr />
     </div>
 
     <div class="footer_some">
-      <p class="text-white">#hojskolen dk</p>
+      <p class="text-white">#hojskolendk</p>
       <div class="footer_ikons">
         <a href="https://www.facebook.com/hojskolendk/"
           ><img src="./src/_icons/facebook.png" alt="Facebook Link" /></a
