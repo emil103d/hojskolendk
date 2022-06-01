@@ -12,7 +12,7 @@
   }
 </script>
 
-<header class="h-full w-full" id="video">
+<header class="h-full w-full relative overflow-hidden" id="video">
   <video
     class="z-0 hero-image"
     loop
@@ -24,7 +24,15 @@
     <p>HØJSKOLEOPHOLD I UDLANDET</p>
     <h1 class="">FÆLLESKAB & REJSEEVENTYR</h1>
   </div>
+
+  <div class="wave absolute bottom-[-3px]">
+    <svg width="5568" height="363" viewBox="0 0 5568 363" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1879.6 171.563C685.705 146.127 167.61 261.74 0 351.296V363L287.225 357.712H1076.69H5568V171.563V0C5406.25 68.8892 4913.59 262.497 4236.89 295.564C3391.02 336.898 3371.96 203.358 1879.6 171.563Z" fill="white"/>
+      </svg>
+  </div>
 </header>
+
+
 
 <!-- section #1 start -->
 <section class="maxwidthwrapper md:pt-0 md:grid md:justify-center md:gap-8">
@@ -287,6 +295,20 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 
   #section_2 {
     background-color: var(--sandbeach);
+  }
+
+  .wave svg {
+    margin-bottom: -10px;
+    overflow: hidden;
+    width: 100vw;
+    height: auto;
+    margin-bottom: -8px;
+  }
+
+  .wave {
+    height: auto;
+    width: 100vw;
+    object-fit: contain;
   }
 
   #section_2 svg {
