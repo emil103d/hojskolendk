@@ -71,7 +71,7 @@
         src="src/_icons/destination.png"
         alt="map ikon"
       />
-      <h4>Destinationer</h4>
+      <p class="infoboks_tekst">Destinationer</p>
       <p itemprop="name" class="table">Sri Lanka, Maldiverne & Thailand</p>
     </div>
     <div class="col-start-2 row-start-1 infobokse">
@@ -80,7 +80,7 @@
         src="src/_icons/calender.png"
         alt="kalender ikon"
       />
-      <h4>Varighed</h4>
+      <p class="infoboks_tekst">Varighed</p>
       <p>3 måneder</p>
     </div>
     <div
@@ -91,7 +91,7 @@
         src="src/_icons/faelleskab.png"
         alt="fælleskab ikon"
       />
-      <h4>Undervisning</h4>
+      <p class="infoboks_tekst">Undervisning</p>
       <p>Selvudvikling & Kommunikation</p>
     </div>
     <div
@@ -105,7 +105,7 @@
         src="src/_icons/price.png"
         alt="pris ikon"
       />
-      <h4>Pris</h4>
+      <p class="infoboks_tekst">Pris</p>
       <p itemprop="price">59.700 DKK</p>
     </div>
   </div>
@@ -139,109 +139,110 @@
           </div>
 
           <div itemprop="subTrip">
-            <div>
+            <div class="flex gap-2 items-center">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
-                  <b>Uge 2</b> <br /> Projektstyring & Teambuilding
+                  <b>Uge 2</b> <br />
+                  Projektstyring & teambuilding
                 </p>
-                <p />
               </div>
             </div>
           </div>
 
           <div itemprop="subTrip">
-            <div>
+            <div class="flex gap-2 items-center">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
-                  <b>Uge 3</b> <br /> Projektstyring & Teambuilding
+                  <b>Uge 3</b> <br />
+                  Friuge med aktiviteter
                 </p>
-                <p />
               </div>
             </div>
           </div>
 
           <div itemprop="subTrip">
-            <div>
+            <div class="flex gap-2 items-center">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
-                  <b>Uge 4</b> <br /> Projektstyring & Teambuilding
+                  <b>Uge 4</b> <br />Projektstyring & Teambuilding
+                  
                 </p>
-                <p />
               </div>
             </div>
           </div>
 
           <div itemprop="subTrip">
-            <div>
+            <div class="flex gap-2 items-center">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
-                  <b>Uge 5</b> <br /> Friuge på egen hånd
+                  <b>Uge 5</b> <br />Friuge på egen hånd
+                  
                 </p>
-                <p />
               </div>
             </div>
           </div>
 
           <div itemprop="subTrip">
-            <div>
+            <div class="flex gap-2 items-center">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
-                  <b>Uge 6</b> <br /> Selvudvikling og kommunikation
+                  <b>Uge 6</b> <br />Selvudvikling og kommunikation
+                  
                 </p>
-                <p />
               </div>
             </div>
           </div>
 
           <div itemprop="subTrip">
-            <div>
+            <div class="flex gap-2 items-center">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
-                  <b>Uge 7</b> <br /> Selvudvikling og kommunikation
+                  <b>Uge 7</b> <br />Selvudvikling og kommunikation
+                  
                 </p>
-                <p />
+              </div>
+            </div>
+          </div>
+
+
+          <div itemprop="subTrip">
+            <div class="flex gap-2 items-center">
+              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <div class="ml-2">
+                <p class="leading-tight">
+                  <b>Uge 8</b> <br />Selvudvikling og kommunikation
+                  
+                </p>
               </div>
             </div>
           </div>
 
           <div itemprop="subTrip">
-            <div>
+            <div class="flex gap-2 items-center">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
-                  <b>Uge 8</b> <br /> Selvudvikling og kommunikation
+                  <b>Uge 9</b> <br />Friuge på egen hånd
+                  
                 </p>
-                <p />
               </div>
             </div>
           </div>
 
-          <div>
-            <div itemprop="subTrip">
+          <div itemprop="subTrip">
+            <div class="flex gap-2 items-center">
               <img class="h-8" src="src/_icons/destination.png" alt="" />
               <div class="ml-2">
                 <p class="leading-tight">
-                  <b>Uge 9</b> <br /> Friuge på egen hånd
+                  <b>Uge 10</b> <br />Outrotur
+                  
                 </p>
-                <p />
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <div itemprop="subTrip">
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
-              <div class="ml-2">
-                <p class="leading-tight">
-                  <b>Uge 10</b> <br /> Outrotur
-                </p>
-                <p />
               </div>
             </div>
           </div>
@@ -320,9 +321,15 @@
     <div />
   </section>
 
+
+
+<!-- 
   <section class="flex justify-end px-4">
-    <MyButton type="linkbutton"> HVAD ER INKLUDERET -> </MyButton> 
-  </section>
+    <MyButton type="linkbutton">  HVAD ER INKLUDERET<svg class="m-auto" width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.7071 8.70711C18.0976 8.31658 18.0976 7.68342 17.7071 7.29289L11.3431 0.928932C10.9526 0.538408 10.3195 0.538408 9.92893 0.928932C9.53841 1.31946 9.53841 1.95262 9.92893 2.34315L15.5858 8L9.92893 13.6569C9.53841 14.0474 9.53841 14.6805 9.92893 15.0711C10.3195 15.4616 10.9526 15.4616 11.3431 15.0711L17.7071 8.70711ZM17 7L-4.76837e-07 7V9L17 9V7Z" fill="#929292"/>
+      </svg>
+       </MyButton> 
+  </section> -->
 </main>
 
 <style>
@@ -371,5 +378,10 @@
 
   #no-pad {
     padding-top: 0;
+  }
+
+  .infoboks_tekst {
+    font-size: var(--font_h4);
+    color: var(--txtcolor);
   }
 </style>

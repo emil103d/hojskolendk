@@ -21,7 +21,7 @@
     <div class="lg:col-start-1 grid place-content-center">
       <div class="lg:pr-8">
         <p>AKTIVITETER I FRIUGEN</p>
-        <h4>UGE 1 - SRI LANKA</h4>
+        <h3>UGE 1 - SRI LANKA</h3>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
           bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -45,7 +45,7 @@
   <section class="maxwidthwrapper">
     <div>
       <p>UGE 2 + 3 + 4:</p>
-      <h4>PROJEKTSTYRING & TEAMBUILDING</h4>
+      <h3>PROJEKTSTYRING & TEAMBUILDING</h3>
       <p>
         Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
         bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -84,7 +84,7 @@
     <div class="lg:col-start-2 md:row-start-1 grid place-content-center">
       <div class="lg:px-8">
         <p>UGE 5</p>
-        <h4>FRIUGE - MALDIVERNE</h4>
+        <h3>FRIUGE - MALDIVERNE</h3>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
           bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -107,7 +107,7 @@
   <section class="maxwidthwrapper">
     <div>
       <p>UGE 6 + 7 + 8:</p>
-      <h4>SELVUDVIKLING & KOMMUNIKATION</h4>
+      <h3>SELVUDVIKLING & KOMMUNIKATION</h3>
       <p>
         Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
         bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -146,7 +146,7 @@
     <div class="lg:col-start-1 lg:row-start-1 grid place-content-center">
       <div class="lg:pr-8">
         <p>UGE 9</p>
-        <h4>FRIUGE - SRI LANKA</h4>
+        <h3>FRIUGE - SRI LANKA</h3>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
           bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -170,7 +170,7 @@
     <div class="lg:col-start-2 lg:row-start-1 grid place-content-center">
       <div class="lg:px-8">
         <p>UGE 10</p>
-        <h4>OUTRODAGE</h4>
+        <h3>OUTRODAGE</h3>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
           bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -190,7 +190,9 @@
   </section>
 
   <section class="flex justify-end px-4">
-    <MyButton type="linkbutton"> UNDERVISNINGEN -> </MyButton> 
+    <MyButton type="linkbutton"> UNDERVISNINGEN <svg class="m-auto" width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.7071 8.70711C18.0976 8.31658 18.0976 7.68342 17.7071 7.29289L11.3431 0.928932C10.9526 0.538408 10.3195 0.538408 9.92893 0.928932C9.53841 1.31946 9.53841 1.95262 9.92893 2.34315L15.5858 8L9.92893 13.6569C9.53841 14.0474 9.53841 14.6805 9.92893 15.0711C10.3195 15.4616 10.9526 15.4616 11.3431 15.0711L17.7071 8.70711ZM17 7L-4.76837e-07 7V9L17 9V7Z" fill="#929292"/>
+      </svg> </MyButton> 
   </section>
 
 </main>

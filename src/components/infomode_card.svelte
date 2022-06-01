@@ -5,18 +5,21 @@
   export let dato;
   export let tid;
   export let adresse;
+  import MyButton from "../components/button.svelte";
 </script>
 
 <section
-  class="ophold max-w-xs md:max-w-7xl h-full block md:flex items-center mb-5"
->
-  <img src={image} alt={title} class="w-full object-cover md:w-40 mr-10" />
-  <div>
+  class="ophold max-w-full h-full block md:flex items-center mb-5 grid">
+  <div class="">
+    <img src={image} alt={title} class="w-full object-cover md:w-40 mr-10" />
+  </div>
+
+  <div class="pb-4">
     <div class="m-5">
       <h3>{title}</h3>
       <p>{subtitle}</p>
     </div>
-    <div class="md:flex mt-10 m-5">
+    <div class="md:flex mt-10 m-5 ">
       <div class="flex mt-3">
         <img class="w-8 h-8 mr-6" src="../src/_icons/calender.png" alt="" />
         <div class="">
@@ -43,8 +46,9 @@
       </div>
     </div>
   </div>
-  <div>
-    <button>TILMELD INFOMODE</button>
+
+  <div class="flex justify-center">
+    <MyButton type="primary">Tilmeld infomøde</MyButton>
   </div>
 </section>
 

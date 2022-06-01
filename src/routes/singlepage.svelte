@@ -15,7 +15,7 @@
   let activetab = Tab1;
 </script>
 
-<Header imgtitle="src/_images/webp/singlepagehero.webp" />
+<Header imgtitle="src/_images/webp/ferie2.webp" />
 <div class="m-9 preh2">
   <a href="index">FORSIDE /</a>
   <a href="alleophold" class=" preh2">ALLE OPHOLD</a>

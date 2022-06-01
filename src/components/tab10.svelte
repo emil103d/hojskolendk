@@ -17,7 +17,7 @@
           />
         </div>
         <div class="lg:col-start-2 lg:col-span-2 p-6 lg:p-10 m-auto max-w-[50ch]">
-          <h4>Anton Skou Larsen</h4>
+          <h3 class="pb-4">Anton Skou Larsen</h3>
           <p>
             Jeg har, siden jeg var ganske lille, haft stor lyst og trang til at
             udforske verden. Jeg har altid været interesseret i naturen; gåture
@@ -37,7 +37,7 @@
 
             <br />
             <br />
-            Højskolesmil, Anton
+            Højskolesmil, <br> Anton
           </p>
         </div>
       </div>

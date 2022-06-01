@@ -9,12 +9,12 @@
   title="VÆR MED TIL VORES INFOMØDER"
 />
 <main>
-  <div class="m-9 preh2">
+  <div class="preh2">
     <a href="indec">FORSIDE /</a>
     <a href="alleophold" class="underline preh2">TILMELD INFOMODE</a>
   </div>
 
-  <section class="maxwidthwrapper text-center justify-center">
+  <section class="maxwidthwrapper">
     <p class="preh2">Gratis & uforpligtende</p>
     <h2>INFOMØDER 6 REJSEFEBER CAFÉ</h2>
     <p>
@@ -22,10 +22,11 @@
       skønne tidligere elever til en aften med billeder, historier og gode
       vibes.
     </p>
-    <div class="flex mt-10 mb-10 justify-center ml-auto mr-auto" />
+    <br>
+    <hr>
   </section>
 
-  <section>
+  <section class="maxwidthwrapper grid gap-10">
     <h3>Maj 2022</h3>
     <Infomodecard
       image="src/_images/webp/social7.webp"
@@ -57,7 +58,7 @@ Købmagergade 29,
     />
   </section>
 
-  <section>
+  <section class="maxwidthwrapper grid">
     <h3>Juni 2022</h3>
     <Infomodecard
       image="src/_images/webp/social7.webp"
@@ -77,5 +78,10 @@ Købmagergade 29,
     background-size: 200%;
     background-repeat: repeat-y;
     background-position-x: 10%;
+  }
+
+  section {
+    padding-top: var(--padding-sections);
+    padding-bottom: var(--padding-sections);
   }
 </style>
