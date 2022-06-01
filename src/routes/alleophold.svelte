@@ -38,10 +38,10 @@
   let filteredOphold = [];
 
   // For Select Menu
-  $: if (selectedvar) getOpholdByAfrejse(); //Svelte reaktiv condition -> if selected varighed er sand kald funktion
+  $: if (selectedvar) getOpholdByVar(); //Svelte reaktiv condition -> if selected varighed er sand kald funktion
   $: console.log(filteredOphold, selectedvar);
 
-  $: if (selectedAf) getOpholdByVar();
+  $: if (selectedAf) getOpholdByAfrejse();
   $: console.log(filteredOphold, selectedAf);
 
   const getOpholdByVar = () => {
@@ -55,12 +55,12 @@
   };
 
   const getOpholdByAfrejse = () => {
-    if (selectedaf === "alle") {
+    if (selectedAf === "alle") {
       // Hvis der er blevet valgt se alle valgmuligheder knappen
       return (filteredOphold = []); // Er det ligmed et tomt array da den så vil kalde else sektion med alle opholdende
     }
     return (filteredOphold = opholdData.filter(
-      (ophold) => ophold.afrejse === selectedaf // Filter ud de ophold der matcher den valgte varighed
+      (ophold) => ophold.afrejse === selectedAf // Filter ud de ophold der matcher den valgte varighed
     ));
   };
 </script>

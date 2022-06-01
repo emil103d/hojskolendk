@@ -60,7 +60,7 @@ export const opholdData = [
     subtitle: "For dig der elsker sol, sommer og højt humør",
     countrues: "Hawaii, Australien, Japan, Bali & Gili Islands",
     dato: "25/01/2023",
-    afrejse: "forår",
+    afrejse: "Forår",
     pris: "fra 76.900 kr.",
     undervisning: "Selvudvikling og kommunikation",
     varig: "3 Måneder",
