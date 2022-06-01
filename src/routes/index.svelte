@@ -161,7 +161,7 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 
 <!-- Statistik sektion start -->
 <section
-  id="  "
+  id=""
   class="statistik_sektion maxwidthwrapper text-center w-full md:p-64 min-h-[35vh] grid items-center justify-center"
 >
   <Saos
@@ -178,18 +178,18 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
         class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center airplane"
       >
         <div class="md:max-w-xs">
-          <p class="rotate_animation text-black ">2.500+</p>
+          <p class=" text-black ">2.500+</p>
           <h5>TIDLIGERE ELEVER ELSKER OS</h5>
         </div>
 
         <div class="md:max-w-xs">
-          <p class="rotate_animation text-black">4,8</p>
+          <p class=" text-black">4,8</p>
           <h5>PÅ TRUSTPILOT</h5>
-          <img class="md:max-w-xs" src="../src/_icons/5star.png" alt="" />
+          <img class="w-80" src="../src/_icons/5star.png" alt="" />
         </div>
 
         <div class="md:max-w-xs">
-          <p class="rotate_animation text-black">106.785</p>
+          <p class=" text-black">106.785</p>
           <h5 class="max-w-xs m-auto">M2 FREDET REGNSKOV</h5>
         </div>
       </div>
@@ -310,6 +310,10 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     width: 200px;
     margin: 0 auto;
   }
+  .airplane p {
+    font-family: "Prociono", serif;
+    font-size: var(--font_figur);
+  }
 
   /* article {
     max-width: 700px;
@@ -395,10 +399,5 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
       transform: rotateY(0deg) translateY(0) skewY(0deg);
       opacity: 1;
     }
-  }
-
-  .airplane p {
-    font-family: "Prociono", serif;
-    font-size: var(--font_figur);
   }
 </style>
