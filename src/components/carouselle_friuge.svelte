@@ -97,7 +97,7 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
-    max-width: 1016px;
+    max-width: 100%;
   }
 
   #carowrapper {

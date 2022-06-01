@@ -27,7 +27,7 @@
   </section>
 
   <!-- SECTION 3 -->
-  <section class="">
+  <section class="maxwidthwrapper">
     <div class="">
       <p class="preh2 text-center">SKRI LANKA</p>
       <h3 class="display text-center">FRIUGE 2</h3>
@@ -53,7 +53,6 @@
     font-size: var(--font_h2);
     color: var(--sort);
     line-height: var(--line-m);
-    padding: var(--spacing-10);
   }
 
   #no-pad {
