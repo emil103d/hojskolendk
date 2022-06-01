@@ -22,32 +22,40 @@
 
     <div class="flex gap-5 overflow-x-scroll">
       <Cardfri
-        image="../src/_images/webp/m_yoga.webp"
-        title="Uge på Mahfushi"
+        image="../src/_images/webp/sl_surf.webp"
+        title="Surfing school"
         addon="ADD ON"
         text="Tag på udflugt til Mahfushi et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfstede af, så i skal så i skal selføgelig lærer at “ride the waves”.  
         "
       />
       <Cardfri
-        image="../src/_images/webp/m_yoga.webp"
-        title="Yoga på stranden"
+        image="../src/_images/webp/kajak.webp"
+        title="Kayak iland-jumping"
         addon="INKLUDED"
         text="Yoga på stranden er fantastisk afbræk så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
       <Cardfri
-        image="../src/_images/webp/m_yoga.webp"
-        title="Night fishing trip"
-        addon="ADD ON"
-        text="Tag ud om natten og fang fisk med line, , så i skal selføgelig lærer at “ride the waves”.  
+      image="../src/_images/webp/m_snorkel.webp"
+      title="Snorkling"
+      addon="ADD ON"
+      text="Et af verdens smukkeste steder at snorkle,  så i skal selføgelig lærer at “ride the waves”.  
+      Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
+      "
+    />
+      <Cardfri
+        image="../src/_images/webp/frivilig2.webp"
+        title="Frivilligt arbejde"
+        addon="INKLUDED"
+        text="Yoga på stranden er fantastisk afbræk så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
       <Cardfri
-        image="../src/_images/webp/m_yoga.webp"
-        title="Ridetur på øen"
+        image="../src/_images/webp/hellikopspring.webp"
+        title="Skydiving"
         addon="ADD ON"
         text="En unik måde at se øen på fire ben så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
@@ -56,21 +64,14 @@
 
       <Cardfri
         image="../src/_images/webp/m_yoga.webp"
-        title="Dagstur til Hilton hotelø"
+        title="Strand yoga"
         addon="ADD ON"
         text="Trænger du til luksus?il Hilton hotel så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
 
-      <Cardfri
-        image="../src/_images/webp/m_yoga.webp"
-        title="Snorkling"
-        addon="ADD ON"
-        text="Et af verdens smukkeste steder at snorkle,  så i skal selføgelig lærer at “ride the waves”.  
-        Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
-        "
-      />
+     
     </div>
     <button id="right" class="hover:scale-105 hidden md:absolute"
       ><svg

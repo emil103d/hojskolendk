@@ -22,32 +22,32 @@
 
     <div class="flex gap-5 overflow-x-scroll">
       <Cardfri
-        image="../src/_images/friuge_1.jpg"
-        title="Uge på Mahfushi"
+        image="../src/_images/webp/ophold4.webp"
+        title="River floating"
         addon="ADD ON"
         text="Tag på udflugt til Mahfushi et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfstede af, så i skal så i skal selføgelig lærer at “ride the waves”.  
         "
       />
       <Cardfri
-        image="../src/_images/webp/m_yoga.webp"
-        title="Yoga på stranden"
+        image="../src/_images/webp/ophold3.webp"
+        title="Tømmerflåde overlevelse"
         addon="INKLUDED"
         text="Yoga på stranden er fantastisk afbræk så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
       <Cardfri
-        image="../src/_images/webp/m_nightf.webp"
-        title="Night fishing trip"
+        image="../src/_images/webp/ophold2.webp"
+        title="Trecking"
         addon="ADD ON"
         text="Tag ud om natten og fang fisk med line, , så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
       <Cardfri
-        image="../src/_images/webp/m_hest.webp"
-        title="Ridetur på øen"
+        image="../src/_images/webp/ferie3.webp"
+        title="Jungle Poolparty"
         addon="ADD ON"
         text="En unik måde at se øen på fire ben så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
@@ -55,8 +55,8 @@
       />
 
       <Cardfri
-        image="../src/_images/webp/m_hotel.webp"
-        title="Dagstur til Hilton hotelø"
+        image="../src/_images/webp/ferie6.webp"
+        title="Beachvolley turnering"
         addon="ADD ON"
         text="Trænger du til luksus?il Hilton hotel så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
