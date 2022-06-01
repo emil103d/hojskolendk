@@ -1,5 +1,6 @@
 <script>
   import { onMount } from "svelte";
+  import Button from "../components/button.svelte";
 
   // Show mobile icon and display menu
   let showMobileMenu = false;
@@ -23,12 +24,12 @@
   });
 </script>
 
-<nav class="w-screen flex md:grid md:grid-cols-3">
+<nav class="w-screen flex">
   <a sveltekit:prefetch href="/">
     <img class="" src="../src/_logo/logohvid.png" alt="logo hvid" /></a
   >
 
-  <div class="inner  justify-end ">
+  <div class="inner">
     <div
       on:click={handleMobileIconClick}
       class={`mobile-icon${showMobileMenu ? " active" : ""}`}
@@ -36,7 +37,7 @@
       <div class="middle-line" />
     </div>
     <ul class={`navbar-list${showMobileMenu ? " mobile" : ""}`}>
-      <li id="" class="bg-black lg:hidden">
+      <li class=" lg:hidden">
         <div
           class="accordion flex-col flex overflow-scroll max-h-[90vh] flex-nowrap"
         >
@@ -45,7 +46,7 @@
             <input type="checkbox" name="panel" id="panel-1" class="hidden" />
             <p
               for="panel-1"
-              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+              class="relative block  p-4 shadow border-b border-grey"
             >
               <a href="/alleophold">Se alle ophold</a>
             </p>
@@ -55,15 +56,15 @@
             <input type="checkbox" name="panel" id="panel-2" class="hidden" />
             <label
               for="panel-2"
-              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+              class="relative block p-4 shadow border-b border-grey"
               >Højskoleophold 5 Uger</label
             >
             <div class="accordion__content overflow-hidden bg-grey-lighter">
               <ul class="accordion__body p-4" id="panel1">
-                <li class="text-white">
+                <li class="">
                   <a href="/singlepage">BALI, LOMBOK & GILI ISLANDS</a>
                 </li>
-                <li class="text-white">
+                <li class="">
                   <a href="/singlepage">NEW YORK CITY & CARIBIEN</a>
                 </li>
               </ul>
@@ -74,17 +75,17 @@
             <input type="checkbox" name="panel" id="panel-3" class="hidden" />
             <label
               for="panel-3"
-              class="relative block bg-black text-white p-4 shadow border-b border-grey"
-              >2 Måneder</label
+              class="relative block   p-4 shadow border-b border-grey"
+              >2 Måneder ophold</label
             >
             <div class="accordion__content overflow-hidden bg-grey-lighter">
               <ul class="accordion__body p-4" id="panel1">
-                <li class="text-white">
+                <li class="">
                   <a href="/singlepage"
                     >Maldiverne, Sri Lanka, Bali & Gili Islands</a
                   >
                 </li>
-                <li class="text-white">
+                <li class="">
                   <a href="/singlepage"
                     >Hawaii, Australien, Japan, Bali & Gili Islands</a
                   >
@@ -97,18 +98,18 @@
             <input type="checkbox" name="panel" id="panel-4" class="hidden" />
             <label
               for="panel-4"
-              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+              class="relative block p-4 shadow border-b border-grey"
               >3 Måneder</label
             >
             <div class="accordion__content overflow-hidden bg-grey-lighter">
               <ul class="accordion__body p-4" id="panel1">
-                <li class="text-white">
+                <li class="">
                   <a href="/singlepage">CARIBIEN, HAWAII & MEXICO</a>
                 </li>
-                <li class="text-white">
-                  <a href="/singlepage">Indien, Nepal, Thailand & Sri Lanka</a>
+                <li class="">
+                  <a href="/singlepage">Indien, Thailand & Sri Lanka</a>
                 </li>
-                <li class="text-white">
+                <li class="">
                   <a href="/singlepage">COSTA RICA, MEXICO & GUATEMALA</a>
                 </li>
               </ul>
@@ -120,7 +121,7 @@
             <input type="checkbox" name="panel" id="panel-5" class="hidden" />
             <p
               for="panel-5"
-              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+              class="relative block p-4 shadow border-b border-grey"
             >
               <a href="/infomode">Infomøder</a>
             </p>
@@ -131,28 +132,28 @@
             <input type="checkbox" name="panel" id="panel-6" class="hidden" />
             <label
               for="panel-6"
-              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+              class="relative block bg-black p-4 shadow border-b border-grey"
               >Om os</label
             >
             <div class="accordion__content overflow-hidden bg-grey-lighter">
               <ul class="accordion__body p-4" id="panel1">
-                <li class="text-white">
+                <li class="">
                   <a href="/underconstruction">Mød teamet</a>
                 </li>
-                <li class="text-white">
+                <li class="">
                   <a href="/underconstruction">Vores Værdier</a>
                 </li>
-                <li class="text-white">
+                <li class="">
                   <a href="/underconstruction">Bæredygtighed</a>
                 </li>
-                <li class="text-white">
+                <li class="">
                   <a href="/underconstruction">FAQ</a>
                 </li>
-                <li class="text-white">
+                <li class="">
                   <a href="/underconstruction">Blog</a>
                 </li>
 
-                <li class="text-white">
+                <li class="">
                   <a href="/underconstruction">Det siger vores elever</a>
                 </li>
               </ul>
@@ -163,18 +164,18 @@
             <input type="checkbox" name="panel" id="panel-7" class="hidden" />
             <label
               for="panel-7"
-              class="relative block bg-black text-white p-4 shadow border-b border-grey"
+              class="relative block  p-4 shadow border-b border-grey"
               >Elevforening</label
             >
             <div class="accordion__content overflow-hidden ">
               <ul class="accordion__body p-4" id="panel1">
-                <li class="text-white">
+                <li class="">
                   <a href="/underconstruction">Kommende Events</a>
                 </li>
-                <li class="text-white">
+                <li class="">
                   <a href="/underconstruction">Elev Ambasadører</a>
                 </li>
-                <li class="text-white">
+                <li class="">
                   <a href="/underconstruction">REUNION</a>
                 </li>
               </ul>
@@ -183,11 +184,11 @@
         </div>
       </li>
 
-      <li class="hidden lg:block">
-        <div class="group relative h-full">
+      <li class="hidden  lg:block">
+        <div class="group h-full">
           <a
             href="/alleophold"
-            class="text-white flex items-center h-full bg-grey-darkest px-4"
+            class=" flex items-center h-full bg-grey-darkest px-4"
           >
             Højskoleophold
             <svg
@@ -204,151 +205,98 @@
           </a>
           <div
             id="hover_underkategori"
-            class="hidden p-4 pb-6 group-hover:grid absolute pin-r top-full grid-cols-3 grid-rows-2 bg-black -left-full"
+            class="hidden p-4 pb-6 group-hover:grid absolute pin-r top-full grid-cols-3"
           >
-            <div id="hover_underkategori" class="col-span-3 flex items-center">
-              <img class="ikoner" src="../src/_icons/flyafgang.png" alt="" />
-
-              <a
-                href="/alleophold"
-                id="topnav_titel"
-                class="block text-left py-3 px-3 text-white"
-              >
+            <div class=" items-center col-span-3">
+              <a href="/alleophold" id="topnav_titel" class="block pl-4">
                 Se alle ophold
               </a>
+              <div class=" ml-4 w-1/2 h-0.5 bg-black" />
             </div>
 
             <div class="columns-1 block">
               <div class="flex items-center">
-                <img class="ikoner" src="../src/_icons/flyafgang.png" alt="" />
-
-                <p class="text-white">5 uger</p>
+                <p class=" pl-4 pt-4 pb-2   font-bold">5 ugers ophold</p>
               </div>
               <ul class="block">
-                <li class="text-white flex items-center">
-                  <svg
-                    class=" ml-4"
-                    width="10"
-                    height="10"
-                    viewBox="0 0 10 10"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="5" cy="5" r="5" fill="white" />
-                  </svg>
+                <li class=" flex items-center">
+                  <img
+                    class="ikoner"
+                    src="../src/_icons/destination.png"
+                    alt=""
+                  />
                   <a href="/singlepage">Bali, Lombok & Gili Islands</a>
                 </li>
-                <li class="text-white flex items-center">
-                  <svg
-                    class=" ml-4"
-                    width="10"
-                    height="10"
-                    viewBox="0 0 10 10"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="5" cy="5" r="5" fill="white" />
-                  </svg>
+                <li class=" flex items-center">
+                  <img
+                    class="ikoner"
+                    src="../src/_icons/destination.png"
+                    alt=""
+                  />
                   <a href="/singlepage">Indien, Nepal, Thailand & Sri Lanka</a>
                 </li>
               </ul>
             </div>
             <div class="columns-1 block justify-start">
               <div class="flex items-center">
-                <img class="ikoner" src="../src/_icons/flyafgang.png" alt="" />
-
-                <p class="text-white">2 måneders ophold</p>
+                <p class="pl-4 pt-4 pb-2 font-bold">2 måneders ophold</p>
               </div>
               <ul class="block">
-                <li class="text-white flex items-center">
-                  <svg
-                    class=" ml-4"
-                    width="10"
-                    height="10"
-                    viewBox="0 0 10 10"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="5" cy="5" r="5" fill="white" />
-                  </svg>
+                <li class=" flex items-center">
+                  <img
+                    class="ikoner"
+                    src="../src/_icons/destination.png"
+                    alt=""
+                  />
                   <a href="/singlepage"
                     >Maldiverne, Sri Lanka, Bali & Gili Islands</a
                   >
                 </li>
-                <li class="text-white flex items-center">
-                  <svg
-                    class=" ml-4"
-                    width="10"
-                    height="10"
-                    viewBox="0 0 10 10"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="5" cy="5" r="5" fill="white" />
-                  </svg>
+                <li class=" flex items-center">
+                  <img
+                    class="ikoner"
+                    src="../src/_icons/destination.png"
+                    alt=""
+                  />
                   <a href="/singlepage">xxx</a>
                 </li>
               </ul>
             </div>
             <div class="columns-1 block">
               <div class="flex items-center">
-                <img class="ikoner" src="../src/_icons/flyafgang.png" alt="" />
-
-                <p class="text-white">3 måneders ophold</p>
+                <p class="pl-4 pt-4 pb-2 font-bold">3 måneders ophold</p>
               </div>
               <ul class="block">
-                <li class="text-white flex items-center">
-                  <svg
-                    class=" ml-4"
-                    width="10"
-                    height="10"
-                    viewBox="0 0 10 10"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="5" cy="5" r="5" fill="white" />
-                  </svg>
+                <li class=" flex items-center">
+                  <img
+                    class="ikoner"
+                    src="../src/_icons/destination.png"
+                    alt=""
+                  />
                   <a href="/singlepage">Costa Rica, Mexico & Guatemala</a>
                 </li>
-                <li class="text-white flex items-center">
-                  <svg
-                    class=" ml-4"
-                    width="10"
-                    height="10"
-                    viewBox="0 0 10 10"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="5" cy="5" r="5" fill="white" />
-                  </svg>
+                <li class=" flex items-center">
+                  <img
+                    class="ikoner"
+                    src="../src/_icons/destination.png"
+                    alt=""
+                  />
                   <a href="/singlepage">Indien, Nepal, Thailand & Sri Lanka</a>
                 </li>
-                <li class="text-white flex items-center">
-                  <svg
-                    class=" ml-4"
-                    width="10"
-                    height="10"
-                    viewBox="0 0 10 10"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="5" cy="5" r="5" fill="white" />
-                  </svg>
-                  <a href="/singlepage"
-                    >Hawaii, Australien, Japan, Bali & Gili Islands</a
-                  >
+                <li class=" flex items-center">
+                  <img
+                    class="ikoner"
+                    src="../src/_icons/destination.png"
+                    alt=""
+                  />
+                  <a href="/singlepage">Hawaii, Australien, Japan & Bali</a>
                 </li>
-                <li class="text-white flex items-center">
-                  <svg
-                    class=" ml-4"
-                    width="10"
-                    height="10"
-                    viewBox="0 0 10 10"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                  >
-                    <circle cx="5" cy="5" r="5" fill="white" />
-                  </svg>
+                <li class=" flex items-center">
+                  <img
+                    class="ikoner"
+                    src="../src/_icons/destination.png"
+                    alt=""
+                  />
                   <a href="/singlepage">Caribien, Hawaii & Mexico</a>
                 </li>
               </ul>
@@ -360,7 +308,7 @@
         <div class="group relative h-full">
           <a
             href="/infomode"
-            class="text-white flex items-center h-full bg-grey-darkest px-4"
+            class=" flex items-center h-full bg-grey-darkest px-4"
           >
             Infomøder
           </a>
@@ -370,7 +318,7 @@
         <div class="group relative h-full">
           <a
             href="/underconstruction"
-            class="text-white flex items-center h-full bg-grey-darkest px-4"
+            class=" flex items-center h-full bg-grey-darkest px-4"
           >
             Om os
             <svg
@@ -385,14 +333,12 @@
               /></svg
             >
           </a>
-          <div
-            class="hidden group-hover:block absolute pin-r top-full w-48 bg-black"
-          >
+          <div class="hidden group-hover:block absolute pin-r top-full w-48 ">
             <ul>
               <li>
                 <a
                   href="/underconstruction"
-                  class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
+                  class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
                 >
                   Møde teamet
                 </a>
@@ -400,7 +346,7 @@
               <li>
                 <a
                   href="/underconstruction"
-                  class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
+                  class="block text-left py-3 px-3 hover:text-blue-dark text-xs"
                 >
                   Vores værdier
                 </a>
@@ -408,7 +354,7 @@
               <li>
                 <a
                   href="/underconstruction"
-                  class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
+                  class="block text-left py-3 px-3 hover:text-blue-dark text-xs"
                 >
                   Bæredygtighed
                 </a>
@@ -416,7 +362,7 @@
               <li>
                 <a
                   href="/underconstruction"
-                  class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
+                  class="block text-left py-3 px-3hover:text-blue-dark text-xs"
                 >
                   FAQ
                 </a>
@@ -424,7 +370,9 @@
               <li>
                 <a
                   href="/underconstruction"
-                  class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
+                  class="block text-left py-3 px-3 
+                  
+                  hover:text-blue-dark text-xs"
                 >
                   Blog
                 </a>
@@ -432,7 +380,7 @@
               <li>
                 <a
                   href="/underconstruction"
-                  class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
+                  class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
                 >
                   Det siger vores elever
                 </a>
@@ -498,7 +446,7 @@
         <div class="group relative h-full">
           <a
             href="/underconstruction"
-            class="text-white flex items-center h-full bg-grey-darkest px-4"
+            class=" flex items-center h-full bg-grey-darkest px-4"
           >
             Elevforening
             <svg
@@ -514,13 +462,14 @@
             >
           </a>
           <div
-            class="hidden group-hover:block absolute pin-r top-full w-48 bg-black"
+            class="hidden group-hover:block absolute pin-r top-full w-48 
+            "
           >
             <ul>
               <li>
                 <a
                   href="/underconstruction"
-                  class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
+                  class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
                 >
                   Kommende Events
                 </a>
@@ -528,7 +477,7 @@
               <li>
                 <a
                   href="/underconstruction"
-                  class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
+                  class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
                 >
                   Elev Ambassadøre
                 </a>
@@ -536,7 +485,8 @@
               <li>
                 <a
                   href="/underconstruction"
-                  class="block text-left py-3 px-3 text-white hover:text-blue-dark text-xs"
+                  class="block text-left py-3 px-3 
+                   hover:text-blue-dark text-xs"
                 >
                   REUIONEN 2022
                 </a>
@@ -546,9 +496,7 @@
         </div>
       </li>
     </ul>
-    <button class="hidden lg:block"
-      ><a href="/infomode">TILMELD INFOMØDE</a></button
-    >
+    <Button>TILMELD INFOMØDE</Button>
   </div>
 </nav>
 
@@ -557,9 +505,8 @@
 <!-- https://linguinecode.com/post/create-a-navbar-in-svelte -->
 <style>
   nav {
-    background: #000000;
-    opacity: 0.9;
-    height: 100px;
+    background: white;
+    height: 90px;
     position: fixed;
     top: 0;
     left: 0;
@@ -577,40 +524,13 @@
   }
 
   .ikoner {
-    width: 2rem;
-    margin: 1rem;
+    width: 1rem;
   }
   .inner {
-    max-width: 900px;
-    padding-left: 20px;
-    margin: auto;
-    box-sizing: border-box;
     display: flex;
     align-items: center;
-    height: 100%;
-    width: 65vw;
-  }
-
-  button {
-    font-size: var(--knapsize);
-    font-weight: bold;
-    font-family: "Lato", sans-serif;
-    background-color: var(--primary-button-cta-background-color);
-    border: 1px solid var(--secondary-button-cta-border-color);
-    color: var(--hvid);
-    padding: 0.5rem 30px;
-    display: inline-block;
-    box-shadow: inset 0 0 0 0 var(--orange-800);
-    -webkit-transition: ease-out 0.4s;
-    -moz-transition: ease-out 0.4s;
-    transition: ease-out 0.4s;
-    white-space: nowrap;
-  }
-
-  button:hover:hover {
-    border: 1px solid var(--orange-light);
-    box-shadow: inset 400px 0 0 0 #ff853e;
-    color: var(--hvid);
+    margin-left: auto;
+    margin-right: 1rem;
   }
 
   .mobile-icon {
@@ -627,7 +547,6 @@
     position: absolute;
     width: 100%;
     height: 2px;
-    background-color: #fff;
     transition: all 0.4s;
     transform-origin: center;
   }
@@ -680,7 +599,7 @@
   }
 
   .navbar-list.mobile {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: white;
     position: fixed;
     display: block;
     height: calc(100% - 100px);
@@ -701,24 +620,18 @@
     left: 0;
     width: 100%;
     height: 1px;
-    background-color: black;
   }
 
   .navbar-list a {
-    color: #fff;
-    text-decoration: none;
     display: flex;
-    height: 45px;
+    height: 65px;
     align-items: center;
-    padding: 0 10px;
-    font-size: 13px;
   }
 
   label:after {
     content: "+";
     position: absolute;
     right: 1em;
-    color: #fff;
   }
 
   input:checked + label:after {
@@ -736,7 +649,12 @@
   }
 
   #hover_underkategori {
-    width: 56rem;
+    background: white;
+    white-space: nowrap;
+    width: max-content;
+    top: 4rem;
+    left: -22vw;
+    grid-template-rows: auto auto 1fr;
   }
 
   #topnav_titel {
