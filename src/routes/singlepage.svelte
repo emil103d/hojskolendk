@@ -17,7 +17,7 @@
 
 <Header imgtitle="src/_images/webp/singlepagehero.webp" />
 <div class="m-9 preh2">
-  <a href="indec">FORSIDE /</a>
+  <a href="index">FORSIDE /</a>
   <a href="alleophold" class=" preh2">ALLE OPHOLD</a>
   <a href="alleophold" class="underline preh2">SRI LANKA & BAlI</a>
 </div>
@@ -25,8 +25,8 @@
 <main class="max_width_single relative overflow-hidden">
   <section class="md:custom_grid hidden md:grid md:gap-10 lg:gap-20">
     <sidebar id="navbar" class="block cols-start-1 top-0 sticky">
-      <div class="sticky">
-        <h2 class="text:sm m:1 mb:6">ALT DU SKAL VIDE <br /> OM OPHOLDET</h2>
+      <di v class="sticky">
+        <h2 class="text:sm m:1 mb:6">ALT DU SKAL VIDE <br/> OM OPHOLDET</h2>
         <button class="" on:click={() => (activetab = Tab1)}
           >OPHOLDSOVERSIGT</button
         >
