@@ -22,7 +22,7 @@
   <a href="alleophold" class="underline preh2">SKRI LANKA & BAli</a>
 </div>
 
-<main class="max_width_single relative">
+<main class="max_width_single relative overflow-hidden">
   <section class="md:custom_grid hidden md:grid md:gap-10 lg:gap-20">
     <sidebar id="navbar" class="block cols-start-1 top-0 sticky">
       <div class="sticky top-28">
