@@ -21,7 +21,7 @@
     <div class="lg:col-start-1 grid place-content-center">
       <div class="lg:pr-8">
         <p>AKTIVITETER I FRIUGEN</p>
-        <h4>UGE 1 - SRI LANKA</h4>
+        <h3>UGE 1 - SRI LANKA</h3>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
           bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -45,7 +45,7 @@
   <section class="maxwidthwrapper">
     <div>
       <p>UGE 2 + 3 + 4:</p>
-      <h4>PROJEKTSTYRING & TEAMBUILDING</h4>
+      <h3>PROJEKTSTYRING & TEAMBUILDING</h3>
       <p>
         Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
         bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -84,7 +84,7 @@
     <div class="lg:col-start-2 md:row-start-1 grid place-content-center">
       <div class="lg:px-8">
         <p>UGE 5</p>
-        <h4>FRIUGE - MALDIVERNE</h4>
+        <h3>FRIUGE - MALDIVERNE</h3>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
           bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -107,7 +107,7 @@
   <section class="maxwidthwrapper">
     <div>
       <p>UGE 6 + 7 + 8:</p>
-      <h4>SELVUDVIKLING & KOMMUNIKATION</h4>
+      <h3>SELVUDVIKLING & KOMMUNIKATION</h3>
       <p>
         Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
         bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -146,7 +146,7 @@
     <div class="lg:col-start-1 lg:row-start-1 grid place-content-center">
       <div class="lg:pr-8">
         <p>UGE 9</p>
-        <h4>FRIUGE - SRI LANKA</h4>
+        <h3>FRIUGE - SRI LANKA</h3>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
           bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -170,7 +170,7 @@
     <div class="lg:col-start-2 lg:row-start-1 grid place-content-center">
       <div class="lg:px-8">
         <p>UGE 10</p>
-        <h4>OUTRODAGE</h4>
+        <h3>OUTRODAGE</h3>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
           bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad

@@ -21,7 +21,7 @@
     <div class="lg:col-start-1 lg:pr-8 grid place-content-center">
       <div class="">
         <p>FAG 1:</p>
-        <h4>SELVUDVIKLING & KOMMUNIKATION</h4>
+        <h3>SELVUDVIKLING & KOMMUNIKATION</h3>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
           bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -48,7 +48,7 @@
     >
       <div>
         <p>FAG 2:</p>
-        <h4>PROJEKTSTYRING & TEAMBUILDING</h4>
+        <h3>PROJEKTSTYRING & TEAMBUILDING</h3>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
           bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
@@ -73,7 +73,7 @@
     <div class="lg:col-start-1 lg:pr-8 grid place-content-center">
       <div>
         <p>FAG 3:</p>
-        <h4>SPORT & ADVENTURE</h4>
+        <h3>SPORT & ADVENTURE</h3>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
           bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad

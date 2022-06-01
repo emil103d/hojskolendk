@@ -2,7 +2,7 @@ export const opholdData = [
   {
     image: "../src/_images/1.jpg",
     title: "Maldiverne, Sri Lanka, Bali & Gili Islands",
-    subtitle: "For dig der elsker sol, sommer og højt humør",
+    subtitle: "For dig der elsker sol, sommer og fælleskab",
     countrues: "Maldiverne, Sri Lanka, Bali & Gili Islands",
     dato: "10/09/2022",
     afrejse: "Efterår",
@@ -13,18 +13,18 @@ export const opholdData = [
   {
     image: "../src/_images/1.jpg",
     title: "Bali, Lombok & Gili Islands",
-    subtitle: "For dig der elsker sol, sommer og højt humør",
+    subtitle: "Ø-hop i Indonesien",
     countrues: "Bali, Lombok & Gili Islands",
     dato: "06/07/2022",
     afrejse: "Sommer",
     pris: "fra 28.400 kr.",
-    undervisning: "Selvudvikling og kommunikation",
-    varig: "5 Uger",
+    undervisning: "Sport & Adventure",
+    varig: "1 måned",
   },
   {
     image: "../src/_images/1.jpg",
     title: "Caribien, Hawaii & Mexico",
-    subtitle: "For dig der elsker sol, sommer og højt humør",
+    subtitle: "På eventyr i troperne",
     countrues: "Caribien, Hawaii & Mexico",
     dato: "01/12/2022",
     afrejse: "Efterår",
@@ -35,7 +35,7 @@ export const opholdData = [
   {
     image: "../src/_images/1.jpg",
     title: "Costa Rica, Mexico & Guatemala",
-    subtitle: "For dig der elsker sol, sommer og højt humør",
+    subtitle: "Adventure, kulturmøder og vild natur",
     countrues: "Costa Rica, Mexico & Guatemala",
     dato: "14/22/2022",
     afrejse: "Forår",
@@ -46,7 +46,7 @@ export const opholdData = [
   {
     image: "../src/_images/1.jpg",
     title: "Indien, Nepal, Thailand & Sri Lanka",
-    subtitle: "For dig der elsker sol, sommer og højt humør",
+    subtitle: "Fra sydens sol til Himalayas bjerge",
     countrues: "Indien, Nepal, Thailand & Sri Lanka",
     dato: "14/02/2023",
     afrejse: "Forår",
@@ -57,7 +57,7 @@ export const opholdData = [
   {
     image: "../src/_images/1.jpg",
     title: "Hawaii, Australien, Japan, Bali & Gili Islands",
-    subtitle: "For dig der elsker sol, sommer og højt humør",
+    subtitle: "Surf, ol & sommer",
     countrues: "Hawaii, Australien, Japan, Bali & Gili Islands",
     dato: "25/01/2023",
     afrejse: "Forår",
