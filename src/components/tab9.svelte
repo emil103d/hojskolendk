@@ -22,20 +22,6 @@
     </div>
   </section>
 
-  <section class="maxwidthwrapper">
-    <div class="baggrundsfarve">
-      <div class="xl:grid custom_grid">
-        <div class="lg:col-start-1">
-          <img
-            class="w-full h-full object-cover"
-            src="src/_images/rejsebrev_2.png"
-            alt=""
-          />
-        </div>
-        
-      </div>
-    </div>
-  </section>
 
  <section class="maxwidthwrapper">
    <div class="baggrundsfarve">
