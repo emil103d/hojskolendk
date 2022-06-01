@@ -1,5 +1,7 @@
 <script>
-  import Carouselle_friuge from "../components/carouselle_friuge.svelte";
+  import Carouselle_friuge_1 from "../components/carouselle_friuge_1.svelte";
+  import Carouselle_friuge_2 from "../components/carouselle_friuge_2.svelte";
+  import Carouselle_friuge_3 from "../components/carouselle_friuge_3.svelte";
 </script>
 
 <main class="col-start-2 w-[99%]">
@@ -21,7 +23,7 @@
     <div class="">
       <p class="preh2">FRIUGE 1</p>
       <h3 class="display">MALDIVERNE</h3>
-      <Carouselle_friuge />
+      <Carouselle_friuge_1 />
     </div>
   </section>
 
@@ -30,7 +32,7 @@
     <div class="">
       <p class="preh2">FRIUGE 2</p>
       <h3 class="display">SRI LANKA</h3>
-      <Carouselle_friuge />
+      <Carouselle_friuge_2 />
     </div>
   </section>
 
@@ -39,7 +41,7 @@
     <div class="">
       <p class="preh2">FRIUGE 3</p>
       <h3 class="display">THAILAND</h3>
-      <Carouselle_friuge />
+      <Carouselle_friuge_3 />
     </div>
   </section>
 </main>
