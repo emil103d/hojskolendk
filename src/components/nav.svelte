@@ -605,7 +605,6 @@
     -moz-transition: ease-out 0.4s;
     transition: ease-out 0.4s;
     white-space: nowrap;
-    margin-left: 3rem;
   }
 
   button:hover:hover {

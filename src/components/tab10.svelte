@@ -12,7 +12,7 @@
             alt=""
           />
         </div>
-        <div class="lg:col-start-2 lg:col-span-2 lg:p-6 max-w-[50ch]">
+        <div class="lg:col-start-2 lg:col-span-2 p-6 lg:p-10 m-auto max-w-[50ch]">
           <h4>Anton Skou Larsen</h4>
           <p>
             Jeg har, siden jeg var ganske lille, haft stor lyst og trang til at

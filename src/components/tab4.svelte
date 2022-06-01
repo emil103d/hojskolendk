@@ -31,7 +31,7 @@
     <div class="lg:col-start-2">
       <img
         class="object-cover w-full aspect-square"
-        src="src/_images/webp/program_1.webp"
+        src="src/_images/sogk.jpg"
         alt=""
       />
     </div>
@@ -58,7 +58,7 @@
     <div class="lg:col-start-1 lg:row-start-1">
       <img
         class="object-cover w-full aspect-square"
-        src="src/_images/webp/program_1.webp"
+        src="src/_images/pogt.jpg"
         alt=""
       />
     </div>
@@ -83,7 +83,7 @@
     <div class="lg:col-start-2">
       <img
         class="object-cover w-full aspect-square "
-        src="src/_images/webp/program_1.webp"
+        src="src/_images/soga.jpg"
         alt=""
       />
     </div>

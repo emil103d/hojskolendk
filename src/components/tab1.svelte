@@ -117,7 +117,7 @@
     <div class="grid align-middle">
       <div class="">
         <p itemprop="name">HVAD DER VENTER FORUDE</p>
-        <h2 itemprop="description">Overblik</h2>
+        <h2 itemprop="description">OVERBLIK</h2>
       </div>
 
       <div class="grid custom_grid baggrund-klode">
