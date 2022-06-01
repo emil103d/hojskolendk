@@ -1,3 +1,7 @@
+<script>
+  import Mybutton from "./components/button.svelte";
+</script>
+
 <main class="col-start-2">
   <!-- SECTION 1 -->
   <section class="maxwidthwrapper grid gap-5" id="no-pad">
@@ -299,6 +303,8 @@
         alt=""
       />
     </div>
+
+    <div />
   </section>
 </main>
 

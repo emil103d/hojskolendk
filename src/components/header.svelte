@@ -5,7 +5,7 @@
 <img src={imgtitle} alt="herobillede" class="hero-image" />
 <div class="hero-text">
   <p>Rejs med HÖJSKOLENDK til</p>
-  <h1>SRI LANKA, MALDIVERNE <br /> & SRI LANKA</h1>
+  <h1>SRI LANKA, MALDIVERNE <br /> & THAILAND</h1>
 </div>
 
 <style>
