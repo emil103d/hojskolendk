@@ -9,49 +9,59 @@
       Island og turtlewatch på programmet.
     </p>
 
-    <br>
-    <hr class="py-5">
+    <br />
+    <hr class="py-5" />
   </section>
 
   <!-- SECTION 2 -->
   <section class="lg:grid md:grid-cols-2 maxwidthwrapper">
     <div class="lg:col-start-1 lg:pr-8 grid place-content-center">
       <div class="">
-      <p>Fag 1:</p>
-      <h4>SELVUDVIKLING & KOMMUNIKATION</h4>
-      <p>
-        Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
-        bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
-        genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona
-        dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt.
-        Heminade abel oaktat prest.
-      </p>
-      <button>Læs mere</button>
+        <p>Fag 1:</p>
+        <h4>SELVUDVIKLING & KOMMUNIKATION</h4>
+        <p>
+          Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
+          bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
+          genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona
+          dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt.
+          Heminade abel oaktat prest.
+        </p>
+        <button>Læs mere</button>
       </div>
     </div>
     <div class="lg:col-start-2">
-      <img class="object-cover w-full aspect-square" src="src/_images/webp/program_1.webp" alt="" />
+      <img
+        class="object-cover w-full aspect-square"
+        src="src/_images/webp/program_1.webp"
+        alt=""
+      />
     </div>
   </section>
 
   <!-- SECTION 3 -->
   <section class="lg:grid md:grid-cols-2 md:grid-rows-1 maxwidthwrapper">
-    <div class="lg:col-start-2 lg:row-start-1 lg:pl-8 grid place-content-center">
+    <div
+      class="lg:col-start-2 lg:row-start-1 lg:pl-8 grid place-content-center"
+    >
       <div>
-      <p>Fag 2:</p>
-      <h4>PROJEKTSTYRING & TEAMBUILDING</h4>
-      <p>
-        Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
-        bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
-        genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona
-        dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt.
-        Heminade abel oaktat prest.
-      </p>
-      <button>Læs mere</button>
+        <p>Fag 2:</p>
+        <h4>PROJEKTSTYRING & TEAMBUILDING</h4>
+        <p>
+          Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
+          bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
+          genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona
+          dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt.
+          Heminade abel oaktat prest.
+        </p>
+        <button>Læs mere</button>
+      </div>
     </div>
-  </div>
     <div class="lg:col-start-1 lg:row-start-1">
-      <img class="object-cover w-full aspect-square" src="src/_images/webp/program_1.webp" alt="" />
+      <img
+        class="object-cover w-full aspect-square"
+        src="src/_images/webp/program_1.webp"
+        alt=""
+      />
     </div>
   </section>
 
@@ -59,31 +69,42 @@
   <section class="lg:grid md:grid-cols-2 maxwidthwrapper">
     <div class="lg:col-start-1 lg:pr-8 grid place-content-center">
       <div>
-      <p>Fag 3:</p>
-      <h4>SPORT & ADVENTURE</h4>
-      <p>
-        Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
-        bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
-        genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona
-        dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt.
-        Heminade abel oaktat prest.
-      </p>
-      <button>Læs mere</button>
-    </div>
+        <p>Fag 3:</p>
+        <h4>SPORT & ADVENTURE</h4>
+        <p>
+          Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
+          bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
+          genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona
+          dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt.
+          Heminade abel oaktat prest.
+        </p>
+        <button>Læs mere</button>
+      </div>
     </div>
     <div class="lg:col-start-2">
-      <img class="object-cover w-full aspect-square " src="src/_images/webp/program_1.webp" alt="" />
+      <img
+        class="object-cover w-full aspect-square "
+        src="src/_images/webp/program_1.webp"
+        alt=""
+      />
     </div>
   </section>
 </main>
 
 <style>
+  main {
+    background-image: url(src/_icons/gurfers.png);
+    background-position: cover;
+    background-size: 500%;
+    background-repeat: repeat-y;
+    background-position-y: 10%;
+  }
   section {
-       padding-top: var(--spacing-80);
-       padding-bottom: var(--spacing-80);
-   }
+    padding-top: var(--spacing-80);
+    padding-bottom: var(--spacing-80);
+  }
 
-   #no-pad {
+  #no-pad {
     padding-top: 0;
-    }
+  }
 </style>

@@ -12,8 +12,8 @@
       snorkeleventyr og tag på en ATV-køretur, hvor du kan udforske junglen og
       de øde strande.
     </p>
-    <br>
-    <hr class="py-5">
+    <br />
+    <hr class="py-5" />
   </section>
 
   <p class="preh2">TILFØJELSER & AKTIVITETER</p>
@@ -51,6 +51,14 @@
 </main>
 
 <style>
+  main {
+    background-image: url(src/_icons/gurfers.png);
+    background-position: cover;
+    background-size: 200%;
+    background-repeat: repeat-y;
+    background-position-y: 80%;
+    background-position-x: 80%;
+  }
   .display {
     font-family: var(--h2_text);
     font-size: var(--font_h2);

@@ -8,8 +8,8 @@
       masse fede ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck
       Island og turtlewatch på programmet.
     </p>
-    <br>
-    <hr class="py-5">
+    <br />
+    <hr class="py-5" />
   </section>
 
   <!-- SECTION 2 -->
@@ -25,7 +25,6 @@
         >Hvornår bør jeg senest tilmelde mig?</label
       >
 
-      
       <div class="faq-drawer__content-wrapper">
         <div class="faq-drawer__content">
           <p>
@@ -261,18 +260,25 @@
 </main>
 
 <style>
+  main {
+    background-image: url(src/_icons/boys.png);
+    background-position: cover;
+    background-size: 200%;
+    background-repeat: repeat-y;
+    background-position-y: 10%;
+  }
   .container {
     padding: 200px;
   }
 
   section {
-       padding-top: var(--spacing-80);
-       padding-bottom: var(--spacing-80);
-   }
+    padding-top: var(--spacing-80);
+    padding-bottom: var(--spacing-80);
+  }
 
-   #no-pad {
+  #no-pad {
     padding-top: 0;
-    }
+  }
 
   .faq-drawer {
     margin-bottom: 10px;
@@ -287,10 +293,10 @@
 
   .faq-drawer__content {
     padding: 10px;
-  } 
+  }
 
   .faq-drawer__title {
-    background-color: #FAF9F7;
+    background-color: #faf9f7;
     cursor: pointer;
     display: block;
     padding-top: 1rem;
@@ -305,7 +311,7 @@
   .faq-drawer__title::after {
     border-style: solid;
     border-width: 1px 1px 0 0;
-    border-color: var(--orange);;
+    border-color: var(--orange);
     content: " ";
     float: right;
     height: 10px;
