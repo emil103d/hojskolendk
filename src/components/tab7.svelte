@@ -17,31 +17,28 @@
   </section>
 
   <!-- SECTION 2 -->
-  <section class="maxwidthwrapper">
+  <section class="max-w-[1100px] px-4">
     <div class="">
       <p class="preh2">FRIUGE 1</p>
-      <h3 class="display">SRI LANKA</h3>
-      <p class="">Uendelige oplevelser og muligheder</p>
+      <h3 class="display">MALDIVERNE</h3>
       <Carouselle_friuge />
     </div>
   </section>
 
   <!-- SECTION 3 -->
-  <section class="maxwidthwrapper">
+  <section class="max-w-[1100px] px-4">
     <div class="">
-      <p class="preh2 text-center">SKRI LANKA</p>
-      <h3 class="display text-center">FRIUGE 2</h3>
-      <p class="text-center">Adventure & aktion</p>
+      <p class="preh2">FRIUGE 2</p>
+      <h3 class="display">SRI LANKA</h3>
       <Carouselle_friuge />
     </div>
   </section>
 
   <!-- SECTION 4 -->
-  <section class="">
+  <section class="max-w-[1100px] px-4">
     <div class="">
-      <p class="preh2 text-center">HAWAII</p>
-      <h3 class="display text-center">FRIUGE 3</h3>
-      <p class="text-center">Afslapning, shopping og surfing</p>
+      <p class="preh2">FRIUGE 3</p>
+      <h3 class="display">THAILAND</h3>
       <Carouselle_friuge />
     </div>
   </section>
@@ -57,5 +54,10 @@
 
   #no-pad {
     padding-top: 0;
+  }
+
+  section {
+    padding-top: var(--spacing-80);
+    padding-bottom: var(--spacing-80);
   }
 </style>
