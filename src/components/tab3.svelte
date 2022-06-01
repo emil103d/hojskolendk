@@ -186,12 +186,9 @@
 </main>
 
 <style>
-  main {
-    background-image: url(src/_icons/gurfers.png);
-    background-position: cover;
-    background-size: 500%;
-    background-repeat: repeat-y;
-    background-position-y: 10%;
+  section {
+    padding-top: var(--padding-sections);
+    padding-bottom: var(--padding-sections);
   }
 
   section {

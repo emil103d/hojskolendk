@@ -1,6 +1,6 @@
 <main class="col-start-2">
   <!-- SECTION 1 -->
-  <section>
+  <section class="maxwidthwrapper" id="no-pad">
     <h2>Mød din rejseleder</h2>
     <div class="baggrundsfarve">
       <div class="xl:grid custom_grid">
@@ -57,5 +57,10 @@
 
   .custom_grid {
     grid-template-columns: 1fr auto;
+  }
+
+  section {
+    padding-top: var(--padding-sections);
+    padding-bottom: var(--padding-sections);
   }
 </style>

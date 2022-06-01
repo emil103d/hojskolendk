@@ -68,6 +68,10 @@
     --spacing-80: 5rem;
     --spacing-button: 0.6rem 0.9rem;
 
+    /* PADDING */
+    --padding-sections : clamp(0.5rem, 50%, 4rem);
+
+
     /*LINE HIGHT */
     --line-s: 0.8;
     --line-m: 1.2;
