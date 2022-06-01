@@ -592,7 +592,24 @@
   }
 
   button {
+    font-family: "Lato", sans-serif;
+    background-color: var(--primary-button-cta-background-color);
+    border: 1px solid var(--secondary-button-cta-border-color);
+    color: var(--hvid);
+    padding: 0.5rem 30px;
+    display: inline-block;
+    box-shadow: inset 0 0 0 0 var(--orange-800);
+    -webkit-transition: ease-out 0.4s;
+    -moz-transition: ease-out 0.4s;
+    transition: ease-out 0.4s;
+    white-space: nowrap;
     margin-left: 2rem;
+  }
+
+  button:hover {
+    border: 1px solid var(--orange-light);
+    box-shadow: inset 400px 0 0 0 #ff853e;
+    color: var(--hvid);
   }
 
   .mobile-icon {
@@ -737,6 +754,12 @@
 
     .navbar-list a {
       display: inline-flex;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    button {
+      display: none;
     }
   }
 </style>

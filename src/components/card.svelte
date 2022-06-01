@@ -12,14 +12,14 @@
 
 <style>
   div {
-    min-height: 24rem;
-    min-width: 15rem;
+    min-height: 30rem;
+    min-width: 20rem;
     transition: transform 0.2s;
   }
 
   img {
-    height: 24rem;
-    width: 15rem;
+    height: 30rem;
+    width: 20rem;
     transition: all 0.2s ease-in-out;
   }
 
