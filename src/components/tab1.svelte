@@ -17,10 +17,9 @@
         masse fede ting som fx Jeepsafari i den dybe regnskov, snorkling ved
         Buck Island og turtlewatch på programmet.
       </p>
-      <br>
+      <br />
       <hr />
     </div>
-
   </section>
 
   <!-- SECTION 2 -->
@@ -62,53 +61,52 @@
   <!-- SECTION 3 -->
 
   <div
-      class=" grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center"
-    >
-      <div class="col-start-1 row-start-1 infobokse">
-        <img
-          class="h-8 w-auto m-auto"
-          src="src/_icons/destination.png"
-          alt="map ikon"
-        />
-        <h4>Destinationer</h4>
-        <p itemprop="name" class="table">Sri Lanka, Maldiverne & Thailand</p>
-      </div>
-      <div class="col-start-2 row-start-1 infobokse">
-        <img
-          class="h-8 w-auto m-auto"
-          src="src/_icons/calender.png"
-          alt="kalender ikon"
-        />
-        <h4>Varighed</h4>
-        <p>3 måneder</p>
-      </div>
-      <div
-        class="col-start-1 row-start-2 lg:col-start-3 lg:row-start-1 infobokse"
-      >
-        <img
-          class="h-8 w-auto m-auto"
-          src="src/_icons/faelleskab.png"
-          alt="fælleskab ikon"
-        />
-        <h4>Undervisning</h4>
-        <p>Selvudvikling & Kommunikation</p>
-      </div>
-      <div
-        itemprop="offers"
-        itemscope
-        itemtype="https://schema.org/Offer"
-        class="col-start-2 row-start-2 lg:row-start-1 lg:col-start-4 infobokse "
-      >
-        <img
-          class="h-8 w-auto m-auto"
-          src="src/_icons/price.png"
-          alt="pris ikon"
-        />
-        <h4>Pris</h4>
-        <p itemprop="price">59.700 DKK</p>
-      </div>
+    class=" grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center"
+  >
+    <div class="col-start-1 row-start-1 infobokse">
+      <img
+        class="h-8 w-auto m-auto"
+        src="src/_icons/destination.png"
+        alt="map ikon"
+      />
+      <h4>Destinationer</h4>
+      <p itemprop="name" class="table">Sri Lanka, Maldiverne & Thailand</p>
     </div>
-
+    <div class="col-start-2 row-start-1 infobokse">
+      <img
+        class="h-8 w-auto m-auto"
+        src="src/_icons/calender.png"
+        alt="kalender ikon"
+      />
+      <h4>Varighed</h4>
+      <p>3 måneder</p>
+    </div>
+    <div
+      class="col-start-1 row-start-2 lg:col-start-3 lg:row-start-1 infobokse"
+    >
+      <img
+        class="h-8 w-auto m-auto"
+        src="src/_icons/faelleskab.png"
+        alt="fælleskab ikon"
+      />
+      <h4>Undervisning</h4>
+      <p>Selvudvikling & Kommunikation</p>
+    </div>
+    <div
+      itemprop="offers"
+      itemscope
+      itemtype="https://schema.org/Offer"
+      class="col-start-2 row-start-2 lg:row-start-1 lg:col-start-4 infobokse "
+    >
+      <img
+        class="h-8 w-auto m-auto"
+        src="src/_icons/price.png"
+        alt="pris ikon"
+      />
+      <h4>Pris</h4>
+      <p itemprop="price">59.700 DKK</p>
+    </div>
+  </div>
 
   <section itemscope="" itemtype="https://schema.org/Trip">
     <div class="grid align-middle">
