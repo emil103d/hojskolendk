@@ -27,7 +27,7 @@
   </section>
 
   <!-- SECTION 3 -->
-  <section class="">
+  <section class="maxwidthwrapper">
     <div class="">
       <p class="preh2 text-center">SKRI LANKA</p>
       <h3 class="display text-center">FRIUGE 2</h3>

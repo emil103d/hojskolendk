@@ -19,7 +19,7 @@
 <div class="m-9 preh2">
   <a href="indec">FORSIDE /</a>
   <a href="alleophold" class=" preh2">ALLE OPHOLD</a>
-  <a href="alleophold" class="underline preh2">SKRI LANKA & BAli</a>
+  <a href="alleophold" class="underline preh2">SRI LANKA & BAlI</a>
 </div>
 
 <main class="max_width_single relative overflow-hidden">
