@@ -102,10 +102,6 @@
         image="../src/_images/webp/ophold4.webp"
         title="Costa Rica, Mexico & Guatemala"
       />
-      <Card
-        image="../src/_images/webp/ophold4.webp"
-        title="Costa Rica, Mexico & Guatemala"
-      />
     </div>
     <div class="md:justify-center md:grid pt-6">
       <MyButton type="primary">UDFORSK ALLE VORES OPHOLD</MyButton>
@@ -166,19 +162,19 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 
       <div class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center">
         <div class="md:max-w-xs">
-          <h3 class="rotate_animation">16</h3>
-          <p>ADVENTUREFYLDTE <br /> DESTINATIONER</p>
+          <h1 class="rotate_animation text-black ">16</h1>
+          <h2>ADVENTUREFYLDTE <br /> DESTINATIONER</h2>
         </div>
 
         <div class="md:max-w-xs">
-          <h3 class="rotate_animation">4,8</h3>
-          <p>PÅ TRUSTPILOT</p>
+          <h1 class="rotate_animation text-black">4,8</h1>
+          <h2>PÅ TRUSTPILOT</h2>
           <img class="md:max-w-xs" src="../src/_icons/5star.png" alt="" />
         </div>
 
         <div class="md:max-w-xs">
-          <h3 class="rotate_animation">106.785</h3>
-          <p class="max-w-xs m-auto">M2 FREDET REGNSKOV</p>
+          <h1 class="rotate_animation text-black">106.785</h1>
+          <h2 class="max-w-xs m-auto">M2 FREDET REGNSKOV</h2>
         </div>
       </div>
     </div>
@@ -286,6 +282,7 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
+    height: 50vh;
   }
 
   #statistik_sektion h3 {
