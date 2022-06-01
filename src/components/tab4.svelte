@@ -8,7 +8,6 @@
       masse fede ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck
       Island og turtlewatch på programmet.
     </p>
-
     <br />
     <hr />
   </section>
@@ -17,7 +16,7 @@
   <section class="lg:grid md:grid-cols-2 maxwidthwrapper">
     <div class="lg:col-start-1 lg:pr-8 grid place-content-center">
       <div class="">
-        <p>Fag 1:</p>
+        <p>FAG 1:</p>
         <h4>SELVUDVIKLING & KOMMUNIKATION</h4>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
@@ -44,7 +43,7 @@
       class="lg:col-start-2 lg:row-start-1 lg:pl-8 grid place-content-center"
     >
       <div>
-        <p>Fag 2:</p>
+        <p>FAG 2:</p>
         <h4>PROJEKTSTYRING & TEAMBUILDING</h4>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda
@@ -69,7 +68,7 @@
   <section class="lg:grid md:grid-cols-2 maxwidthwrapper">
     <div class="lg:col-start-1 lg:pr-8 grid place-content-center">
       <div>
-        <p>Fag 3:</p>
+        <p>FAG 3:</p>
         <h4>SPORT & ADVENTURE</h4>
         <p>
           Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona dotivis. Eda

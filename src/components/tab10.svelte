@@ -1,4 +1,5 @@
 <main class="col-start-2">
+
   <!-- SECTION 1 -->
   <section class="maxwidthwrapper" id="no-pad">
     <h2>MØD DIN REJSELEDER</h2>

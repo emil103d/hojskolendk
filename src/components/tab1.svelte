@@ -60,7 +60,8 @@
 
   <!-- SECTION 3 -->
 
-  <div
+  <section class="maxwidthwrapper">
+    <div
     class=" grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center"
   >
     <div class="col-start-1 row-start-1 infobokse">
@@ -108,10 +109,14 @@
     </div>
   </div>
 
-  <section itemscope="" itemtype="https://schema.org/Trip">
+  </section>
+
+  
+
+  <section class="maxwidthwrapper" itemscope="" itemtype="https://schema.org/Trip">
     <div class="grid align-middle">
       <div class="">
-        <p itemprop="name">Hvad vi har planlagt</p>
+        <p itemprop="name">HVAD DER VENTER FORUDE</p>
         <h2 itemprop="description">Overblik</h2>
       </div>
 

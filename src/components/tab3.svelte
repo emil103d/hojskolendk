@@ -25,6 +25,7 @@
           dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt.
           Heminade abel oaktat prest.
         </p>
+        <button>Læs mere</button>
       </div>
     </div>
     <div class="lg:col-start-2">
