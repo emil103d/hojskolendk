@@ -10,7 +10,7 @@
     </p>
 
     <br>
-    <hr class="py-5">
+    <hr>
   </section>
 
   <!-- SECTION 2 -->
@@ -66,7 +66,7 @@
         bokstav bejåligt. Heminade abel oaktat prest. Nekes kolertad
         genuskänslig.Lörem ipsum får kende. Tredons bida dir rödgrönrosa. Sona
         dotivis. Eda bokstav bejåligt. Heminade abel oaktat prest. bejåligt.
-        Heminade abel oaktat prest.
+        Heminade abel..
       </p>
       <button>Læs mere</button>
     </div>
@@ -79,8 +79,8 @@
 
 <style>
   section {
-       padding-top: var(--spacing-80);
-       padding-bottom: var(--spacing-80);
+       padding-top: var(--padding-sections);
+       padding-bottom: var(--padding-sections);
    }
 
    #no-pad {

@@ -14,7 +14,7 @@
     </p>
 
     <br>
-    <hr class="py-5">
+    <hr>
 
     <section class="grid gap-8" id="no-inner-pad">
       <h4>2022</h4>
@@ -62,8 +62,8 @@
 
 <style>
   section {
-       padding-top: var(--spacing-80);
-       padding-bottom: var(--spacing-80);
+       padding-top: var(--padding-sections);
+       padding-bottom: var(--padding-sections);
    }
 
    #no-pad {

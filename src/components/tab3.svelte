@@ -128,8 +128,8 @@
  <style>
  
    section {
-       padding-top: var(--spacing-80);
-       padding-bottom: var(--spacing-80);
+       padding-top: var(--padding-sections);
+       padding-bottom: var(--padding-sections);
    }
 
    #no-pad {

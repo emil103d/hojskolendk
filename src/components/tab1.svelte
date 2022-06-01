@@ -11,14 +11,57 @@
   >
     <div>
       <h2 itemprop="keywords">SURF, SOL & BEACH VIBES</h2>
-      <p itemprop="description" class="max-w-[65ch]">
+      <p itemprop="description">
         Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
         Rumrunners eller snorkler efter havskildpadder. Derudover har vi haft en
         masse fede ting som fx Jeepsafari i den dybe regnskov, snorkling ved
         Buck Island og turtlewatch på programmet.
       </p>
+      <br>
+      <hr />
     </div>
+
+  </section>
+
+  <!-- SECTION 2 -->
+  <!-- <section class="maxwidthwrapper">
     <div
+      class="container grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center"
+    >
+      <div class="col-start-1 row-start-1 infobokse">
+        <img
+          class="h-8 w-auto m-auto"
+          src="src/_icons/destination.png"
+          alt=""
+        />
+        <h4>Destinationer</h4>
+        <p class="table">Sri Lanka, Maldiverne & Thailand</p>
+      </div>
+      <div class="col-start-2 row-start-1 infobokse">
+        <img class="h-8 w-auto m-auto" src="src/_icons/calender.png" alt="" />
+        <h4>Varighed</h4>
+        <p>3 måneder</p>
+      </div>
+      <div
+        class="col-start-1 row-start-2 lg:col-start-3 lg:row-start-1 infobokse"
+      >
+        <img class="h-8 w-auto m-auto" src="src/_icons/faelleskab.png" alt="" />
+        <h4>Undervisning</h4>
+        <p>Selvudvikling & Kommunikation</p>
+      </div>
+      <div
+        class="col-start-2 row-start-2 lg:row-start-1 lg:col-start-4 infobokse "
+      >
+        <img class="h-8 w-auto m-auto" src="src/_icons/price.png" alt="" />
+        <h4>Pris</h4>
+        <p>59.700 DKK</p>
+      </div>
+    </div>
+  </section> -->
+
+  <!-- SECTION 3 -->
+
+  <div
       class=" grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center"
     >
       <div class="col-start-1 row-start-1 infobokse">
@@ -66,48 +109,7 @@
       </div>
     </div>
 
-    <br />
 
-    <hr />
-  </section>
-
-  <!-- SECTION 2 -->
-  <!-- <section class="maxwidthwrapper">
-    <div
-      class="container grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center"
-    >
-      <div class="col-start-1 row-start-1 infobokse">
-        <img
-          class="h-8 w-auto m-auto"
-          src="src/_icons/destination.png"
-          alt=""
-        />
-        <h4>Destinationer</h4>
-        <p class="table">Sri Lanka, Maldiverne & Thailand</p>
-      </div>
-      <div class="col-start-2 row-start-1 infobokse">
-        <img class="h-8 w-auto m-auto" src="src/_icons/calender.png" alt="" />
-        <h4>Varighed</h4>
-        <p>3 måneder</p>
-      </div>
-      <div
-        class="col-start-1 row-start-2 lg:col-start-3 lg:row-start-1 infobokse"
-      >
-        <img class="h-8 w-auto m-auto" src="src/_icons/faelleskab.png" alt="" />
-        <h4>Undervisning</h4>
-        <p>Selvudvikling & Kommunikation</p>
-      </div>
-      <div
-        class="col-start-2 row-start-2 lg:row-start-1 lg:col-start-4 infobokse "
-      >
-        <img class="h-8 w-auto m-auto" src="src/_icons/price.png" alt="" />
-        <h4>Pris</h4>
-        <p>59.700 DKK</p>
-      </div>
-    </div>
-  </section> -->
-
-  <!-- SECTION 3 -->
   <section itemscope="" itemtype="https://schema.org/Trip">
     <div class="grid align-middle">
       <div class="">
@@ -351,8 +353,8 @@
   }
 
   section {
-    padding-top: var(--spacing-80);
-    padding-bottom: var(--spacing-80);
+    padding-top: var(--padding-sections);
+    padding-bottom: var(--padding-sections);
   }
 
   .rejseplan {

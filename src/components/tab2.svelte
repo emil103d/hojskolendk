@@ -1,6 +1,7 @@
 <main class="col-start-2">
   <!-- SECTION 1 -->
   <section class="maxwidthwrapper" id="no-pad">
+    <section class="" id="no-pad">
     <h2>DET FÅR DU MED PÅ REJSEN</h2>
     <p class="">
       Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
@@ -10,9 +11,10 @@
     </p>
     <br />
 
-    <hr class="py-5" />
+    <hr/>
+  </section>
 
-    <div class="grid gap-20 lg:col-start-1 inkl">
+    <section class="grid gap-20 lg:col-start-1 inkl">
       <div>
         <div class="inkluderet">
           <img src="src/_icons/swag.png" alt="" />
@@ -110,7 +112,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
   </section>
 </main>
 
@@ -123,8 +125,8 @@
     background-position-y: 60%;
   }
   section {
-    padding-top: var(--spacing-80);
-    padding-bottom: var(--spacing-80);
+    padding-top: var(--padding-sections);
+    padding-bottom: var(--padding-sections);
   }
 
   .inkl p {

@@ -9,13 +9,13 @@
       Island og turtlewatch på programmet.
     </p>
     <br>
-    <hr class="py-5">
+    <hr>
   </section>
 
   <!-- SECTION 2 -->
 
-  <section class="mt-10 maxwidthwrapper ">
-    <h4>FØR OPHOLDET</h4>
+  <section class="maxwidthwrapper ">
+    <p class="preh2">FØR OPHOLDET</p>
     <div class="faq-drawer">
       <input
         class="faq-drawer__trigger"
@@ -116,7 +116,7 @@
 
   <!-- SECTION 3 -->
 
-  <section class="mt-10 maxwidthwrapper">
+  <section class="maxwidthwrapper">
     <p class="preh2">Under Opholdet</p>
     <div class="faq-drawer">
       <input
@@ -184,7 +184,7 @@
 
   <!-- SECTION 3 -->
 
-  <section class="mt-10 maxwidthwrapper">
+  <section class="maxwidthwrapper">
     <p class="preh2">Efter dit opholdet</p>
     <div class="faq-drawer">
       <input
@@ -266,8 +266,8 @@
   }
 
   section {
-       padding-top: var(--spacing-80);
-       padding-bottom: var(--spacing-80);
+       padding-top: var(--padding-sections);
+       padding-bottom: var(--padding-sections);
    }
 
    #no-pad {
