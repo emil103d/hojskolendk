@@ -9,6 +9,7 @@
       masse fede ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck
       Island og turtlewatch på programmet.
     </p>
+    
   </div>
     <div
       class=" grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center"
@@ -42,7 +43,15 @@
         <p>59.700 DKK</p>
       </div>
     </div>
+
+    <br>
+  
+    <hr>
+
   </section>
+
+
+
 
   <!-- SECTION 2 -->
   <!-- <section class="maxwidthwrapper">

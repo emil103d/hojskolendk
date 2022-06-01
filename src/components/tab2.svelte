@@ -8,12 +8,13 @@
         ting som fx Jeepsafari i den dybe regnskov, snorkling ved Buck Island og
         turtlewatch på programmet.
         </p>
+        <br>
 
         <hr class="py-5">
 
         <div class="grid gap-20 lg:col-start-1 ">
             <div>
-                <p>Det får du med</p>
+                <p>DET FÅR DU MED</p>
                 <h3>INKLUDERET</h3>
                 <div class="grid inner_spacing">
                     <div>
@@ -57,7 +58,7 @@
     
  
             <div class="lg:col-start-1">
-                <p>Det er der</p>
+                <p>DET ER DER</p>
                 <h3>IKKE INKLUDERET</h3>
                 <div class="grid inner_spacing">
                     <div>
