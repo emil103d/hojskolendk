@@ -96,10 +96,14 @@
   } */
 
   .maxwidthwrapper {
-    max-width: 1400px;
+    max-width: 100%;
     margin: 0 auto;
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .maxwidthwrapper_card {
+    max-width: 1400px;
   }
 
   /* Skrift */

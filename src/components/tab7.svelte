@@ -53,7 +53,6 @@
     font-size: var(--font_h2);
     color: var(--sort);
     line-height: var(--line-m);
-    padding: var(--spacing-10);
   }
 
   #no-pad {
