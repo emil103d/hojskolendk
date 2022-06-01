@@ -26,7 +26,7 @@
   <section class="md:custom_grid hidden md:grid md:gap-10 lg:gap-20">
     <sidebar id="navbar" class="block cols-start-1 top-0 sticky">
       <div class="sticky top-28">
-        <h2 class="text:sm m:1 mb:6">Alt du skal vide om opholdet</h2>
+        <h2 class="text:sm m:1 mb:6">ALT DU SKAL VIDE <br /> OM OPHOLDET</h2>
         <button class="" on:click={() => (activetab = Tab1)}
           >OPHOLDSOVERSIGT</button
         >
