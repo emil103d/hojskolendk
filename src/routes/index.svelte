@@ -30,52 +30,66 @@
 <section class="maxwidthwrapper md:pt-0 md:grid md:justify-center md:gap-8">
   <article class="cols-start-1 grid items-center place-items-center">
     <div class="grid md:grid-cols-2 md:gap-10 lg:gap-20">
-
       <div class="grid md:block md:m-auto">
         <div class="rows-start-1">
-          <p class="preh2"> PÅ HØJSKOLE I UDLANDET</p>
+          <Saos
+            animation={"from-left 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
+          >
+            <p class="preh2">PÅ HØJSKOLE I UDLANDET</p>
+          </Saos>
 
-          <h2>REJSEEVENTYR, SOMMER VIBES & <br> ET FÆLLESSKAB I VERDENSKLASSE</h2>
+          <Saos
+            animation={"from-left 1.5s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
+          >
+            <h2>
+              REJSEEVENTYR, SOMMER VIBES & <br /> ET FÆLLESSKAB I VERDENSKLASSE
+            </h2>
+          </Saos>
         </div>
 
-        <div class="row-start-3 md:row-auto">
-          <p class="pb-6">
-            HÖJSKOLENDK er noget for dig, hvis du vil på højskole i udlandet og er
-            vild med højskolefællesskab, vil med på et fantastisk rejseeventyr,
-            glæder dig til at lære om fremmede kulturer, vil rejse med rygsæk,
-            drømmer om en fed grupperejse med andre skønne unge, vil opleve et
-            stærkt sammenhold og ønsker inspirerende og meningsfuld undervisning.
-            Du er sikker på en tryg rejseoplevelse da vi er medlem af
-            Rejsegarantifonden.
-          </p>
-        </div>
-        
-        <div class="row-start-4 md:row-auto">
-          <MyButton type="primary">JOIN OS TIL INFOMØDE</MyButton>
-        </div>
+        <Saos
+          animation={"from-left 1.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
+        >
+          <div class="row-start-3 md:row-auto">
+            <p class="pb-6">
+              HÖJSKOLENDK er noget for dig, hvis du vil på højskole i udlandet
+              og er vild med højskolefællesskab, vil med på et fantastisk
+              rejseeventyr, glæder dig til at lære om fremmede kulturer, vil
+              rejse med rygsæk, drømmer om en fed grupperejse med andre skønne
+              unge, vil opleve et stærkt sammenhold og ønsker inspirerende og
+              meningsfuld undervisning. Du er sikker på en tryg rejseoplevelse
+              da vi er medlem af Rejsegarantifonden.
+            </p>
+          </div>
+
+          <div class="row-start-4 md:row-auto">
+            <MyButton type="primary">JOIN OS TIL INFOMØDE</MyButton>
+          </div>
+        </Saos>
 
         <div class="rows-start-2 pb-6 md:row-auto md:hidden">
-          <img class="" src="../src/_images/webp/sektion1.webp" alt="Unge glade mennesker der er med på et højskoleophold"/>
+          <img
+            class=""
+            src="../src/_images/webp/sektion1.webp"
+            alt="Unge glade mennesker der er med på et højskoleophold"
+          />
         </div>
-    </div>
-
-      <div class="hidden md:grid md:m-auto">
-        <img class="" src="../src/_images/webp/sektion1.webp" alt="Unge glade mennesker der er med på et højskoleophold"/>
       </div>
 
-    
+      <div class="hidden md:grid md:m-auto">
+        <Saos
+          animation={"slide-in-fwd-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
+        >
+          <img
+            class=""
+            src="../src/_images/webp/sektion1.webp"
+            alt="Unge glade mennesker der er med på et højskoleophold"
+          />
+        </Saos>
+      </div>
     </div>
-
-
   </article>
-
-
-
 </section>
-
-
-
-
 
 <!-- section #1 slut -->
 
@@ -160,10 +174,11 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     <div class="">
       <h2 class="mb-5 hidden">ELSKET AF 2.500+ ELEVER</h2>
 
+    
       <div class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center">
         <div class="md:max-w-xs">
-          <h1 class="rotate_animation text-black ">16</h1>
-          <h2>ADVENTUREFYLDTE <br /> DESTINATIONER</h2>
+          <h1 class="rotate_animation text-black ">2.500+</h1>
+          <h2>TIDLIGERE ELEVER ELSKER OS</h2>
         </div>
 
         <div class="md:max-w-xs">
