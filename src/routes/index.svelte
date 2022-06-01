@@ -163,8 +163,8 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     
       <div class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center">
         <div class="md:max-w-xs">
-          <h1 class="rotate_animation text-black ">16</h1>
-          <h2>ADVENTUREFYLDTE <br /> DESTINATIONER</h2>
+          <h1 class="rotate_animation text-black ">2.500+</h1>
+          <h2>TIDLIGERE ELEVER ELSKER OS</h2>
         </div>
 
         <div class="md:max-w-xs">

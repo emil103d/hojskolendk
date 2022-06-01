@@ -2,7 +2,7 @@
   <!-- SECTION 1 -->
   <section class="maxwidthwrapper grid gap-5" id="no-pad">
     <div>
-    <h2>SURFING, SOL OG BEACH VIBES</h2>
+    <h2>SURF, SOL &  BEACH VIBES</h2>
     <p class="max-w-[65ch]">
       Når vi ikke arbejder, nyder vi stranden, drikker lækre drinks på
       Rumrunners eller snorkler efter havskildpadder. Derudover har vi haft en
