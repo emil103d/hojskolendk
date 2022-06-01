@@ -13,8 +13,8 @@
       Island og turtlewatch på programmet.
     </p>
 
-    <br>
-    <hr>
+    <br />
+    <hr />
 
     <section class="grid gap-8" id="no-inner-pad">
       <h4>2022</h4>
@@ -34,44 +34,41 @@
           pris="31.400 DKK"
           varig="3 måneder"
         />
-    </div>
+      </div>
 
-    <h4>2023</h4>
-    <div class="grid gap-8">
-      
-      <Ophold_afrejse
-        dato="02. Mar 2023"
-        pris="31.900 DKK"
-        varig="3 måneder"
-      />
-      <Ophold_afrejse
-        dato="04. Apr 2023"
-        pris="32.700"
-        varig="3 måneder"
-      />
-      <Ophold_afrejse
-        dato="05. Maj 2023"
-        pris="33.00"
-        varig="3 måneder"
-      />
-  </div>
+      <h4>2023</h4>
+      <div class="grid gap-8">
+        <Ophold_afrejse
+          dato="02. Mar 2023"
+          pris="31.900 DKK"
+          varig="3 måneder"
+        />
+        <Ophold_afrejse dato="04. Apr 2023" pris="32.700" varig="3 måneder" />
+        <Ophold_afrejse dato="05. Maj 2023" pris="33.00" varig="3 måneder" />
+      </div>
     </section>
-
   </section>
 </main>
 
 <style>
+  main {
+    background-image: url(src/_icons/gurfers.png);
+    background-position: cover;
+    background-size: 500%;
+    background-repeat: repeat-y;
+    background-position-y: 10%;
+  }
   section {
-       padding-top: var(--padding-sections);
-       padding-bottom: var(--padding-sections);
-   }
+    padding-top: var(--padding-sections);
+    padding-bottom: var(--padding-sections);
+  }
 
-   #no-pad {
+  #no-pad {
     padding-top: 0;
-    }
+  }
 
-    #no-inner-pad {
-      padding-left: 0;
-      padding-right: 0;
-    }
+  #no-inner-pad {
+    padding-left: 0;
+    padding-right: 0;
+  }
 </style>
