@@ -174,21 +174,22 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     <div class="">
       <h2 class="mb-5 hidden">ELSKET AF 2.500+ ELEVER</h2>
 
-    
-      <div class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center">
+      <div
+        class="grid gap-6 md:flex md:gap-40 md:mx-auto md:justify-center airplane"
+      >
         <div class="md:max-w-xs">
-          <h1 class="rotate_animation text-black ">2.500+</h1>
+          <p class="rotate_animation text-black ">2.500+</p>
           <h5>TIDLIGERE ELEVER ELSKER OS</h5>
         </div>
 
         <div class="md:max-w-xs">
-          <h1 class="rotate_animation text-black">4,8</h1>
+          <p class="rotate_animation text-black">4,8</p>
           <h5>PÅ TRUSTPILOT</h5>
           <img class="md:max-w-xs" src="../src/_icons/5star.png" alt="" />
         </div>
 
         <div class="md:max-w-xs">
-          <h1 class="rotate_animation text-black">106.785</h1>
+          <p class="rotate_animation text-black">106.785</p>
           <h5 class="max-w-xs m-auto">M2 FREDET REGNSKOV</h5>
         </div>
       </div>
@@ -396,5 +397,8 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     }
   }
 
-
+  .airplane p {
+    font-family: "Prociono", serif;
+    font-size: var(--font_figur);
+  }
 </style>

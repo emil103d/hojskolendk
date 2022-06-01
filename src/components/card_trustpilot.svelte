@@ -5,7 +5,7 @@
   export let title;
 </script>
 
-<div class="trustcard max-w-xs rounded relative">
+<div class="trustcard max-w-xs rounded relative p-2">
   <img
     class="rounded-full w-28 h-28 -mt-24 border-white border-4 justify-center absolute -top-14 left-24"
     src={image}
@@ -31,7 +31,7 @@
   }
 
   p {
-    font-weight: 200;
+    color: var(--txtcolor-700);
   }
 
   img {
