@@ -1,6 +1,7 @@
 <script>
   import Header from "../components/header.svelte";
   import Infomodecard from "../components/infomode_card.svelte";
+  import Infomodecard_2 from "../components/infomoede_2.svelte";
 </script>
 
 <Header
@@ -15,16 +16,58 @@
   </div>
 
   <section class="maxwidthwrapper">
-    <p class="preh2">Gratis & uforpligtende</p>
-    <h2>INFOMØDER 6 REJSEFEBER CAFÉ</h2>
+    <p class="preh2">GRATIS & UFORPLIGTENDE</p>
+    <h2>INFOMØDER & REJSEFEBER CAFÉ</h2>
     <p>
-      Hør meget mere om vores højskoleophold i udllandet og møde nogle af vores
+      Hør meget mere om vores højskoleophold i udl´landet og møde nogle af vores
       skønne tidligere elever til en aften med billeder, historier og gode
-      vibes.
+      vibes. Vi fortæller meget mere om de rejseeventyr som venter!
     </p>
     <br>
     <hr>
   </section>
+
+
+  <section class="grid gap-8 maxwidthwrapper" id="no-inner-pad">
+    <h4>2022</h4>
+    <div class="grid gap-8">
+      <Infomodecard_2
+        dato="06. Jul 2022"
+        pris="29.000 DKK"
+        varig="3 måneder"
+      />
+      <Infomodecard_2
+        dato="06. Sep 2022"
+        pris="29.700 DKK"
+        varig="3 måneder"
+      />
+      <Infomodecard_2
+        dato="06. Dec 2022"
+        pris="31.400 DKK"
+        varig="3 måneder"
+      />
+    </div>
+
+    <h4>2023</h4>
+    <div class="grid gap-8">
+      <Infomodecard_2
+        dato="02. Mar 2023"
+        pris="31.900 DKK"
+        varig="3 måneder"
+      />
+      <Infomodecard_2 dato="04. Apr 2023" pris="32.700" varig="3 måneder" />
+      <Infomodecard_2 dato="05. Maj 2023" pris="33.00" varig="3 måneder" />
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
 
   <section class="maxwidthwrapper grid gap-10">
     <h3>Maj 2022</h3>
