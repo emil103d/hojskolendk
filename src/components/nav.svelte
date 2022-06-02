@@ -39,10 +39,10 @@
     <ul class={`navbar-list${showMobileMenu ? " mobile" : ""}`}>
       <li class=" lg:hidden">
         <div
-          class="accordion flex-col flex overflow-scroll max-h-[90vh] flex-nowrap"
+          class="accordion border-t-2 flex-col flex overflow-scroll max-h-[90vh] flex-nowrap bg-white"
         >
           <!--  Panel 1  -->
-          <div class="">
+          <div class="hidden lg:block">
             <input type="checkbox" name="panel" id="panel-1" class="hidden" />
             <p
               for="panel-1"
@@ -56,16 +56,16 @@
             <input type="checkbox" name="panel" id="panel-2" class="hidden" />
             <label
               for="panel-2"
-              class="relative block p-4 shadow border-b border-grey"
+              class="relative block p-4 shadow border-b border-grey font-semibold uppercase"
               >Højskoleophold 5 Uger</label
             >
             <div class="accordion__content overflow-hidden bg-grey-lighter">
               <ul class="accordion__body p-4" id="panel1">
                 <li class="">
-                  <a href="/singlepage">BALI, LOMBOK & GILI ISLANDS</a>
+                  <a href="/singlepage"> <b class="lg:hidden px-2">></b> Bali, Lombok & Gili Islands</a>
                 </li>
                 <li class="">
-                  <a href="/singlepage">NEW YORK CITY & CARIBIEN</a>
+                  <a href="/singlepage"> <b class="lg:hidden px-2">></b> New York & Caribien</a>
                 </li>
               </ul>
             </div>
@@ -75,19 +75,19 @@
             <input type="checkbox" name="panel" id="panel-3" class="hidden" />
             <label
               for="panel-3"
-              class="relative block   p-4 shadow border-b border-grey"
+              class="relative block   p-4 shadow border-b border-grey font-semibold uppercase"
               >2 Måneder ophold</label
             >
             <div class="accordion__content overflow-hidden bg-grey-lighter">
               <ul class="accordion__body p-4" id="panel1">
                 <li class="">
                   <a href="/singlepage"
-                    >Maldiverne, Sri Lanka, Bali & Gili Islands</a
+                    > <b class="lg:hidden px-2">></b> Maldiverne, Sri Lanka & Bali</a
                   >
                 </li>
                 <li class="">
                   <a href="/singlepage"
-                    >Hawaii, Australien, Japan, Bali & Gili Islands</a
+                    > <b class="lg:hidden px-2">></b> Hawaii, Australien & Japan</a
                   >
                 </li>
               </ul>
@@ -98,26 +98,26 @@
             <input type="checkbox" name="panel" id="panel-4" class="hidden" />
             <label
               for="panel-4"
-              class="relative block p-4 shadow border-b border-grey"
+              class="relative block p-4 shadow border-b border-grey font-semibold uppercase"
               >3 Måneder</label
             >
             <div class="accordion__content overflow-hidden bg-grey-lighter">
               <ul class="accordion__body p-4" id="panel1">
                 <li class="">
-                  <a href="/singlepage">CARIBIEN, HAWAII & MEXICO</a>
+                  <a href="/singlepage"> <b class="lg:hidden px-2">></b>  Caribien, Hawaii & Mexico</a>
                 </li>
                 <li class="">
-                  <a href="/singlepage">Indien, Thailand & Sri Lanka</a>
+                  <a href="/singlepage"> <b class="lg:hidden px-2">></b> Indien, Nepal & Thailand</a>
                 </li>
                 <li class="">
-                  <a href="/singlepage">COSTA RICA, MEXICO & GUATEMALA</a>
+                  <a href="/singlepage"> <b class="lg:hidden px-2">></b> Costa Rica, Mexico & Guatemala</a>
                 </li>
               </ul>
             </div>
           </div>
 
           <!--  Panel 5  -->
-          <div class="">
+          <div class="hidden lg:block">
             <input type="checkbox" name="panel" id="panel-5" class="hidden" />
             <p
               for="panel-5"
@@ -132,29 +132,29 @@
             <input type="checkbox" name="panel" id="panel-6" class="hidden" />
             <label
               for="panel-6"
-              class="relative block bg-black p-4 shadow border-b border-grey"
+              class="relative block bg-s p-4 shadow border-b border-grey font-semibold uppercase"
               >Om os</label
             >
             <div class="accordion__content overflow-hidden bg-grey-lighter">
-              <ul class="accordion__body p-4" id="panel1">
+              <ul class="accordion__body p-4 " id="panel1">
                 <li class="">
-                  <a href="/underconstruction">Mød teamet</a>
+                  <a href="/underconstruction"> <b class="lg:hidden px-2">></b>Mød teamet</a>
                 </li>
                 <li class="">
-                  <a href="/underconstruction">Vores Værdier</a>
+                  <a href="/underconstruction"> <b class="lg:hidden px-2">></b>Vores Værdier</a>
                 </li>
                 <li class="">
-                  <a href="/underconstruction">Bæredygtighed</a>
+                  <a href="/underconstruction"> <b class="lg:hidden px-2">></b>Bæredygtighed</a>
                 </li>
                 <li class="">
-                  <a href="/underconstruction">FAQ</a>
+                  <a href="/underconstruction"> <b class="lg:hidden px-2">></b>FAQ</a>
                 </li>
                 <li class="">
-                  <a href="/underconstruction">Blog</a>
+                  <a href="/underconstruction"> <b class="lg:hidden px-2">></b>Blog</a>
                 </li>
 
                 <li class="">
-                  <a href="/underconstruction">Det siger vores elever</a>
+                  <a href="/underconstruction"> <b class="lg:hidden px-2">></b>Det siger vores elever</a>
                 </li>
               </ul>
             </div>
@@ -164,19 +164,19 @@
             <input type="checkbox" name="panel" id="panel-7" class="hidden" />
             <label
               for="panel-7"
-              class="relative block  p-4 shadow border-b border-grey"
+              class="relative block  p-4 shadow border-b border-grey font-semibold uppercase"
               >Elevforening</label
             >
             <div class="accordion__content overflow-hidden ">
               <ul class="accordion__body p-4" id="panel1">
                 <li class="">
-                  <a href="/underconstruction">Kommende Events</a>
+                  <a href="/underconstruction"> <b class="lg:hidden px-2">></b> Kommende Events</a>
                 </li>
                 <li class="">
-                  <a href="/underconstruction">Elev Ambasadører</a>
+                  <a href="/underconstruction"><b class="lg:hidden px-2">></b> Elevambassadører</a>
                 </li>
                 <li class="">
-                  <a href="/underconstruction">REUNION</a>
+                  <a href="/underconstruction"> <b class="lg:hidden px-2">></b> REUNION</a>
                 </li>
               </ul>
             </div>
@@ -496,7 +496,9 @@
         </div>
       </li>
     </ul>
-    <Button>TILMELD INFOMØDE</Button>
+    <div class="hidden lg:grid">
+      <Button>TILMELD INFOMØDE</Button>
+    </div>
   </div>
 </nav>
 
@@ -538,6 +540,7 @@
     height: 14px;
     position: relative;
     cursor: pointer;
+
   }
 
   .mobile-icon:after,
@@ -563,14 +566,17 @@
 
   .mobile-icon:before {
     width: 66%;
+    background-color: var(--sort)
   }
 
   .mobile-icon:after {
     width: 33%;
+    background-color: var(--sort)
   }
 
   .middle-line {
     margin: auto;
+    background-color: var(--sort)
   }
 
   .mobile-icon:hover:before,
@@ -642,6 +648,7 @@
   .accordion__content {
     max-height: 0em;
     transition: all 0.4s cubic-bezier(0.865, 0.14, 0.095, 0.87);
+    
   }
   input[name="panel"]:checked ~ .accordion__content {
     /* Get this as close to what height you expect */
