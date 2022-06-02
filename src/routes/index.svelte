@@ -18,7 +18,7 @@
     loop
     muted
     autoplay
-    src="../src/_video/herofrontpage.mp4"
+    src="../herofrontpage.mp4"
   />
   <div class="hero-text m-auto">
     <p class="text-white">HØJSKOLEOPHOLD I UDLANDET</p>
