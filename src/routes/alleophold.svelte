@@ -72,6 +72,10 @@
 </div>
 
 <main class="maxwidthwrapper">
+  <div class="preh2">
+    <a href="indec">Forside /</a>
+    <a href="alleophold" class="underline preh2">Alle højskoleophold</a>
+  </div>
   <!-- SECTION 1  -->
   <section class="" id="no-pad">
     <h2>Hvor drømmer du om at rejse hen?</h2>
@@ -206,7 +210,6 @@
     padding-top: var(--padding-sections);
     padding-bottom: var(--padding-sections);
   }
-
   #no-pad {
     padding-top: 0;
     padding-bottom: 0;

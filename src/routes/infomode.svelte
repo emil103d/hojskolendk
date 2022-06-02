@@ -10,8 +10,8 @@
 />
 <main>
   <div class="preh2">
-    <a href="indec">FORSIDE /</a>
-    <a href="alleophold" class="underline preh2">TILMELD INFOMODE</a>
+    <a href="indec">Forside /</a>
+    <a href="alleophold" class="underline preh2">Tilmeld infomøde</a>
   </div>
 
   <section class="maxwidthwrapper">
@@ -37,7 +37,7 @@
       adresse="Studenterhuset København Købmagergade 29, 1970 Købbenhavn K"
     />
     <Infomodecard
-      image="odense.webp"
+      image="stud_odense.webp"
       title="Infomøde Odense"
       subtitle="For dig der drømmer om dit livs eventyr"
       dato="10 Maj 22"
