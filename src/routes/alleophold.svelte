@@ -85,7 +85,7 @@
 </section>
 
 <!-- Hvis filtreret ophold har ophold i sig hvis de filtreret ophold go ellers hvis alle ophold  -->
-<main id="alleophold" class="">
+<main id="alleophold maxwidthwrapper grid justify-center" class="">
   {#if filteredOphold.length > 0}
     {#each filteredOphold as { title, image, subtitle, dato, afrejse, pris, undervisning, varig }}
       <Ophold
