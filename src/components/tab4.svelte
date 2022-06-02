@@ -87,7 +87,7 @@
     <div class="lg:col-start-2">
       <img
         class="object-cover w-full aspect-square "
-        src="src/_images/soga.jpg"
+        src="m_yoga.webp"
         alt="riverrafting i høje bølger"
       />
     </div>
@@ -114,7 +114,7 @@
 
 <style>
   main {
-    background-image: url(src/_icons/gurfers.png);
+    background-image: url(../../gurfers.png);
     background-position: cover;
     background-size: 500%;
     background-repeat: repeat-y;

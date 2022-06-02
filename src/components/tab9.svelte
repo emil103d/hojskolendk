@@ -93,7 +93,7 @@
         <div class="lg:col-start-1">
           <img
             class="w-full h-full object-cover"
-            src="src/_images/webp/anton.webp"
+            src="anton.webp"
             alt="rejseleder anton på en smuk trappe"
           />
         </div>
@@ -150,7 +150,7 @@
 <style>
   .baggrundsfarve {
     background-color: var(--sandstone);
-    background-image: url(src/_images/palme.png);
+    background-image: url("../../palme.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: center;

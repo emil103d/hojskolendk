@@ -11,7 +11,7 @@
         <div class="lg:col-start-1">
           <img
             class="w-full h-full object-cover"
-            src="src/_images/webp/anton.webp"
+            src="anton.webp"
             alt="Billede af din rejseleder"
           />
         </div>
@@ -48,7 +48,7 @@
 
 <style>
   main {
-    background-image: url(src/_icons/boys.png);
+    background-image: url("../../boys.png");
     background-position: cover;
     background-size: 200%;
     background-repeat: repeat-y;
