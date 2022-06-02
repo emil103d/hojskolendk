@@ -21,11 +21,11 @@
     src="../src/_video/herofrontpage.mp4"
   />
   <div class="hero-text m-auto">
-    <p>HØJSKOLEOPHOLD I UDLANDET</p>
+    <p class="text-white">HØJSKOLEOPHOLD I UDLANDET</p>
     <h1 class="">FÆLLESKAB & REJSEEVENTYR</h1>
   </div>
 
-  <div class="wave absolute bottom-[7px]">
+  <div class="wave absolute bottom-[6px]">
     <svg width="3311" height="69" viewBox="0 0 3311 69" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M1117.7 32.6112C407.753 27.7762 99.6691 49.7522 0 66.7752V69L170.798 67.9949H640.254H3311V32.6112V0C3214.82 13.0946 2921.85 49.8962 2519.46 56.1817C2016.46 64.0384 2005.13 38.6548 1117.7 32.6112Z" fill="white"/>
       </svg>
