@@ -24,10 +24,16 @@
   });
 </script>
 
-<nav class="w-screen flex drop-shadow-lg">
+<nav class="w-screen drop-shadow-lg">
+
+  <div class="flex max-w-[1400px] justify-center m-auto">
+
+  <div class="h-full grid items-center  ">
   <a sveltekit:prefetch href="/">
-    <img class="" src="../src/_logo/logohvid.png" alt="logo hvid" /></a
-  >
+      <img class="h-[70px]" src="../src/_logo/hdk_logo_cannon.png" alt="logo orange" />
+    </a>
+  </div> 
+  
 
   <div class="inner">
     <div
@@ -132,11 +138,11 @@
             <input type="checkbox" name="panel" id="panel-6" class="hidden" />
             <label
               for="panel-6"
-              class="relative block bg-s p-4 shadow border-b border-grey font-semibold uppercase"
+              class="relative block p-4 shadow border-b border-grey font-semibold uppercase"
               >Om os</label
             >
-            <div class="accordion__content overflow-hidden bg-grey-lighter">
-              <ul class="accordion__body p-4 " id="panel1">
+            <div class="accordion__content overflow-hidde">
+              <ul class="accordion__body p-4 bg-white" id="panel1">
                 <li class="">
                   <a href="/underconstruction"> <b class="lg:hidden px-2">></b>Mød teamet</a>
                 </li>
@@ -164,7 +170,7 @@
             <input type="checkbox" name="panel" id="panel-7" class="hidden" />
             <label
               for="panel-7"
-              class="relative block  p-4 shadow border-b border-grey font-semibold uppercase"
+              class="relative block p-4 shadow border-b border-grey font-semibold uppercase"
               >Elevforening</label
             >
             <div class="accordion__content overflow-hidden ">
@@ -207,19 +213,19 @@
             id="hover_underkategori"
             class="hidden p-4 pb-6 group-hover:grid absolute pin-r top-full grid-cols-3"
           >
-            <div class=" items-center col-span-3">
+            <!-- <div class=" items-center col-span-3">
               <a href="/alleophold" id="topnav_titel" class="block pl-4">
                 Se alle ophold
               </a>
               <div class=" ml-4 w-1/2 h-0.5 bg-black" />
-            </div>
+            </div> -->
 
             <div class="columns-1 block">
               <div class="flex items-center">
-                <p class=" pl-4 pt-4 pb-2   font-bold">5 ugers ophold</p>
+                <p class="pt-4 pb-2   font-bold">5 ugers ophold</p>
               </div>
               <ul class="block">
-                <li class=" flex items-center">
+                <li class=" flex items-center gap-2">
                   <img
                     class="ikoner"
                     src="../src/_icons/destination.png"
@@ -227,47 +233,47 @@
                   />
                   <a href="/singlepage">Bali, Lombok & Gili Islands</a>
                 </li>
-                <li class=" flex items-center">
+                <li class=" flex items-center gap-2">
                   <img
                     class="ikoner"
                     src="../src/_icons/destination.png"
                     alt=""
                   />
-                  <a href="/singlepage">Indien, Nepal, Thailand & Sri Lanka</a>
+                  <a href="/singlepage">Indien, Nepal & Thailand</a>
                 </li>
               </ul>
             </div>
             <div class="columns-1 block justify-start">
               <div class="flex items-center">
-                <p class="pl-4 pt-4 pb-2 font-bold">2 måneders ophold</p>
+                <p class=" pt-4 pb-2 font-bold">2 måneders ophold</p>
               </div>
               <ul class="block">
-                <li class=" flex items-center">
+                <li class=" flex items-center gap-2">
                   <img
                     class="ikoner"
                     src="../src/_icons/destination.png"
                     alt=""
                   />
                   <a href="/singlepage"
-                    >Maldiverne, Sri Lanka, Bali & Gili Islands</a
+                    >Maldiverne, Sri Lanka & Bali</a
                   >
                 </li>
-                <li class=" flex items-center">
+                <li class=" flex items-center gap-2">
                   <img
                     class="ikoner"
                     src="../src/_icons/destination.png"
                     alt=""
                   />
-                  <a href="/singlepage">xxx</a>
+                  <a href="/singlepage">Costa Rica, Mexico & Laos</a>
                 </li>
               </ul>
             </div>
             <div class="columns-1 block">
-              <div class="flex items-center">
-                <p class="pl-4 pt-4 pb-2 font-bold">3 måneders ophold</p>
+              <div class="flex items-center ">
+                <p class="pt-4 pb-2 font-bold">3 måneders ophold</p>
               </div>
               <ul class="block">
-                <li class=" flex items-center">
+                <li class=" flex items-center gap-2">
                   <img
                     class="ikoner"
                     src="../src/_icons/destination.png"
@@ -275,7 +281,7 @@
                   />
                   <a href="/singlepage">Costa Rica, Mexico & Guatemala</a>
                 </li>
-                <li class=" flex items-center">
+                <li class=" flex items-center gap-2">
                   <img
                     class="ikoner"
                     src="../src/_icons/destination.png"
@@ -283,7 +289,7 @@
                   />
                   <a href="/singlepage">Indien, Nepal, Thailand & Sri Lanka</a>
                 </li>
-                <li class=" flex items-center">
+                <li class=" flex items-center gap-2">
                   <img
                     class="ikoner"
                     src="../src/_icons/destination.png"
@@ -291,7 +297,7 @@
                   />
                   <a href="/singlepage">Hawaii, Australien, Japan & Bali</a>
                 </li>
-                <li class=" flex items-center">
+                <li class=" flex items-center gap-2">
                   <img
                     class="ikoner"
                     src="../src/_icons/destination.png"
@@ -299,11 +305,27 @@
                   />
                   <a href="/singlepage">Caribien, Hawaii & Mexico</a>
                 </li>
+                
               </ul>
+              
             </div>
+
+            <div class=" items-center col-span-3 text-center">
+              <a href="/alleophold" id="topnav_titel" class="block ">
+                Se alle ophold
+              </a>
+              <!-- <div class=" ml-4 w-full h-0.5 bg-black" /> -->
+            </div>
+
           </div>
         </div>
+
+        
+
       </li>
+
+      
+
       <li class="hidden lg:block">
         <div class="group relative h-full">
           <a
@@ -314,6 +336,8 @@
           </a>
         </div>
       </li>
+
+      
       <li class="hidden lg:block">
         <div class="group relative h-full">
           <a
@@ -334,13 +358,13 @@
             >
           </a>
           <div class="hidden group-hover:block absolute pin-r top-full w-48 ">
-            <ul>
+            <ul class="bg-white">
               <li>
                 <a
                   href="/underconstruction"
                   class="block text-left py-3 px-3  hover:text-blue-dark text-xs"
                 >
-                  Møde teamet
+                  Mød teamet
                 </a>
               </li>
               <li>
@@ -465,7 +489,7 @@
             class="hidden group-hover:block absolute pin-r top-full w-48 
             "
           >
-            <ul>
+            <ul class="bg-white">
               <li>
                 <a
                   href="/underconstruction"
@@ -495,11 +519,17 @@
           </div>
         </div>
       </li>
+      
     </ul>
     <div class="hidden lg:grid">
       <Button>TILMELD INFOMØDE</Button>
     </div>
   </div>
+  
+</div>
+
+
+
 </nav>
 
 <!------------------- Credits   ---------------------->
@@ -519,10 +549,10 @@
     position: fixed;
   }
   img {
-    width: 4rem;
+    /* width: 4rem;
     margin: 1rem;
     z-index: 30;
-    align-self: center;
+    align-self: center; */
   }
 
   .ikoner {
@@ -665,7 +695,7 @@
   }
 
   #topnav_titel {
-    font-size: var(--font_h4);
+    font-size: var(--font_h5);
   }
 
   @media only screen and (min-width: 1000px) {
