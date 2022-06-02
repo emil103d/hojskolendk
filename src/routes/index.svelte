@@ -48,13 +48,13 @@
       <div class="grid md:block md:m-auto">
         <div class="rows-start-1">
           <Saos
-            animation={"from-left 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
+            animation={"from-left 0.9s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
           >
             <p class="preh2">PÅ HØJSKOLE I UDLANDET</p>
           </Saos>
 
           <Saos
-            animation={"from-left 1.5s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
+            animation={"from-left 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
           >
             <h2>
               REJSEEVENTYR, SOMMER VIBES & <br /> ET FÆLLESSKAB I VERDENSKLASSE
@@ -63,7 +63,7 @@
         </div>
 
         <Saos
-          animation={"from-left 1.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
+          animation={"from-left 1.4s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}
         >
           <div class="row-start-3 md:row-auto">
             <p class="pb-6">
@@ -76,7 +76,10 @@
               da vi er medlem af Rejsegarantifonden.
             </p>
           </div>
-
+        </Saos>
+        <Saos
+          animation={"slide-in-fwd-tr 1.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
+        >
           <div class="row-start-4 md:row-auto">
             <MyButton type="primary">JOIN OS TIL INFOMØDE</MyButton>
           </div>
@@ -93,7 +96,7 @@
 
       <div class="hidden md:grid md:m-auto">
         <Saos
-          animation={"slide-in-fwd-tr 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
+          animation={"slide-in-fwd-tr 0.6s cubic-bezier(0.250, 0.460, 0.450, 0.940) both"}
         >
           <img
             class=""
@@ -139,6 +142,7 @@
 </section>
 
 <!-- section #2 Start -->
+
 <section class="maxwidthwrapper mx-auto pb-0">
   <div class="">
     <p class="preh2">ELSKET AF 2500+ ELEVER</p>
@@ -151,7 +155,7 @@
     <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-auto justify-around">
       <CardTrustpilot
         title="Venskaber for livet"
-        text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK"
+        text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK. du vil aldrig du vil aldrig fortryde eller glemme det. afsted !"
         image="../src/_images/webp/social3.webp"
         name=" Jackie Salomonsen"
       />
