@@ -282,7 +282,7 @@
 
 <style>
   main {
-    background-image: url(../../boys.png);
+    background-image: url("../../boys.png");
     background-position: cover;
     background-size: 200%;
     background-repeat: repeat-y;

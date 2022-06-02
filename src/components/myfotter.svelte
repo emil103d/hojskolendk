@@ -63,7 +63,7 @@
 
 <footer class="">
   <div class="footer text-center py-4 mb-30">
-    <img src="./src/_logo/logohvid.png" alt="logo" class="w-14 h-14" />
+    <img src="logohvid.png" alt="logo" class="w-14 h-14" />
     <div class="footer_infomode ">
       <h2 class="text-white">
         VIL DU VIDE MERE OM VORES HØJSKOLEOPHOLD I UDLANDET?
