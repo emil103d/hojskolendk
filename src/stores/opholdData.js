@@ -1,6 +1,6 @@
 export const opholdData = [
   {
-    image: "src/_images/mslbg.jpg",
+    image: "mslbg.webp",
     title: "Maldiverne, Sri Lanka, Bali & Gili Islands",
     subtitle: "For dig der elsker sol, sommer og fælleskab",
     countrues: "Maldiverne, Sri Lanka, Bali & Gili Islands",
@@ -11,7 +11,7 @@ export const opholdData = [
     varig: "2 Måneder",
   },
   {
-    image: "src/_images/bali.jpg",
+    image: "bali.webp",
     title: "Bali, Lombok & Gili Islands",
     subtitle: "Ø-hop i Indonesien",
     countrues: "Bali, Lombok & Gili Islands",
@@ -22,7 +22,7 @@ export const opholdData = [
     varig: "1 måned",
   },
   {
-    image: "src/_images/hawaii.jpg",
+    image: "hawaii.webp",
     title: "Caribien, Hawaii & Mexico",
     subtitle: "På eventyr i troperne",
     countrues: "Caribien, Hawaii & Mexico",
@@ -33,7 +33,7 @@ export const opholdData = [
     varig: "3 Måneder",
   },
   {
-    image: "src/_images/cr.jpg",
+    image: "cr.webp",
     title: "Costa Rica, Mexico & Guatemala",
     subtitle: "Adventure, kulturmøder og vild natur",
     countrues: "Costa Rica, Mexico & Guatemala",
@@ -44,7 +44,7 @@ export const opholdData = [
     varig: "3 Måneder",
   },
   {
-    image: "src/_images/indien.jpg",
+    image: "indien.webp",
     title: "Indien, Nepal, Thailand & Sri Lanka",
     subtitle: "Fra sydens sol til Himalayas bjerge",
     countrues: "Indien, Nepal, Thailand & Sri Lanka",
@@ -55,7 +55,7 @@ export const opholdData = [
     varig: "3 Måneder",
   },
   {
-    image: "src/_images/japan.jpg",
+    image: "japan.webp",
     title: "Hawaii, Australien, Japan, Bali & Gili Islands",
     subtitle: "Surf, sol & sommer",
     countrues: "Hawaii, Australien, Japan, Bali & Gili Islands",

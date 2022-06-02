@@ -26,11 +26,7 @@
     </div>
     <div class="grid grid-cols-2 grid-rows-2 md:flex mt-10 m-5 gap-6">
       <div class="flex col-start-1 md: place-items-center">
-        <img
-          class="w-8 h-8 mr-6"
-          src="../src/_icons/flyafgang.png"
-          alt="flyafgangs ikon"
-        />
+        <img class="w-8 h-8 mr-6" src="flyafgang.png" alt="flyafgangs ikon" />
         <div class="">
           <p class="">Næste afrejse:</p>
           <p class="tabeltxt">{dato}</p>
@@ -39,11 +35,7 @@
       </div>
 
       <div class="flex col-start-2 place-items-center ">
-        <img
-          class="w-8 h-8 mr-5"
-          src="../src/_icons/calender.png"
-          alt="ikon af kalender"
-        />
+        <img class="w-8 h-8 mr-5" src="calender.png" alt="ikon af kalender" />
         <div>
           <p class="">Varighed:</p>
           <p class="tabeltxt">{varig}</p>
@@ -52,11 +44,7 @@
       </div>
 
       <div class="flex col-start-1 row-start-2 place-items-center">
-        <img
-          class="w-8 h-8 mr-5"
-          src="../src/_icons/price.png"
-          alt="pris ikon"
-        />
+        <img class="w-8 h-8 mr-5" src="price.png" alt="pris ikon" />
         <div>
           <p class="">Pris:</p>
           <p class="tabeltxt">{pris}</p>
@@ -65,11 +53,7 @@
       </div>
 
       <div class="flex col-start-2 row-start-2 place-items-center ">
-        <img
-          class="w-8 h-8 mr-5"
-          src="../src/_icons/faelleskab.png"
-          alt="fælleskab ikon"
-        />
+        <img class="w-8 h-8 mr-5" src="faelleskab.png" alt="fælleskab ikon" />
         <div>
           <p class="">Undervisning:</p>
           <p class="tabeltxt">{undervisning}</p>
