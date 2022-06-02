@@ -9,53 +9,58 @@
 </script>
 
 <section
-  class="ophold max-w-full h-full block md:flex items-center mb-5 grid">
-  <div class="">
-    <img src={image} alt={title} class="w-full object-cover md:w-40 mr-10" />
+  class="ophold max-w-full xl:max-h-[300px] block sm:grid sm:grid-cols-2 items-center grid pb-4 pb-2 sm:pb-0 gap-6 xl:flex">
+  <div class="h-full grids-start-1 xl:max-w-[500px] ">
+    <img src={image} alt={title} class="h-full object-cover aspect-square w-full" />
   </div>
 
-  <div class="pb-4">
-    <div class="m-5">
+  <div class="p-4 md:grid gap-4 xl:gap-7 grids-start-2">
+    <div class="">
       <h3>{title}</h3>
       <p>{subtitle}</p>
     </div>
-    <div class="md:flex mt-10 m-5 ">
-      <div class="flex mt-3">
-        <img class="w-8 h-8 mr-6" src="../src/_icons/calender.png" alt="" />
+    <div class="xl:flex xl:gap-7">
+      <div class="flex items-center gap-4">
+        <img class="w-8 h-8" src="../src/_icons/calender.png" alt="" />
         <div class="">
           <p class="">Dato:</p>
           <p class="tabeltxt">{dato}</p>
         </div>
-        <div class="h-10 hidden md:block bg-black w-0.5 ml-3 mr-6" />
-      </div>
-      <div class="flex mt-5">
-        <img class="w-8 h-8 mr-5" src="../src/_icons/calender.png" alt="" />
+
+        <div class="h-10 bg-slate-400 w-0.5 hidden xl:block " />
+        </div>
+
+        <div class="flex mt-5 lg:mt-0 gap-4 items-center">
+        <img class="w-8 h-8 " src="../src/_icons/calender.png" alt="" />
         <div>
           <p class="">Tid:</p>
           <p class="tabeltxt">{tid}</p>
         </div>
-        <div class="h-10 bg-black w-0.5 ml-3 mr-6 hidden md:block" />
-      </div>
-      <div class="flex mt-5 ">
-        <img class="w-8 h-8 mr-5" src="../src/_icons/price.png" alt="" />
-        <div class="w-22">
-          <p class="">Adresse:</p>
-          <p class="tabeltxt ">{adresse}</p>
-        </div>
-        <div class="h-10 bg-black w-0.5 ml-3 mr-6 hidden md:block" />
-      </div>
-    </div>
-  </div>
 
-  <div class="flex justify-center">
-    <MyButton type="primary">Tilmeld infomøde</MyButton>
+        <div class="h-10 bg-slate-400 w-0.5 hidden xl:block" />
+        </div>
+
+        <div class="flex mt-5 lg:mt-0 gap-4  items-center">
+          <img class="w-8 h-8" src="../src/_icons/price.png" alt="" />
+          <div class="w-22">
+            <p class="">Adresse:</p>
+            <p class="tabeltxt ">{adresse}</p>
+        </div>
+
+        </div>
+        <div class="h-10 bg-black w-0.5 hidden hidden" />
+
+    </div>
+    <div class="flex sm:justify-start pt-4">
+      <MyButton type="primary">Tilmeld infomøde</MyButton>
+    </div>
   </div>
 </section>
 
 <style>
   .ophold {
     margin: 5px;
-    background-color: var(--sandbeach);
+    background-color: var(--sandstone);
     margin-bottom: 2rem;
   }
 

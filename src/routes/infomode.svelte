@@ -1,7 +1,6 @@
 <script>
   import Header from "../components/header.svelte";
   import Infomodecard from "../components/infomode_card.svelte";
-  import Infomodecard_2 from "../components/infomoede_2.svelte";
 </script>
 
 <Header
@@ -19,47 +18,13 @@
     <p class="preh2">GRATIS & UFORPLIGTENDE</p>
     <h2>INFOMØDER & REJSEFEBER CAFÉ</h2>
     <p>
-      Hør meget mere om vores højskoleophold i udl´landet og møde nogle af vores
+      Hør meget mere om vores højskoleophold i udlandet og møde nogle af vores
       skønne tidligere elever til en aften med billeder, historier og gode
       vibes. Vi fortæller meget mere om de rejseeventyr som venter!
     </p>
     <br>
     <hr>
   </section>
-
-
-  <section class="grid gap-8 maxwidthwrapper" id="no-inner-pad">
-    <h4>2022</h4>
-    <div class="grid gap-8">
-      <Infomodecard_2
-        dato="06. Jul 2022"
-        pris="29.000 DKK"
-        varig="3 måneder"
-      />
-      <Infomodecard_2
-        dato="06. Sep 2022"
-        pris="29.700 DKK"
-        varig="3 måneder"
-      />
-      <Infomodecard_2
-        dato="06. Dec 2022"
-        pris="31.400 DKK"
-        varig="3 måneder"
-      />
-    </div>
-
-    <h4>2023</h4>
-    <div class="grid gap-8">
-      <Infomodecard_2
-        dato="02. Mar 2023"
-        pris="31.900 DKK"
-        varig="3 måneder"
-      />
-      <Infomodecard_2 dato="04. Apr 2023" pris="32.700" varig="3 måneder" />
-      <Infomodecard_2 dato="05. Maj 2023" pris="33.00" varig="3 måneder" />
-    </div>
-  </section>
-
 
 
 
@@ -72,18 +37,16 @@
   <section class="maxwidthwrapper grid gap-10">
     <h3>Maj 2022</h3>
     <Infomodecard
-      image="src/_images/webp/social7.webp"
+      image="src/_images/stud_kbh.jpg"
       title="Infomøde København"
       subtitle="For dig der drømmer om dit livs eventyr"
       dato="06 Maj 22"
       tid="Kl. 17:00 - 19:00"
-      adresse="Studenterhuset København
-Købmagergade 29,
-1970 Købbenhavn K"
+      adresse="Studenterhuset København Købmagergade 29, 1970 Købbenhavn K"
     />
     <Infomodecard
-      image="src/_images/webp/social7.webp"
-      title="Infomøde Aarhus"
+      image="src/_images/stud_odense.jpg"
+      title="Infomøde Odense"
       subtitle="For dig der drømmer om dit livs eventyr"
       dato="10 Maj 22"
       tid="Kl. 17:00 - 19:00"
@@ -92,24 +55,25 @@ Købmagergade 29,
 1970 Aarhus"
     />
     <Infomodecard
-      image="src/_images/webp/social7.webp"
+      image="src/_images/zoom.png"
       title="Online Infomøde"
       subtitle="For dig der drømmer om dit livs eventyr"
       dato="12 Maj 22"
       tid="Kl. 17:00 - 19:00"
       adresse="Zoom.com"
+      
     />
   </section>
 
   <section class="maxwidthwrapper grid">
     <h3>Juni 2022</h3>
     <Infomodecard
-      image="src/_images/webp/social7.webp"
-      title="Infomøde Online"
+      image="src/_images/stud_kbh.jpg"
+      title="Infomøde København"
       subtitle="For dig der drømmer om dit livs eventyr"
-      dato="06 Maj 22"
+      dato="06 Juni 22"
       tid="Kl. 17:00 - 19:00"
-      adresse="Zoom"
+      adresse="Studenterhuset København Købmagergade 29, 1970 Købbenhavn K"
     />
   </section>
 </main>
