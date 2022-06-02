@@ -4,7 +4,7 @@
 </script>
 
 <Header
-  imgtitle="src/_images/webp/social7.webp"
+  imgtitle="social7.webp"
   subtitle="Få svar på alle dine spørgsål"
   title="VÆR MED TIL VORES INFOMØDER"
 />
@@ -22,22 +22,14 @@
       skønne tidligere elever til en aften med billeder, historier og gode
       vibes. Vi fortæller meget mere om de rejseeventyr som venter!
     </p>
-    <br>
-    <hr>
+    <br />
+    <hr />
   </section>
-
-
-
-
-
-
-
-
 
   <section class="maxwidthwrapper grid gap-10">
     <h3>Maj 2022</h3>
     <Infomodecard
-      image="src/_images/stud_kbh.jpg"
+      image="stud_kbh.webp"
       title="Infomøde København"
       subtitle="For dig der drømmer om dit livs eventyr"
       dato="06 Maj 22"
@@ -45,7 +37,7 @@
       adresse="Studenterhuset København Købmagergade 29, 1970 Købbenhavn K"
     />
     <Infomodecard
-      image="src/_images/stud_odense.jpg"
+      image="odense.webp"
       title="Infomøde Odense"
       subtitle="For dig der drømmer om dit livs eventyr"
       dato="10 Maj 22"
@@ -55,20 +47,19 @@ Købmagergade 29,
 1970 Aarhus"
     />
     <Infomodecard
-      image="src/_images/zoom.png"
+      image="zoom.webp"
       title="Online Infomøde"
       subtitle="For dig der drømmer om dit livs eventyr"
       dato="12 Maj 22"
       tid="Kl. 17:00 - 19:00"
       adresse="Zoom.com"
-      
     />
   </section>
 
   <section class="maxwidthwrapper grid">
     <h3>Juni 2022</h3>
     <Infomodecard
-      image="src/_images/stud_kbh.jpg"
+      image="stud_kbh.webp"
       title="Infomøde København"
       subtitle="For dig der drømmer om dit livs eventyr"
       dato="06 Juni 22"
