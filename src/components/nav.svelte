@@ -28,11 +28,7 @@
   <div class="flex max-w-[1400px] justify-center m-auto">
     <div class="h-full grid items-center  ">
       <a sveltekit:prefetch href="/">
-        <img
-          class="h-[70px]"
-          src="../src/_logo/hdk_logo_cannon.png"
-          alt="logo orange"
-        />
+        <img class="h-[70px]" src="hdk_logo_cannon.png" alt="logo orange" />
       </a>
     </div>
 
@@ -257,7 +253,7 @@
                   <li class=" flex items-center gap-2">
                     <img
                       class="ikoner"
-                      src="../src/_icons/destination.png"
+                      src="destination.png"
                       alt="destinations nål"
                     />
                     <a href="/singlepage">Bali, Lombok & Gili Islands</a>
@@ -265,7 +261,7 @@
                   <li class=" flex items-center gap-2">
                     <img
                       class="ikoner"
-                      src="../src/_icons/destination.png"
+                      src="destination.png"
                       alt="destinations nål"
                     />
                     <a href="/singlepage">Indien, Nepal & Thailand</a>
@@ -280,7 +276,7 @@
                   <li class=" flex items-center gap-2">
                     <img
                       class="ikoner"
-                      src="../src/_icons/destination.png"
+                      src="destination.png"
                       alt="destinations nål"
                     />
                     <a href="/singlepage">Maldiverne, Sri Lanka & Bali</a>
@@ -288,7 +284,7 @@
                   <li class=" flex items-center gap-2">
                     <img
                       class="ikoner"
-                      src="../src/_icons/destination.png"
+                      src="destination.png"
                       alt="destinations nål"
                     />
                     <a href="/singlepage">Costa Rica, Mexico & Laos</a>
@@ -303,7 +299,7 @@
                   <li class=" flex items-center gap-2">
                     <img
                       class="ikoner"
-                      src="../src/_icons/destination.png"
+                      src="destination.png"
                       alt="destinations nål"
                     />
                     <a href="/singlepage">Costa Rica, Mexico & Gilli</a>
@@ -311,7 +307,7 @@
                   <li class=" flex items-center gap-2">
                     <img
                       class="ikoner"
-                      src="../src/_icons/destination.png"
+                      src="destination.png"
                       alt="destinations nål"
                     />
                     <a href="/singlepage">Indien, Thailand, Nepal & Sri Lanka</a
@@ -320,7 +316,7 @@
                   <li class=" flex items-center gap-2">
                     <img
                       class="ikoner"
-                      src="../src/_icons/destination.png"
+                      src="destination.png"
                       alt="destinations nål"
                     />
                     <a href="/singlepage">Hawaii, Australien, Bali & Lombok</a>
@@ -328,7 +324,7 @@
                   <li class=" flex items-center gap-2">
                     <img
                       class="ikoner"
-                      src="../src/_icons/destination.png"
+                      src="destination.png"
                       alt="destinations nål"
                     />
                     <a href="/singlepage">Caribien, Hawaii & Mexico</a>

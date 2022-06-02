@@ -26,11 +26,7 @@
     </div>
     <div class="xl:flex xl:gap-7">
       <div class="flex items-center gap-4">
-        <img
-          class="w-8 h-8"
-          src="../src/_icons/calender.png"
-          alt="kalender ikon"
-        />
+        <img class="w-8 h-8" src="calender.png" alt="kalender ikon" />
         <div class="">
           <p class="">Dato:</p>
           <p class="tabeltxt">{dato}</p>
@@ -40,11 +36,7 @@
       </div>
 
       <div class="flex mt-5 lg:mt-0 gap-4 items-center">
-        <img
-          class="w-8 h-8 "
-          src="../src/_icons/calender.png"
-          alt="kalender ikon"
-        />
+        <img class="w-8 h-8 " src="calender.png" alt="kalender ikon" />
         <div>
           <p class="">Tid:</p>
           <p class="tabeltxt">{tid}</p>
@@ -54,7 +46,7 @@
       </div>
 
       <div class="flex mt-5 lg:mt-0 gap-4  items-center">
-        <img class="w-8 h-8" src="../src/_icons/price.png" alt="pris ikon" />
+        <img class="w-8 h-8" src="price.png" alt="pris ikon" />
         <div class="w-22">
           <p class="">Adresse:</p>
           <p class="tabeltxt ">{adresse}</p>
