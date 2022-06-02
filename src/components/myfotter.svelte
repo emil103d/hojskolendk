@@ -11,7 +11,7 @@
       <div>
         <!-- hvid cirkel -->
         <div class="cirkel m-auto grid justify-center">
-          <img class="m-auto" src="src/_icons/call.png" alt="telefon ikon" />
+          <img class="m-auto" src="call.png" alt="telefon ikon" />
         </div>
         <p>Ring til os</p>
       </div>
@@ -19,7 +19,7 @@
         <!-- hvid cirkel -->
         <div>
           <div class="cirkel m-auto grid justify-center">
-            <img class="m-auto" src="src/_icons/brev.png" alt="brev ikon" />
+            <img class="m-auto" src="brev.png" alt="brev ikon" />
           </div>
           <p>Skriv til os</p>
         </div>
@@ -28,11 +28,7 @@
         <!-- hvid cirkel -->
         <div>
           <div class="cirkel m-auto grid justify-center">
-            <img
-              class="m-auto"
-              src="src/_icons/messenger.png"
-              alt="chat ikon"
-            />
+            <img class="m-auto" src="messenger.png" alt="chat ikon" />
           </div>
           <p>Chat med os</p>
         </div>
@@ -41,7 +37,7 @@
         <!-- hvid cirkel -->
         <div>
           <div class="cirkel m-auto grid justify-center">
-            <img class="m-auto" src="src/_icons/people.png" alt="brev ikon" />
+            <img class="m-auto" src="people.png" alt="brev ikon" />
           </div>
           <p>Infomøder</p>
         </div>
@@ -72,9 +68,7 @@
       <h2 class="text-white">
         VIL DU VIDE MERE OM VORES HØJSKOLEOPHOLD I UDLANDET?
       </h2>
-      <p class="text-white mb-4">
-        Tilmeld dig et infomøde og hør meget mere..
-      </p>
+      <p class="text-white mb-4">Tilmeld dig et infomøde og hør meget mere..</p>
 
       <MyButton type="secondary">TILMELD INFOMØDE</MyButton>
     </div>
@@ -146,32 +140,38 @@
       <p class="text-white">#hojskolendk</p>
       <div class="footer_ikons">
         <a href="https://www.facebook.com/hojskolendk/"
-          ><img src="./src/_icons/facebook.png" alt="Facebook Link" /></a
+          ><img src="facebook.png" alt="Facebook Link" /></a
         >
         <a href="https://www.instagram.com/hojskolendk/?hl=da"
-          ><img src="./src/_icons/instagram.png" alt="Instagram Link" /></a
+          ><img src="instagram.png" alt="Instagram Link" /></a
         >
         <a href="https://www.youtube.com/c/HojskolendkDk"
-          ><img src="./src/_icons/youtube.png" alt="Youtube Link" /></a
+          ><img src="youtube.png" alt="Youtube Link" /></a
         >
       </div>
     </div>
   </div>
-  
-  
 
   <div class="wave">
-    <svg width="3311" height="69" viewBox="0 0 3311 69" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M1117.7 32.6112C407.753 27.7762 99.6691 49.7522 0 66.7752V69L170.798 67.9949H640.254H3311V32.6112V0C3214.82 13.0946 2921.85 49.8962 2519.46 56.1817C2016.46 64.0384 2005.13 38.6548 1117.7 32.6112Z" fill="white"/>
-      </svg>
+    <svg
+      width="3311"
+      height="69"
+      viewBox="0 0 3311 69"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1117.7 32.6112C407.753 27.7762 99.6691 49.7522 0 66.7752V69L170.798 67.9949H640.254H3311V32.6112V0C3214.82 13.0946 2921.85 49.8962 2519.46 56.1817C2016.46 64.0384 2005.13 38.6548 1117.7 32.6112Z"
+        fill="white"
+      />
+    </svg>
   </div>
   <div id="footerslut">
-    
     <p class="text-black">// HÔJSKOLENDK //</p>
   </div>
 </footer>
 
-<style> 
+<style>
   /* ---------------Footer start  -----------------*/
 
   footer p,
@@ -314,9 +314,9 @@
     }
 
     .palme {
-    overflow: hidden;
-    width: 100vw;
-  }
+      overflow: hidden;
+      width: 100vw;
+    }
 
     footer img {
       width: 84px;

@@ -12,7 +12,7 @@
     <div>
       <img
         class=""
-        src="../src/_icons/cookie.png"
+        src="cookie.png"
         alt="lykke cookie med citat 'Et nyt rejseeventyr begynder'"
       />
       <div class="px-4 m-4">

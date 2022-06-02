@@ -22,7 +22,7 @@
 
     <div class="flex gap-5 overflow-x-scroll">
       <Cardfri
-        image="../src/_images/webp/sl_ella.webp"
+        image="sl_ella.webp"
         title="Bjergbestigning i Ella"
         addon="ADD ON"
         text="Tag på udflugt til Mahfushi et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
@@ -30,7 +30,7 @@
         "
       />
       <Cardfri
-        image="../src/_images/webp/sl_tuktuk.webp"
+        image="sl_tuktuk.webp"
         title="Tuk Tuk sightseing"
         addon="INKLUDED"
         text="Yoga på stranden er fantastisk afbræk så i skal selføgelig lærer at “ride the waves”.  
@@ -38,7 +38,7 @@
         "
       />
       <Cardfri
-        image="../src/_images/webp/sl_train.webp"
+        image="sl_train.webp"
         title="Togtur med overnatning"
         addon="ADD ON"
         text="Tag ud om natten og fang fisk med line, , så i skal selføgelig lærer at “ride the waves”.  
@@ -46,7 +46,7 @@
         "
       />
       <Cardfri
-        image="../src/_images/webp/sl_homstay.webp"
+        image="sl_homstay.webp"
         title="Homestay i Tunsi"
         addon="ADD ON"
         text="En unik måde at se øen på fire ben så i skal selføgelig lærer at “ride the waves”.  
@@ -55,7 +55,7 @@
       />
 
       <Cardfri
-        image="../src/_images/webp/festival.webp"
+        image="festival.webp"
         title="Festival i Nangab"
         addon="ADD ON"
         text="Trænger du til luksus?il Hilton hotel så i skal selføgelig lærer at “ride the waves”.  
@@ -64,7 +64,7 @@
       />
 
       <Cardfri
-        image="../src/_images/webp/riverraft.webp"
+        image="riverraft.webp"
         title="Riverrafting"
         addon="ADD ON"
         text="Et af verdens smukkeste steder at snorkle,  så i skal selføgelig lærer at “ride the waves”.  

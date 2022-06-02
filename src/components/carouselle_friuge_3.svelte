@@ -22,7 +22,7 @@
 
     <div class="flex gap-5 overflow-x-scroll">
       <Cardfri
-        image="../src/_images/webp/sl_surf.webp"
+        image="sl_surf.webp"
         title="Surfing school"
         addon="ADD ON"
         text="Tag på udflugt til Mahfushi et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
@@ -30,7 +30,7 @@
         "
       />
       <Cardfri
-        image="../src/_images/webp/kajak.webp"
+        image="kajak.webp"
         title="Kayak iland-jumping"
         addon="INKLUDED"
         text="Yoga på stranden er fantastisk afbræk så i skal selføgelig lærer at “ride the waves”.  
@@ -38,15 +38,15 @@
         "
       />
       <Cardfri
-      image="../src/_images/webp/m_snorkel.webp"
-      title="Snorkling"
-      addon="ADD ON"
-      text="Et af verdens smukkeste steder at snorkle,  så i skal selføgelig lærer at “ride the waves”.  
+        image="m_snorkel.webp"
+        title="Snorkling"
+        addon="ADD ON"
+        text="Et af verdens smukkeste steder at snorkle,  så i skal selføgelig lærer at “ride the waves”.  
       Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
       "
-    />
+      />
       <Cardfri
-        image="../src/_images/webp/frivilig2.webp"
+        image="frivilig2.webp"
         title="Frivilligt arbejde"
         addon="INKLUDED"
         text="Yoga på stranden er fantastisk afbræk så i skal selføgelig lærer at “ride the waves”.  
@@ -54,7 +54,7 @@
         "
       />
       <Cardfri
-        image="../src/_images/webp/hellikopspring.webp"
+        image="hellikopspring.webp"
         title="Skydiving"
         addon="ADD ON"
         text="En unik måde at se øen på fire ben så i skal selføgelig lærer at “ride the waves”.  
@@ -63,15 +63,13 @@
       />
 
       <Cardfri
-        image="../src/_images/webp/m_yoga.webp"
+        image="m_yoga.webp"
         title="Strand yoga"
         addon="ADD ON"
         text="Trænger du til luksus?il Hilton hotel så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfsteder, så i.Hawaii er et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         "
       />
-
-     
     </div>
     <button id="right" class="hover:scale-105 hidden md:absolute"
       ><svg

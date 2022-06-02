@@ -3,7 +3,7 @@
 </script>
 
 <section class="maxwidthwrapper">
-  <img src="src/_icons/buda.png" alt="herobillede" class="fly mt-20" />
+  <img src="buda.png" alt="herobillede" class="fly mt-20" />
   <div class="hero-text">
     <h2>UNDSKYLD VI RODER</h2>
     <p>Siden er ved at blive bygget men</p>
