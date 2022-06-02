@@ -66,20 +66,12 @@
       class=" grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center"
     >
       <div class="col-start-1 row-start-1 infobokse">
-        <img
-          class="h-8 w-auto m-auto"
-          src="src/_icons/destination.png"
-          alt="map ikon"
-        />
+        <img class="h-8 w-auto m-auto" src="destination.png" alt="map ikon" />
         <p class="infoboks_tekst">Destinationer</p>
         <p itemprop="name" class="table">Sri Lanka, Maldiverne & Thailand</p>
       </div>
       <div class="col-start-2 row-start-1 infobokse">
-        <img
-          class="h-8 w-auto m-auto"
-          src="src/_icons/calender.png"
-          alt="kalender ikon"
-        />
+        <img class="h-8 w-auto m-auto" src="calender.png" alt="kalender ikon" />
         <p class="infoboks_tekst">Varighed</p>
         <p>3 måneder</p>
       </div>
@@ -88,7 +80,7 @@
       >
         <img
           class="h-8 w-auto m-auto"
-          src="src/_icons/faelleskab.png"
+          src="faelleskab.png"
           alt="fælleskab ikon"
         />
         <p class="infoboks_tekst">Undervisning</p>
@@ -100,11 +92,7 @@
         itemtype="https://schema.org/Offer"
         class="col-start-2 row-start-2 lg:row-start-1 lg:col-start-4 infobokse "
       >
-        <img
-          class="h-8 w-auto m-auto"
-          src="src/_icons/price.png"
-          alt="pris ikon"
-        />
+        <img class="h-8 w-auto m-auto" src="price.png" alt="pris ikon" />
         <p class="infoboks_tekst">Pris</p>
         <p itemprop="price">59.700 DKK</p>
       </div>
@@ -129,11 +117,7 @@
         >
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img
-                class="h-8"
-                src="src/_icons/destination.png"
-                alt="knappenåls ikon"
-              />
+              <img class="h-8" src="destination.png" alt="knappenåls ikon" />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 1</b> <br />
@@ -145,11 +129,7 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img
-                class="h-8"
-                src="src/_icons/destination.png"
-                alt="knappenåls ikon"
-              />
+              <img class="h-8" src="destination.png" alt="knappenåls ikon" />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 2</b> <br />
@@ -161,11 +141,7 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img
-                class="h-8"
-                src="src/_icons/destination.png"
-                alt="knappenåls ikon"
-              />
+              <img class="h-8" src="destination.png" alt="knappenåls ikon" />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 3</b> <br />
@@ -177,11 +153,7 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img
-                class="h-8"
-                src="src/_icons/destination.png"
-                alt="knappenåls ikon"
-              />
+              <img class="h-8" src="destination.png" alt="knappenåls ikon" />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 4</b> <br />Projektstyring & Teambuilding
@@ -192,11 +164,7 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img
-                class="h-8"
-                src="src/_icons/destination.png"
-                alt="knappenåls ikon"
-              />
+              <img class="h-8" src="destination.png" alt="knappenåls ikon" />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 5</b> <br />Friuge på egen hånd
@@ -207,11 +175,7 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img
-                class="h-8"
-                src="src/_icons/destination.png"
-                alt="knappenåls ikon"
-              />
+              <img class="h-8" src="destination.png" alt="knappenåls ikon" />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 6</b> <br />Selvudvikling og kommunikation
@@ -222,11 +186,7 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img
-                class="h-8"
-                src="src/_icons/destination.png"
-                alt="knappenåls ikon"
-              />
+              <img class="h-8" src="destination.png" alt="knappenåls ikon" />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 7</b> <br />Selvudvikling og kommunikation
@@ -237,11 +197,7 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img
-                class="h-8"
-                src="src/_icons/destination.png"
-                alt="knappenåls ikon"
-              />
+              <img class="h-8" src="destination.png" alt="knappenåls ikon" />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 8</b> <br />Selvudvikling og kommunikation
@@ -252,11 +208,7 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img
-                class="h-8"
-                src="src/_icons/destination.png"
-                alt="knappenåls ikon"
-              />
+              <img class="h-8" src="destination.png" alt="knappenåls ikon" />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 9</b> <br />Friuge på egen hånd
@@ -267,11 +219,7 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img
-                class="h-8"
-                src="src/_icons/destination.png"
-                alt="knappenåls ikon"
-              />
+              <img class="h-8" src="destination.png" alt="knappenåls ikon" />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 10</b> <br />Outrotur
