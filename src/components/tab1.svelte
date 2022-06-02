@@ -291,7 +291,7 @@
     <div class="grid grid-rows-3 sm:grid-cols-3 lg:grid-cols-4">
       <img
         class="sm:row-start-1 sm:col-start-1 lg:col-start-1 object-cover w-full aspect-square"
-        src="src/_images/webp/dykke.webp"
+        src="dykke.webp"
         alt="dykke"
       />
       <img
