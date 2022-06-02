@@ -147,7 +147,7 @@
       <div class="aspect-w-16 aspect-h-9">
         <Card
           title="MALDIVERNE, SRI LANKA, BALI & GILI ISLANDS"
-          image="../src/_images/2.jpg"
+          image="2.webp"
         />
       </div>
     </a>

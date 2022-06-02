@@ -134,7 +134,6 @@
 <style>
   main {
     background-image: url("../../static/gurfers.png");
-    /* background-image: url("./gurfers.png"); */
     background-position: cover;
     background-size: 280%;
     background-repeat: no-repeat;
