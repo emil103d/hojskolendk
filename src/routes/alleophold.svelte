@@ -65,11 +65,7 @@
   };
 </script>
 
-<img
-  src="src/hojskolen_billeder/ferie9.jpg"
-  alt="herobillede"
-  class="hero-image"
-/>
+<img src="ferie9.webp" alt="herobillede" class="hero-image" />
 <div class="hero-text">
   <p>HØJSKOLEOPHOLD FOR UNGE</p>
   <h1>LAD DIG INSPIRERE AF ALLE VORES SPÆNDENDE OPHOLDE</h1>
