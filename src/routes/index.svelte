@@ -94,7 +94,7 @@
         >
           <img
             class=""
-            src="../src/_images/webp/sektion1.webp"
+            src="sektion1.webp"
             alt="Unge glade mennesker der er med på et højskoleophold"
           />
         </Saos>
@@ -112,22 +112,10 @@
     <div
       class="flex justify-between gap-5 overflow-hidden hover:overflow-x-scroll"
     >
-      <Card
-        image="../src/_images/webp/ophold1.webp"
-        title="Maldiverne, Sri Lanka, Bali & Gili"
-      />
-      <Card
-        image="../src/_images/webp/ophold2.webp"
-        title="Bali, Lombok & Gili Islands"
-      />
-      <Card
-        image="../src/_images/webp/ophold3.webp"
-        title="Caribien, Hawaii & Mexico"
-      />
-      <Card
-        image="../src/_images/webp/ophold4.webp"
-        title="Costa Rica, Mexico & Guatemala"
-      />
+      <Card image="ophold1.webp" title="Maldiverne, Sri Lanka, Bali & Gili" />
+      <Card image="ophold2.webp" title="Bali, Lombok & Gili Islands" />
+      <Card image="ophold3.webp" title="Caribien, Hawaii & Mexico" />
+      <Card image="ophold4.webp" title="Costa Rica, Mexico & Guatemala" />
     </div>
     <div class="md:justify-center md:grid pt-6">
       <MyButton type="primary">UDFORSK ALLE VORES OPHOLD</MyButton>
@@ -150,12 +138,12 @@
       <CardTrustpilot
         title="Venskaber for livet"
         text="vil du venskaber og gode oplevelser i god kombi med en meget tryg rejseoplevelse, så synes jeg du skal investere i dig selv og købe en højskolerejse med HÖJSKOLENDK. du vil aldrig du vil aldrig fortryde eller glemme det. afsted !"
-        image="../src/_images/webp/social3.webp"
+        image="social3.webp"
         name=" Jackie Salomonsen"
       />
 
       <CardTrustpilot
-        image="../src/_images/webp/social4.webp"
+        image="social4.webp"
         title="Fantastisk rejse"
         name=" Camilla Jensen"
         text="
@@ -164,7 +152,7 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
 
       <div class="hidden lg:grid">
         <CardTrustpilot
-          image="../src/_images/webp/social6.webp"
+          image="social6.webp"
           title="Uforglemmeligt"
           name=" Søren Reves"
           text="
@@ -224,62 +212,62 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
   <div class="grid grid-rows-3 sm:grid-cols-3 lg:grid-cols-4">
     <img
       class="sm:row-start-1 sm:col-start-1 lg:col-start-1 object-cover w-full aspect-square"
-      src="src/_images/webp/dykke.webp"
+      src="dykke.webp"
       alt="instagram - dykker hopper i vandet"
     />
     <img
       class="sm:row-start-1 sm:col-start-2 lg:col-start-2 object-cover w-full aspect-square"
-      src="src/_images/webp/riverraft.webp"
+      src="riverraft.webp"
       alt="instagram - kajak tur"
     />
     <img
       class="sm:row-start-1 sm:col-start-3 lg:col-start-3 object-cover w-full aspect-square"
-      src="src/_images/webp/social.webp"
+      src="social.webp"
       alt="instagram - Surfing"
     />
     <img
       class="sm:row-start-1 sm:col-start-1 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
-      src="src/_images/webp/solnedgang.webp"
+      src="solnedgang.webp"
       alt="instagram - Hygge i golden hour"
     />
     <img
       class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square"
-      src="src/_images/webp/surf.webp"
+      src="surf.webp"
       alt="instagram - Surfing"
     />
     <img
       class="sm:row-start-2 sm:col-start-3 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square"
-      src="src/_images/webp/social4.webp"
+      src="social4.webp"
       alt="instagram - Piger der sidder på en gren i vandkanten"
     />
     <img
       class="sm:row-start-2 sm:col-start-1 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square"
-      src="src/_images/webp/rapelvandfald.webp"
+      src="rapelvandfald.webp"
       alt="instagram - Rapelle ned af vandfald"
     />
     <img
       class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
-      src="src/_images/webp/social5.webp"
+      src="social5.webp"
       alt="instagram - Glade piger på tur"
     />
     <img
       class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square"
-      src="src/_images/webp/riverrafting4.webp"
+      src="riverrafting4.webp"
       alt="instagram - river rafting tur"
     />
     <img
       class="sm:row-start-3 sm:col-start-1 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square"
-      src="src/_images/webp/social9.webp"
+      src="social9.webp"
       alt="instagram - højt humør og drinks"
     />
     <img
       class="sm:row-start-3 sm:col-start-2 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square"
-      src="src/_images/webp/social13.webp"
+      src="social13.webp"
       alt="instagram - dykker med nissehuer"
     />
     <img
       class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
-      src="src/_images/webp/social12.webp"
+      src="social12.webp"
       alt="instagram - Alle elever har pakket tasker"
     />
   </div>
