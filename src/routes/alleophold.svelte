@@ -75,12 +75,6 @@
   <h1>LAD DIG INSPIRERE AF ALLE VORES SPÆNDENDE OPHOLDE</h1>
 </div>
 
-<!-- <Header imgtitle="src/hojskolen_billeder/ferie9.jpg" />
-<div aria-label="Breadcrumb" class="m-9 preh2">
-  <a href="indec">FORSIDE /</a>
-  <a href="alleophold" class="underline preh2">ALLE OPHOLD</a>
-</div> -->
-
 <main class="maxwidthwrapper">
   <!-- SECTION 1  -->
   <section class="" id="no-pad">
