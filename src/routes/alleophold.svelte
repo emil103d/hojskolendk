@@ -71,21 +71,101 @@
   <a href="alleophold" class="underline preh2">ALLE OPHOLD</a>
 </div>
 
-<section class="maxwidthwrapper text-center justify-center">
-  <h2>Hvor drømmer du om at rejse hen?</h2>
-  <p>
-    Drømmer du om et friår fra studierne, en pause fra udannelsesræsset eller
-    bare har lyst til et opleve verdenen? Så dyk ned og læs mere om vores
-    spændende højskoleophold og tag med os ud og udfroske verdenen!
-  </p>
-  <div class="flex mt-10 mb-10 justify-center ml-auto mr-auto">
-    <Menu {varighed} bind:selectedvar />
-    <Afrejseselekt {afrejser} bind:selectedAf />
-  </div>
-</section>
+
+
+<main class="maxwidthwrapper">
+  <!-- SECTION 1  -->
+  <section class="" id="no-pad">
+    <h2>Hvor drømmer du om at rejse hen?</h2>
+    <p>
+      Drømmer du om et friår fra studierne, en pause fra udannelsesræsset eller
+      bare har lyst til et opleve verdenen? Så dyk ned og læs mere om vores
+      spændende højskoleophold og tag med os ud og udfroske verdenen!
+    </p>
+    <br>
+    <hr>
+    <div class="flex justify-center gap-5 pt-20">
+      <Menu {varighed} bind:selectedvar />
+      <Afrejseselekt {afrejser} bind:selectedAf />
+    </div>
+  </section>
+
+
+  <!-- SECTION 2 -->
+  <section>
+    <article id="alleophold" class="">
+      {#if filteredOphold.length > 0}
+        {#each filteredOphold as { title, image, subtitle, dato, afrejse, pris, undervisning, varig }}
+          <Ophold
+            {image}
+            {title}
+            {subtitle}
+            {dato}
+            {afrejse}
+            {pris}
+            {undervisning}
+            {varig}
+          />
+        {/each}
+      {:else}
+        {#each opholdData as { title, image, subtitle, dato, afrejse, pris, undervisning, varig }}
+          <Ophold
+            {image}
+            {title}
+            {subtitle}
+            {dato}
+            {afrejse}
+            {pris}
+            {undervisning}
+            {varig}
+          />
+        {/each}
+      {/if}
+    </article>  
+  </section>
+
+
+  <!-- SECTION 3 -->
+  <section>
+    <article id="alleophold" class="">
+      {#if filteredOphold.length > 0}
+        {#each filteredOphold as { title, image, subtitle, dato, afrejse, pris, undervisning, varig }}
+          <Ophold
+            {image}
+            {title}
+            {subtitle}
+            {dato}
+            {afrejse}
+            {pris}
+            {undervisning}
+            {varig}
+          />
+        {/each}
+      {:else}
+        {#each opholdData as { title, image, subtitle, dato, afrejse, pris, undervisning, varig }}
+          <Ophold
+            {image}
+            {title}
+            {subtitle}
+            {dato}
+            {afrejse}
+            {pris}
+            {undervisning}
+            {varig}
+          />
+        {/each}
+      {/if}
+    </article>  
+  </section>
+</main>
+
+
+
+
+
 
 <!-- Hvis filtreret ophold har ophold i sig hvis de filtreret ophold go ellers hvis alle ophold  -->
-<main id="alleophold maxwidthwrapper grid justify-center" class="">
+<!-- <main id="alleophold" class="w-full grid justify-center maxwidthwrapper">
   {#if filteredOphold.length > 0}
     {#each filteredOphold as { title, image, subtitle, dato, afrejse, pris, undervisning, varig }}
       <Ophold
@@ -113,7 +193,7 @@
       />
     {/each}
   {/if}
-</main>
+</main> -->
 
 <style>
   * {
@@ -121,13 +201,23 @@
   }
 
   /* General Structure */
-  main#alleophold {
+  article#alleophold {
     width: 100%;
-    margin: 10px;
+    height: auto;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: center;
+  }
+
+  section {
+    padding-top: var(--padding-sections);
+    padding-bottom: var(--padding-sections);
+  }
+
+  #no-pad {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 </style>

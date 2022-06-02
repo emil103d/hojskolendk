@@ -18,7 +18,7 @@
 
 <style>
   .menu-cont {
-    width: 40%;
+    width: 150px;
     display: flex;
     margin: 0 10px 0 0;
   }
@@ -28,6 +28,8 @@
     border-bottom: 1px solid gray;
   }
   .menu {
-    width: 60%;
+    width: 150px;
+    background-color: var(--sandstone);
+    padding-top: 0.5rem;
   }
 </style>
