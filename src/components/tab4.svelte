@@ -114,7 +114,7 @@
 
 <style>
   main {
-    background-image: url(../../gurfers.png);
+    background-image: url("../../gurfers.png");
     background-position: cover;
     background-size: 500%;
     background-repeat: repeat-y;
