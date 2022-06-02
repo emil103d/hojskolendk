@@ -48,7 +48,7 @@
         </div>
 
         </div>
-        <div class="h-10 bg-black w-0.5 hidden hidden" />
+        <div class="h-10 bg-black w-0.5 hidden" />
 
     </div>
     <div class="flex sm:justify-start pt-4">
