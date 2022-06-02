@@ -35,7 +35,7 @@
     <div class="lg:col-start-2">
       <img
         class="object-cover w-full aspect-square"
-        src="src/_images/sogk.jpg"
+        src="sogk.webp"
         alt="unge mennekser danser og griner"
       />
     </div>
@@ -62,7 +62,7 @@
     <div class="lg:col-start-1 lg:row-start-1">
       <img
         class="object-cover w-full aspect-square"
-        src="src/_images/pogt.jpg"
+        src="pogt.webp"
         alt="post-it leg"
       />
     </div>
