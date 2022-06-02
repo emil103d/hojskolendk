@@ -14,7 +14,7 @@
   <div class="m-4 mt-14">
     <img
       class="w-24 h-auto justify-center mx-auto py-4"
-      src="../src/_icons/5star.png"
+      src="5star.png"
       alt="trustpulot 5 stjerner"
     />
     <h3>{title}</h3>
