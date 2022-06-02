@@ -27,7 +27,8 @@
   button:hover,
   .primary:hover {
     border: 1px solid var(--orange-light);
-    box-shadow: inset 400px 0 0 0 #ff853e;
+    box-shadow: inset 400px 0 0 0
+      var(--primary-button-cta-background-color-hover);
     color: var(--hvid);
   }
 
