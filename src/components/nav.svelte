@@ -711,7 +711,8 @@
   }
 
   li a:hover {
-    font-weight: bold;
+    color: black;
+    text-decoration: underline;
   }
   @media only screen and (min-width: 1000px) {
     .mobile-icon {
