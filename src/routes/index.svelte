@@ -129,11 +129,7 @@
   <div class="">
     <p class="preh2">ELSKET AF 2500+ ELEVER</p>
     <h2>SE VORES ANMELDELSER</h2>
-    <img
-      class="md:bg-contain"
-      src="../src/_logo/trustpilot_logo.png"
-      alt="truspilot logo"
-    />
+    <img class="md:bg-contain" src="trustpilot_logo.png" alt="truspilot logo" />
     <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-auto justify-around">
       <CardTrustpilot
         title="Venskaber for livet"
@@ -190,11 +186,7 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
         <div class="md:max-w-xs">
           <p class=" text-black">4,8</p>
           <h5>PÅ TRUSTPILOT</h5>
-          <img
-            class="w-80"
-            src="../src/_icons/5star.png"
-            alt="4,8 stjerne på trustpilot"
-          />
+          <img class="w-80" src="5star.png" alt="4,8 stjerne på trustpilot" />
         </div>
 
         <div class="md:max-w-xs">
@@ -317,7 +309,7 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
   }
 
   .statistik_sektion {
-    background-image: url(../src/_icons/airplane_earth.png);
+    background-image: url(../../airplane_earth.png);
     background-size: contain;
     background-position: 50%;
     background-repeat: no-repeat;
