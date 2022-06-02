@@ -63,58 +63,59 @@
 
   <section class="maxwidthwrapper">
     <div
-    class=" grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center"
-  >
-    <div class="col-start-1 row-start-1 infobokse">
-      <img
-        class="h-8 w-auto m-auto"
-        src="src/_icons/destination.png"
-        alt="map ikon"
-      />
-      <p class="infoboks_tekst">Destinationer</p>
-      <p itemprop="name" class="table">Sri Lanka, Maldiverne & Thailand</p>
-    </div>
-    <div class="col-start-2 row-start-1 infobokse">
-      <img
-        class="h-8 w-auto m-auto"
-        src="src/_icons/calender.png"
-        alt="kalender ikon"
-      />
-      <p class="infoboks_tekst">Varighed</p>
-      <p>3 måneder</p>
-    </div>
-    <div
-      class="col-start-1 row-start-2 lg:col-start-3 lg:row-start-1 infobokse"
+      class=" grid grid-cols-2 grid-rows-2 lg:grid-rows-1 lg:grid-cols-4 gap-2 text-center"
     >
-      <img
-        class="h-8 w-auto m-auto"
-        src="src/_icons/faelleskab.png"
-        alt="fælleskab ikon"
-      />
-      <p class="infoboks_tekst">Undervisning</p>
-      <p>Selvudvikling & Kommunikation</p>
+      <div class="col-start-1 row-start-1 infobokse">
+        <img
+          class="h-8 w-auto m-auto"
+          src="src/_icons/destination.png"
+          alt="map ikon"
+        />
+        <p class="infoboks_tekst">Destinationer</p>
+        <p itemprop="name" class="table">Sri Lanka, Maldiverne & Thailand</p>
+      </div>
+      <div class="col-start-2 row-start-1 infobokse">
+        <img
+          class="h-8 w-auto m-auto"
+          src="src/_icons/calender.png"
+          alt="kalender ikon"
+        />
+        <p class="infoboks_tekst">Varighed</p>
+        <p>3 måneder</p>
+      </div>
+      <div
+        class="col-start-1 row-start-2 lg:col-start-3 lg:row-start-1 infobokse"
+      >
+        <img
+          class="h-8 w-auto m-auto"
+          src="src/_icons/faelleskab.png"
+          alt="fælleskab ikon"
+        />
+        <p class="infoboks_tekst">Undervisning</p>
+        <p>Selvudvikling & Kommunikation</p>
+      </div>
+      <div
+        itemprop="offers"
+        itemscope
+        itemtype="https://schema.org/Offer"
+        class="col-start-2 row-start-2 lg:row-start-1 lg:col-start-4 infobokse "
+      >
+        <img
+          class="h-8 w-auto m-auto"
+          src="src/_icons/price.png"
+          alt="pris ikon"
+        />
+        <p class="infoboks_tekst">Pris</p>
+        <p itemprop="price">59.700 DKK</p>
+      </div>
     </div>
-    <div
-      itemprop="offers"
-      itemscope
-      itemtype="https://schema.org/Offer"
-      class="col-start-2 row-start-2 lg:row-start-1 lg:col-start-4 infobokse "
-    >
-      <img
-        class="h-8 w-auto m-auto"
-        src="src/_icons/price.png"
-        alt="pris ikon"
-      />
-      <p class="infoboks_tekst">Pris</p>
-      <p itemprop="price">59.700 DKK</p>
-    </div>
-  </div>
-
   </section>
 
-  
-
-  <section class="maxwidthwrapper" itemscope="" itemtype="https://schema.org/Trip">
+  <section
+    class="maxwidthwrapper"
+    itemscope=""
+    itemtype="https://schema.org/Trip"
+  >
     <div class="grid align-middle">
       <div class="">
         <p itemprop="name">HVAD DER VENTER FORUDE</p>
@@ -128,7 +129,11 @@
         >
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <img
+                class="h-8"
+                src="src/_icons/destination.png"
+                alt="knappenåls ikon"
+              />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 1</b> <br />
@@ -140,7 +145,11 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <img
+                class="h-8"
+                src="src/_icons/destination.png"
+                alt="knappenåls ikon"
+              />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 2</b> <br />
@@ -152,7 +161,11 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <img
+                class="h-8"
+                src="src/_icons/destination.png"
+                alt="knappenåls ikon"
+              />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 3</b> <br />
@@ -164,11 +177,14 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <img
+                class="h-8"
+                src="src/_icons/destination.png"
+                alt="knappenåls ikon"
+              />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 4</b> <br />Projektstyring & Teambuilding
-                  
                 </p>
               </div>
             </div>
@@ -176,11 +192,14 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <img
+                class="h-8"
+                src="src/_icons/destination.png"
+                alt="knappenåls ikon"
+              />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 5</b> <br />Friuge på egen hånd
-                  
                 </p>
               </div>
             </div>
@@ -188,11 +207,14 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <img
+                class="h-8"
+                src="src/_icons/destination.png"
+                alt="knappenåls ikon"
+              />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 6</b> <br />Selvudvikling og kommunikation
-                  
                 </p>
               </div>
             </div>
@@ -200,24 +222,29 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <img
+                class="h-8"
+                src="src/_icons/destination.png"
+                alt="knappenåls ikon"
+              />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 7</b> <br />Selvudvikling og kommunikation
-                  
                 </p>
               </div>
             </div>
           </div>
 
-
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <img
+                class="h-8"
+                src="src/_icons/destination.png"
+                alt="knappenåls ikon"
+              />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 8</b> <br />Selvudvikling og kommunikation
-                  
                 </p>
               </div>
             </div>
@@ -225,11 +252,14 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <img
+                class="h-8"
+                src="src/_icons/destination.png"
+                alt="knappenåls ikon"
+              />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 9</b> <br />Friuge på egen hånd
-                  
                 </p>
               </div>
             </div>
@@ -237,11 +267,14 @@
 
           <div itemprop="subTrip">
             <div class="flex gap-2 items-center">
-              <img class="h-8" src="src/_icons/destination.png" alt="" />
+              <img
+                class="h-8"
+                src="src/_icons/destination.png"
+                alt="knappenåls ikon"
+              />
               <div class="ml-2">
                 <p class="leading-tight">
                   <b>Uge 10</b> <br />Outrotur
-                  
                 </p>
               </div>
             </div>
@@ -259,37 +292,37 @@
       <img
         class="sm:row-start-1 sm:col-start-1 lg:col-start-1 object-cover w-full aspect-square"
         src="src/_images/webp/dykke.webp"
-        alt=""
+        alt="dykke"
       />
       <img
         class="sm:row-start-1 sm:col-start-2 lg:col-start-2 object-cover w-full aspect-square"
         src="src/_images/webp/riverraft.webp"
-        alt=""
+        alt="riverrafting"
       />
       <img
         class="sm:row-start-1 sm:col-start-3 lg:col-start-3 object-cover w-full aspect-square"
         src="src/_images/webp/social.webp"
-        alt=""
+        alt="social suring"
       />
       <img
         class="sm:row-start-1 sm:col-start-1 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
         src="src/_images/webp/solnedgang.webp"
-        alt=""
+        alt="hygger i golden hour"
       />
       <img
         class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square"
         src="src/_images/webp/surf.webp"
-        alt=""
+        alt="surfin på maldiverne"
       />
       <img
         class="sm:row-start-2 sm:col-start-3 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square"
         src="src/_images/webp/social4.webp"
-        alt=""
+        alt="drink i solen"
       />
       <img
         class="sm:row-start-2 sm:col-start-1 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square"
         src="src/_images/webp/rapelvandfald.webp"
-        alt=""
+        alt="dykke med nissehuer"
       />
       <img
         class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
@@ -304,26 +337,24 @@
       <img
         class="sm:row-start-3 sm:col-start-1 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square"
         src="src/_images/webp/social9.webp"
-        alt=""
+        alt="bagpakers pakker"
       />
       <img
         class="sm:row-start-3 sm:col-start-2 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square"
         src="src/_images/webp/social13.webp"
-        alt=""
+        alt="social event"
       />
       <img
         class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
         src="src/_images/webp/social12.webp"
-        alt=""
+        alt="socialt og fælleskab"
       />
     </div>
 
     <div />
   </section>
 
-
-
-<!-- 
+  <!-- 
   <section class="flex justify-end px-4">
     <MyButton type="linkbutton">  HVAD ER INKLUDERET<svg class="m-auto" width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M17.7071 8.70711C18.0976 8.31658 18.0976 7.68342 17.7071 7.29289L11.3431 0.928932C10.9526 0.538408 10.3195 0.538408 9.92893 0.928932C9.53841 1.31946 9.53841 1.95262 9.92893 2.34315L15.5858 8L9.92893 13.6569C9.53841 14.0474 9.53841 14.6805 9.92893 15.0711C10.3195 15.4616 10.9526 15.4616 11.3431 15.0711L17.7071 8.70711ZM17 7L-4.76837e-07 7V9L17 9V7Z" fill="#929292"/>

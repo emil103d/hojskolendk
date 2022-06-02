@@ -24,9 +24,11 @@
 
 <Header imgtitle="src/_images/webp/ferie2.webp" />
 <div class="m-9 preh2">
-  <a href="index">FORSIDE /</a>
-  <a href="alleophold" class=" preh2">ALLE OPHOLD</a>
-  <a href="alleophold" class="underline preh2">SRI LANKA & BAlI</a>
+  <a href="index">Forside /</a>
+  <a href="alleophold" class=" preh2">Alle ophold /</a>
+  <a href="alleophold" class="underline preh2"
+    >Sri Lanka, Maldiverne & Thailand
+  </a>
 </div>
 
 <main class="max_width_single relative">

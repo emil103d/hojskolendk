@@ -3,7 +3,6 @@
 </script>
 
 <main class="col-start-2">
-
   <!-- SECTION 1 -->
   <section class="maxwidthwrapper" id="no-pad">
     <h2>MØD DIN REJSELEDER</h2>
@@ -13,10 +12,12 @@
           <img
             class="w-full h-full object-cover"
             src="src/_images/webp/anton.webp"
-            alt=""
+            alt="Billede af din rejseleder"
           />
         </div>
-        <div class="lg:col-start-2 lg:col-span-2 p-6 lg:p-10 m-auto max-w-[50ch]">
+        <div
+          class="lg:col-start-2 lg:col-span-2 p-6 lg:p-10 m-auto max-w-[50ch]"
+        >
           <h3 class="pb-4">Anton Skou Larsen</h3>
           <p>
             Jeg har, siden jeg var ganske lille, haft stor lyst og trang til at
@@ -37,7 +38,7 @@
 
             <br />
             <br />
-            Højskolesmil, <br> Anton
+            Højskolesmil, <br /> Anton
           </p>
         </div>
       </div>

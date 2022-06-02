@@ -9,9 +9,14 @@
 </script>
 
 <section
-  class="ophold max-w-full xl:max-h-[300px] block sm:grid sm:grid-cols-2 items-center grid pb-4 pb-2 sm:pb-0 gap-6 xl:flex">
+  class="ophold max-w-full xl:max-h-[300px] block sm:grid sm:grid-cols-2 items-center grid pb-4 pb-2 sm:pb-0 gap-6 xl:flex"
+>
   <div class="h-full grids-start-1 xl:max-w-[500px] ">
-    <img src={image} alt={title} class="h-full object-cover aspect-square w-full" />
+    <img
+      src={image}
+      alt={title}
+      class="h-full object-cover aspect-square w-full"
+    />
   </div>
 
   <div class="p-4 md:grid gap-4 xl:gap-7 grids-start-2">
@@ -21,35 +26,41 @@
     </div>
     <div class="xl:flex xl:gap-7">
       <div class="flex items-center gap-4">
-        <img class="w-8 h-8" src="../src/_icons/calender.png" alt="" />
+        <img
+          class="w-8 h-8"
+          src="../src/_icons/calender.png"
+          alt="kalender ikon"
+        />
         <div class="">
           <p class="">Dato:</p>
           <p class="tabeltxt">{dato}</p>
         </div>
 
         <div class="h-10 bg-slate-400 w-0.5 hidden xl:block " />
-        </div>
+      </div>
 
-        <div class="flex mt-5 lg:mt-0 gap-4 items-center">
-        <img class="w-8 h-8 " src="../src/_icons/calender.png" alt="" />
+      <div class="flex mt-5 lg:mt-0 gap-4 items-center">
+        <img
+          class="w-8 h-8 "
+          src="../src/_icons/calender.png"
+          alt="kalender ikon"
+        />
         <div>
           <p class="">Tid:</p>
           <p class="tabeltxt">{tid}</p>
         </div>
 
         <div class="h-10 bg-slate-400 w-0.5 hidden xl:block" />
-        </div>
+      </div>
 
-        <div class="flex mt-5 lg:mt-0 gap-4  items-center">
-          <img class="w-8 h-8" src="../src/_icons/price.png" alt="" />
-          <div class="w-22">
-            <p class="">Adresse:</p>
-            <p class="tabeltxt ">{adresse}</p>
+      <div class="flex mt-5 lg:mt-0 gap-4  items-center">
+        <img class="w-8 h-8" src="../src/_icons/price.png" alt="pris ikon" />
+        <div class="w-22">
+          <p class="">Adresse:</p>
+          <p class="tabeltxt ">{adresse}</p>
         </div>
-
-        </div>
-        <div class="h-10 bg-black w-0.5 hidden" />
-
+      </div>
+      <div class="h-10 bg-black w-0.5 hidden" />
     </div>
     <div class="flex sm:justify-start pt-4">
       <MyButton type="primary">Tilmeld infomøde</MyButton>

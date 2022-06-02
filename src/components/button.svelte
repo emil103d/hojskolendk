@@ -8,7 +8,7 @@
   /* -----MODE=PRIMARY START --------- */
 
   button,
-  primary {
+  .primary {
     font-size: var(--knapsize);
     font-weight: bold;
     font-family: "Lato", sans-serif;

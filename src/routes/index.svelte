@@ -26,13 +26,20 @@
   </div>
 
   <div class="wave absolute bottom-[6px]">
-    <svg width="3311" height="69" viewBox="0 0 3311 69" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M1117.7 32.6112C407.753 27.7762 99.6691 49.7522 0 66.7752V69L170.798 67.9949H640.254H3311V32.6112V0C3214.82 13.0946 2921.85 49.8962 2519.46 56.1817C2016.46 64.0384 2005.13 38.6548 1117.7 32.6112Z" fill="white"/>
-      </svg>
+    <svg
+      width="3311"
+      height="69"
+      viewBox="0 0 3311 69"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M1117.7 32.6112C407.753 27.7762 99.6691 49.7522 0 66.7752V69L170.798 67.9949H640.254H3311V32.6112V0C3214.82 13.0946 2921.85 49.8962 2519.46 56.1817C2016.46 64.0384 2005.13 38.6548 1117.7 32.6112Z"
+        fill="white"
+      />
+    </svg>
   </div>
 </header>
-
-
 
 <!-- section #1 start -->
 <section class="maxwidthwrapper md:pt-0 md:grid md:justify-center md:gap-8">
@@ -136,7 +143,11 @@
   <div class="">
     <p class="preh2">ELSKET AF 2500+ ELEVER</p>
     <h2>SE VORES ANMELDELSER</h2>
-    <img class="md:bg-contain" src="../src/_logo/trustpilot_logo.png" alt="" />
+    <img
+      class="md:bg-contain"
+      src="../src/_logo/trustpilot_logo.png"
+      alt="truspilot logo"
+    />
     <div class="md:flex grid gap-16 md:gap-5 mt-10 mx-auto justify-around">
       <CardTrustpilot
         title="Venskaber for livet"
@@ -193,7 +204,11 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
         <div class="md:max-w-xs">
           <p class=" text-black">4,8</p>
           <h5>PÅ TRUSTPILOT</h5>
-          <img class="w-80" src="../src/_icons/5star.png" alt="" />
+          <img
+            class="w-80"
+            src="../src/_icons/5star.png"
+            alt="4,8 stjerne på trustpilot"
+          />
         </div>
 
         <div class="md:max-w-xs">
@@ -212,62 +227,62 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
     <img
       class="sm:row-start-1 sm:col-start-1 lg:col-start-1 object-cover w-full aspect-square"
       src="src/_images/webp/dykke.webp"
-      alt=""
+      alt="instagram - dykker hopper i vandet"
     />
     <img
       class="sm:row-start-1 sm:col-start-2 lg:col-start-2 object-cover w-full aspect-square"
       src="src/_images/webp/riverraft.webp"
-      alt=""
+      alt="instagram - kajak tur"
     />
     <img
       class="sm:row-start-1 sm:col-start-3 lg:col-start-3 object-cover w-full aspect-square"
       src="src/_images/webp/social.webp"
-      alt=""
+      alt="instagram - Surfing"
     />
     <img
       class="sm:row-start-1 sm:col-start-1 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
       src="src/_images/webp/solnedgang.webp"
-      alt=""
+      alt="instagram - Hygge i golden hour"
     />
     <img
       class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square"
       src="src/_images/webp/surf.webp"
-      alt=""
+      alt="instagram - Surfing"
     />
     <img
       class="sm:row-start-2 sm:col-start-3 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square"
       src="src/_images/webp/social4.webp"
-      alt=""
+      alt="instagram - Piger der sidder på en gren i vandkanten"
     />
     <img
       class="sm:row-start-2 sm:col-start-1 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square"
       src="src/_images/webp/rapelvandfald.webp"
-      alt=""
+      alt="instagram - Rapelle ned af vandfald"
     />
     <img
       class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
       src="src/_images/webp/social5.webp"
-      alt=""
+      alt="instagram - Glade piger på tur"
     />
     <img
       class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square"
       src="src/_images/webp/riverrafting4.webp"
-      alt=""
+      alt="instagram - river rafting tur"
     />
     <img
       class="sm:row-start-3 sm:col-start-1 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square"
       src="src/_images/webp/social9.webp"
-      alt=""
+      alt="instagram - højt humør og drinks"
     />
     <img
       class="sm:row-start-3 sm:col-start-2 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square"
       src="src/_images/webp/social13.webp"
-      alt=""
+      alt="instagram - dykker med nissehuer"
     />
     <img
       class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
       src="src/_images/webp/social12.webp"
-      alt=""
+      alt="instagram - Alle elever har pakket tasker"
     />
   </div>
 </section>

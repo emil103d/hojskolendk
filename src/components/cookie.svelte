@@ -10,11 +10,18 @@
 {#if isOpen}
   <div class="cookie w-96 fixed z-5000 pb-5 bg-white">
     <div>
-      <img class="" src="../src/_icons/cookie.png" alt="" />
+      <img
+        class=""
+        src="../src/_icons/cookie.png"
+        alt="lykke cookie med citat 'Et nyt rejseeventyr begynder'"
+      />
       <div class="px-4 m-4">
         <h3>Vi anvender cookies.</h3>
         <p>
-          Vi bruger egne cookies og cookies fra tredjepart til at indsamle statistik, så vi kan give dig en bedre brugeroplevelse og lave markedsføring, der er relevant for dig. Ved at trykke ‘Accepter’ giver du samtykke til de formål.
+          Vi bruger egne cookies og cookies fra tredjepart til at indsamle
+          statistik, så vi kan give dig en bedre brugeroplevelse og lave
+          markedsføring, der er relevant for dig. Ved at trykke ‘Accepter’ giver
+          du samtykke til de formål.
         </p>
         <div class="m-auto">
           <div class="flex gap-2 my-6 ml-8">

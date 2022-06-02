@@ -35,8 +35,8 @@
     <div class="lg:col-start-2">
       <img
         class="h-auto object-cover w-full aspect-square"
-        src="src/_images//webp/program_1.webp"
-        alt=""
+        src="src/_images//webp/adventure_kajak.webp"
+        alt="kajak tur i uge 1"
       />
     </div>
   </section>
@@ -62,17 +62,17 @@
           <img
             class="object-cover w-full aspect-square "
             src="src/_images//webp/program_2.webp"
-            alt=""
+            alt="teambuilding øvelser"
           />
           <img
             class="object-cover w-full aspect-square"
             src="src/_images//webp/program_3.webp"
-            alt=""
+            alt="fodbold på stranden "
           />
           <img
             class="object-cover w-full aspect-square"
             src="src/_images//webp/program_4.webp"
-            alt=""
+            alt="poolparty"
           />
         </div>
       </div>
@@ -98,7 +98,7 @@
       <img
         class="object-cover w-full aspect-square"
         src="src/_images//webp/program_1.webp"
-        alt=""
+        alt="piger smiler ud af fly"
       />
     </div>
   </section>
@@ -124,17 +124,17 @@
           <img
             class="object-cover w-full aspect-square"
             src="src/_images//webp/program_5.webp"
-            alt=""
+            alt="yoga på stranden "
           />
           <img
             class="object-cover w-full aspect-square"
             src="src/_images//webp/program_6.webp"
-            alt=""
+            alt="surfing hygge på stranden"
           />
           <img
             class="object-cover w-full aspect-square"
             src="src/_images//webp/program_7.webp"
-            alt=""
+            alt="nyder udsigten"
           />
         </div>
       </div>
@@ -159,8 +159,8 @@
     <div class="lg:col-start-2 lg:row-start-1">
       <img
         class="object-cover w-full aspect-square"
-        src="src/_images//webp/program_9.webp"
-        alt=""
+        src="src/_images//webp/solnedgang.webp"
+        alt="drenge hygger i golden hour"
       />
     </div>
   </section>
@@ -184,17 +184,28 @@
       <img
         class="object-cover w-full aspect-square"
         src="src/_images//webp/program_9.webp"
-        alt=""
+        alt="pige kigger ud over smuk natur"
       />
     </div>
   </section>
 
   <section class="flex justify-end px-4">
-    <MyButton type="linkbutton"> UNDERVISNINGEN <svg class="m-auto" width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M17.7071 8.70711C18.0976 8.31658 18.0976 7.68342 17.7071 7.29289L11.3431 0.928932C10.9526 0.538408 10.3195 0.538408 9.92893 0.928932C9.53841 1.31946 9.53841 1.95262 9.92893 2.34315L15.5858 8L9.92893 13.6569C9.53841 14.0474 9.53841 14.6805 9.92893 15.0711C10.3195 15.4616 10.9526 15.4616 11.3431 15.0711L17.7071 8.70711ZM17 7L-4.76837e-07 7V9L17 9V7Z" fill="#929292"/>
-      </svg> </MyButton> 
+    <MyButton type="linkbutton">
+      UNDERVISNINGEN <svg
+        class="m-auto"
+        width="18"
+        height="16"
+        viewBox="0 0 18 16"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M17.7071 8.70711C18.0976 8.31658 18.0976 7.68342 17.7071 7.29289L11.3431 0.928932C10.9526 0.538408 10.3195 0.538408 9.92893 0.928932C9.53841 1.31946 9.53841 1.95262 9.92893 2.34315L15.5858 8L9.92893 13.6569C9.53841 14.0474 9.53841 14.6805 9.92893 15.0711C10.3195 15.4616 10.9526 15.4616 11.3431 15.0711L17.7071 8.70711ZM17 7L-4.76837e-07 7V9L17 9V7Z"
+          fill="#929292"
+        />
+      </svg>
+    </MyButton>
   </section>
-
 </main>
 
 <style>
