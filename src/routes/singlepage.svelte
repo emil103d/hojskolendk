@@ -22,7 +22,7 @@
   let activetab = Tab1;
 </script>
 
-<Header imgtitle="src/_images/webp/ferie2.webp" />
+<Header imgtitle="ferie2.webp" />
 <div class="m-9 preh2">
   <a href="index">Forside /</a>
   <a href="alleophold" class=" preh2">Alle ophold /</a>
