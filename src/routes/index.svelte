@@ -309,7 +309,7 @@ Mit ophold med HÖJSKOLENDK var noget af det bedste, jeg har gjort for mig selv 
   }
 
   .statistik_sektion {
-    background-image: url(../../airplane_earth.png);
+    background-image: url("../../static/airplane_earth.png");
     background-size: contain;
     background-position: 50%;
     background-repeat: no-repeat;

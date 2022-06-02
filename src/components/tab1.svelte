@@ -328,7 +328,7 @@
   }
 
   .baggrund-klode {
-    background-image: url("../../verdenskort_m_destinationer.png");
+    background-image: url("../../static/verdenskort_m_destinationer.png");
     background-position: 50%;
     background-position-y: 40%;
     padding-top: 2rem;
