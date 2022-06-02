@@ -82,7 +82,7 @@
         <div class="rows-start-2 pb-6 md:row-auto md:hidden">
           <img
             class=""
-            src="../src/_images/webp/sektion1.webp"
+            src="sektion1.webp"
             alt="Unge glade mennesker der er med på et højskoleophold"
           />
         </div>
