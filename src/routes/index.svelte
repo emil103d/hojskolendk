@@ -25,9 +25,9 @@
     <h1 class="">FÆLLESKAB & REJSEEVENTYR</h1>
   </div>
 
-  <div class="wave absolute bottom-[-3px]">
-    <svg width="5568" height="363" viewBox="0 0 5568 363" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M1879.6 171.563C685.705 146.127 167.61 261.74 0 351.296V363L287.225 357.712H1076.69H5568V171.563V0C5406.25 68.8892 4913.59 262.497 4236.89 295.564C3391.02 336.898 3371.96 203.358 1879.6 171.563Z" fill="white"/>
+  <div class="wave absolute bottom-[-10px]">
+    <svg width="3311" height="69" viewBox="0 0 3311 69" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1117.7 32.6112C407.753 27.7762 99.6691 49.7522 0 66.7752V69L170.798 67.9949H640.254H3311V32.6112V0C3214.82 13.0946 2921.85 49.8962 2519.46 56.1817C2016.46 64.0384 2005.13 38.6548 1117.7 32.6112Z" fill="white"/>
       </svg>
   </div>
 </header>
