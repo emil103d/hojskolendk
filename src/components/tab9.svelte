@@ -10,7 +10,7 @@
         <div class="lg:col-start-1">
           <img
             class="w-full h-full object-cover"
-            src="src/_images/rejsebrev_1.png"
+            src="rejsebrev_1.webp"
             alt="piger der smiler på solsikkemark"
           />
         </div>
@@ -51,7 +51,7 @@
         <div class="lg:col-start-1">
           <img
             class="w-full h-full object-cover"
-            src="src/_images/rejsebrev_2.png"
+            src="rejsebrev_2.webp"
             alt="rejseleder med stort smil"
           />
         </div>
