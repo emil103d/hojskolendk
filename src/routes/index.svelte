@@ -13,13 +13,7 @@
 </script>
 
 <header class="h-full w-full relative overflow-hidden" id="video">
-  <video
-    class="z-0 hero-image"
-    loop
-    muted
-    autoplay
-    src="../herofrontpage.mp4"
-  />
+  <video class="z-0 hero-image" loop muted autoplay src="herofrontpage.mp4" />
   <div class="hero-text m-auto">
     <p class="text-white">HØJSKOLEOPHOLD I UDLANDET</p>
     <h1 class="">FÆLLESKAB & REJSEEVENTYR</h1>
