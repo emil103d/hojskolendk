@@ -5,8 +5,8 @@
   export let text;
 </script>
 
-<div class="shadox mx-auto my-8 relative z-0 overflow-hidden">
-  <img class="hover:scale-105" src={image} alt={title} />
+<div class="shadox mx-auto my-8 relative z-0 overflow-hidden object-cover">
+  <img class="hover:scale-105 object-cover" src={image} alt={title} />
   <div class="bg-white pl-3 pr-3 pt-3 pb-3 z-3 absolute top-4 max-h-full">
     <h3 class="text-sm">
       {title}

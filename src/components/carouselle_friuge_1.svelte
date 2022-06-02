@@ -20,7 +20,7 @@
       </svg>
     </button>
 
-    <div class="flex gap-5 overflow-x-scroll">
+    <div class="flex gap-5 overflow-x-scroll object-cover">
       <Cardfri
         image="../src/_images/friuge_1.jpg"
         title="Uge på Mahfushi"
@@ -28,6 +28,7 @@
         text="Tag på udflugt til Mahfushi et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  
         Hawaii er et af verdens bedste surfstede af, så i skal så i skal selføgelig lærer at “ride the waves”.  
         "
+        class="object-cover"
       />
       <Cardfri
         image="../src/_images/webp/m_yoga.webp"
