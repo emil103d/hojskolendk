@@ -22,7 +22,7 @@
 
     <div class="flex gap-5 overflow-x-scroll object-cover">
       <Cardfri
-        image="friuge_1.jpg"
+        image="friuge_1.webp"
         title="Uge på Mahfushi"
         addon="ADD ON"
         text="Tag på udflugt til Mahfushi et af verdens bedste surfsteder, så i skal selføgelig lærer at “ride the waves”.  

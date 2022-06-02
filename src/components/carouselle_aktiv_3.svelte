@@ -55,7 +55,7 @@
       />
 
       <Cardfri
-        image="webp/m_snorkel.webp"
+        image="m_snorkel.webp"
         title="Snorkling"
         addon="ADD ON"
         text="Et af verdens smukkeste steder at snorkle,  så i skal selføgelig lærer at “ride the waves”.  
@@ -63,7 +63,7 @@
         "
       />
       <Cardfri
-        image="webp/m_hotel.webp"
+        image="m_hotel.webp"
         title="Dagstur til Hilton hotelø"
         addon="ADD ON"
         text="Trænger du til luksus?il Hilton hotel så i skal selføgelig lærer at “ride the waves”.  
