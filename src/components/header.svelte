@@ -9,7 +9,7 @@
 </div>
 
 <style>
-  .hero-text h2,
+  .hero-text h1,
   p {
     color: var(--hvid);
   }

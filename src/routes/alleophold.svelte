@@ -65,13 +65,21 @@
   };
 </script>
 
-<Header imgtitle="src/_images/1.jpg" />
+<img
+  src="src/hojskolen_billeder/ferie9.jpg"
+  alt="herobillede"
+  class="hero-image"
+/>
+<div class="hero-text">
+  <p>HØJSKOLEOPHOLD FOR UNGE</p>
+  <h1>LAD DIG INSPIRERE AF ALLE VORES SPÆNDENDE OPHOLDE</h1>
+</div>
+
+<!-- <Header imgtitle="src/hojskolen_billeder/ferie9.jpg" />
 <div aria-label="Breadcrumb" class="m-9 preh2">
   <a href="indec">FORSIDE /</a>
   <a href="alleophold" class="underline preh2">ALLE OPHOLD</a>
-</div>
-
-
+</div> -->
 
 <main class="maxwidthwrapper">
   <!-- SECTION 1  -->
@@ -82,14 +90,13 @@
       bare har lyst til et opleve verdenen? Så dyk ned og læs mere om vores
       spændende højskoleophold og tag med os ud og udfroske verdenen!
     </p>
-    <br>
-    <hr>
+    <br />
+    <hr />
     <div class="flex justify-center gap-5 pt-20">
       <Menu {varighed} bind:selectedvar />
       <Afrejseselekt {afrejser} bind:selectedAf />
     </div>
   </section>
-
 
   <!-- SECTION 2 -->
   <section>
@@ -121,9 +128,8 @@
           />
         {/each}
       {/if}
-    </article>  
+    </article>
   </section>
-
 
   <!-- SECTION 3 -->
   <section>
@@ -155,16 +161,12 @@
           />
         {/each}
       {/if}
-    </article>  
+    </article>
   </section>
 </main>
 
-
-
-
-
-
 <!-- Hvis filtreret ophold har ophold i sig hvis de filtreret ophold go ellers hvis alle ophold  -->
+
 <!-- <main id="alleophold" class="w-full grid justify-center maxwidthwrapper">
   {#if filteredOphold.length > 0}
     {#each filteredOphold as { title, image, subtitle, dato, afrejse, pris, undervisning, varig }}
@@ -194,7 +196,6 @@
     {/each}
   {/if}
 </main> -->
-
 <style>
   * {
     box-sizing: border-box;
@@ -219,5 +220,12 @@
   #no-pad {
     padding-top: 0;
     padding-bottom: 0;
+  }
+  .hero-image {
+    filter: brightness(60%);
+  }
+
+  .hero-text p {
+    color: white;
   }
 </style>
