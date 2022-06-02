@@ -35,7 +35,7 @@
     <div class="lg:col-start-2">
       <img
         class="h-auto object-cover w-full aspect-square"
-        src="src/_images//webp/adventure_kajak.webp"
+        src="adventure_kajak.webp"
         alt="kajak tur i uge 1"
       />
     </div>
@@ -61,17 +61,17 @@
         <div class="flex flex-nowrap gap-2 lg:gap-8 lg:grid lg:grid-cols-3">
           <img
             class="object-cover w-full aspect-square "
-            src="src/_images//webp/program_2.webp"
+            src="program_2.webp"
             alt="teambuilding øvelser"
           />
           <img
             class="object-cover w-full aspect-square"
-            src="src/_images//webp/program_3.webp"
+            src="program_3.webp"
             alt="fodbold på stranden "
           />
           <img
             class="object-cover w-full aspect-square"
-            src="src/_images//webp/program_4.webp"
+            src="program_4.webp"
             alt="poolparty"
           />
         </div>
@@ -97,7 +97,7 @@
     <div class="lg:col-start-1">
       <img
         class="object-cover w-full aspect-square"
-        src="src/_images//webp/program_1.webp"
+        src="program_1.webp"
         alt="piger smiler ud af fly"
       />
     </div>
@@ -123,17 +123,17 @@
         <div class="flex flex-nowrap gap-2 lg:gap-8 lg:grid lg:grid-cols-3">
           <img
             class="object-cover w-full aspect-square"
-            src="src/_images//webp/program_5.webp"
+            src="program_5.webp"
             alt="yoga på stranden "
           />
           <img
             class="object-cover w-full aspect-square"
-            src="src/_images//webp/program_6.webp"
+            src="program_6.webp"
             alt="surfing hygge på stranden"
           />
           <img
             class="object-cover w-full aspect-square"
-            src="src/_images//webp/program_7.webp"
+            src="program_7.webp"
             alt="nyder udsigten"
           />
         </div>
@@ -159,7 +159,7 @@
     <div class="lg:col-start-2 lg:row-start-1">
       <img
         class="object-cover w-full aspect-square"
-        src="src/_images//webp/solnedgang.webp"
+        src="solnedgang.webp"
         alt="drenge hygger i golden hour"
       />
     </div>
@@ -183,7 +183,7 @@
     <div class="lg:col-start-1 lg:row-start-1">
       <img
         class="object-cover w-full aspect-square"
-        src="src/_images//webp/program_9.webp"
+        src="program_9.webp"
         alt="pige kigger ud over smuk natur"
       />
     </div>

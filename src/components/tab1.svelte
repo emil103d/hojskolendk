@@ -296,57 +296,57 @@
       />
       <img
         class="sm:row-start-1 sm:col-start-2 lg:col-start-2 object-cover w-full aspect-square"
-        src="src/_images/webp/riverraft.webp"
+        src="riverraft.webp"
         alt="riverrafting"
       />
       <img
         class="sm:row-start-1 sm:col-start-3 lg:col-start-3 object-cover w-full aspect-square"
-        src="src/_images/webp/social.webp"
+        src="social.webp"
         alt="social suring"
       />
       <img
         class="sm:row-start-1 sm:col-start-1 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
-        src="src/_images/webp/solnedgang.webp"
+        src="solnedgang.webp"
         alt="hygger i golden hour"
       />
       <img
         class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square"
-        src="src/_images/webp/surf.webp"
+        src="surf.webp"
         alt="surfin på maldiverne"
       />
       <img
         class="sm:row-start-2 sm:col-start-3 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square"
-        src="src/_images/webp/social4.webp"
+        src="social4.webp"
         alt="drink i solen"
       />
       <img
         class="sm:row-start-2 sm:col-start-1 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square"
-        src="src/_images/webp/rapelvandfald.webp"
+        src="rapelvandfald.webp"
         alt="dykke med nissehuer"
       />
       <img
         class="sm:row-start-2 sm:col-start-2 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
-        src="src/_images/webp/social5.webp"
+        src="social5.webp"
         alt=""
       />
       <img
         class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-1 object-cover w-full aspect-square"
-        src="src/_images/webp/riverrafting4.webp"
+        src="riverrafting4.webp"
         alt=""
       />
       <img
         class="sm:row-start-3 sm:col-start-1 hidden sm:grid lg:col-start-2 object-cover w-full aspect-square"
-        src="src/_images/webp/social9.webp"
+        src="social9.webp"
         alt="bagpakers pakker"
       />
       <img
         class="sm:row-start-3 sm:col-start-2 hidden sm:grid lg:col-start-3 object-cover w-full aspect-square"
-        src="src/_images/webp/social13.webp"
+        src="social13.webp"
         alt="social event"
       />
       <img
         class="sm:row-start-3 sm:col-start-3 hidden sm:grid lg:col-start-4 object-cover w-full aspect-square"
-        src="src/_images/webp/social12.webp"
+        src="social12.webp"
         alt="socialt og fælleskab"
       />
     </div>
@@ -365,7 +365,7 @@
 
 <style>
   main {
-    background-image: url(src/_icons/gurfers.png);
+    background-image: url(../../gurfers.png);
     background-position: cover;
     background-size: 280%;
     background-repeat: no-repeat;
@@ -380,7 +380,7 @@
   }
 
   .baggrund-klode {
-    background-image: url(src/_images/verdenskort_m_destinationer.png);
+    background-image: url(../../verdenskort_m_destinationer.png);
     background-position: 50%;
     background-position-y: 40%;
     padding-top: 2rem;
