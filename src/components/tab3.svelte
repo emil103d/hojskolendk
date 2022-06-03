@@ -16,7 +16,7 @@
     <hr />
   </section>
 
-  <img class="h-auto w-[1000px] hidden lg:grid" src="kalender.png" alt="Få pladser">
+  <img class="h-auto px-4 w-full hidden lg:grid" src="kalender.png" alt="Få pladser">
 
   <!-- SECTION 2 -->
   <section class="lg:grid md:grid-cols-2 maxwidthwrapper">
