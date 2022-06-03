@@ -12,8 +12,11 @@
       Island og turtlewatch på programmet.
     </p>
     <br />
+    
     <hr />
   </section>
+
+  <img class="h-auto w-[1000px] hidden lg:grid" src="kalender.png" alt="Få pladser">
 
   <!-- SECTION 2 -->
   <section class="lg:grid md:grid-cols-2 maxwidthwrapper">
