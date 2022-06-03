@@ -71,7 +71,7 @@
   <h1>LAD DIG INSPIRERE AF ALLE VORES SPÆNDENDE OPHOLDE</h1>
 </div>
 
-<main class="maxwidthwrapper">
+<main class="maxwidthwrapper ">
   <div class="preh2">
     <a href="indec">Forside /</a>
     <a href="alleophold" class="underline preh2">Alle højskoleophold</a>
@@ -86,7 +86,7 @@
     </p>
     <br />
     <hr />
-    <div class="flex justify-center gap-5 pt-20">
+    <div class="flex justify-center gap-5 pt-20 pb-10">
       <Menu {varighed} bind:selectedvar />
       <Afrejseselekt {afrejser} bind:selectedAf />
     </div>
@@ -202,11 +202,10 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-start;
     justify-content: center;
   }
 
-  section {
+  main {
     padding-top: var(--padding-sections);
     padding-bottom: var(--padding-sections);
   }
@@ -221,4 +220,17 @@
   .hero-text p {
     color: white;
   }
+
+  @media only screen and (max-width: 1024px) {
+    article#alleophold {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;  
+    justify-content: center;
+  }
+}
+
 </style>
