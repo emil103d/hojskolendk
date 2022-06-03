@@ -1,5 +1,6 @@
 <script>
   import Ophold_afrejse from "../components/ophold_afrejse.svelte";
+  import Ophold_afrejse_2 from "../components/ophold_afrejse_2.svelte";
 </script>
 
 <main class="col-start-2">
@@ -19,7 +20,7 @@
     <section class="grid gap-8" id="no-inner-pad">
       <h4>2022</h4>
       <div class="grid gap-8">
-        <Ophold_afrejse
+        <Ophold_afrejse_2
           dato="06. Jul 2022"
           pris="29.000 DKK"
           varig="3 måneder"
