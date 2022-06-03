@@ -8,12 +8,15 @@
 <section
   class="background_color_boks p-4 md:m-0 lg:flex lg:justify-around lg:p-4 lg:items-center md:p-0"
 >
-  <div class="hidden lg:grid lg:text-center lg:justify-items-center">
+
+  <div class="hidden lg:grid lg:text-center lg:justify-items-center relative">
+    <img class=" left-[-75px] bottom-[-30px] w-4 h-4" src="bfaapladser.png" alt="Få pladser">
     <img
       class="w-12 h-12 md:block"
-      src=".calender.png"
+      src="calender.png"
       alt="ikon af kalender"
     />
+    
     <h3>Afrejse</h3>
     <p class="tabeltxt">{dato}</p>
   </div>
@@ -22,9 +25,8 @@
     <h3>Sri Lanka, Maldiverne & Thailand</h3>
 
     <div class="flex gap-8 lg:gap-12 pt-4 justify-center lg:justify-start">
-      <div class="flex items-center gap-2">
+      <div class="flex items-center gap-2 ">
         <img class="w-8 h-8" src="calender.png" alt="ikon af kalender" />
-        <img src="static/banner_faapladser.png" alt="Få pladser">
         <div>
           <p class="font-bold">Varighed</p>
           <p class="tabeltxt">{varig}</p>
