@@ -9,8 +9,10 @@
   class="background_color_boks p-4 md:m-0 lg:flex lg:justify-around lg:p-4 lg:items-center md:p-0"
 >
 
+<img class="absolute  w-4 h-4" src="bfaapladser.png" alt="Få pladser">
+
   <div class="hidden lg:grid lg:text-center lg:justify-items-center relative">
-    <img class=" left-[-75px] bottom-[-30px] w-4 h-4" src="bfaapladser.png" alt="Få pladser">
+    
     <img
       class="w-12 h-12 md:block"
       src="calender.png"
