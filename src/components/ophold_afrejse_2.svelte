@@ -24,6 +24,7 @@
     <div class="flex gap-8 lg:gap-12 pt-4 justify-center lg:justify-start">
       <div class="flex items-center gap-2">
         <img class="w-8 h-8" src="calender.png" alt="ikon af kalender" />
+        <img src="static/banner_faapladser.png" alt="Få pladser">
         <div>
           <p class="font-bold">Varighed</p>
           <p class="tabeltxt">{varig}</p>
