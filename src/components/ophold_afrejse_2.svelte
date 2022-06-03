@@ -9,7 +9,7 @@
   class="background_color_boks p-4 md:m-0 lg:flex lg:justify-around lg:p-4 lg:items-center md:p-0"
 >
 
-<img class="absolute  w-4 h-4" src="bfaapladser.png" alt="Få pladser">
+<img class="absolute  w-10 h-10" src="bfaapladser.png" alt="Få pladser">
 
   <div class="hidden lg:grid lg:text-center lg:justify-items-center relative">
     
