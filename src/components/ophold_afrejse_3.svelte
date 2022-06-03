@@ -61,41 +61,11 @@
     background-color: var(--sandstone);
   }
 
-  @media screen and (max-width: 1023px) {
-    .banner {
-      width: 13.8rem;
-      left: 0;
-    }
-  }
-  @media screen and (max-width: 960px) {
-    .banner {
-      width: 13.6rem;
-      left: 0;
-    }
+  .banner {
+    height: 75%;
+    width: auto;
+    left: 0;
+    bottom: 0;
   }
 
-  @media screen and (max-width: 960px) {
-    .banner {
-      width: 13.6rem;
-      left: 0;
-    }
-  }
-  @media screen and (max-width: 767px) {
-    .banner {
-      width: 14.6rem;
-      left: 0;
-    }
-  }
-  @media screen and (max-width: 631px) {
-    .banner {
-      width: 14.1rem;
-      left: 0;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    .banner {
-      width: 13.8rem;
-      left: 0;
-    }
-  }
 </style>

@@ -61,7 +61,16 @@
     background-color: var(--sandstone);
   }
 
-  @media screen and (max-width: 1023px) {
+
+  .banner {
+    height: 75%;
+    width: auto;
+    left: 0;
+    bottom: 0;
+  }
+
+
+  /* @media screen and (max-width: 1023px) {
     .banner {
       width: 8.8rem;
       left: 0;
@@ -93,5 +102,5 @@
       width: 13.8rem;
       left: 0;
     }
-  }
+  } */
 </style>
