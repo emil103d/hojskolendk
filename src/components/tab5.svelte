@@ -1,6 +1,7 @@
 <script>
   import Ophold_afrejse from "../components/ophold_afrejse.svelte";
   import Ophold_afrejse_2 from "../components/ophold_afrejse_2.svelte";
+  import Ophold_afrejse_3 from "../components/ophold_afrejse_3.svelte";
 </script>
 
 <main class="col-start-2">
@@ -25,7 +26,7 @@
           pris="29.000 DKK"
           varig="3 måneder"
         />
-        <Ophold_afrejse
+        <Ophold_afrejse_3
           dato="06. Sep 2022"
           pris="29.700 DKK"
           varig="3 måneder"

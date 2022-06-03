@@ -10,7 +10,7 @@
 >
   <img
     class="absolute lg:left-0 lg:top-11 lg:w-32 lg:h-32 z-10 banner"
-    src="budsolgt.png"
+    src="bfaapladser.png"
     alt="Få pladser"
   />
 
@@ -51,8 +51,8 @@
     </div>
   </div>
   <div class="flex lg:grid lg:grid-rows-2 justify-center py-4 gap-8 lg:gap-4">
-    <MyButton type="ghostbutton">UDSOLGT</MyButton>
-    <MyButton type="secondary">VENTLISTE</MyButton>
+    <MyButton type="primary">TILMELD</MyButton>
+    <MyButton type="secondary">RESERVER</MyButton>
   </div>
 </section>
 
@@ -63,22 +63,26 @@
 
   @media screen and (max-width: 1023px) {
     .banner {
-      width: 8.8rem;
+      width: 13.8rem;
       left: 0;
-      bottom: 0;
     }
   }
   @media screen and (max-width: 960px) {
     .banner {
-      width: 6.8rem;
+      width: 13.6rem;
       left: 0;
-      bottom: 0;
     }
   }
 
+  @media screen and (max-width: 960px) {
+    .banner {
+      width: 13.6rem;
+      left: 0;
+    }
+  }
   @media screen and (max-width: 767px) {
     .banner {
-      width: 8.6rem;
+      width: 14.6rem;
       left: 0;
     }
   }

@@ -82,12 +82,14 @@
   .ghostbutton {
     color: white;
     background-color: var(--button-ghost-background-color);
+    border: 1px solid var(--txtgrey);
   }
 
   .ghostbutton:hover {
-    background-color: var(--button-ghost-background-color);
     color: grey;
     cursor: default;
+    box-shadow: inset 400px 0 0 0 var(--black);
+    border: 1px solid var(--txtgrey);
   }
 
   /* <!-- <svg
